@@ -55,7 +55,7 @@ Thanks for visiting the wiki. Here I will try to provide more detailed informati
 
 ## <strong>Object Oriented JavaScript</strong>
 
-* Waypoint: [Scope Your Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint:-Scope-Your-Variables)
+* Waypoint: [Scope Your Variables]
 * Waypoint: [Reference your Current Object with This]
 * Waypoint: [Traverse the Prototype Chain]
 * Waypoint: [Reuse Code with Decorators]
