@@ -1,6 +1,6 @@
 # Welcome!
 
-Thanks for visiting the wiki. Here I will try to provide more detailed information on the code that I wrote and explanations.
+Thanks for visiting the wiki. Here I will try to provide more detailed information on the code that I wrote and explanations, along with concepts from the Waypoints whenever possible.
 
 ##Contact me
 
