@@ -30,3 +30,4 @@ log(rose.z) // undefined
 gold.z = 3;
 log(blue.z); // undefined
 log(rose.z); // 3
+```
