@@ -161,6 +161,10 @@ I will try to keep everything updated. If you are also part of the camp or would
 * Bonfire: [Map the Debris](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Map-the-Debris)
 * Bonfire: [Pairwise](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Pairwise)
 
+## Functional Programming
+
+* Waypoint: Practice Functional Programming
+
 ## Advanced Algorithm Scripting
 
 * Bonfire: Validate US Telephone Numbers
@@ -169,3 +173,38 @@ I will try to keep everything updated. If you are also part of the camp or would
 * Bonfire: Inventory Update
 * Bonfire: No repeats please
 * Bonfire: Friendly Date Ranges
+
+## Front End Development Projects
+
+* Waypoint: Get Set for Ziplines
+* Zipline: Build a Random Quote Machine
+* Zipline: Show the Local Weather
+* Zipline: Use the Twitch.tv JSON API
+* Zipline: Stylize Stories on Camper News
+* Zipline: Wikipedia Viewer
+* Zipline: Build a Pomodoro Clock
+* Zipline: Build a JavaScript Calculator
+* Zipline: Build a Tic Tac Toe Game
+
+## Full Stack JavaScript
+
+* Waypoint: Get Started with Angular.js
+* Waypoint: Apply Angular.js Directives
+* Waypoint: Power Forms with Angular.js
+* Waypoint: Customize Angular.js Directives
+* Waypoint: Create Angular.js Services
+* Waypoint: Manage Packages with NPM
+* Waypoint: Start a Node.js Server
+* Waypoint: Continue working with Node.js Servers
+* Waypoint: Finish working with Node.js Servers
+* Waypoint: Build Web Apps with Express.js
+* Waypoint: Manage Source Code with Git
+
+## Full Stack JavaScript Projects
+
+* Waypoint: Get Set for Basejumps
+* Basejump: Build a Voting App
+* Basejump: Build a Nightlife Coordination App
+* Basejump: Chart the Stock Market
+* Basejump: Manage a Book Trading Club
+* Basejump: Build a Pinterest Clone
