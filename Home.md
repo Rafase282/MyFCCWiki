@@ -70,7 +70,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 ##<strong>Intermediate Algorithm Scripting</strong>
 
 * Bonfire: [Make a Person] (https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
-* Bonfire: [Map the Debris]
+* Bonfire: [Map the Debris](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Map-the-Debris)
 * Bonfire: [Pairwise]
 
 ## <strong>Advanced Algorithm Scripting</strong>
