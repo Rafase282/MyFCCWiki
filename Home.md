@@ -1,6 +1,8 @@
 # Welcome!
 
-Thanks for visiting the wiki. Here I will try to provide more detailed information on the code that I wrote and explanations, along with concepts from the Waypoints whenever possible.
+This repository is not for an app but more as a journal where I keep a record of everything I have done and learned from FreeCodeCamp. I decided to use a wiki as I can put more information easily on it. You will find my code there and also on the right directories if you just want to see the code. 
+
+I will try to keep everything updated. If you are also part of the camp or would like to contribute in any way then feel free to contact me. The purpose of this is for reference and learning material overall, for everyone as it is public.
 
 ##Contact me
 
