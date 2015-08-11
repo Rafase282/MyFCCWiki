@@ -137,7 +137,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 * Bonfire: [Sum All Primes] 
 * Bonfire: [Smallest Common Multiple] 
 * Bonfire: [Finders Keepers] 
-* Bonfire: [Drop it] 
+* Bonfire: [Drop it](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Drop-it)
 * Bonfire: [Steamroller](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Steamroller)
 * Bonfire: [Binary Agents](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Binary-Agents)
 * Bonfire: [Everything Be True](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Everything-Be-True)
