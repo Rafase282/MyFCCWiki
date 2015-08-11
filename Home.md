@@ -14,19 +14,95 @@ I will try to keep everything updated. If you are also part of the camp or would
 * Blog/site: https://rafase282.wordpress.com/
 * LinkedIn: https://www.linkedin.com/in/rafase282
 
+## Basic HTML5 and CSS
+
+* Waypoint: Say Hello to HTML Elements
+* Waypoint: Headline with the h2 Element
+* Waypoint: Inform with the Paragraph Element
+* Waypoint: Visually Separate Elements with Line Breaks
+* Waypoint: Uncomment HTML
+* Waypoint: Comment out HTML
+* Waypoint: Fill in the Blank with Placeholder Text
+* Waypoint: Delete HTML Elements
+* Waypoint: Change the Color of Text
+* Waypoint: Use CSS Selectors to Style Elements
+* Waypoint: Use a CSS Class to Style an Element
+* Waypoint: Style Multiple Elements with a CSS Class
+* Waypoint: Change the Font Size of an Element
+* Waypoint: Set the Font Family of an Element
+* Waypoint: Import a Google Font
+* Waypoint: Specify How Fonts Should Degrade
+* Waypoint: Override Styles with Important
+* Waypoint: Add Images to your Website
+* Waypoint: Size your Images
+* Waypoint: Add Borders Around your Elements
+* Waypoint: Add Rounded Corners with a Border Radius
+* Waypoint: Make Circular Images with a Border Radius
+* Waypoint: Link to External Pages with Anchor Elements
+* Waypoint: Wrap an Anchor Element within a Paragraph
+* Waypoint: Make Dead Links using the Hash Symbol
+* Waypoint: Turn an Image into a Link
+* Waypoint: Add Alt Text to an Image for Accessibility
+* Waypoint: Create a Bulleted Unordered List
+* Waypoint: Create an Ordered List
+* Waypoint: Create a Text Field
+* Waypoint: Add Placeholder Text to a Text Field
+* Waypoint: Create a Form Element
+* Waypoint: Add a Submit Button to a Form
+* Waypoint: Use HTML5 to Require a Field
+* Waypoint: Create a Set of Radio Buttons
+* Waypoint: Create a Set of Checkboxes
+* Waypoint: Clean up your form using Linebreaks
+* Waypoint: Check Radio Buttons and Checkboxes by Default
+* Waypoint: Wrap Many Elements within a Single Div Element
+* Waypoint: Give a Background Color to a Div Element
+* Waypoint: Adjusting the Padding of an Element
+* Waypoint: Adjust the Margin of an Element
+* Waypoint: Add a Negative Margin to an Element
+* Waypoint: Add Different Padding to Each Side of an Element
+* Waypoint: Add Different Margins to Each Side of an Element
+* Waypoint: Use Clockwise Notation to Specify the Padding of an Element
+* Waypoint: Use Clockwise Notation to Specify the Margin of an Element
+
+## Responsive Design with Bootstrap
+
+* Waypoint: Mobile Responsive Images
+* Waypoint: Center Text with Bootstrap
+* Waypoint: Create a Bootstrap Button
+* Waypoint: Create a Block Element Bootstrap Button
+* Waypoint: Taste the Bootstrap Button Color Rainbow
+* Waypoint: Call out Optional Actions with Button Info
+* Waypoint: Warn your Users of a Dangerous Action
+* Waypoint: Use the Bootstrap Grid to Put Elements Side By Side
+* Waypoint: Ditch Custom CSS for Bootstrap
+* Waypoint: Create a Custom Heading
+* Waypoint: Add Font Awesome Icons to our Buttons
+* Waypoint: Add Font Awesome Icons all of our Buttons
+* Waypoint: Responsively Style Radio Buttons
+* Waypoint: Responsively Style Checkboxes
+* Waypoint: Style Text Inputs as Form Controls
+* Waypoint: Line up Form Elements Responsively with Bootstrap
+
+## jQuery
+
+* Waypoint: Get Started with jQuery
+* Waypoint: Write Functions with jQuery
+* Waypoint: Harness Dynamic HTML
+* Waypoint: Listen for jQuery Events
+* Waypoint: Trigger jQuery Effects
 ## Basic JavaScript
 
-Waypoint: Build an Adventure Game
-Waypoint: Build Rock Paper Scissors
-Waypoint: Learn JavaScript For Loops
-Waypoint: Learn JavaScript While Loops
-Waypoint: Learn Control Flow
-Waypoint: Build a Contact List
-Waypoint: Build an Address Book
-Waypoint: Build a Cash Register
-Waypoint: Learn Regular Expressions
+* Waypoint: Build an Adventure Game
+* Waypoint: Build Rock Paper Scissors
+* Waypoint: Learn JavaScript For Loops
+* Waypoint: Learn JavaScript While Loops
+* Waypoint: Learn Control Flow
+* Waypoint: Build a Contact List
+* Waypoint: Build an Address Book
+* Waypoint: Build a Cash Register
+* Waypoint: Learn Regular Expressions
 
-## <strong>Basic Algorithm Scripting </strong>
+## Basic Algorithm Scripting
 
 * Waypoint: Pair Program on Bonfires It was jsut information.
 * Bonfire: [Meet Bonfire It] 
@@ -67,7 +143,7 @@ Waypoint: Learn Regular Expressions
 * Bonfire: [Everything Be True](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Everything-Be-True)
 * Bonfire: [Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
 
-## <strong>Object Oriented JavaScript</strong>
+## Object Oriented JavaScript
 
 * Waypoint: [Scope Your Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Scope-Your-Variables)
 * Waypoint: [Reference your Current Object with This](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Reference-your-Current-Object-with-This)
@@ -85,11 +161,11 @@ Waypoint: Learn Regular Expressions
 * Bonfire: [Map the Debris](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Map-the-Debris)
 * Bonfire: [Pairwise](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Pairwise)
 
-## <strong>Advanced Algorithm Scripting</strong>
+## Advanced Algorithm Scripting
 
-* Bonfire: [Validate US Telephone Numbers]
-* Bonfire: [Symmetric Difference]
-* Bonfire: [Exact Change]
-* Bonfire: [Inventory Update]
-* Bonfire: [No repeats please]
-* Bonfire: [Friendly Date Ranges]
+* Bonfire: Validate US Telephone Numbers
+* Bonfire: Symmetric Difference
+* Bonfire: Exact Change
+* Bonfire: Inventory Update
+* Bonfire: No repeats please
+* Bonfire: Friendly Date Ranges
