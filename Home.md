@@ -14,6 +14,18 @@ I will try to keep everything updated. If you are also part of the camp or would
 * Blog/site: https://rafase282.wordpress.com/
 * LinkedIn: https://www.linkedin.com/in/rafase282
 
+## Basic JavaScript
+
+Waypoint: Build an Adventure Game
+Waypoint: Build Rock Paper Scissors
+Waypoint: Learn JavaScript For Loops
+Waypoint: Learn JavaScript While Loops
+Waypoint: Learn Control Flow
+Waypoint: Build a Contact List
+Waypoint: Build an Address Book
+Waypoint: Build a Cash Register
+Waypoint: Learn Regular Expressions
+
 ## <strong>Basic Algorithm Scripting </strong>
 
 * Waypoint: Pair Program on Bonfires It was jsut information.
