@@ -104,39 +104,39 @@ I will try to keep everything updated. If you are also part of the camp or would
 
 ## Basic Algorithm Scripting
 
-* Waypoint: Pair Program on Bonfires It was jsut information.
-* Bonfire: [Meet Bonfire It] 
-* Bonfire: [Reverse a String] 
-* Bonfire: [Factorialize a Number] 
-* Bonfire: [Check for Palindromes] 
-* Bonfire: [Find the Longest Word in a String] 
-* Bonfire: [Title Case a Sentence] 
-* Bonfire: [Return Largest Numbers in Arrays] 
-* Bonfire: [Confirm the Ending] 
-* Bonfire: [Repeat a string repeat a string] 
-* Bonfire: [Truncate a string] 
-* Bonfire: [Chunky Monkey] 
-* Bonfire: [Slasher Flick] 
-* Bonfire: [Mutations] 
-* Bonfire: [Falsey Bouncer] 
-* Bonfire: [Where art thou?] 
-* Bonfire: [Seek and Destroy] 
-* Bonfire: [Where do I belong] 
-* Bonfire: [Sum All Numbers in a Range] 
-* Bonfire: [Diff Two Arrays] 
-* Bonfire: [Roman Numeral Converter] 
-* Bonfire: [Search and Replace] 
-* Bonfire: [Pig Latin] 
-* Bonfire: [DNA Pairing] 
-* Bonfire: [Missing letters] 
-* Bonfire: [Boo who] 
-* Bonfire: [Sorted Union] 
-* Bonfire: [Convert HTML Entities] 
-* Bonfire: [Spinal Tap Case]
-* Bonfire: [Sum All Odd Fibonacci Numbers] 
-* Bonfire: [Sum All Primes] 
-* Bonfire: [Smallest Common Multiple] 
-* Bonfire: [Finders Keepers] 
+* Waypoint: Pair Program on Bonfires
+* Bonfire: Meet Bonfire It
+* Bonfire: Reverse a String
+* Bonfire: Factorialize a Number
+* Bonfire: Check for Palindromes
+* Bonfire: Find the Longest Word in a String
+* Bonfire: Title Case a Sentence
+* Bonfire: Return Largest Numbers in Arrays
+* Bonfire: Confirm the Ending
+* Bonfire: Repeat a string repeat a string
+* Bonfire: Truncate a string
+* Bonfire: Chunky Monkey
+* Bonfire: Slasher Flick
+* Bonfire: Mutations
+* Bonfire: Falsey Bouncer
+* Bonfire: Where art thou?
+* Bonfire: Seek and Destroy
+* Bonfire: Where do I belong
+* Bonfire: Sum All Numbers in a Range
+* Bonfire: Diff Two Arrays
+* Bonfire: Roman Numeral Converter
+* Bonfire: Search and Replace
+* Bonfire: Pig Latin
+* Bonfire: DNA Pairing
+* Bonfire: Missing letters
+* Bonfire: Boo who
+* Bonfire: Sorted Union 
+* Bonfire: Convert HTML Entities
+* Bonfire: Spinal Tap Case
+* Bonfire: [Sum All Odd Fibonacci Numbers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Odd-Fibonacci-Numbers)
+* Bonfire: [Sum All Primes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Primes)
+* Bonfire: [Smallest Common Multiple](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Smallest-Common-Multiple)
+* Bonfire: [Finders Keepers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Finders-Keepers)
 * Bonfire: [Drop it](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Drop-it)
 * Bonfire: [Steamroller](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Steamroller)
 * Bonfire: [Binary Agents](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Binary-Agents)
