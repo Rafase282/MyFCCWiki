@@ -53,25 +53,25 @@ I will try to keep everything updated. If you are also part of the camp or would
 * Bonfire: [Steamroller] 
 * Bonfire: [Binary Agents] 
 * Bonfire: [Everything Be True]
-* Bonfire: [Arguments Optional] 
+* Bonfire: [Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
 
 ## <strong>Object Oriented JavaScript</strong>
 
-* Waypoint: [Scope Your Variables]
-* Waypoint: [Reference your Current Object with This]
+* Waypoint: [Scope Your Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Scope-Your-Variables)
+* Waypoint: [Reference your Current Object with This](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Reference-your-Current-Object-with-This)
 * Waypoint: [Traverse the Prototype Chain](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Traverse-the-Prototype-Chain)
-* Waypoint: [Reuse Code with Decorators]
-* Waypoint: [Build Objects with Functional Classes]
-* Waypoint: [Build Objects with Prototypal Classes]
-* Waypoint: [Understand Pseudoclassical Patterns]
-* Waypoint: [Subclass one Object to Another]
-* Waypoint: [Use Pseudoclassical Subclasses]
+* Waypoint: [Reuse Code with Decorators](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Reuse-Code-with-Decorators)
+* Waypoint: [Build Objects with Functional Classes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Build-Objects-with-Functional-Classes)
+* Waypoint: [Build Objects with Prototypal Classes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Build-Objects-with-Prototypal-Classes)
+* Waypoint: [Understand Pseudoclassical Patterns](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Understand-Pseudoclassical-Patterns)
+* Waypoint: [Subclass one Object to Another](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Subclass-one-Object-to-Another)
+* Waypoint: [Use Pseudoclassical Subclasses](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Pseudoclassical-Subclasses)
 
 ##<strong>Intermediate Algorithm Scripting</strong>
 
 * Bonfire: [Make a Person] (https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
 * Bonfire: [Map the Debris](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Map-the-Debris)
-* Bonfire: [Pairwise]
+* Bonfire: [Pairwise](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Pairwise)
 
 ## <strong>Advanced Algorithm Scripting</strong>
 
