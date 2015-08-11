@@ -67,7 +67,7 @@ Thanks for visiting the wiki. Here I will try to provide more detailed informati
 
 ##<strong>Intermediate Algorithm Scripting</strong>
 
-* Bonfire: [Make a Person]
+* Bonfire: [Make a Person] (https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
 * Bonfire: [Map the Debris]
 * Bonfire: [Pairwise]
 
