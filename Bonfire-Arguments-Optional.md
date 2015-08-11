@@ -12,12 +12,12 @@ argument so that var sum2And = add(2); return sum2And(3); // 5
 
 If either argument isn't a valid number, return undefined.
 
-Remember to use RSAP if you get stuck. Try to pair program. Write your own code.
+Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help-when-I-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 # Useful Links
 
-* [Global Function Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
-* [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+* [Global Function Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
+* [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
 
 # My code
 
