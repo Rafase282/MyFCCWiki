@@ -50,9 +50,9 @@ I will try to keep everything updated. If you are also part of the camp or would
 * Bonfire: [Smallest Common Multiple] 
 * Bonfire: [Finders Keepers] 
 * Bonfire: [Drop it] 
-* Bonfire: [Steamroller] 
-* Bonfire: [Binary Agents] 
-* Bonfire: [Everything Be True]
+* Bonfire: [Steamroller](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Steamroller)
+* Bonfire: [Binary Agents](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Binary-Agents)
+* Bonfire: [Everything Be True](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Everything-Be-True)
 * Bonfire: [Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
 
 ## <strong>Object Oriented JavaScript</strong>
