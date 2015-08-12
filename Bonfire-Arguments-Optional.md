@@ -1,3 +1,11 @@
+# Author
+
+![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128) submitted by Rafase282 | https://github.com/Rafase282
+
+* FreeCodeCamp Profile: http://www.freecodecamp.com/rafase282
+* CodePed Profile: http://codepen.io/Rafase282/
+* LinkedIn: https://www.linkedin.com/in/rafase282
+
 # Details
 
 * Difficulty: 2/5
@@ -19,7 +27,28 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 * [Global Function Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 * [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
 
-# My code
+# Problem Script:
+
+```
+function add() {
+  return false;
+}
+
+add(2,3);
+```
+## Explanation:
+to-do
+
+## Hint: 1
+to-do
+
+## Hint: 2
+to-do
+
+## Hint: 3
+to-do
+
+## My code
 
 ```
 function add() {
@@ -62,13 +91,7 @@ function add() {
     }
 }
 ```
-# Problem Script:
+## Code Explanation:
 
-```
-function add() {
-  return false;
-}
 
-add(2,3);
-```
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)

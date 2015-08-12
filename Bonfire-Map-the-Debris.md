@@ -28,7 +28,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 * [Math.pow()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 * [orbital periods](http://en.wikipedia.org/wiki/Orbital_period)
 
-## Problem Script:
+# Problem Script:
 
 ```
 function orbitalPeriod(arr) {
@@ -54,7 +54,7 @@ Use ceil to round up to the next whole number as requested.
 ## Hint: 3
 Find out how to remove and add key to an object
 
-# My code
+## My code
 
 ```
 function orbitalPeriod(arr) {
