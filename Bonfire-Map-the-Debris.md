@@ -48,13 +48,18 @@ orbitalPeriod([{name : "sputkin", avgAlt : 35873.5553}]);
 
 ## Hint: 1
 
+soon to come
+
 ## Hint: 2
+soon to come
 
 ## Hint: 3
+Soon to come
 
 # My code
 
 ```
-
+soon to come
 ```
+
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
