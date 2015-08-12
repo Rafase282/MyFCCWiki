@@ -6,8 +6,6 @@
 * CodePed Profile: http://codepen.io/Rafase282/
 * LinkedIn: https://www.linkedin.com/in/rafase282
 
-## [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
-
 # Details
 
 * Difficulty: 3/5
