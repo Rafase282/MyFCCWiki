@@ -44,14 +44,14 @@ orbitalPeriod([{name : "sputkin", avgAlt : 35873.5553}]);
 
 ## Explanation:
 
-//To do
+The first thing to do is to get familiar with what the program is for, for this I would suggest you check the wikipedia link as that is very important and from where you can also get the formula for the conversion.
 
 ## Hint: 1
 
-soon to come
+The formula needed is: T = 2*pi * sqrt(earthRadius to the cube / GM)
 
 ## Hint: 2
-soon to come
+Use ceil to round up to the next whole number as requested.
 
 ## Hint: 3
 Soon to come
@@ -59,7 +59,17 @@ Soon to come
 # My code
 
 ```
-soon to come
+function orbitalPeriod(arr) {
+	var GM = 398600.4418;
+	var earthRadius = 6367.4447;
+	var a = 2 * Math.PI;
+	var c = Math.pow(earthRadius + arr[0].avgAlt ,3);
+	var b = Math.sqrt(c/GM);
+	var orbPeriod = Math.ceil(a * b);
+	delete arr[0].avgAlt;
+	arr[0].orbitalPeriod = orbPeriod;
+	return arr;
+}
 ```
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
