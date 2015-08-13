@@ -40,3 +40,4 @@ gold.z = 3;
 log(blue.z); // undefined
 log(rose.z); // 3
 ```
+## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
