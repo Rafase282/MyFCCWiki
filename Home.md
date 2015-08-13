@@ -167,7 +167,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 
 ## Functional Programming
 
-* Waypoint: Practice Functional Programming
+* Waypoint: [Practice Functional Programming](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming)
 
 ## Advanced Algorithm Scripting
 
