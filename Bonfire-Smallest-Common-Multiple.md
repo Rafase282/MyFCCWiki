@@ -35,7 +35,7 @@ smallestCommons([1,5]);
 This particular problem can be confusing because most people look for the smallest common multiple of the two number but forget the keyword **range.** This means that if you get ```[1,5]``` then you have to check for the smallest common multiple for all these numbers [1,2,3,4,5] that is evenly divisible by all of them.
 
 ## Hint: 1
-Create an array with all the numbers that are missing fromteh original array to make it easier to check when having to check for even division.
+Create an array with all the numbers that are missing from the original array to make it easier to check when having to check for even division.
 
 ## Hint: 2
 You can use modulo ```%``` to check if the reminder is 0, which means it is evenly divisible.
@@ -73,16 +73,16 @@ smallestCommons([1, 13]);
 
 ## My Code Explanation:
 
-* Because the posibility of the smallest common denominator being among the two biggest numbers, it makes sense to check those first, so sort the array.
+* Because the possibility of the smallest common denominator being among the two biggest numbers, it makes sense to check those first, so sort the array.
 * Create a new array to sore all the numbers.
-* Use a decending for loop to add the numbers from the biggest to the smallest inthe new array.
-* Declare the variables for the quotient, the number of loops and the variable that we willuse in a for loop on another scope, this will allow us acces outside the loop.
-* Use a do while loop to check what we need while **n** is not the same lenght as the new array.
-* In the **do** part, we are goign to multiply the very first number, times the number of loops, times the second number.
+* Use a descending for loop to add the numbers from the biggest to the smallest in the new array.
+* Declare the variables for the quotient, the number of loops and the variable that we will use in a for loop on another scope, this will allow us access outside the loop.
+* Use a do while loop to check what we need while **n** is not the same length as the new array.
+* In the **do** part, we are going to multiply the very first number, times the number of loops, times the second number.
 * The loop part will allows us to increase the number beyond the greatest number we have without having to change the algorithm.
 * We enter a for loop that will go from n being 2 and going up by one while it is smaller than the array with all the numbers.
 * If the quotient is not even then stop the loop. If it is even then it check for the next elements in the array until it is not even or we find our answer.
-* Outside the loop, incread the value of loop.
+* Outside the loop, increase the value of loop.
 * At the end of the loop return the quotient.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
