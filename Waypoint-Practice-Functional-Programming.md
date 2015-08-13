@@ -9,6 +9,16 @@
 [Blog/Site](https://rafase282.wordpress.com/) |
 [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
 
-# Details
+# Functional Programming in Javascript
+
+* [Original Source](http://jhusain.github.io/learnrx/)
+
+>Functional programming provides developers with the tools to abstract common collection operations into reusable, composable building blocks. You'll be surprised to learn that most of the operations you perform on collections can be accomplished with five simple functions:
+
+* map
+* filter
+* concatAll
+* reduce
+* zip
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)

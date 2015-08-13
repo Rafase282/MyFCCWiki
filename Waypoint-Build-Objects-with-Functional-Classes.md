@@ -9,6 +9,7 @@
 [Blog/Site](https://rafase282.wordpress.com/) |
 [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
 
-# Details
+
+
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
