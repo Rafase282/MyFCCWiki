@@ -48,18 +48,14 @@ Soon
 
 ```
 function sumFibs(num) {
-	// Create variable to keep Record
     var prevNumber = 0;
     var currNumber = 1;
     var result = 0;
-    // Makes sure we do not go over the original number
     while (currNumber <= num) {
-    	// CHecks for odd fibonacci numbers
         if (currNumber % 2 !== 0) {
         	// Add them to the return variable
             result += currNumber;
         }
-        // Complete the fibonnaci circle by rotating values.
         var added = currNumber + prevNumber;
         prevNumber = currNumber;
         currNumber = added;
@@ -71,6 +67,10 @@ function sumFibs(num) {
 
 ## My Code Explanation:
 
-* Soon
+* Create a variable to keep record of the current and previous numbers along with the result that will be returned.
+* Use a while loop to make sure we do not go over the number given as parameter.
+* We use the modulo operand to check if the current number is odd or even. If even add it to the result.
+* Complete the Fibonacci circle by rotating gettign the next number and swapping values after.
+* Return the result.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
