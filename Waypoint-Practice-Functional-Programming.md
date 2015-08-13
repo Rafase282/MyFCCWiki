@@ -271,5 +271,36 @@ Why not abstract away how these operations are carried out?
 
 To make filtering easier, let's add a filter() function to the Array type. The filter() function accepts a predicate. A predicate is a function that accepts an item in the array, and returns a boolean indicating whether the item should be retained in the new array.
 
+```
+Array.prototype.filter = function(predicateFunction) {
+	var results = [];
+	this.forEach(function(itemInArray) {
+		// ------------ INSERT CODE HERE! ----------------------------
+		// Apply the predicateFunction to each item in the array.
+		// If the result is truthy, add the item to the results array.
+		// Note: remember you can add items to the array using the array's
+		// push() method.
+		// ------------ INSERT CODE HERE! ----------------------------
+    
+    if (predicateFunction(itemInArray)) {
+      results.push(itemInArray);
+    }
+	});
+
+	return results;
+};
+
+// JSON.stringify([1,2,3].filter(function(x) { return x > 2})) === "[3]"
+```
+
+Like map(), filter() lets us express what data we want without requiring us to specify how we want to collect the data.
+
+## Query Data by Chaining Method Calls
+
+* **Exercise 8: Chain filter and map to collect the ids of videos that have a rating of 5.0**
+
+```
+```
+
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
