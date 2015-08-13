@@ -36,13 +36,13 @@ sumFibs(4);
 You will need to gather all the **Fibonacci** numbers and then check for the odd ones. Once you get the odd ones then you will add them all. The last number should be the number given as a parameter if it actually happens to be an off Fibonacci number.
 
 ## Hint: 1
-Soon
+To get the next number of the series, you need to add the current one to the previous and that will give you the next one.
 
 ## Hint: 2
-Soon
+To check if a number is even all you have to check is if that number % 2 == 0.
 
 ## Hint: 3
-Soon
+As you get the next odd one, dont forget to add it to a global variable that can be returned at the end. ```result += currNumber;``` Will do the trick.
 
 ## My code:
 
@@ -53,7 +53,6 @@ function sumFibs(num) {
     var result = 0;
     while (currNumber <= num) {
         if (currNumber % 2 !== 0) {
-        	// Add them to the return variable
             result += currNumber;
         }
         var added = currNumber + prevNumber;
