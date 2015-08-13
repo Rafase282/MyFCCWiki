@@ -1,6 +1,6 @@
 # Author
 
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128) submitted by Rafase282 | https://github.com/Rafase282
+![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128) submitted by Rafase282
 
 [Github](https://github.com/Rafase282) |
 [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | 
