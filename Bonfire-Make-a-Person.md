@@ -95,5 +95,11 @@ var Person = function(firstAndLast) {
     };
 };
 ```
+## My Code Explanation:
+
+* Create a variable that will make a copy of the full name that was passed as a parameter.
+* Create another variable that will split that full name into first and last name array.
+* Then we can proceed to create the six keys needed and return what is needed.
+* For the setters, we can use the arr array and the right index to change the value to what was passed as a parameter.
 
 ### [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
