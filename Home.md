@@ -8,11 +8,13 @@ I will try to keep everything updated. If you are also part of the camp or would
 
 **Rafael Rodriguez**
 
-* My E-mail: rafase282@gmail.com
-* FreeCodeCamp Profile: http://www.freecodecamp.com/rafase282
-* CodePed Profile: http://codepen.io/Rafase282/
-* Blog/site: https://rafase282.wordpress.com/
-* LinkedIn: https://www.linkedin.com/in/rafase282
+[Github](https://github.com/Rafase282) |
+[FreeCodeCamp](http://www.freecodecamp.com/rafase282) | 
+[CodePen](http://codepen.io/Rafase282/) |
+[LinkedIn](https://www.linkedin.com/in/rafase282) |
+[Blog/Site](https://rafase282.wordpress.com/) |
+[My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
+
 
 ## Basic HTML5 and CSS
 
