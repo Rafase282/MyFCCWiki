@@ -8,14 +8,6 @@
 
 # Details
 
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128) submitted by Rafase282 | https://github.com/Rafase282
-
-* FreeCodeCamp Profile: http://www.freecodecamp.com/rafase282
-* CodePed Profile: http://codepen.io/Rafase282/
-* LinkedIn: https://www.linkedin.com/in/rafase282
-
-# Details
-
 * Difficulty: 3/5
 
 Return the sum of all indices of elements of 'arr' that can be paired with one other element to form a sum that equals the value in the second argument 'arg'. If multiple sums are possible, return the smallest sum. Once an element has been used, it cannot be reused to pair with another.
