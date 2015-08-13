@@ -25,6 +25,8 @@ All functions that take an argument have an arity of 1, and the argument will be
 
 These methods must be the only available means for interacting with the object.
 
+Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help-when-I-get-stuck) if you get stuck. Try to pair program. Write your own code.
+
 ## Useful Links
 
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)

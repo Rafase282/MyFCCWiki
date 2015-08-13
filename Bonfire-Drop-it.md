@@ -12,6 +12,8 @@
 
 Drop the elements of an array (first argument), starting from the front, until the predicate (second argument) returns true.
 
+Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help-when-I-get-stuck) if you get stuck. Try to pair program. Write your own code.
+
 # Useful Links
 
 * [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
