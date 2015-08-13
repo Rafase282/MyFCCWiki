@@ -11,6 +11,7 @@
 * Difficulty: 2/5
 
 Flatten a nested array. You must account for varying levels of nesting.
+Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help-when-I-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 # Useful Links
 
