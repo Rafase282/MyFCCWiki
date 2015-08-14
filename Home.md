@@ -15,7 +15,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 [CodePen](http://codepen.io/Rafase282/) |
 [LinkedIn](https://www.linkedin.com/in/rafase282) |
 [Blog/Site](https://rafase282.wordpress.com/) |
-[My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
+[E-Mail](mailto:rafase282@gmail.com)
 
 
 ## Basic HTML5 and CSS
