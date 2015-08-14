@@ -38,6 +38,12 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 11: Use map() and concatAll() to project and flatten the movieLists into an array of video ids](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-11-use-map-and-concatall-to-project-and-flatten-the-movielists-into-an-array-of-video-ids)
 * [Exercise 12: Retrieve id, title, and a 150x200 box art url for every video](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-12-retrieve-id-title-and-a-150x200-box-art-url-for-every-video)
 * [Exercise 13: Implement concatMap()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-13-implement-concatmap)
+* [Exercise 14: Use concatMap() to retrieve id, title, and 150x200 box art url for every video]
+* [Exercise 15: Use forEach to find the largest box art]
+* [Exercise 16: Implement reduce()]
+* [Exercise 17: Retrieve the largest rating]
+* [Exercise 18: Retrieve url of the largest boxart]
+
 
 # Working with Arrays
 
@@ -644,5 +650,222 @@ This was a bit complilcated and while I had the general ide, I even have to chec
 
 ### Exercise 13: Implement concatMap()
 
+>Nearly every time we flatten a tree we chain map() and concatAll(). Sometimes, if we're dealing with a tree several levels deep, we'll repeat this combination many times in our code. To save on typing, let's create a concatMap function that's just a map operation, followed by a concatAll.
+
+```
+Array.prototype.concatMap = function(projectionFunctionThatReturnsArray) {
+	return this.
+		map(function(item) {
+			// ------------   INSERT CODE HERE!  ----------------------------
+			// Apply the projection function to each item. The projection
+			// function will return an new child array. This will create a
+			// two-dimensional array.
+			// ------------   INSERT CODE HERE!  ----------------------------
+      return projectionFunctionThatReturnsArray(item);
+		}).
+		// apply the concatAll function to flatten the two-dimensional array
+		concatAll();
+};
+
+/*
+	var spanishFrenchEnglishWords = [ ["cero","rien","zero"], ["uno","un","one"], ["dos","deux","two"] ];
+	// collect all the words for each number, in every language, in a single, flat list
+	var allWords = [0,1,2].
+		concatMap(function(index) {
+			return spanishFrenchEnglishWords[index];
+		});
+
+	return JSON.stringify(allWords) === '["cero","rien","zero","uno","un","one","dos","deux","two"]';
+*/
+```
+Now, instead of using map().concatAll() to flatten a tree, we can just use concatMap helper function.
+
+### Exercise 14: Use concatMap() to retrieve id, title, and 150x200 box art url for every video
+
+Let's repeat the exercise we just performed. However this time we'll simplify the code by replacing the map().concatAll() calls with concatMap().
+
+```
+function() {
+	var movieLists = [
+			{
+				name: "Instant Queue",
+				videos : [
+					{
+						"id": 70111470,
+						"title": "Die Hard",
+						"boxarts": [
+							{ width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/DieHard150.jpg" },
+							{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/DieHard200.jpg" }
+						],
+						"url": "http://api.netflix.com/catalog/titles/movies/70111470",
+						"rating": 4.0,
+						"bookmark": []
+					},
+					{
+						"id": 654356453,
+						"title": "Bad Boys",
+						"boxarts": [
+							{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/BadBoys200.jpg" },
+							{ width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/BadBoys150.jpg" }
+
+						],
+						"url": "http://api.netflix.com/catalog/titles/movies/70111470",
+						"rating": 5.0,
+						"bookmark": [{ id:432534, time:65876586 }]
+					}
+				]
+			},
+			{
+				name: "New Releases",
+				videos: [
+					{
+						"id": 65432445,
+						"title": "The Chamber",
+						"boxarts": [
+							{ width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/TheChamber150.jpg" },
+							{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/TheChamber200.jpg" }
+						],
+						"url": "http://api.netflix.com/catalog/titles/movies/70111470",
+						"rating": 4.0,
+						"bookmark": []
+					},
+					{
+						"id": 675465,
+						"title": "Fracture",
+						"boxarts": [
+							{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
+							{ width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
+							{ width: 300, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture300.jpg" }
+						],
+						"url": "http://api.netflix.com/catalog/titles/movies/70111470",
+						"rating": 5.0,
+						"bookmark": [{ id:432534, time:65876586 }]
+					}
+				]
+			}
+		];
+
+
+	// Use one or more concatMap, map, and filter calls to create an array with the following items
+	// [
+	//	 {"id": 675465,"title": "Fracture","boxart":"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
+	//	 {"id": 65432445,"title": "The Chamber","boxart":"http://cdn-0.nflximg.com/images/2891/TheChamber150.jpg" },
+	//	 {"id": 654356453,"title": "Bad Boys","boxart":"http://cdn-0.nflximg.com/images/2891/BadBoys150.jpg" },
+	//	 {"id": 70111470,"title": "Die Hard","boxart":"http://cdn-0.nflximg.com/images/2891/DieHard150.jpg" }
+	// ];
+
+  return movieLists.concatMap(function(movies) {
+    return movies.videos.concatMap(function(video) {
+      return video.boxarts.filter(function(boxart) {
+        return boxart.width === 150 && boxart.height === 200;
+      }).map(function(boxart) {
+        return {id: video.id, title: video.title, boxart: boxart.url};
+      });
+    });
+  });
+
+}
+```
+It's a very common pattern to see several nested concatMap operations, with the last operation being a map. You can think of this pattern as the functional version of a nested forEach.
+
+## Reducing Arrays
+
+Sometimes we need to perform an operation on more than one item in the array at the same time. For example, let's say we need to find the largest integer in an array. We can't use a filter() operation, because it only examines one item at a time. To find the largest integer we need to compare items in the array to each other.
+
+One approach could be to select an item in the array as the assumed largest number (perhaps the first item), and then compare that value to every other item in the array. Each time we come across a number that was larger than our assumed largest number, we'd replace it with the larger value, and continue the process until the entire array was traversed.
+
+If we replaced the specific size comparison with a closure, we could write a function that handled the array traversal process for us. At each step our function would apply the closure to the last value and the current value and use the result as the last value the next time. Finally we'd be left with only one value. This process is known as reducing because we reduce many values to a single value.
+
+### Exercise 15: Use forEach to find the largest box art
+
+In this example we use forEach to find the largest box art. Each time we examine a new boxart we update a variable with the currently known maximumSize. If the boxart is smaller than the maximum size, we discard it. If it's larger, we keep track of it. Finally we're left with a single boxart which must necessarily be the largest.
+
+```
+function() {
+	var boxarts = [
+			{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
+			{ width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
+			{ width: 300, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture300.jpg" },
+			{ width: 425, height:150, url:"http://cdn-0.nflximg.com/images/2891/Fracture425.jpg" }
+		],
+		currentSize,
+		maxSize = -1,
+		largestBoxart;
+
+	boxarts.forEach(function(boxart) {
+		currentSize = boxart.width * boxart.height;
+		if (currentSize > maxSize) {
+			largestBoxart = boxart;
+			maxSize = currentSize;
+		}
+	});
+
+	return largestBoxart;
+}
+```
+This process is a reduction because we're using the information we derived from the last computation to calculate the current value. However in the example above, we still have to specify the method of traversal. Wouldn't it be nice if we could just specify what operation we wanted to perform on the last and current value? Let's create a helper function to perform reductions on arrays.
+
+### Exercise 16: Implement reduce()
+
+Let's add a reduce() function to the Array type. Like map
+
+```
+// [1,2,3].reduce(function(accumulatedValue, currentValue) { return accumulatedValue + currentValue; }); === [6];
+// [1,2,3].reduce(function(accumulatedValue, currentValue) { return accumulatedValue + currentValue; }, 10); === [16];
+
+Array.prototype.reduce = function(combiner, initialValue) {
+	var counter,
+		accumulatedValue;
+
+	// If the array is empty, do nothing
+	if (this.length === 0) {
+		return this;
+	}
+	else {
+		// If the user didn't pass an initial value, use the first item.
+		if (arguments.length === 1) {
+			counter = 1;
+			accumulatedValue = this[0];
+		}
+		else if (arguments.length >= 2) {
+			counter = 0;
+			accumulatedValue = initialValue;
+		}
+		else {
+			throw "Invalid arguments.";
+		}
+
+		// Loop through the array, feeding the current value and the result of
+		// the previous computation back into the combiner function until
+		// we've exhausted the entire array and are left with only one value.
+		while(counter < this.length) {
+			accumulatedValue = combiner(accumulatedValue, this[counter])
+			counter++;
+		}
+```
+
+### Exercise 17: Retrieve the largest rating.
+
+Let's use our new reduce function to isolate the largest value in an array of ratings
+
+```
+function() {
+	var ratings = [2,3,1,4,5];
+
+	// You should return an array containing only the largest rating. Remember that reduce always
+	// returns an array with one item.
+	return ratings.
+    reduce(function(a,b) {
+      if (a > b) 
+        return a;
+      else
+        return b;
+    });
+}
+```
+
+### Exercise 18: Retrieve url of the largest boxart
+
+Let's try combining reduce() with map() to reduce multiple boxart objects to a single value: the url of the largest box art.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
