@@ -44,7 +44,7 @@ function(console) {
 ```
 >Ask yourself this question: **did we need to specify the order in which the names were printed?** If not, why do it?
 
-* **Exercise 2: Use forEach to print all the names in an array**
+### Exercise 2: Use forEach to print all the names in an array
 
 ```
 function(console) {
@@ -61,7 +61,7 @@ With the usae of **forEach** we can tell the program what we want to happen to e
 
 Applying a function to a value and creating a new value is called a projection. To project one array into another, we apply a projection function to each item in the array and collect the results in a new array.
 
-* **Exercise 3: Project an array of videos into an array of {id,title} pairs using forEach()**
+### Exercise 3: Project an array of videos into an array of {id,title} pairs using forEach()
 
 For each video, add a projected {id, title} pair to the videoAndTitlePairs array.
 
@@ -123,7 +123,7 @@ All array projections share two operations in common:
 
 Why not abstract away how these operations are carried out?
 
-* **Exercise 4: Implement map()**
+### Exercise 4: Implement map()
 
 To make projections easier, let's add a **map()** function to the Array type. Map accepts the projection function to be applied to each item in the source array, and returns the projected array.
 
@@ -147,7 +147,7 @@ Array.prototype.map = function(projectionFunction) {
 
 // JSON.stringify([1,2,3].map(function(x) { return x + 1; })) === '[2,3,4]'
 ```
-* **Exercise 5: Use map() to project an array of videos into an array of {id,title} pairs**
+### Exercise 5: Use map() to project an array of videos into an array of {id,title} pairs
 
 Let's repeat the exercise of collecting {id, title} pairs for each video in the newReleases array, but **this time we'll use our map function.**
 
@@ -206,7 +206,7 @@ Notice that map allows us to specify what projection we want to apply to an arra
 
 >Like projection, filtering an array is also a very common operation. To filter an array we apply a test to each item in the array and collect the items that pass into a new array.
 
-* **Exercise 6: Use forEach() to collect only those videos with a rating of 5.0**
+### Exercise 6: Use forEach() to collect only those videos with a rating of 5.0
 
 Use forEach() to loop through the videos in the newReleases array and, if a video has a rating of 5.0, add it to the videos array.
 
@@ -267,7 +267,7 @@ Notice that, like **map()**, every **filter()** operation shares some operations
 
 Why not abstract away how these operations are carried out?
 
-* **Exercise 7: Implement filter()**
+### Exercise 7: Implement filter()
 
 To make filtering easier, let's add a filter() function to the Array type. The filter() function accepts a predicate. A predicate is a function that accepts an item in the array, and returns a boolean indicating whether the item should be retained in the new array.
 
@@ -297,7 +297,7 @@ Like map(), filter() lets us express what data we want without requiring us to s
 
 ## Query Data by Chaining Method Calls
 
-* **Exercise 8: Chain filter and map to collect the ids of videos that have a rating of 5.0**
+### Exercise 8: Chain filter and map to collect the ids of videos that have a rating of 5.0
 
 ```
 function() {
@@ -359,7 +359,7 @@ function() {
 
 Here is where I learn how to define an **concatAll()** function so that I can combine with **map()** and **filter()** to query trees.
 
-* **Exercise 9: Flatten the movieLists array into an array of video ids**
+### Exercise 9: Flatten the movieLists array into an array of video ids
 
 Let's start by using two nested forEach loops collect the id of every video in the two-dimensional movieLists array.
 
@@ -430,7 +430,8 @@ function() {
 
 I feel this is where **concatAll()** will be create...
 
-* **Exercise 10: Implement concatAll()** I was right!
+### Exercise 10: Implement concatAll()
+I was right!
 
 >Let's add a concatAll() function to the Array type. The concatAll() function iterates over each sub-array in the array and collects the results in a new, flat array. Notice that the concatAll() function expects that each item in the array to be another array.
 
@@ -455,7 +456,7 @@ Array.prototype.concatAll = function() {
 ```
 >concatAll is a very simple function, so much so that it may not be obvious yet how it can be combined with map() to query a tree. Let's try an example...
 
-* **Exercise 11: Use map() and concatAll() to project and flatten the movieLists into an array of video ids**
+### Exercise 11: Use map() and concatAll() to project and flatten the movieLists into an array of video ids
 
 Hint: use two nested calls to map() and one call to concatAll().
 
@@ -519,7 +520,7 @@ function() {
 }
 ```
 
-* **Exercise 12: Retrieve id, title, and a 150x200 box art url for every video**
+### Exercise 12: Retrieve id, title, and a 150x200 box art url for every video
 
 >You've managed to flatten a tree that's two levels deep, let's try for three! Let's say that instead of a single boxart url on each video, we had a collection of boxart objects, each with a different size and url. Create a query that selects {id, title, boxart} for every video in the movieLists. This time though, the boxart property in the result will be the url of the boxart object with dimensions of 150x200px. Let's see if you can solve this problem with map(), concatAll(), and filter().
 
@@ -625,6 +626,7 @@ This was a bit complilcated and while I had the general ide, I even have to chec
 			
 >Notice that map() and concatAll() are very commonly chained together. Let's create a small helper function to help us with this common pattern.
 
-#### Exercise 13: Implement concatMap()
+### Exercise 13: Implement concatMap()
+
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
