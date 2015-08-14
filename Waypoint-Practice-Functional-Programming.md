@@ -23,6 +23,19 @@
 
 The functions hold the key to simplying asynchronous programming, and more durable code overall. You will learn hwo to avoid race conditions, propagate and handle asynchonous erros and more.
 
+# Links to the Excercises:
+
+* [Exercise 1: Print all the names in an array]()
+* [[Exercise 2: Use forEach to print all the names in an array]] (https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-2-use-foreach-to-print-all-the-names-in-an-array)
+*
+*
+*
+*
+*
+*
+*
+
+
 # Working with Arrays
 
 >The Array is Javascript's only collection type. Arrays are everywhere. We're going to add the five functions to the Array type, and in the process make it much more powerful and useful. As a matter of fact, Array already has the map, filter, and reduce functions! However we're going to to reimplement these functions as a learning exercise.
@@ -31,7 +44,7 @@ This section will follow a pattern. First we'll solve problems the way you proba
 
 ## Traversing an Array
 
-* **Exercise 1: Print all the names in an array**
+### Exercise 1: Print all the names in an array
 ```
 function(console) {
 	var names = ["Ben", "Jafar", "Matt", "Priya", "Brian"],
