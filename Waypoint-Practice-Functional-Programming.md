@@ -43,6 +43,7 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 16: Implement reduce()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-16-implement-reduce)
 * [Exercise 17: Retrieve the largest rating](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-17-retrieve-the-largest-rating)
 * [Exercise 18: Retrieve url of the largest boxart](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-18-retrieve-url-of-the-largest-boxart)
+* [Exercise 19: Reducing with an initial value]
 
 
 # Working with Arrays
@@ -867,5 +868,37 @@ function() {
 ### Exercise 18: Retrieve url of the largest boxart
 
 Let's try combining reduce() with map() to reduce multiple boxart objects to a single value: the url of the largest box art.
+
+```
+function() {
+	var boxarts = [
+			{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
+			{ width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
+			{ width: 300, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture300.jpg" },
+			{ width: 425, height:150, url:"http://cdn-0.nflximg.com/images/2891/Fracture425.jpg" }
+		];
+
+	// You should return an array containing only the largest box art. Remember that reduce always
+	// returns an array with one item.
+	return boxarts.
+    reduce(function(a,b) {
+      if (a.width * a.heigth > b.width * b.height)
+        return a;
+      else
+        return b;
+        }).map(function(obj) {
+      return obj.url ;
+    });
+}
+		
+```
+
+### Exercise 19: Reducing with an initial value
+
+>Sometimes when we reduce an array, we want the reduced value to be a different type than the items stored in the array. Let's say we have an array of videos and we want to reduce them to a single map where the key is the video id and the value is the video's title.
+
+
+
+
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
