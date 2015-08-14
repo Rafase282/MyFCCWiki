@@ -43,8 +43,8 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 16: Implement reduce()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-16-implement-reduce)
 * [Exercise 17: Retrieve the largest rating](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-17-retrieve-the-largest-rating)
 * [Exercise 18: Retrieve url of the largest boxart](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-18-retrieve-url-of-the-largest-boxart)
-* [Exercise 19: Reducing with an initial value]
-* [Exercise 20: Retrieve the id, title, and smallest box art url for every video]
+* [Exercise 19: Reducing with an initial value](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-19-reducing-with-an-initial-value)
+* [Exercise 20: Retrieve the id, title, and smallest box art url for every video](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-20-retrieve-the-id-title-and-smallest-box-art-url-for-every-video)
 
 
 # Working with Arrays
