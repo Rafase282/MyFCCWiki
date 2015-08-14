@@ -625,6 +625,6 @@ This was a bit complilcated and while I had the general ide, I even have to chec
 			
 >Notice that map() and concatAll() are very commonly chained together. Let's create a small helper function to help us with this common pattern.
 
-### Exercise 13: Implement concatMap()
+#### Exercise 13: Implement concatMap()
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
