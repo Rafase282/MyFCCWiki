@@ -25,16 +25,7 @@ The functions hold the key to simplying asynchronous programming, and more durab
 
 # Links to the Excercises:
 
-* [[https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-1-print-all-the-names-in-an-array | Exercise 1: Print all the names in an array]]
-* [[Exercise 2: Use forEach to print all the names in an array]] 
-*
-*
-*
-*
-*
-*
-*
-
+[Exercise 1: Print all the names in an array](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-1-print-all-the-names-in-an-array) | [Exercise 2: Use forEach to print all the names in an array](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-2-use-foreach-to-print-all-the-names-in-an-array) | [Exercise 3: Project an array of videos into an array of {id,title} pairs using forEach()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-3-project-an-array-of-videos-into-an-array-of-idtitle-pairs-using-foreach)
 
 # Working with Arrays
 
