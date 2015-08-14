@@ -38,11 +38,11 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 11: Use map() and concatAll() to project and flatten the movieLists into an array of video ids](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-11-use-map-and-concatall-to-project-and-flatten-the-movielists-into-an-array-of-video-ids)
 * [Exercise 12: Retrieve id, title, and a 150x200 box art url for every video](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-12-retrieve-id-title-and-a-150x200-box-art-url-for-every-video)
 * [Exercise 13: Implement concatMap()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-13-implement-concatmap)
-* [Exercise 14: Use concatMap() to retrieve id, title, and 150x200 box art url for every video]
-* [Exercise 15: Use forEach to find the largest box art]
-* [Exercise 16: Implement reduce()]
-* [Exercise 17: Retrieve the largest rating]
-* [Exercise 18: Retrieve url of the largest boxart]
+* [Exercise 14: Use concatMap() to retrieve id, title, and 150x200 box art url for every video](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-14-use-concatmap-to-retrieve-id-title-and-150x200-box-art-url-for-every-video)
+* [Exercise 15: Use forEach to find the largest box art](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-15-use-foreach-to-find-the-largest-box-art)
+* [Exercise 16: Implement reduce()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-16-implement-reduce)
+* [Exercise 17: Retrieve the largest rating](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-17-retrieve-the-largest-rating)
+* [Exercise 18: Retrieve url of the largest boxart](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-18-retrieve-url-of-the-largest-boxart)
 
 
 # Working with Arrays
