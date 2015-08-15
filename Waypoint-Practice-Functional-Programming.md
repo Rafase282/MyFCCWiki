@@ -17,11 +17,22 @@
 
 * [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 * [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-* concatAll
+* [concatAll](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#querying-trees)
 * [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-* zip
+* [zip]((https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#zipping-arrays)
 
 The functions hold the key to simplying asynchronous programming, and more durable code overall. You will learn hwo to avoid race conditions, propagate and handle asynchonous erros and more.
+
+# Index:
+
+* [Traversing an Array](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#traversing-an-array)
+* [Projecting Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#projecting-arrays)
+* [Filtering Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#filtering-arrays)
+* [Query Data by Chaining Method Calls](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#query-data-by-chaining-method-calls)
+* [Querying Trees](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#querying-trees)
+* [Reducing Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#reducing-arrays)
+* [Zipping Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#zipping-arrays)
+* [Powerful Queries](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#powerful-queries)
 
 # Links to the Excercises:
 
@@ -45,10 +56,10 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 18: Retrieve url of the largest boxart](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-18-retrieve-url-of-the-largest-boxart)
 * [Exercise 19: Reducing with an initial value](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-19-reducing-with-an-initial-value)
 * [Exercise 20: Retrieve the id, title, and smallest box art url for every video](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-20-retrieve-the-id-title-and-smallest-box-art-url-for-every-video)
-* [Exercise 22: Implement zip]
-* [Exercise 23: Combine videos and bookmarks by index]
-* [Exercise 24: Retrieve each video's id, title, middle interesting moment time, and smallest box art url.]
-* [Exercise 25: Converting from Arrays to Trees]
+* [Exercise 22: Implement zip](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-22-implement-zip)
+* [Exercise 23: Combine videos and bookmarks by index](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-23-combine-videos-and-bookmarks-by-index)
+* [Exercise 24: Retrieve each video's id, title, middle interesting moment time, and smallest box art url.](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-24-retrieve-each-videos-id-title-middle-interesting-moment-time-and-smallest-box-art-url)
+* [Exercise 25: Converting from Arrays to Trees](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-25-converting-from-arrays-to-trees)
 
 
 # Working with Arrays
@@ -1113,11 +1124,11 @@ function() {
 }
 ```
 
+I foudn this very interesting and creative, might become obsolete now but it is a good thigns to learn and rememeber for future references and creativity.
+
 ```
 for(var counter = 0; counter < Math.min(videos.length, bookmarks.length); counter++) { ... }
 ```
-
-I foudn this very interesting and creative, might become obsolete now but it is a good thigns to learn and rememeber for future references and creativity.
 
 ### Exercise 22: Implement zip
 
