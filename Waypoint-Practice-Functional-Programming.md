@@ -45,6 +45,10 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 18: Retrieve url of the largest boxart](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-18-retrieve-url-of-the-largest-boxart)
 * [Exercise 19: Reducing with an initial value](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-19-reducing-with-an-initial-value)
 * [Exercise 20: Retrieve the id, title, and smallest box art url for every video](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-20-retrieve-the-id-title-and-smallest-box-art-url-for-every-video)
+* [Exercise 22: Implement zip]
+* [Exercise 23: Combine videos and bookmarks by index]
+* [Exercise 24: Retrieve each video's id, title, middle interesting moment time, and smallest box art url.]
+* [Exercise 25: Converting from Arrays to Trees]
 
 
 # Working with Arrays
@@ -1050,6 +1054,297 @@ function() {
   });
 }
 ```
+## Zipping Arrays
+
+>Sometimes we need to combine two arrays by progressively taking an item from each and combining the pair. If you visualize a zipper, where each side is an array, and each tooth is an item, you'll have a good idea of how the zip operation works.
+
+As far as I understand zipping Arrays is the same as merging them by a common key.
+
+### Exercise 21: Combine videos and bookmarks by index
+
+>Use a for loop to traverse the videos and bookmarks array at the same time. For each video and bookmark pair, create a {videoId, bookmarkId} pair and add it to the videoIdAndBookmarkIdPairs array.
+
+```
+function() {
+	var videos = [
+			{
+				"id": 70111470,
+				"title": "Die Hard",
+				"boxart": "http://cdn-0.nflximg.com/images/2891/DieHard.jpg",
+				"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+				"rating": 4.0,
+			},
+			{
+				"id": 654356453,
+				"title": "Bad Boys",
+				"boxart": "http://cdn-0.nflximg.com/images/2891/BadBoys.jpg",
+				"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+				"rating": 5.0,
+			},
+			{
+				"id": 65432445,
+				"title": "The Chamber",
+				"boxart": "http://cdn-0.nflximg.com/images/2891/TheChamber.jpg",
+				"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+				"rating": 4.0,
+			},
+			{
+				"id": 675465,
+				"title": "Fracture",
+				"boxart": "http://cdn-0.nflximg.com/images/2891/Fracture.jpg",
+				"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+				"rating": 5.0,
+			}
+		],
+		bookmarks = [
+			{id: 470, time: 23432},
+			{id: 453, time: 234324},
+			{id: 445, time: 987834}
+		],
+	counter,
+	videoIdAndBookmarkIdPairs = [];
+
+	for(var counter = 0; counter < Math.min(videos.length, bookmarks.length); counter++) {
+		// Insert code here to create a {videoId, bookmarkId} pair and add it to the videoIdAndBookmarkIdPairs array.
+    videoIdAndBookmarkIdPairs.push({VideoId: videos[counter].id, bookmarkId: bookmarks[counter].id});
+	}
+
+	return videoIdAndBookmarkIdPairs;
+}
+```
+
+```
+for(var counter = 0; counter < Math.min(videos.length, bookmarks.length); counter++) { ... }
+```
+
+I foudn this very interesting and creative, might become obsolete now but it is a good thigns to learn and rememeber for future references and creativity.
+
+### Exercise 22: Implement zip
+
+>Let's add a static zip() function to the Array type. The zip function accepts a combiner function, traverses each array at the same time, and calls the combiner function on the current item on the left-hand-side and right-hand-side. The zip function requires an item from each array in order to call the combiner function, therefore the array returned by zip will only be as large as the smallest input array.
+
+```
+// JSON.stringify(Array.zip([1,2,3],[4,5,6], function(left, right) { return left + right })) === '[5,7,9]' accumulatedValue + currentValue; }); === [6];
+
+Array.zip = function(left, right, combinerFunction) {
+	var counter,
+		results = [];
+
+	for(counter = 0; counter < Math.min(left.length, right.length); counter++) {
+		// Add code here to apply the combinerFunction to the left and right-hand items in the respective arrays
+    results.push(combinerFunction(left[counter], right[counter]));
+	}
+
+	return results;
+};
+```
+Here and the previous code, the key is to get the information from the two arrays at the same index, **Array[CurrentIndex]**
+
+### Exercise 23: Combine videos and bookmarks by index
+
+>Let's repeat exercise 19, but this time lets use your new zip() function. For each video and bookmark pair, create a {videoId, bookmarkId} pair.
+
+```
+function() {
+	var videos = [
+			{
+				"id": 70111470,
+				"title": "Die Hard",
+				"boxart": "http://cdn-0.nflximg.com/images/2891/DieHard.jpg",
+				"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+				"rating": 4.0,
+			},
+			{
+				"id": 654356453,
+				"title": "Bad Boys",
+				"boxart": "http://cdn-0.nflximg.com/images/2891/BadBoys.jpg",
+				"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+				"rating": 5.0,
+			},
+			{
+				"id": 65432445,
+				"title": "The Chamber",
+				"boxart": "http://cdn-0.nflximg.com/images/2891/TheChamber.jpg",
+				"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+				"rating": 4.0,
+			},
+			{
+				"id": 675465,
+				"title": "Fracture",
+				"boxart": "http://cdn-0.nflximg.com/images/2891/Fracture.jpg",
+				"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+				"rating": 5.0,
+			}
+		],
+		bookmarks = [
+			{id: 470, time: 23432},
+			{id: 453, time: 234324},
+			{id: 445, time: 987834}
+		];
+
+	return Array.
+		zip(
+		  videos,
+		  bookmarks,
+		  function(videos, bookmarks) {
+			return {videoId: videos.id, bookmarkId: bookmarks.id};
+		  });
+}
+```
+
+### Exercise 24: Retrieve each video's id, title, middle interesting moment time, and smallest box art url.
+
+>This is a variation of the problem we solved earlier. This time each video has an interesting moments collection, each representing a time during which a screenshot is interesting or representative of the title as a whole. Notice that both the boxarts and interestingMoments arrays are located at the same depth in the tree. Retrieve the time of the middle interesting moment and the smallest box art url simultaneously with zip(). Return an {id, title, time, url} object for each video.
+
+```
+function() {
+	var movieLists = [
+			{
+				name: "New Releases",
+				videos: [
+					{
+						"id": 70111470,
+						"title": "Die Hard",
+						"boxarts": [
+							{ width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/DieHard150.jpg" },
+							{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/DieHard200.jpg" }
+						],
+						"url": "http://api.netflix.com/catalog/titles/movies/70111470",
+						"rating": 4.0,
+						"interestingMoments": [
+							{ type: "End", time:213432 },
+							{ type: "Start", time: 64534 },
+							{ type: "Middle", time: 323133}
+						]
+					},
+					{
+						"id": 654356453,
+						"title": "Bad Boys",
+						"boxarts": [
+							{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/BadBoys200.jpg" },
+							{ width: 140, height:200, url:"http://cdn-0.nflximg.com/images/2891/BadBoys140.jpg" }
+
+						],
+						"url": "http://api.netflix.com/catalog/titles/movies/70111470",
+						"rating": 5.0,
+						"interestingMoments": [
+							{ type: "End", time:54654754 },
+							{ type: "Start", time: 43524243 },
+							{ type: "Middle", time: 6575665}
+						]
+					}
+				]
+			},
+			{
+				name: "Instant Queue",
+				videos: [
+					{
+						"id": 65432445,
+						"title": "The Chamber",
+						"boxarts": [
+							{ width: 130, height:200, url:"http://cdn-0.nflximg.com/images/2891/TheChamber130.jpg" },
+							{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/TheChamber200.jpg" }
+						],
+						"url": "http://api.netflix.com/catalog/titles/movies/70111470",
+						"rating": 4.0,
+						"interestingMoments": [
+							{ type: "End", time:132423 },
+							{ type: "Start", time: 54637425 },
+							{ type: "Middle", time: 3452343}
+						]
+					},
+					{
+						"id": 675465,
+						"title": "Fracture",
+						"boxarts": [
+							{ width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
+							{ width: 120, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture120.jpg" },
+							{ width: 300, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture300.jpg" }
+						],
+						"url": "http://api.netflix.com/catalog/titles/movies/70111470",
+						"rating": 5.0,
+						"interestingMoments": [
+							{ type: "End", time:45632456 },
+							{ type: "Start", time: 234534 },
+							{ type: "Middle", time: 3453434}
+						]
+					}
+				]
+			}
+		];
+
+	//------------ COMPLETE THIS EXPRESSION --------------
+	return movieLists.concatMap(function(movieList) {
+		return movieList.videos.concatMap(function(video) {
+			return Array.zip(
+				video.boxarts.reduce(function(acc,curr) {
+					if (acc.width * acc.height < curr.width * curr.height) {
+				  	  	return acc;
+					}
+					else {
+				  		return curr;
+					}
+			  	}),
+				video.interestingMoments.filter(function(interestingMoment) {
+					return interestingMoment.type === "Middle";
+				}),
+			  	function(boxart, interestingMoment) {
+					return {id: video.id, title: video.title, time: interestingMoment.time, url: boxart.url};
+			  	});
+		});
+	});
+}
+```
+Here I see a pattern, coudl be because we are working with the same and similar collections. 
+
+* One **concatMap** on the movieLists
+* Fromthat list.vidoes, another **concatMap**
+* An **Array.zip()** to get the boxarts **reduced* by the smallest
+* then we **filter** for theinterestingMoment
+* Lastly, we create a function to returnthe data collected inthe format required.
+
+## Powerful Queries
+
+Now the more complex queries are to come.
+
+### Exercise 25: Converting from Arrays to Trees
+
+When information is organized in a tree like a JSON expression, relationships point from parent to child. In relational systems like databases, relationships point from children to their parents. Both ways of organizing information are equivalent, and depending on the circumstances, we might get data organized in one way or another. It may surprise you to learn that you can use the 5 query functions you already know to easily convert between these representations. In other words, **not only can you query arrays from trees, you can query trees from arrays.**
+
+We have 2 arrays each containing lists, and videos respectively. Each video has a listId field indicating its parent list. We want to build an array of list objects, each with a name and a videos array. The videos array will contain the video's id and title. In other words we want to build the following structure:
+
+```
+[
+	{
+		"name": "New Releases",
+		"videos": [
+			{
+				"id": 65432445,
+				"title": "The Chamber"
+			},
+			{
+				"id": 675465,
+				"title": "Fracture"
+			}
+		]
+	},
+	{
+		"name": "Thrillers",
+		"videos": [
+			{
+				"id": 70111470,
+				"title": "Die Hard"
+			},
+			{
+				"id": 654356453,
+				"title": "Bad Boys"
+			}
+		]
+	}
+]
+```
+**Note: please make sure when creating objects (both lists and videos) that you add properties in the same order as above. This doesn't impact the correctness of your code, but the verifier expects properties to be created in this order.**
+
 
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
