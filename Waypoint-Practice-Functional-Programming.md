@@ -1929,9 +1929,9 @@ Let's say that we're writing the startup flow for a web application. On startup,
 
 * Download the URL prefix to use for all subsequent AJAX calls. This URL prefix will vary based on what AB test the user is enrolled in.
 * Use the url prefix to do the following actions in parallel:
-Retrieve a movie list array
-Retrieve configuration information and...
-make a follow up call for an instant queue list if the config property "showInstantQueue" is truthy
+* * Retrieve a movie list array
+* * Retrieve configuration information and...
+* * * make a follow up call for an instant queue list if the config property "showInstantQueue" is truthy
 * If an instant queue list was retrieved, append it to the end of movie list.
 * If all operations were successful then display the movie lists after the window loads. Otherwise inform the user that there was a connectivity error.
 
