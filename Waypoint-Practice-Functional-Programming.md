@@ -35,6 +35,7 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Zipping Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#zipping-arrays)
 * [Powerful Queries](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#powerful-queries)
 * [Working with Observables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#working-with-observables)
+* [Querying Observables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#querying-observables)
 
 # Links to the Excercises:
 
@@ -67,6 +68,11 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 28: Subscribing to an event](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-28-subscribing-to-an-event)
 * [Exercise 29: Traversing an Event](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-29-traversing-an-event)
 * [Exercise 30: Completing Sequences with take()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-30-completing-sequences-with-take)
+* [Exercise 31: Completing sequences with takeUntil()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-31-completing-sequences-with-takeuntil)
+* [Exercise 32: Creating a mouse drag event](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-32-creating-a-mouse-drag-event)
+* [Exercise 33: Improving our mouse drag event](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-33-improving-our-mouse-drag-event)
+* [Exercise 34: HTTP requests](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-34-http-requests)
+* [Exercise 35: Sequencing HTTP requests with callbacks](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-35-sequencing-http-requests-with-callbacks)
 
 
 # Working with Arrays
