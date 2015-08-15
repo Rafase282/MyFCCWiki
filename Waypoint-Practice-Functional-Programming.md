@@ -33,7 +33,7 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Reducing Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#reducing-arrays)
 * [Zipping Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#zipping-arrays)
 * [Powerful Queries](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#powerful-queries)
-* [Working with Observables]
+* [Working with Observables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#working-with-observables)
 
 # Links to the Excercises:
 
@@ -61,8 +61,8 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 23: Combine videos and bookmarks by index](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-23-combine-videos-and-bookmarks-by-index)
 * [Exercise 24: Retrieve each video's id, title, middle interesting moment time, and smallest box art url.](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-24-retrieve-each-videos-id-title-middle-interesting-moment-time-and-smallest-box-art-url)
 * [Exercise 25: Converting from Arrays to Trees](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-25-converting-from-arrays-to-trees)
-* [Exercise 26: Converting from Arrays to Deeper Trees]
-[Exercise 27: Stock Ticker]
+* [Exercise 26: Converting from Arrays to Deeper Trees](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-26-converting-from-arrays-to-deeper-trees)
+* [Exercise 27: Stock Ticker](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-27-stock-ticker)
 
 
 # Working with Arrays
@@ -1583,7 +1583,7 @@ function(pricesNASDAQ, printRecord) {
 
 >In the next section I'll reveal the inner workings of this magical type. You'll learn how you can use it model everything from mouse events to asynchronous JSON requests. Finally I'll show you how **you can query this type using the 5 query functions you already know.** It's about time we gave this magical type a name...
 
-## Working with Observables
+# Working with Observables
 
 
 
