@@ -1970,6 +1970,144 @@ Observable.create() is powerful enough to convert any asynchronous API into an O
 
 In the following example, we'll use the Observable.create() function to create an Observable that issues a request to getJSON when it's traversed.
 
+Understand that **the function passed to Observable.create() is the definition of the forEach() function for this Observable.** In other words, all we have to do to define an Observable is to define its traversal function. Notice that although we pass three functions to the Observable's forEach() function, the function we pass to Observable.create() accepts only one value: an Observer. An Observer is just a triple containing three handlers:
+
+* The onNext() handler used to send data to the client.
+* The onError() handler used to send error information to the client.
+* The onCompleted() handler used to inform the client that the sequence has completed.
+
+The three handlers we pass to forEach() are packaged together into a single Observer object for convenience. Finally Observable.create() returns a function that defines the dispose() method of the Subscription object during Traversal. Like the Observer, the Observable.create() function creates the Subscription object for us and uses our function as the dispose() definition.
+
+Now that we've built a version of the getJSON function that returns an Observable sequence, let's use it to improve our solution to the previous exercise...
+
+### Exercise 37: Sequencing HTTP requests with Observable
+
+Let's use the getJSON function that returns Observables, and the Observable.fromEvent() to complete the exercise we completed earlier.
+
+Almost every workflow in a web application starts with an event, continues with an HTTP request, and results in a state change. Now we know how to express the first two tasks elegantly.
+
+### Exercise 38: Throttle Input
+
+When dealing with user input, there will be times when the user's input is too noisy, and will potentially clog your servers with extraneous requests. We want the ability to throttle the users's input so that if they interacting for one second, then we will get the user input. Let's say for example, the user clicks a button once too many times upon saving and we only want to fire after they've stopped for a second.
+```seq([1,,,2,,,3,,,4,,,5,,,6,,,]).throttle(1000 /* ms */) === seq([,,,,,,,,3,,,,,,,,,,,6,,,]);```
+
+```
+function (clicks, saveData, name) {
+	return clicks.
+		throttle(1000).
+		concatMap(function () {
+			return saveData(name);
+		})
+}
+```
+
+Now that we know how to throttle input, let's take a look at another problem where throttling data is important...
+
+### Exercise 39: Autocomplete Box
+
+One of the most common problems in web development is the autocomplete box. This seems like it should be an easy problem, but is actually quite challenging. For example, how do we throttle the input? How do we make sure we're not getting out of order requests coming back? For example if I type "react" then type "reactive" I want "reactive" to be my result, regardless of which actually returned first from the service.
+
+In the example below, you will be receiving a sequence of key presses, a textbox, and a function when called returns an array of search results.
+```
+getSearchResultSet('react') === seq[,,,["reactive", "reaction","reactor"]]
+keyPresses === seq['r',,,,,'e',,,,,,'a',,,,'c',,,,'t',,,,,]
+```
+```
+function (getSearchResultSet, keyPresses, textBox) {
+
+	var getSearchResultSets =
+		keyPresses.
+			map(function () {
+				return textBox.value;
+			}).
+			throttle(1000).
+			concatMap(function (text) {
+				return getSearchResultSet(text).takeUntil(keyPresses);
+			});
+
+	return getSearchResultSets;
+}
+```
+
+Now that we're able to query with our throttled input, you'll still notice one slight problem. If you hit your arrow keys or any other non character key, the request will still fire. How do we prevent that?
+
+### Exercise 40: Distinct Until Changed Input
+
+You'll notice in the previous exercise that if you pressed your arrow keys while inside the textbox, the query will still fire, regardless of whether the text actually changed or not. How do we prevent that? The distinctUntilChanged filters out successive repetitive values.
+```
+seq([1,,,1,,,3,,,3,,,5,,,1,,,]).distinctUntilChanged() ===
+seq([1,,,,,,,3,,,,,,,5,,,1,,,]);
+```
+```
+function (keyPresses, isAlpha) {
+
+	return keyPresses.
+		map(function (e) { return String.fromCharCode(e.keyCode); }).
+		filter(function (character) { return isAlpha(character); }).
+		distinctUntilChanged().
+		scan('', function (stringSoFar, character) {
+			return stringSoFar + character;
+		});
+}
+```
+
+Now that we know how to get only the distinct input, let's see how it applies to our autocomplete example...
+
+### Exercise 41: Autocomplete Box Part 2: Electric Boogaloo
+
+In the previous version of the autocomplete box, there were two bugs
+
+* Multiple successive searches are made for the same string
+* Attempts are made to retrieve results for an empty string.
+
+The example below is the same as above, but this time, fix the bugs!
+```
+getSearchResultSet('react') === seq[,,,["reactive", "reaction","reactor"]]
+keyPresses === seq['r',,,,,'e',,,,,,'a',,,,'c',,,,'t',,,,,]
+```
+```
+function (getSearchResultSet, keyPresses, textBox) {
+
+	var getSearchResultSets =
+		keyPresses.
+			map(function () {
+				return textBox.value;
+			}).
+			throttle(1000).
+			distinctUntilChanged().
+			filter(function (s) { return s.length > 0; }).
+			concatMap(function (text) {
+				return getSearchResultSet(text).takeUntil(keyPresses);
+			});
+
+	return getSearchResultSets;
+}
+```
+
+With just this little amount of code, we're able to produce a fully functioning autocomplete scenario. But there are other outstanding questions, such as error handling. How can we handle failure and retry if necessary?
+
+### Exercise 42: Retrying after errors
+
+You'll notice in the previous exercise that if you pressed your arrow keys while inside the textbox, the query will still fire, regardless of whether the text actually changed or not. How do we prevent that? The distinctUntilChanged filters out successive repetitive values.
+```
+seq([1,,,1,,,3,,,3,,,5,,,1,,,]).distinctUntilChanged() ===
+seq([1,,,,,,,3,,,,,,,5,,,1,,,]);
+```
+```
+function (keyPresses, isAlpha) {
+
+	return keyPresses.
+		map(function (e) { return String.fromCharCode(e.keyCode); }).
+		filter(function (character) { return isAlpha(character); }).
+		distinctUntilChanged().
+		scan('', function (stringSoFar, character) {
+			return stringSoFar + character;
+		});
+}
+```
+>Now that we know how to get only the distinct input, let's see how it applies to our autocomplete example...
+
+I was told that I could stop at problem 27 which I did. The rest is not too novice friendly and the http related problems didn't even have code which means the guide was still a work in progress. I still decided to record everythign here for future reference, now I'm just waiting for the updated map where everythign is better structured.
 
 
 ## [Go Up](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#functional-programming-in-javascript)
