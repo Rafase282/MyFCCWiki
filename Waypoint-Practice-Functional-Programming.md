@@ -1932,6 +1932,32 @@ Let's say that we're writing the startup flow for a web application. On startup,
 Retrieve a movie list array
 Retrieve configuration information and...
 make a follow up call for an instant queue list if the config property "showInstantQueue" is truthy
-If an instant queue list was retrieved, append it to the end of movie list.
-If all operations were successful then display the movie lists after the window loads. Otherwise inform the user that there was a connectivity error.
+* If an instant queue list was retrieved, append it to the end of movie list.
+* If all operations were successful then display the movie lists after the window loads. Otherwise inform the user that there was a connectivity error.
+
+It's fair to say that **sequencing HTTP requests with callbacks is very hard**. In order to perform two tasks in parallel, we have to introduce a variable to track the status of each task. Every time one of the parallel tasks completes it must check whether its sibling task has also completed. If both have completed, only then can we move forward. In the example above, every time a task is finished the tryToDisplayOutput() function is called to check if the program was ready to display output. This function checks the status of all tasks and displays the output if possible.
+
+With a callback-based API, asynchronous error handling is also very complicated. In synchronous programs, a unit of work is cancelled when an exception is thrown. By contrast, in our program we had to explicitly track whether an error occurred in parallel to prevent an unnecessary call for the instant queue. Javascript provides us with special support for synchronous error handling with the keywords try/catch/throw. Unfortunately no such support is available for asynchronous programs.
+
+The Observable interface is a much more powerful way of working with asynchronous APIs than callbacks. We'll see that Observables can free us from having to track the status of tasks that are run in parallel, just Observables frees us from having to track Event Subscriptions. We'll also see that Observable gives us the same error propagation semantics in asynchronous programs that we expect in synchronous programs. Finally we'll learn that by converting callback-based APIs to Observables, we can query them along with Events to build much more expressive programs.
+
+### Exercise 36: Traversing callback-based Asynchronous APIs
+
+If a callback API were a sequence, what kind of sequence would it be? We've seen that UI Event sequences can contain anywhere from 0 to infinite items, but will never complete on their own.
+
+```mouseMoves === seq([ {x: 23, y: 55},,,,,,,{x: 44, y: 99},,,{x:55,y:99},,,{x: 54, y:543},,, ]);```
+In contrast, if we were to convert output from the $.getJSON() function we've been using into a sequence it would always return a sequence that completes after sending a single item.
+```
+getJSONAsObservable("http://api-global.netflix.com/abTestInformation") ===
+	seq([ { urlPrefix: "billboardTest" } ])
+```
+It might seem strange to create sequences that contain only one object. We could introduce an Observable-like type specifically for scalar values, but that would make callback-based APIs more difficult to query with Events. Thankfully, an Observable sequence is flexible enough to model both.
+
+
+
+
+
+
+
+
 ## [Go Up](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#functional-programming-in-javascript)
