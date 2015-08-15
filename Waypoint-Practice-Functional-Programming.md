@@ -73,6 +73,13 @@ The functions hold the key to simplying asynchronous programming, and more durab
 * [Exercise 33: Improving our mouse drag event](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-33-improving-our-mouse-drag-event)
 * [Exercise 34: HTTP requests](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-34-http-requests)
 * [Exercise 35: Sequencing HTTP requests with callbacks](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-35-sequencing-http-requests-with-callbacks)
+* [Exercise 36: Traversing callback-based Asynchronous APIs](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-36-traversing-callback-based-asynchronous-apis)
+* [Exercise 37: Sequencing HTTP requests with Observable](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-37-sequencing-http-requests-with-observable)
+* [Exercise 38: Throttle Input](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-38-throttle-input)
+* [Exercise 39: Autocomplete Box](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-39-autocomplete-box)
+* [Exercise 40: Distinct Until Changed Input](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-40-distinct-until-changed-input)
+* [Exercise 41: Autocomplete Box Part 2: Electric Boogaloo](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-41-autocomplete-box-part-2-electric-boogaloo)
+* [Exercise 42: Retrying after errors](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#exercise-42-retrying-after-errors)
 
 
 # Working with Arrays
