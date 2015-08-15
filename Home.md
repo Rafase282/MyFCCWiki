@@ -171,7 +171,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 
 ## Advanced Algorithm Scripting
 
-* Bonfire: Validate US Telephone Numbers
+* Bonfire: [Validate US Telephone Numbers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Validate-US-Telephone-Numbers)
 * Bonfire: Symmetric Difference
 * Bonfire: Exact Change
 * Bonfire: Inventory Update
