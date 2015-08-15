@@ -1358,4 +1358,4 @@ We have 2 arrays each containing lists, and videos respectively. Each video has 
 
 
 
-## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
+## [Go Up](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Practice-Functional-Programming#functional-programming-in-javascript)
