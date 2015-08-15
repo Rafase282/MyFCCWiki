@@ -1959,10 +1959,16 @@ getJSONAsObservable("http://api-global.netflix.com/abTestInformation") ===
 ```
 It might seem strange to create sequences that contain only one object. We could introduce an Observable-like type specifically for scalar values, but that would make callback-based APIs more difficult to query with Events. Thankfully, an Observable sequence is flexible enough to model both.
 
+So how do we convert a callback API into an Observable sequence? Unfortunately, because callback-based APIs vary so much in their interfaces, we can't create a conversion function like we did with fromEvent(). However there is a more flexible function we can use to build Observable sequences...
 
+Observable.create() is powerful enough to convert any asynchronous API into an Observable. Observable.create() relies on the fact that all asynchronous APIs have the following semantics:
 
+1.     The client needs to be able to receive data.
+2.     The client needs to be able to receive error information.
+3.     The client needs to be able to be alerted that the operation is complete.
+4.     The client needs to be able to indicate that they're no longer interested the result of the operation.
 
-
+In the following example, we'll use the Observable.create() function to create an Observable that issues a request to getJSON when it's traversed.
 
 
 
