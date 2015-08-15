@@ -1933,13 +1933,13 @@ Events aren't the only source of asynchronous data in an application. There's al
 
 Let's say that we're writing the startup flow for a web application. On startup, the application must perform the following operations:
 
-* Download the URL prefix to use for all subsequent AJAX calls. This URL prefix will vary based on what AB test the user is enrolled in.
-* Use the url prefix to do the following actions in parallel:
+1. Download the URL prefix to use for all subsequent AJAX calls. This URL prefix will vary based on what AB test the user is enrolled in.
+2. Use the url prefix to do the following actions in parallel:
     * Retrieve a movie list array
     * Retrieve configuration information and...
         * make a follow up call for an instant queue list if the config property "showInstantQueue" is truthy
-* If an instant queue list was retrieved, append it to the end of movie list.
-* If all operations were successful then display the movie lists after the window loads. Otherwise inform the user that there was a connectivity error.
+3. If an instant queue list was retrieved, append it to the end of movie list.
+4. If all operations were successful then display the movie lists after the window loads. Otherwise inform the user that there was a connectivity error.
 
 It's fair to say that **sequencing HTTP requests with callbacks is very hard**. In order to perform two tasks in parallel, we have to introduce a variable to track the status of each task. Every time one of the parallel tasks completes it must check whether its sibling task has also completed. If both have completed, only then can we move forward. In the example above, every time a task is finished the tryToDisplayOutput() function is called to check if the program was ready to display output. This function checks the status of all tasks and displays the output if possible.
 
