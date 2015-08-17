@@ -387,6 +387,8 @@ This is also handy when you're changing the behavior of a link using jQuery, whi
 Replace your a element's href attribute with a #, also known as a hash symbol, to turn it into a dead link.`
 
 ## Turn an Image into a Link
+Creating images that link to things is essential and one of the most used things in Web Dev. Nest your image within an a element. Here's an example: `<a href="#"><img src="http://bit.ly/fcc-running-cats"/></a>`.
+
 ## Add Alt Text to an Image for Accessibility
 ## Create a Bulleted Unordered List
 ## Create an Ordered List
