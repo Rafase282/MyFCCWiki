@@ -89,8 +89,60 @@ Here's how you would set your h2 element's text color to blue: `<h2 style="color
 ```
 
 ## Use CSS Selectors to Style Elements
+Instead of giving style attributes one by one, we can do this to multiple elements at the same time.
+
+> At the top of your code, create a style element like this: <style></style>.
+
+Inside that style element, you can create a CSS selector for all h2 elements. For example, if you wanted all h2 elements to be red, your style element would look like this: <style>h2 {color: red;}</style>.
+
+Note that it's important to have both opening and closing curly braces ({ and }) around each element's style. You also need to make sure your element's style is between the opening and closing style tags. Finally, be sure to add the semicolon to the end of each of your element's styles.
+
+```
+<style>
+h2{
+  color: blue;
+}
+</style>
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+```
+
 ## Use a CSS Class to Style an Element
+Classes are reusable styles that can be added to HTML elements. You can apply a class to an HTML element like this: `<h2 class="blue-text">CatPhotoApp</h2>`.
+
+Note that in your CSS style element, classes should start with a period. In your HTML elements' class declarations, classes shouldn't start with a period.
+
+```
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+```
+
 ## Style Multiple Elements with a CSS Class
+Remember that you can attach classes to HTML elements by using class="your-class-here" within the relevant element's opening tag.
+
+Remember that CSS selectors require a period at the beginning like this: `.blue-text { color: blue; }`, but that class declarations don't use a period, like this: `<h2 class="blue-text">CatPhotoApp<h2>`.
+
+```
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+```
+
 ## Change the Font Size of an Element
 ## Set the Font Family of an Element
 ## Import a Google Font
