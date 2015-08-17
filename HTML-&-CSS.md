@@ -163,6 +163,28 @@ Font size is controlled by the font-size CSS attribute, like this: `h1 { font-si
 ```
 
 ## Set the Font Family of an Element
+You can set an element's font by using the font-family attribute.
+
+For example, if you wanted to set your h2 element's font to Sans-serif, you would use the following CSS: `h2 { font-family: Sans-serif; }`.
+
+```
+<style>
+  .red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+<p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+```
+
 ## Import a Google Font
 ## Specify How Fonts Should Degrade
 ## Add Images to your Website
