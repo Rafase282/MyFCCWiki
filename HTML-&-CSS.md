@@ -73,3 +73,67 @@ lorem ipsum text has been used as placeholder text by typesetters since the 16th
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
+
+## Delete HTML Elements
+## Change the Color of Text
+## Use CSS Selectors to Style Elements
+## Use a CSS Class to Style an Element
+## Style Multiple Elements with a CSS Class
+## Change the Font Size of an Element
+## Set the Font Family of an Element
+## Import a Google Font
+## Specify How Fonts Should Degrade
+## Add Images to your Website
+## Size your Images
+## Add Borders Around your Elements
+## Add Rounded Corners with a Border Radius
+## Make Circular Images with a Border Radius
+## Link to External Pages with Anchor Elements
+## Nest an Anchor Element within a Paragraph
+## Make Dead Links using the Hash Symbol
+## Turn an Image into a Link
+## Add Alt Text to an Image for Accessibility
+## Create a Bulleted Unordered List
+## Create an Ordered List
+## Create a Text Field
+## Add Placeholder Text to a Text Field
+## Create a Form Element
+## Add a Submit Button to a Form
+## Use HTML5 to Require a Field
+## Create a Set of Radio Buttons
+## Create a Set of Checkboxes
+## Check Radio Buttons and Checkboxes by Default
+## Nest Many Elements within a Single Div Element
+## Give a Background Color to a Div Element
+## Set the ID of an Element
+## Use an ID Attribute to Style an Element
+## Adjusting the Padding of an Element
+## Adjust the Margin of an Element
+## Add a Negative Margin to an Element
+## Add Different Padding to Each Side of an Element
+## Add Different Margins to Each Side of an Element
+## Use Clockwise Notation to Specify the Padding of an Element
+## Use Clockwise Notation to Specify the Margin of an Element
+## Style the HTML Body Element
+## Inherit Styles from the Body Element
+## Prioritize One Style Over Another
+## Override Styles in Subsequent CSS
+## Override Class Declarations by Styling ID Attributes
+## Override Class Declarations with Inline Styles
+## Override All Other Styles by using Important
+## Use Hex Code for Specific Colors
+## Use Hex Code to Color Elements White
+## Use Hex Code to Color Elements Red
+## Use Hex Code to Color Elements Green
+## Use Hex Code to Color Elements Blue
+## Use Hex Code to Mix Colors
+## Use Hex Code to Color Elements Gray
+## Use Hex Code for Specific Shades of Gray
+## Use Abbreviated Hex Code
+## Use RGB values to Color Elements
+## Use RGB to Color Elements White
+## Use RGB to Color Elements Red
+## Use RGB to Color Elements Green
+## Use RGB to Color Elements Blue
+## Use RGB to Mix Colors
+## Use RGB to Color Elements Gray
