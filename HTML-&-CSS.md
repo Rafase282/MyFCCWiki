@@ -144,6 +144,24 @@ Remember that CSS selectors require a period at the beginning like this: `.blue-
 ```
 
 ## Change the Font Size of an Element
+Font size is controlled by the font-size CSS attribute, like this: `h1 { font-size: 30px; }`.
+
+```
+<style>
+  .red-text {
+    color: red;
+  }
+  p{
+    font-size: 16px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+<p >Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+```
+
 ## Set the Font Family of an Element
 ## Import a Google Font
 ## Specify How Fonts Should Degrade
