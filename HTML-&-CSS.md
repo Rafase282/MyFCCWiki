@@ -476,9 +476,75 @@ Radio buttons are a type of input. They should all be nested in their own label 
 
 Here's an example of a radio button: `<label><input type="radio" name="indoor-outdoor"> Indoor</label>`.
 
+```
+<form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
+```
+
 ## Create a Set of Checkboxes
+Checkboxes are a type of input.
+- Each of your checkboxes should be nested within its own label element.
+- All related checkbox inputs should have the same name attribute.
+
+Here's an example of a checkbox: `<label><input type="checkbox" name="personality"> Loving</label>`.
+
+```
+<form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <label><input type="checkbox" name="personality"> Loving</label>
+  <label><input type="checkbox" name="personality"> Lazy</label>
+  <label><input type="checkbox" name="personality"> Energetic</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
+```
+
 ## Check Radio Buttons and Checkboxes by Default
+You can set a checkbox or radio button to be checked by default using the checked attribute.
+
+To do this, just add the word "checked" to the inside of an input element. For example, `<input type="radio" name="test-name" checked>`.
+
+```
+<form action="/submit-cat-photo">
+  <label><input type="radio"checked name="indoor-outdoor"> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <label><input type="checkbox"checked name="personality"> Loving</label>
+  <label><input type="checkbox" name="personality"> Lazy</label>
+  <label><input type="checkbox" name="personality"> Energetic</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
+```
+
 ## Nest Many Elements within a Single Div Element
+> The div element, also known as a division element, is a general purpose container for other elements.
+
+> The div element is probably the most commonly used HTML element of all. It's useful for passing the CSS of its own class declarations down to all the elements that it contains.
+
+> Just like any other non-self-closing element, you can open a div element with <div> and close it on another line with </div>.
+
+> ```
+> <div>
+>   <p>Things cats love:</p>
+>   <ul>
+>     <li>cat nip</li>
+>     <li>laser pointers</li>
+>     <li>lasagna</li>
+>   </ul>
+>   <p>Top 3 things cats hate:</p>
+>   <ol>
+>     <li>flea treatment</li>
+>     <li>thunder</li>
+>     <li>other cats</li>
+>   </ol>
+> </div>
+> ```
+
 ## Give a Background Color to a Div Element
 ## Set the ID of an Element
 ## Use an ID Attribute to Style an Element
