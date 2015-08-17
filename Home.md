@@ -11,8 +11,8 @@ I will try to keep everything updated. If you are also part of the camp or would
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) |  [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
 ## HTML5 and CSS
-1. Say Hello to HTML Elements
-2. Headline with the h2 Element
+1. [Say Hello to HTML Elements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Say-Hello-to-HTML-Elements)
+2. [Headline with the h2 Element]
 3. Inform with the Paragraph Element
 4. Uncomment HTML
 5. Comment out HTML

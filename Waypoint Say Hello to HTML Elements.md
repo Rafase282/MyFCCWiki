@@ -13,4 +13,12 @@ The HTML element is everything from the start tag to the end tag:
 ```<p>My first HTML paragraph.</p>
 ````
 
-Opening tags look like this: <h1>. Closing tags look like this: </h1>. Note that the only difference between opening tags and closing tags is that closing tags have a slash after their opening angle bracket.
+Opening tags look like this: `<h1>. Closing tags look like this: </h1>`  Note that the only difference between opening tags and closing tags is that closing tags have a slash after their opening angle bracket.
+
+## Headline Element
+You can create different levels of Heading elements by using h1, h2, h3, h4, h5, h6 which will result on different sizes.
+
+```
+<h1>Hello World</h1>
+<h2> CatPhotoApp</h2>
+```
