@@ -21,5 +21,42 @@ You can create different levels of Heading elements by using h1, h2, h3, h4, h5,
 ```
 
 ## Inform with the Paragraph Element
+**p** elements are the preferred element for normal-sized paragraph text on websites. P is short for "paragraph".
+
+You can create a p element like so: `<p>I'm a p tag!</p>`.
+
+```
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+<p>Hello Paragraph</p>
+```
+
 ## Uncomment HTML
+Commenting is a way that you can leave comments within your code without affecting the code itself.
+
+Commenting is also a convenient way to make code inactive without having to delete it entirely.
+
+You can start a comment with `<!-- and end a comment with -->`.
+
+```
+<!--
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Hello Paragraph</p>
+-->
+```
+
 ## Comment out HTML
+Remember that in order to start a comment, you need to use `<!-- and to end a comment, you need to use -->.`
+
+```
+<!--
+<h1>Hello World</h1>
+-->
+<h2>CatPhotoApp</h2>
+<!--
+<p>Hello Paragraph</p>
+-->
+```
