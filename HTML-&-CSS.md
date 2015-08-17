@@ -212,7 +212,61 @@ To import font from Google or any other site, this is the format that you should
 ```
 
 ## Specify How Fonts Should Degrade
+There are several default fonts that are available in all browsers. These include **Monospace, Serif** and **Sans-Serif**.
+
+For example, if you wanted an element to use the Helvetica font, but also degrade to the Sans-Serif font when Helvetica wasn't available, you could use this CSS style: `p { font-family: Helvetica, Sans-Serif; }`.
+
+```
+<!--<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+<p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+```
+
 ## Add Images to your Website
+You can add images to your website by using the img element, and point to an specific image's URL using the src attribute.
+
+An example of this would be `<img src="www.your-image-source.com/your-image.jpg">`. Note that in most cases, img elements are self-closing.
+
+```
+<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<img src = "https://bit.ly/fcc-relaxing-cat">
+<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+<p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+```
+
 ## Size your Images
 ## Add Borders Around your Elements
 ## Add Rounded Corners with a Border Radius
