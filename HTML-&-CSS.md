@@ -75,6 +75,8 @@ lorem ipsum text has been used as placeholder text by typesetters since the 16th
 ```
 
 ## Delete HTML Elements
+Deleting elements is very simple. All you have to do is remove everything from the opening to the closing of the element and it will be removed. No extra code is needed.
+
 ## Change the Color of Text
 ## Use CSS Selectors to Style Elements
 ## Use a CSS Class to Style an Element
