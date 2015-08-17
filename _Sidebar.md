@@ -1,6 +1,6 @@
 * [Welcome](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#welcome)
 * [Contact](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#contact-me)
-* [Basic HTML5 and CSS](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#basic-html5-and-css)
+* [HTML5 and CSS](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#html5-and-css)
 * [Responsive Design with Bootstrap](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#responsive-design-with-bootstrap)
 * [jQuery](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#jquery)
 * [Basic JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#basic-javascript)
