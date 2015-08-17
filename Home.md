@@ -25,7 +25,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 12. [Change the Font Size of an Element](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#change-the-font-size-of-an-element)
 13. [Set the Font Family of an Element](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#set-the-font-family-of-an-element)
 14. [Import a Google Font](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#import-a-google-font)
-15. [Specify How Fonts Should Degrade]()
+15. [Specify How Fonts Should Degrade](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#specify-how-fonts-should-degrade)
 16. [Add Images to your Website]()
 17. [Size your Images]()
 18. [Add Borders Around your Elements]()
