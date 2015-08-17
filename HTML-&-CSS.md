@@ -268,12 +268,124 @@ An example of this would be `<img src="www.your-image-source.com/your-image.jpg"
 ```
 
 ## Size your Images
+CSS has an attribute called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width.
+
+For example, if we wanted to create a CSS class called larger-image that gave HTML elements a width of 500 pixels, we'd use: `<style> .larger-image { width: 500px; } </style>`.
+
+```
+<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  .smaller-image{
+    width: 100px;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<img class="smaller-image" src="https://bit.ly/fcc-relaxing-cat">
+
+<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+<p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+```
+
 ## Add Borders Around your Elements
+CSS borders have attributes like style, color and width.
+
+For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class: `<style> .thin-red-border { border-color: red; border-width: 5px; border-style: solid; } </style>`.
+
+```
+<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+
+  .thick-green-border{
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat">
+
+<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+<p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+```
+
 ## Add Rounded Corners with a Border Radius
+To make round corners it is all about **border-radius** and pixels.
+
+> You can specify a border-radius with pixels. This will affect how rounded the corners are.
+
+```
+.thick-green-border {
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+```
+
 ## Make Circular Images with a Border Radius
+You can also use percentage to **border*radius** to make things round.
+
+```
+.thick-green-border {
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+}
+```
+
 ## Link to External Pages with Anchor Elements
+> **a** elements, also known as anchor elements, are used to link to content outside of the current page.
+
+Here's an example: `<p>Here's a <a href="http://freecodecamp.com"> link to Free Code Camp</a> for you to follow.</p>`.
+
 ## Nest an Anchor Element within a Paragraph
+Nesting is simple, just add one element inside another: `<p> click here for <a href="http://www.catphotoapp.com">cat photos</a></p>`
+
 ## Make Dead Links using the Hash Symbol
+Sometimes you want to add a elements to your website before you know where they will link.
+
+This is also handy when you're changing the behavior of a link using jQuery, which we'll learn about later.
+
+Replace your a element's href attribute with a #, also known as a hash symbol, to turn it into a dead link. `Sometimes you want to add a elements to your website before you know where they will link.
+
+This is also handy when you're changing the behavior of a link using jQuery, which we'll learn about later.
+
+Replace your a element's href attribute with a #, also known as a hash symbol, to turn it into a dead link.`
+
 ## Turn an Image into a Link
 ## Add Alt Text to an Image for Accessibility
 ## Create a Bulleted Unordered List
