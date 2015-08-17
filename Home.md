@@ -18,7 +18,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 5. [Comment out HTML](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#comment-out-html)
 6. [Fill in the Blank with Placeholder Text](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#fill-in-the-blank-with-placeholder-text)
 7. [Delete HTML Elements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#delete-html-elements)
-8. [Change the Color of Text]()
+8. [Change the Color of Text](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#change-the-color-of-text)
 9. [Use CSS Selectors to Style Elements]()
 10. [Use a CSS Class to Style an Element]()
 11. [Style Multiple Elements with a CSS Class]()
