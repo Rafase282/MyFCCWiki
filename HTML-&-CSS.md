@@ -390,14 +390,92 @@ Replace your a element's href attribute with a #, also known as a hash symbol, t
 Creating images that link to things is essential and one of the most used things in Web Dev. Nest your image within an a element. Here's an example: `<a href="#"><img src="http://bit.ly/fcc-running-cats"/></a>`.
 
 ## Add Alt Text to an Image for Accessibility
+**alt** attributes, also known as alt text, are what browsers will display if they fail to load the image. alt attributes are also important for blind or visually impaired users to understand what an image portrays. And search engines also look at alt attributes.
+
+In short, every image should have an alt attribute!
+
+You can add an alt attribute right in the img element like this: `<img src="www.your-image-source.com/your-image.jpg" alt="your alt text"/>`.
+
 ## Create a Bulleted Unordered List
+HTML has a special element for creating unordered lists, or bullet point-style lists.
+
+Unordered lists start with a **<ul>** element. Then they contain some number of **<li>** elements.
+
+For example:
+
+```
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+```
+
+would create a bullet point-style list of "milk" and "cheese".
+
 ## Create an Ordered List
+HTML has a special element for creating ordered lists, or numbered-style lists.
+
+Ordered lists start with a **<ol>** element. Then they contain some number of **<li>** elements.
+
+For example:
+
+```
+<ol>
+  <li>hydrogen</li>
+  <li>helium</li>
+</ol>
+```
+
+would create a numbered list of "hydrogen" and "helium".
+
 ## Create a Text Field
+Text inputs are a convenient way to get input from your user.
+
+You can create one like this: `<input type="text">`. Note that input elements are self-closing.
+
 ## Add Placeholder Text to a Text Field
+Your placeholder text is what appears in your text input before your user has inputed anything.
+
+You can create placeholder text like so: `<input type="text" placeholder="this is placeholder text">`.
+
+`<input type="text" placeholder="cat photo URL">`
+
 ## Create a Form Element
+> You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
+
+For example: `<form action="/url-where-you-want-to-submit-form-data"></form>`.
+
+`<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>`
+
 ## Add a Submit Button to a Form
+You will need to create a button element. Here's an example submit button: `<button type="submit">this button submits the form</button>`.
+
+```
+<form action="/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL">
+  <button type="submit">Submit</button>
+</form>
+```
+
 ## Use HTML5 to Require a Field
+You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
+
+For example, if you wanted to make a text input field required, you can just add the word required within your input element, you would use: `<input type="text" required>`.
+
+```
+<form action="/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
+```
+
 ## Create a Set of Radio Buttons
+> You can use radio buttons for questions where you want the user to only give you one answer.
+
+Radio buttons are a type of input. They should all be nested in their own label element. Furthermore, all related radio buttons should have the same name attribute.
+
+Here's an example of a radio button: `<label><input type="radio" name="indoor-outdoor"> Indoor</label>`.
+
 ## Create a Set of Checkboxes
 ## Check Radio Buttons and Checkboxes by Default
 ## Nest Many Elements within a Single Div Element
