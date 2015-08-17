@@ -78,6 +78,16 @@ lorem ipsum text has been used as placeholder text by typesetters since the 16th
 Deleting elements is very simple. All you have to do is remove everything from the opening to the closing of the element and it will be removed. No extra code is needed.
 
 ## Change the Color of Text
+CSS allows us to change  many styles. To change the color of an element he use **color**.
+
+Here's how you would set your h2 element's text color to blue: `<h2 style="color: blue">CatPhotoApp</h2>`.
+
+```
+<h2 style="color: red">CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+```
+
 ## Use CSS Selectors to Style Elements
 ## Use a CSS Class to Style an Element
 ## Style Multiple Elements with a CSS Class
