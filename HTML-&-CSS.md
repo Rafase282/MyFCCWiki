@@ -630,11 +630,57 @@ Here's an example of how you can take your element with the id attribute of cat-
 Note that inside your style element, you always reference classes by putting a . in front of their names. You always reference ids by putting a # in front of their names.
 
 ## Adjusting the Padding of an Element
+HTML elements are essentially little rectangles. Three important attributes control the space that surrounds each HTML element: padding, margin, and border. An element's padding controls the amount of space between the element and its border.
+
+```
+.green-box {
+  background-color: green;
+  padding: 20px;
+}
+```
+
 ## Adjust the Margin of an Element
+An element's margin controls the amount of space between an element's border and surrounding elements.
+
+```
+.green-box {
+  background-color: green;
+  padding: 20px;
+  margin: 20px;
+}
+```
+
 ## Add a Negative Margin to an Element
+An element's margin controls the amount of space between an element's border and surrounding elements. If you set an element's margin to a **negative value**, the element will grow **larger**.
+
 ## Add Different Padding to Each Side of an Element
+CSS allows you to control the padding of an element on all four sides with **padding-top, padding-right, padding-bottom, and padding-left** attributes.
+
+```
+.green-box {
+  background-color: green;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+```
+
 ## Add Different Margins to Each Side of an Element
+CSS allows you to control the margin of an element on all four sides with **margin-top, margin-right, margin-bottom, and margin-left** attributes.
+
 ## Use Clockwise Notation to Specify the Padding of an Element
+Instead of specifying an element's **padding-top, padding-right, padding-bottom, and padding-left attributes**, you can specify them all in one line, like this: padding: 10px 20px 10px 20px;.
+
+These four values work like a clock: **top, right, bottom, left**, and will produce the exact same result as using the side-specific padding instructions.
+
+```
+.green-box {
+  background-color: green;
+  padding: 40px 20px 20px 40px
+}
+```
+
 ## Use Clockwise Notation to Specify the Margin of an Element
 ## Style the HTML Body Element
 ## Inherit Styles from the Body Element
