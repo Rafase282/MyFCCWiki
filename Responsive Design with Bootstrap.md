@@ -133,15 +133,133 @@ We line up the form elements the same way we do with others, using divs.
 ```
 
 ## Create a Bootstrap Headline
+`<h3 class="text-primary text-center"> jQuery Playground </h3>`
+
 ## House our page within a Bootstrap Container Fluid Div
+To make the content responsive, we use the **container-fluid** class.
+
+```
+<div class="container-fluid">
+<h3 class="text-primary text-center">jQuery Playground</h3>
+</div>
+```
+
 ## Create a Bootstrap Row
+Create a div element with the class row. `<div class="row"></div>`
+
 ## Split your Bootstrap Row
+Create two div elements within your row, both with the class col-xs-6.
+
+```
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6"> </div>
+    <div class="col-xs-6"></div>
+  </div>
+</div>
+```
+
 ## Create Bootstrap Wells
+Bootstrap has a class called **well** that can create a visual sense of depth for your columns.
+
+Nest one div element with the class well within each of your **col-xs-6 div** elements.
+
+```
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="well">
+
+
+
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="well">
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+```
+
 ## Add Elements within your Bootstrap Wells
+Once you have gone deep enough in **divs** you can start adding your Bootstrap buttons.
+
 ## Apply the Default Bootstrap Button Style
+Boostrap has a button class called **btn-default**
+
+```
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="well">
+        <button class="btn btn-default"></button>
+        <button class="btn btn-default"></button>
+        <button class="btn btn-default"></button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="well">
+        <button class="btn btn-default"></button>
+        <button class="btn btn-default"></button>
+        <button class="btn btn-default"></button>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
 ## Create a Class to Target with jQuery Selectors
+> Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
+
+For this we use the **target** class on the **button** elements.
+
 ## Add ID Attributes to Bootstrap Elements
+Recall that in addition to class attributes, you can give each of your elements an id attribute.
+
+Each id should be unique to a specific element. Remember that you can give an element an id like this: `<div class="well" id="center-well">`
+
 ## Label Bootstrap Wells
+You can add labels to the wells by using the headers <h4> above the well divs.
+
 ## Give Each Element a Unique ID
+We will also want to be able to use jQuery to target each button by its unique id. So we add an unique id to each button.
+
 ## Label Bootstrap Buttons
+Just like we labeled our wells, we want to label our buttons.
+
 ## Use Comments to Clarify Code
+When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.
+
+This is a great way to make websites with a particular structure. Remember that you can start a comment with <!-- and end a comment with -->
+
+```
+<!--You shouldn't need to modify code below this line -->
+<div class="container-fluid">
+ <h3 class="text-primary text-center">jQuery Playground</h3>
+ <div class="row">
+   <div class="col-xs-6">
+     <h4>#left-well</h4>
+     <div class="well" id="left-well">
+       <button class="btn btn-default target" id="target1">#target1</button>
+       <button class="btn btn-default target" id="target2">#target2</button>
+       <button class="btn btn-default target" id="target3">#target3</button>
+     </div>
+   </div>
+   <div class="col-xs-6">
+     <h4>#right-well</h4>
+     <div class="well" id="right-well">
+       <button class="btn btn-default target" id="target4">#target4</button>
+       <button class="btn btn-default target" id="target5">#target5</button>
+       <button class="btn btn-default target" id="target6">#target6</button>
+     </div>
+   </div>
+ </div>
+</div>
+```
