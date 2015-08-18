@@ -115,23 +115,23 @@ I will try to keep everything updated. If you are also part of the camp or would
 31. [Use Comments to Clarify Code](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Responsive-Design-with-Bootstrap#use-comments-to-clarify-code)
 
 ## jQuery
-1. Learn how Script Tags and Document Ready Work
-2. Target HTML Elements with Selectors Using jQuery
-3. Target Elements by Class Using jQuery
-4. Target Elements by ID Using jQuery
-5. Delete your jQuery Functions
-6. Target the same element with multiple jQuery Selectors
-7. Remove Classes from an element with jQuery
-8. Change the CSS of an Element Using jQuery
-9. Disable an Element Using jQuery
-10. Remove an Element Using jQuery
-11. Use appendTo to Move Elements with jQuery
-12. Clone an Element Using jQuery
-13. Target the Parent of an Element Using jQuery
-14. Target the Children of an Element Using jQuery
-15. Target a Specific Child of an Element Using jQuery
-16. Target Even Numbered Elements Using jQuery
-17. Use jQuery to Modify the Entire Page
+1. [Learn how Script Tags and Document Ready Work]()
+2. [Target HTML Elements with Selectors Using jQuery]()
+3. [Target Elements by Class Using jQuery]()
+4. [Target Elements by ID Using jQuery]()
+5. [Delete your jQuery Functions]()
+6. [Target the same element with multiple jQuery Selectors]()
+7. [Remove Classes from an element with jQuery]()
+8. [Change the CSS of an Element Using jQuery]()
+9. [Disable an Element Using jQuery]()
+10. [Remove an Element Using jQuery]()
+11. [Use appendTo to Move Elements with jQuery]()
+12. [Clone an Element Using jQuery]()
+13. [Target the Parent of an Element Using jQuery]()
+14. [Target the Children of an Element Using jQuery]()
+15. [Target a Specific Child of an Element Using jQuery]()
+16. [Target Even Numbered Elements Using jQuery]()
+17. [Use jQuery to Modify the Entire Page]()
 
 ## Basic JavaScript
 1. Comment your JavaScript Code
