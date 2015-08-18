@@ -48,15 +48,90 @@ Bootstrap uses a responsive grid system that makes it easier to put elements int
 
 ![Bootstrap 12 column grid layout](https://www.evernote.com/shard/s116/sh/f0944d97-08b8-4615-8273-a327bf41fb05/de1a3acbceef89ae/deep/0/)
 
+> Note that in this illustration, the col-md-_ class is being used. Here, md means medium, and _ is a number specifying how many columns wide the element should be. In this case, the column width of an element on a medium-sized screen, such as a laptop, is being specified.
+
+```
+<div class="row">
+
+  <div class="col-xs-4"><button class="btn btn-block btn-primary">Like</button></div>
+  <div class="col-xs-4"><button class="btn btn-block btn-info">Info</button></div>
+  <div class="col-xs-4"><button class="btn btn-block btn-danger">Delete</button></div>
+
+</div>
+```
+
 ## Ditch Custom CSS for Bootstrap
+We can clean up our code and make our Cat Photo App look more conventional by using Bootstrap's built-in styles instead of the custom styles we created earlier.
+
+All you need to know is the built in [classes](http://getbootstrap.com/css/).
+
 ## Use Spans for Inline Elements
+You can use use spans to create inline elements. By using the span element, you can put several elements together, and even style different parts of the same element differently.
+
+`<p><span class = "text-danger">Things cats love:</span></p>`
+
 ## Create a Custom Heading
+Using **div** and the custom grid layour we can create our own heading.
+
+```
+<div class="row">
+   <div class="col-xs-8">
+     <h2 class="text-primary text-center">CatPhotoApp</h2>
+   </div>
+   <div class="col-xs-4">
+     <a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat"></a>
+   </div>
+```
+
 ## Add Font Awesome Icons to our Buttons
+Font Awesome is a convenient library of icons. These icons are vector graphics, stored in the .svg file format. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
+
+`<i class="fa fa-thumbs-up"><button class="btn btn-block btn-primary">Like</i></button>`
+
 ## Add Font Awesome Icons to all of our Buttons
+`<i class="fa fa-trash"></i>` Will add a trash can icon.
+
+`<i class="fa fa-info-circle"></i>` Will add an info icon.
+
 ## Responsively Style Radio Buttons
+You can use Bootstrap's col-xs-* classes on form elements. That will make radio buttons evenly spread out across the page regardless of how wide the screen might be.
+
+Nest all of your radio buttons within a **<div class="row">** element. Then nest each of them within a **<div class="col-xs-6">** element.
+
+```
+<form action="/submit-cat-photo">
+  <div class="row">
+    <div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Indoor</label></div>
+    <div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Outdoor</label></div>
+    <div class="col-xs-6"><label><input type="checkbox" name="personality"> Loving</label></div>
+    <div class="col-xs-6"><label><input type="checkbox" name="personality"> Lazy</label></div>
+    <div class="col-xs-6"><label><input type="checkbox" name="personality"> Crazy</label></div>
+  </div>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
+```
+
 ## Responsively Style Checkboxes
+You can use Bootstrap's col-xs-* classes on form elements, too! This way, our checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
+
+Nest all your checkboxes in a **<div class="row">** element. Then nest each of them in a **<div class="col-xs-4">** element.
+
 ## Style Text Inputs as Form Controls
+You can add the fa-paper-plane Font Awesome icon by adding **<i class="fa fa-paper-plane"></i>** within your submit button element.
+
+`<button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane">Submit</i`
+
 ## Line up Form Elements Responsively with Bootstrap
+We line up the form elements the same way we do with others, using divs.
+
+```
+<div class="row">
+<div class="col-xs-7"><input type="text" class="form-control" placeholder="cat photo URL" required></div>
+<div class=col-xs-5><button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button></div>
+</div>
+```
+
 ## Create a Bootstrap Headline
 ## House our page within a Bootstrap Container Fluid Div
 ## Create a Bootstrap Row
