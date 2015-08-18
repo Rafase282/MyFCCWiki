@@ -24,10 +24,30 @@ Bootstrap has its own styles for button elements, which look much better than th
 `<button type="submit" class="btn">Like</button>`
 
 ## Create a Block Element Bootstrap Button
+Normally, your button elements are only as wide as the text that they contain. By making them block elements, your button will stretch to fill your page's entire horizontal space. Note that these buttons still need the btn class.
+
+`<button class="btn btn-block">Like</button>`
+
 ## Taste the Bootstrap Button Color Rainbow
+The btn-primary class is the main color you'll use in your app. It is useful for highlighting actions you want your user to take. Note that this button will still need the btn and btn-block classes.
+
+`<button class="btn btn-block btn-primary">Like</button>`
+
 ## Call out Optional Actions with Button Info
+Bootstrap comes with several pre-defined colors for buttons. The btn-info class is used to call attention to optional actions that the user can take. Note that these buttons still need the btn and btn-block classes.
+
+`<button class= "btn btn-block btn-info">Info</button>`
+
 ## Warn your Users of a Dangerous Action
+The btn-danger class is the button color you'll use to notify users that the button performs a destructive action, such as deleting a cat photo. Note that these buttons still need the btn and btn-block classes.
+
+`<button class="btn btn-block btn-danger">Delete</button>`
+
 ## Use the Bootstrap Grid to Put Elements Side By Side
+Bootstrap uses a responsive grid system that makes it easier to put elements into rows and tell each element's relative width.
+
+![Bootstrap 12 column grid layout](https://www.evernote.com/shard/s116/sh/f0944d97-08b8-4615-8273-a327bf41fb05/de1a3acbceef89ae/deep/0/)
+
 ## Ditch Custom CSS for Bootstrap
 ## Use Spans for Inline Elements
 ## Create a Custom Heading
