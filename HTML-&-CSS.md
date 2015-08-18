@@ -682,26 +682,171 @@ These four values work like a clock: **top, right, bottom, left**, and will prod
 ```
 
 ## Use Clockwise Notation to Specify the Margin of an Element
+Instead of specifying an element's **margin-top, margin-right, margin-bottom, and margin-left** attributes, you can specify them all in one line, like this: margin: 10px 20px 10px 20px;.
+
+These four values work like a clock: **top, right, bottom, left**, and will produce the exact same result as using the side-specific margin instructions.
+
+```
+.green-box {
+  background-color: green;
+  margin: 40px 20px 20px 40px;
+}
+```
+
 ## Style the HTML Body Element
+Every HTML page has the **body** element. and it is like the main page.
+
 ## Inherit Styles from the Body Element
+The **body** element can be style just like any other.
+
+```
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: Monospace
+  }
+
+</style>
+<h1>Hello World</h1>
+```
+
 ## Prioritize One Style Over Another
+Classes to individual elements take priority over general styles.
+
+```
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text{color: pink;}
+</style>
+<h1 class="pink-text">Hello World!</h1>
+```
+
+This makes for a pink h1 instead of a green one.
+
 ## Override Styles in Subsequent CSS
+> We just proved that our classes will override the body element's CSS. So the next logical question is, what can we do to override our pink-text class?
+
+ The answer is yes, if we add a new class that changes the same property, the last one will be the one applied.
+
 ## Override Class Declarations by Styling ID Attributes
+We can use **id** to override  styling too.
+
+```
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text{color:orange;}
+</style>
+<h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
+```
+
 ## Override Class Declarations with Inline Styles
+Remember, in line styles look like this: `<h1 style="color: green">` They will override everything else that was changing the text color of h1.
+
 ## Override All Other Styles by using Important
+In many situations, you will use CSS libraries. These may accidentally override your own CSS. So when you absolutely need to be sure that an element has specific CSS, you can use !important.
+
+An example of how to do this is: `color: red !important;` This will make sure that we use the wanted property regardless of other overrides.
+
 ## Use Hex Code for Specific Colors
+With CSS, we use 6 hexadecimal number to represent colors. For example, #000000 is the lowest possible value, and it represents the color black.
+
+This is the same as #RRGGBB which can also be simplified to #RGB.
+
 ## Use Hex Code to Color Elements White
+**0** is the lowest number in hex code, and represents a complete absence of color. **F** is the highest number in hex code, and it represents the maximum possible brightness.
+
 ## Use Hex Code to Color Elements Red
+Hex code follows the red-green-blue, or rgb format. The first two digits of hex code represent the amount of red in the color. The third and fourth digit represent the amount of green. The fifth and sixth represent the amount of blue.
+
+So to get the absolute brightest red, you would just use F for the first and second digits (the highest possible value) and 0 for the third, fourth, fifth and sixth digits (the lowest possible value).
+
 ## Use Hex Code to Color Elements Green
+Just as with red and the others.
+
+```
+<style>
+  body {
+    background-color: #00FF00;
+  }
+</style>
+```
+
 ## Use Hex Code to Color Elements Blue
+
+```
+<style>
+  body {
+    background-color: #0000FF;
+  }
+</style>
+```
+
 ## Use Hex Code to Mix Colors
+Orange is pure red, mixed with some green, and no blue.
+
+```
+<style>
+  body {
+    background-color: #FFA500;
+  }
+</style>
+```
+
 ## Use Hex Code to Color Elements Gray
+We can also create different shades of gray by evenly mixing all three colors. `background-color: #808080;`
+
 ## Use Hex Code for Specific Shades of Gray
+We can also create other shades of gray by evenly mixing all three colors. We can go very close to true black. `background-color: #111111;`
+
 ## Use Abbreviated Hex Code
+red, which is #FF0000 in hex code, can be shortened to #F00. That is, one digit for red, one digit for green, one digit for blue.
+
+This reduces the total number of possible colors to around 4,000. But browsers will interpret #FF0000 and #F00 as exactly the same color.
+
+```
+<style>
+  body {
+    background-color: #F00;
+  }
+</style>
+```
+
 ## Use RGB values to Color Elements
+Another way you can represent colors in CSS is by using rgb values.
+
+RGB values look like this: rgb(0, 0, 0) for black and rgb(255, 255, 255) for white.
+
+Instead of using six hexadecimal digits like you do with hex code, with rbg you specify the brightness of each color with a number between 0 and 255. `background-color: rgb(0,0,0);`
+
 ## Use RGB to Color Elements White
+`background-color: rgb(255,255,255)`
+
 ## Use RGB to Color Elements Red
+`background-color: rgb(255, 0, 0)`
+
 ## Use RGB to Color Elements Green
+The rgb value green: **rgb(0, 255, 0)**
+
 ## Use RGB to Color Elements Blue
+The RGB value blue: **rgb(0, 0, 255)**
+
 ## Use RGB to Mix Colors
+RGB value orange: **rgb(255, 165, 0)**
+
 ## Use RGB to Color Elements Gray
+RGB value for gray: **rgb(128, 128, 128)**
