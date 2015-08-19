@@ -74,7 +74,7 @@ Web developers traditionally use **lorem ipsum** text as placeholder text. It's 
 Deleting elements is very simple. All you have to do is remove everything from the opening to the closing of the element and it will be removed. No extra code is needed.
 
 ## Change the Color of Text
-CSS allows us to change  many styles. To change the color of an element he use **color**.
+CSS allows us to change  many styles. To change the color of an element we use `color`.
 
 Here's how you would set your h2 element's text color to blue: `<h2 style="color: blue">CatPhotoApp</h2>`.
 
@@ -87,11 +87,11 @@ Here's how you would set your h2 element's text color to blue: `<h2 style="color
 ## Use CSS Selectors to Style Elements
 Instead of giving style attributes one by one, we can do this to multiple elements at the same time.
 
-You can reate a style element like this: `<style></style>`.
+You can create a style element like this: `<style></style>`.
 
-Inside that style element, you can create a CSS selector for all h2 elements. For example, if you wanted all h2 elements to be red, your style element would look like this: <style>h2 {color: red;}</style>.
+Inside that style element, you can create a CSS selector for any HTML Elements. For example, if you wanted all h2 elements to be red, your style element would look like this: `<style>h2 {color: red;}</style>`.
 
-Note that it's important to have both opening and closing curly braces ({ and }) around each element's style. You also need to make sure your element's style is between the opening and closing style tags. Finally, be sure to add the semicolon to the end of each of your element's styles.
+Note that it's important to have both opening and closing curly braces `({` and `})` around each element's style. You also need to make sure your element's style is between the opening and closing style tags. Finally, be sure to add the semicolon to the end of each of your element's styles.
 
 ```
 <style>
@@ -123,9 +123,9 @@ Note that in your CSS style element, classes should start with a period. In your
 ```
 
 ## Style Multiple Elements with a CSS Class
-Remember that you can attach classes to HTML elements by using class="your-class-here" within the relevant element's opening tag.
+You can attach classes to HTML elements by using `class="your-class-here"` within the relevant element's opening tag.
 
-Remember that CSS selectors require a period at the beginning like this: `.blue-text { color: blue; }`, but that class declarations don't use a period, like this: `<h2 class="blue-text">CatPhotoApp<h2>`.
+CSS selectors require a period at the beginning like this: `.blue-text { color: blue; }`, but that class declarations don't use a period, like this: `<h2 class="blue-text">CatPhotoApp<h2>`.
 
 ```
 <style>
@@ -140,7 +140,7 @@ Remember that CSS selectors require a period at the beginning like this: `.blue-
 ```
 
 ## Change the Font Size of an Element
-Font size is controlled by the font-size CSS attribute, like this: `h1 { font-size: 30px; }`.
+Font size is controlled by the `font-size` CSS attribute, like this: `h1 { font-size: 30px; }`.
 
 ```
 <style>
@@ -159,9 +159,9 @@ Font size is controlled by the font-size CSS attribute, like this: `h1 { font-si
 ```
 
 ## Set the Font Family of an Element
-You can set an element's font by using the font-family attribute.
+You can set an element's font by using the `font-family` attribute.
 
-For example, if you wanted to set your h2 element's font to Sans-serif, you would use the following CSS: `h2 { font-family: Sans-serif; }`.
+For example, if you wanted to set your h2 element's font to `Sans-serif`, you would use the following CSS: `h2 { font-family: Sans-serif; }`.
 
 ```
 <style>
@@ -182,7 +182,7 @@ For example, if you wanted to set your h2 element's font to Sans-serif, you woul
 ```
 
 ## Import a Google Font
-To import font from Google or any other site, this is the format that you should follow: `<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">`
+To import a font from Google or any other site, this is the format that you should follow: `<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">`
 
 ```
 <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -208,9 +208,9 @@ To import font from Google or any other site, this is the format that you should
 ```
 
 ## Specify How Fonts Should Degrade
-There are several default fonts that are available in all browsers. These include **Monospace, Serif** and **Sans-Serif**.
+There are several default fonts that are available in all browsers. These include `Monospace`, `Serif` and `Sans-Serif`.
 
-For example, if you wanted an element to use the Helvetica font, but also degrade to the Sans-Serif font when Helvetica wasn't available, you could use this CSS style: `p { font-family: Helvetica, Sans-Serif; }`.
+For example, if you wanted an element to use the `Helvetica` font, but also degrade to the `Sans-Serif` font when `Helvetica` wasn't available, you could use this CSS style: `p { font-family: Helvetica, Sans-Serif; }`.
 
 ```
 <!--<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
@@ -236,7 +236,7 @@ For example, if you wanted an element to use the Helvetica font, but also degrad
 ```
 
 ## Add Images to your Website
-You can add images to your website by using the img element, and point to an specific image's URL using the src attribute.
+You can add images to your website by using the `img` element, and point to an specific image's URL using the `src` attribute.
 
 An example of this would be `<img src="www.your-image-source.com/your-image.jpg">`. Note that in most cases, img elements are self-closing.
 
@@ -264,7 +264,7 @@ An example of this would be `<img src="www.your-image-source.com/your-image.jpg"
 ```
 
 ## Size your Images
-CSS has an attribute called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width.
+CSS has an attribute called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width.
 
 For example, if we wanted to create a CSS class called larger-image that gave HTML elements a width of 500 pixels, we'd use: `<style> .larger-image { width: 500px; } </style>`.
 
@@ -298,7 +298,7 @@ For example, if we wanted to create a CSS class called larger-image that gave HT
 ```
 
 ## Add Borders Around your Elements
-CSS borders have attributes like style, color and width.
+CSS borders have attributes like `style`, `color` and `width`.
 
 For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class: `<style> .thin-red-border { border-color: red; border-width: 5px; border-style: solid; } </style>`.
 
@@ -338,7 +338,7 @@ For example, if we wanted to create a red, 5 pixel border around an HTML element
 ```
 
 ## Add Rounded Corners with a Border Radius
-To make round corners it is all about **border-radius** and pixels.
+To make round corners it is all about `border-radius` and pixels.
 
 You can specify a border-radius with pixels. This will affect how rounded the corners are.
 
@@ -352,7 +352,7 @@ You can specify a border-radius with pixels. This will affect how rounded the co
 ```
 
 ## Make Circular Images with a Border Radius
-You can also use percentage to **border*radius** to make things round.
+You can also use percentage to `border-radius` to make things round.
 
 ```
 .thick-green-border {
@@ -364,7 +364,7 @@ You can also use percentage to **border*radius** to make things round.
 ```
 
 ## Link to External Pages with Anchor Elements
-**a** elements, also known as anchor elements, are used to link to content outside of the current page.
+`a` elements, also known as anchor elements, are used to link to content outside of the current page.
 
 Here's an example: `<p>Here's a <a href="http://freecodecamp.com"> link to Free Code Camp</a> for you to follow.</p>`.
 
@@ -372,15 +372,9 @@ Here's an example: `<p>Here's a <a href="http://freecodecamp.com"> link to Free 
 Nesting is simple, just add one element inside another: `<p> click here for <a href="http://www.catphotoapp.com">cat photos</a></p>`
 
 ## Make Dead Links using the Hash Symbol
-Sometimes you want to add a elements to your website before you know where they will link.
+Replace your a element's `href` attribute with a `#`, also known as a hash symbol, to turn it into a dead link. Sometimes you want to add a elements to your website before you know where they will link.
 
 This is also handy when you're changing the behavior of a link using jQuery, which we'll learn about later.
-
-Replace your a element's href attribute with a #, also known as a hash symbol, to turn it into a dead link. `Sometimes you want to add a elements to your website before you know where they will link.
-
-This is also handy when you're changing the behavior of a link using jQuery, which we'll learn about later.
-
-Replace your a element's href attribute with a #, also known as a hash symbol, to turn it into a dead link.`
 
 ## Turn an Image into a Link
 Creating images that link to things is essential and one of the most used things in Web Dev. Nest your image within an a element. Here's an example: `<a href="#"><img src="http://bit.ly/fcc-running-cats"/></a>`.
