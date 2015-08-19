@@ -12,18 +12,18 @@ HTML elements are written with a start tag, with an end tag, with the content in
 
 `<p>My first HTML paragraph.</p>`
 
-Opening tags look like this: `<h1>. Closing tags look like this: </h1>`  Note that the only difference between opening tags and closing tags is that closing tags have a slash after their opening angle bracket.
+Opening tags look like this: `<h1>`. Closing tags look like this: `</h1>`  Note that the only difference between opening tags and closing tags is that closing tags have a slash after their opening angle bracket.
 
 ## Headline with the h2 Element
-You can create different levels of Heading elements by using h1, h2, h3, h4, h5, h6 which will result on different sizes.
+You can create different levels of Heading elements by using **h1, h2, h3, h4, h5, h6** which will result on different sizes.
 
 ```
 <h1>Hello World</h1>
-<h2> CatPhotoApp</h2>
+<h2>CatPhotoApp</h2>
 ```
 
 ## Inform with the Paragraph Element
-**p** elements are the preferred element for normal-sized paragraph text on websites. P is short for "paragraph".
+`p` elements are the preferred element for normal-sized paragraph text on websites. P is short for "paragraph".
 
 You can create a p element like so: `<p>I'm a p tag!</p>`.
 
@@ -34,9 +34,16 @@ You can create a p element like so: `<p>I'm a p tag!</p>`.
 ```
 
 ## Uncomment HTML
+Given that there are two ways to write comments in JavaScript:
+1. Using `//`
+2. Using `<!-- text -->`
+
+You can easily uncomment by just removing the comment elements.
+
+## Comment out HTML
 Commenting is a way that you can leave comments within your code without affecting the code itself.
 
-Commenting is also a convenient way to make code inactive without having to delete it entirely.
+It is also a convenient way to make code inactive without having to delete it entirely.
 
 You can start a comment with `<!-- and end a comment with -->`.
 
@@ -50,23 +57,10 @@ You can start a comment with `<!-- and end a comment with -->`.
 -->
 ```
 
-## Comment out HTML
-Remember that in order to start a comment, you need to use `<!-- and to end a comment, you need to use -->.`
-
-```
-<!--
-<h1>Hello World</h1>
--->
-<h2>CatPhotoApp</h2>
-<!--
-<p>Hello Paragraph</p>
--->
-```
-
 ## Fill in the Blank with Placeholder Text
-Web developers traditionally use lorem ipsum text as placeholder text. It's called lorem ipsum text because those are the first two words of a famous passage by Cicero of Ancient Rome.
+Web developers traditionally use **lorem ipsum** text as placeholder text. It's called lorem ipsum text because those are the first two words of a famous passage by Cicero of Ancient Rome.
 
-lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.
+**lorem ipsum** text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.
 
 ```
 <h1>Hello World</h1>
