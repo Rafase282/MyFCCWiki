@@ -176,7 +176,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 40. [Give your JavaScript Slot Machine some stylish images](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#give-your-javascript-slot-machine-some-stylish-images)
 
 ## Basic Algorithm Scripting
-1. [Meet Bonfire]()
+1. [Meet Bonfire](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Meet-Bonfire)
 2. [Reverse a String]()
 3. [Factorialize a Number]()
 4. [Check for Palindromes]()

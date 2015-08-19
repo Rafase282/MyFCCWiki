@@ -346,7 +346,7 @@ For example, if we wanted to create a red, 5 pixel border around an HTML element
 ## Add Rounded Corners with a Border Radius
 To make round corners it is all about **border-radius** and pixels.
 
-> You can specify a border-radius with pixels. This will affect how rounded the corners are.
+You can specify a border-radius with pixels. This will affect how rounded the corners are.
 
 ```
 .thick-green-border {
@@ -370,7 +370,7 @@ You can also use percentage to **border*radius** to make things round.
 ```
 
 ## Link to External Pages with Anchor Elements
-> **a** elements, also known as anchor elements, are used to link to content outside of the current page.
+**a** elements, also known as anchor elements, are used to link to content outside of the current page.
 
 Here's an example: `<p>Here's a <a href="http://freecodecamp.com"> link to Free Code Camp</a> for you to follow.</p>`.
 
