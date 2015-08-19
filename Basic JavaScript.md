@@ -194,8 +194,22 @@ while(i < 5) {
 ```
 
 ## Generate Random Fractions with JavaScript
+JavaScript has a **Math.random()** function that generates a random decimal number.
+
 ## Generate Random Whole Numbers with JavaScript
+It's great that we can create random decimal numbers, but it's even more useful if we lot more useful to generate a random whole number.
+
+To achieve this we can multiply the random number by ten and use the **Math.floor()** to convert the decimal number to a whole number
+
+`return(Math.floor(Math.random()*10));`
+
 ## Generate Random Whole Numbers within a Range
+We can use a certain mathematical expression to get a random number between two numbers.
+
+`Math.floor(Math.random() * (max - min + 1)) + min`
+
+By using this we can control the output of a random number.
+
 ## Use Conditional Logic with If-Else Statements
 ## Sift through Text with Regular Expressions
 ## Find Numbers with Regular Expressions
