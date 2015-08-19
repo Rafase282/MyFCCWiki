@@ -1,17 +1,10 @@
 # Author
+![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128) Submitted by Rafase282
 
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128) submitted by Rafase282
-
-[Github](https://github.com/Rafase282) |
-[FreeCodeCamp](http://www.freecodecamp.com/rafase282) | 
-[CodePen](http://codepen.io/Rafase282/) |
-[LinkedIn](https://www.linkedin.com/in/rafase282) |
-[Blog/Site](https://rafase282.wordpress.com/) |
-[My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
+[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) |  [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
 
 # Details
-
-* Difficulty: 2/5
+- Difficulty: 2/5
 
 Sum all the prime numbers up to and including the provided number.
 
@@ -22,11 +15,11 @@ The provided number may not be a prime.
 Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help-when-I-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 # Useful Links
-
-* [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-* [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 # Problem Script:
+
 ```
 function sumPrimes(num) {
   return num;
@@ -36,7 +29,6 @@ sumPrimes(10);
 ```
 
 ## Explanation:
-
 The explanation for this problem is very simple. You will generate a list of prime numbers up to the number you are given as a parameter. Then you need to add them all up and return that value. The tricky part is on generating the list of prime numbers. I suggest you find a code or a good math algorithm that you can turn into code.
 
 ## Hint: 1
@@ -74,12 +66,11 @@ return res;
 ```
 
 ## My Code Explanation:
-
-* Create a function that generates the numbers from 1 to **num** and check if they are prime along the way.
-* Declare the variables that will be needed.
-* Start with 2, if it has not been marked and added to the sieve array then it is a prime and we add it to the prime array.
-* Add the others to the sieve array.
-* Return the primes
-* Loop through the returned array and add all the elements to then return the final value.
+- Create a function that generates the numbers from 1 to **num** and check if they are prime along the way.
+- Declare the variables that will be needed.
+- Start with 2, if it has not been marked and added to the sieve array then it is a prime and we add it to the prime array.
+- Add the others to the sieve array.
+- Return the primes
+- Loop through the returned array and add all the elements to then return the final value.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
