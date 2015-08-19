@@ -91,7 +91,7 @@ Here's how you would set your h2 element's text color to blue: `<h2 style="color
 ## Use CSS Selectors to Style Elements
 Instead of giving style attributes one by one, we can do this to multiple elements at the same time.
 
-> At the top of your code, create a style element like this: <style></style>.
+You can reate a style element like this: `<style></style>`.
 
 Inside that style element, you can create a CSS selector for all h2 elements. For example, if you wanted all h2 elements to be red, your style element would look like this: <style>h2 {color: red;}</style>.
 
@@ -440,9 +440,7 @@ You can create placeholder text like so: `<input type="text" placeholder="this i
 
 `<input type="text" placeholder="cat photo URL">`
 
-## Create a Form Element
-> You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
-
+## Create a Form ElementYou can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
 For example: `<form action="/url-where-you-want-to-submit-form-data"></form>`.
 
 `<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>`
@@ -470,7 +468,7 @@ For example, if you wanted to make a text input field required, you can just add
 ```
 
 ## Create a Set of Radio Buttons
-> You can use radio buttons for questions where you want the user to only give you one answer.
+You can use radio buttons for questions where you want the user to only give you one answer.
 
 Radio buttons are a type of input. They should all be nested in their own label element. Furthermore, all related radio buttons should have the same name attribute.
 
@@ -522,28 +520,29 @@ To do this, just add the word "checked" to the inside of an input element. For e
 ```
 
 ## Nest Many Elements within a Single Div Element
-> The div element, also known as a division element, is a general purpose container for other elements.
+The div element, also known as a division element, is a general purpose container for other elements.
 
-> The div element is probably the most commonly used HTML element of all. It's useful for passing the CSS of its own class declarations down to all the elements that it contains.
+The div element is probably the most commonly used HTML element of all. It's useful for passing the CSS of its own class declarations down to all the elements that it contains.
 
-> Just like any other non-self-closing element, you can open a div element with <div> and close it on another line with </div>.
+Just like any other non-self-closing element, you can open a div element with <div> and close it on another line with </div>.
 
-> ```
-> <div>
->   <p>Things cats love:</p>
->   <ul>
->     <li>cat nip</li>
->     <li>laser pointers</li>
->     <li>lasagna</li>
->   </ul>
->   <p>Top 3 things cats hate:</p>
->   <ol>
->     <li>flea treatment</li>
->     <li>thunder</li>
->     <li>other cats</li>
->   </ol>
-> </div>
-> ```
+```
+<div>
+ <p>Things cats love:</p>
+ <ul>
+   <li>cat nip</li>
+   <li>laser pointers</li>
+   <li>lasagna</li>
+ </ul>
+ <p>Top 3 things cats hate:</p>
+ <ol>
+   <li>flea treatment</li>
+   <li>thunder</li>
+   <li>other cats</li>
+ </ol>
+</div>
+>
+```
 
 ## Give a Background Color to a Div Element
 You can set an element's background color with the background-color attribute.
@@ -729,7 +728,7 @@ Classes to individual elements take priority over general styles.
 This makes for a pink h1 instead of a green one.
 
 ## Override Styles in Subsequent CSS
-> We just proved that our classes will override the body element's CSS. So the next logical question is, what can we do to override our pink-text class?
+We just proved that our classes will override the body element's CSS. So the next logical question is, what can we do to override our pink-text class?
 
  The answer is yes, if we add a new class that changes the same property, the last one will be the one applied.
 
@@ -763,17 +762,17 @@ In many situations, you will use CSS libraries. These may accidentally override 
 An example of how to do this is: `color: red !important;` This will make sure that we use the wanted property regardless of other overrides.
 
 ## Use Hex Code for Specific Colors
-With CSS, we use 6 hexadecimal number to represent colors. For example, #000000 is the lowest possible value, and it represents the color black.
+With CSS, we use 6 hexadecimal number to represent colors. For example, `#000000` is the lowest possible value, and it represents the color black.
 
 This is the same as #RRGGBB which can also be simplified to #RGB.
 
 ## Use Hex Code to Color Elements White
-**0** is the lowest number in hex code, and represents a complete absence of color. **F** is the highest number in hex code, and it represents the maximum possible brightness.
+`0` is the lowest number in hex code, and represents a complete absence of color. `F` is the highest number in hex code, and it represents the maximum possible brightness.
 
 ## Use Hex Code to Color Elements Red
 Hex code follows the red-green-blue, or rgb format. The first two digits of hex code represent the amount of red in the color. The third and fourth digit represent the amount of green. The fifth and sixth represent the amount of blue.
 
-So to get the absolute brightest red, you would just use F for the first and second digits (the highest possible value) and 0 for the third, fourth, fifth and sixth digits (the lowest possible value).
+So to get the absolute brightest red, you would just use `F` for the first and second digits (the highest possible value) and `0` for the third, fourth, fifth and sixth digits (the lowest possible value).
 
 ## Use Hex Code to Color Elements Green
 Just as with red and the others.
@@ -829,7 +828,7 @@ This reduces the total number of possible colors to around 4,000. But browsers w
 ## Use RGB values to Color Elements
 Another way you can represent colors in CSS is by using rgb values.
 
-RGB values look like this: rgb(0, 0, 0) for black and rgb(255, 255, 255) for white.
+RGB values look like this: `rgb(0, 0, 0)` for black and `rgb(255, 255, 255)` for white.
 
 Instead of using six hexadecimal digits like you do with hex code, with rbg you specify the brightness of each color with a number between 0 and 255. `background-color: rgb(0,0,0);`
 
@@ -840,13 +839,13 @@ Instead of using six hexadecimal digits like you do with hex code, with rbg you 
 `background-color: rgb(255, 0, 0)`
 
 ## Use RGB to Color Elements Green
-The rgb value green: **rgb(0, 255, 0)**
+The rgb value green: `rgb(0, 255, 0)`
 
 ## Use RGB to Color Elements Blue
-The RGB value blue: **rgb(0, 0, 255)**
+The RGB value blue: `rgb(0, 0, 255)`
 
 ## Use RGB to Mix Colors
-RGB value orange: **rgb(255, 165, 0)**
+RGB value orange: `rgb(255, 165, 0)`
 
 ## Use RGB to Color Elements Gray
-RGB value for gray: **rgb(128, 128, 128)**
+RGB value for gray: `rgb(128, 128, 128)`
