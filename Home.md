@@ -176,23 +176,23 @@ I will try to keep everything updated. If you are also part of the camp or would
 40. [Give your JavaScript Slot Machine some stylish images](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#give-your-javascript-slot-machine-some-stylish-images)
 
 ## Basic Algorithm Scripting
-1. Meet Bonfire
-2. Reverse a String
-3. Factorialize a Number
-4. Check for Palindromes
-5. Find the Longest Word in a String
-6. Title Case a Sentence
-7. Return Largest Numbers in Arrays
-8. Confirm the Ending
-9. Repeat a string repeat a string
-10. Truncate a string
-11. Chunky Monkey
-12. Slasher Flick
-13. Mutations
-14. Falsey Bouncer
-15. Where art thou
-16. Seek and Destroy
-17. Where do I belong
+1. [Meet Bonfire]()
+2. [Reverse a String]()
+3. [Factorialize a Number]()
+4. [Check for Palindromes]()
+5. [Find the Longest Word in a String]()
+6. [Title Case a Sentence]()
+7. [Return Largest Numbers in Arrays]()
+8. [Confirm the Ending]()
+9. [Repeat a string repeat a string]()
+10. [Truncate a string]()
+11. [Chunky Monkey]()
+12. [Slasher Flick]()
+13. [Mutations]()
+14. [Falsey Bouncer]()
+15. [Where art thou]()
+16. [Seek and Destroy]()
+17. [Where do I belong]()
 
 ## Basic Front End Development Projects
 1. Get Set for Ziplines
