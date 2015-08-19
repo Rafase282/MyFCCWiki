@@ -134,46 +134,46 @@ I will try to keep everything updated. If you are also part of the camp or would
 17. [Use jQuery to Modify the Entire Page](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/jQuery#use-jquery-to-modify-the-entire-page)
 
 ## Basic JavaScript
-1. Comment your JavaScript Code
-2. Understand Boolean Values
-3. Declare JavaScript Variables
-4. Declare String Variables
-5. Check the Length Property of a String Variable
-6. Use Bracket Notation to Find the First Character in a String
-7. Use Bracket Notation to Find the Nth Character in a String
-8. Use Bracket Notation to Find the Last Character in a String
-9. Use Bracket Notation to Find the Nth-to-Last Character in a String
-10. Add Two Numbers with JavaScript
-11. Subtract One Number from Another with JavaScript
-12. Multiply Two Numbers with JavaScript
-13. Divide One Number by Another with JavaScript
-14. Create Decimal Numbers with JavaScript
-15. Perform Arithmetic Operations on Decimals with JavaScript
-16. Store Multiple Values in one Variable using JavaScript Arrays
-17. Nest one Array within Another Array
-18. Access Array Data with Indexes
-19. Modify Array Data With Indexes
-20. Manipulate Arrays With pop()
-21. Manipulate Arrays With push()
-22. Manipulate Arrays With shift()
-23. Manipulate Arrays With unshift()
-24. Write Reusable JavaScript with Functions
-25. Build JavaScript Objects
-26. Manipulate JavaScript Objects
-27. Iterate with JavaScript For Loops
-28. Iterate with JavaScript While Loops
-29. Generate Random Fractions with JavaScript
-30. Generate Random Whole Numbers with JavaScript
-31. Generate Random Whole Numbers within a Range
-32. Use Conditional Logic with If-Else Statements
-33. Sift through Text with Regular Expressions
-34. Find Numbers with Regular Expressions
-35. Find White Space with Regular Expressions
-36. Invert Regular Expression Matches with JavaScript
-37. Create a JavaScript Slot Machine
-38. Add your JavaScript Slot Machine Slots
-39. Bring your JavaScript Slot Machine to Life
-40. Give your JavaScript Slot Machine some stylish images
+1. [Comment your JavaScript Code]()
+2. [Understand Boolean Values]()
+3. [Declare JavaScript Variables]()
+4. [Declare String Variables]()
+5. [Check the Length Property of a String Variable]()
+6. [Use Bracket Notation to Find the First Character in a String]()
+7. [Use Bracket Notation to Find the Nth Character in a String]()
+8. [Use Bracket Notation to Find the Last Character in a String]()
+9. [Use Bracket Notation to Find the Nth-to-Last Character in a String]()
+10. [Add Two Numbers with JavaScript]()
+11. [Subtract One Number from Another with JavaScript]()
+12. [Multiply Two Numbers with JavaScript]()
+13. [Divide One Number by Another with JavaScript]()
+14. [Create Decimal Numbers with JavaScript]()
+15. [Perform Arithmetic Operations on Decimals with JavaScript]()
+16. [Store Multiple Values in one Variable using JavaScript Arrays]()
+17. [Nest one Array within Another Array]()
+18. [Access Array Data with Indexes]()
+19. [Modify Array Data With Indexes]()
+20. [Manipulate Arrays With pop()]()
+21. [Manipulate Arrays With push()]()
+22. [Manipulate Arrays With shift()]()
+23. [Manipulate Arrays With unshift()]()
+24. [Write Reusable JavaScript with Functions]()
+25. [Build JavaScript Objects]()
+26. [Manipulate JavaScript Objects]()
+27. [Iterate with JavaScript For Loops]()
+28. [Iterate with JavaScript While Loops]()
+29. [Generate Random Fractions with JavaScript]()
+30. [Generate Random Whole Numbers with JavaScript]()
+31. [Generate Random Whole Numbers within a Range]()
+32. [Use Conditional Logic with If-Else Statements]()
+33. [Sift through Text with Regular Expressions]()
+34. [Find Numbers with Regular Expressions]()
+35. [Find White Space with Regular Expressions]()
+36. [Invert Regular Expression Matches with JavaScript]()
+37. [Create a JavaScript Slot Machine]()
+38. [Add your JavaScript Slot Machine Slots]()
+39. [Bring your JavaScript Slot Machine to Life]()
+40. [Give your JavaScript Slot Machine some stylish images]()
 
 ## Basic Algorithm Scripting
 1. Meet Bonfire
