@@ -32,29 +32,26 @@ reverseString('hello');
 ```
 
 ## Explanation:
-This is very simple, they just want you to get familiar with how their Bonfires work.
+You need to take the string and reverse it so if you had originally 'hello', it will turn into 'olleh'. Because you will need to split it, you will be working with Arrays too.
 
 ## Hint: 1
-Read details.
+You should split the string by characters.
 
 ## Hint: 2
-Did you read all the details?
+Find out about the built in function to reverse a string.
 
 ## Hint: 3
-You need to change the return statement to what they ask.
+Once you have split and reversed, do not forget to join them back into one string.
 
 ## My code:
 
 ```
-function meetBonfire(argument) {
-  // Good luck!
-  console.log("you can read this function's argument in the developer tools", argument);
+function reverseString(str) {
+  var strReverse = str.split('').reverse().join('');
 
-  return true;
+  return strReverse;
 }
-
-meetBonfire("You can do this!");
 ```
 
 ## My Code Explanation:
-All you had to do was change from false to true.
+This is a straightforward code. We create a variable that will hold the string splitted by characters, and then reversed and put back together.
