@@ -58,4 +58,6 @@ function palindrome(str) {
 ```
 
 ## My Code Explanation:
+We use regular expressions to replace any uppercase letter into a lowercase. Then we check if the string is the same as the reversed string using `split()` to split the original string by characters, then reverse and then join it back together.
+
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
