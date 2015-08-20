@@ -54,4 +54,4 @@ function reverseString(str) {
 ```
 
 ## My Code Explanation:
-This is a straightforward code. We create a variable that will hold the string splitted by characters, and then reversed and put back together.
+This is a straightforward code. We create a variable that will hold the string split by characters, and then reversed and put back together.
