@@ -840,3 +840,5 @@ RGB value orange: `rgb(255, 165, 0)`
 
 ## Use RGB to Color Elements Gray
 RGB value for gray: `rgb(128, 128, 128)`
+
+## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
