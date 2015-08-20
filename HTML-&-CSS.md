@@ -377,10 +377,10 @@ Replace your a element's `href` attribute with a `#`, also known as a hash symbo
 This is also handy when you're changing the behavior of a link using jQuery, which we'll learn about later.
 
 ## Turn an Image into a Link
-Creating images that link to things is essential and one of the most used things in Web Dev. Nest your image within an a element. Here's an example: `<a href="#"><img src="http://bit.ly/fcc-running-cats"/></a>`.
+Creating images that link to things is essential and one of the most used things in Web Dev. Nest your image within an `a` element. Here's an example: `<a href="#"><img src="http://bit.ly/fcc-running-cats"/></a>`.
 
 ## Add Alt Text to an Image for Accessibility
-**alt** attributes, also known as alt text, are what browsers will display if they fail to load the image. alt attributes are also important for blind or visually impaired users to understand what an image portrays. And search engines also look at alt attributes.
+`alt` attributes, also known as alt text, are what browsers will display if they fail to load the image. alt attributes are also important for blind or visually impaired users to understand what an image portrays. And search engines also look at alt attributes.
 
 In short, every image should have an alt attribute!
 
@@ -389,7 +389,7 @@ You can add an alt attribute right in the img element like this: `<img src="www.
 ## Create a Bulleted Unordered List
 HTML has a special element for creating unordered lists, or bullet point-style lists.
 
-Unordered lists start with a **<ul>** element. Then they contain some number of **<li>** elements.
+Unordered lists start with a `<ul>` element. Then they contain some number of `<li>` elements.
 
 For example:
 
@@ -405,7 +405,7 @@ would create a bullet point-style list of "milk" and "cheese".
 ## Create an Ordered List
 HTML has a special element for creating ordered lists, or numbered-style lists.
 
-Ordered lists start with a **<ol>** element. Then they contain some number of **<li>** elements.
+Ordered lists start with a `<ol>` element. Then they contain some number of `<li>` elements.
 
 For example:
 
@@ -430,13 +430,13 @@ You can create placeholder text like so: `<input type="text" placeholder="this i
 
 `<input type="text" placeholder="cat photo URL">`
 
-## Create a Form ElementYou can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
-For example: `<form action="/url-where-you-want-to-submit-form-data"></form>`.
+## Create a Form Element
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your `form` element. For example: `<form action="/url-where-you-want-to-submit-form-data"></form>`.
 
 `<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>`
 
 ## Add a Submit Button to a Form
-You will need to create a button element. Here's an example submit button: `<button type="submit">this button submits the form</button>`.
+You will need to create a `button` element. Here's an example submit button: `<button type="submit">this button submits the form</button>`.
 
 ```
 <form action="/submit-cat-photo">
@@ -510,11 +510,11 @@ To do this, just add the word "checked" to the inside of an input element. For e
 ```
 
 ## Nest Many Elements within a Single Div Element
-The div element, also known as a division element, is a general purpose container for other elements.
+The `div` element, also known as a division element, is a general purpose container for other elements.
 
 The div element is probably the most commonly used HTML element of all. It's useful for passing the CSS of its own class declarations down to all the elements that it contains.
 
-Just like any other non-self-closing element, you can open a div element with <div> and close it on another line with </div>.
+Just like any other non-self-closing element, you can open a `div` element with `<div>` and close it on another line with `</div>`.
 
 ```
 <div>
@@ -535,16 +535,16 @@ Just like any other non-self-closing element, you can open a div element with <d
 ```
 
 ## Give a Background Color to a Div Element
-You can set an element's background color with the background-color attribute.
+You can set an element's background color with the `background-color` attribute.
 
-For example, if you wanted an element's background color to be green, you'd use `.green-background { background-color: green; }` within your **style** element.
+For example, if you wanted an element's background color to be green, you'd use `.green-background { background-color: green; }` within your `style` element.
 
 ## Set the ID of an Element
-In addition to classes, each HTML element can also have an id attribute.
+In addition to classes, each HTML element can also have an `id` attribute.
 
 There are several benefits to using id attributes, and you'll learn more about them once you start using jQuery.
 
-id attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute.
+`id` attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute.
 
 Here's an example of how you give your h2 element the id of cat-photo-app: <h2 id="cat-photo-app">
 
@@ -612,14 +612,16 @@ Here's an example of how you give your h2 element the id of cat-photo-app: <h2 i
 ```
 
 ## Use an ID Attribute to Style an Element
-One cool thing about id attributes is that, like classes, you can style them using CSS.
+One cool thing about `id` attributes is that, like classes, you can style them using CSS.
 
-Here's an example of how you can take your element with the id attribute of cat-photo-element and give it the background color of green. In your style element: #cat-photo-element { background-color: green; }
+Here's an example of how you can take your element with the `id` attribute of cat-photo-element and give it the background color of green.
 
-Note that inside your style element, you always reference classes by putting a . in front of their names. You always reference ids by putting a # in front of their names.
+In your style element: `#cat-photo-element { background-color: green; }`
+
+Note that inside your style element, you always reference classes by putting a `.` in front of their names. You always reference ids by putting a `#` in front of their names.
 
 ## Adjusting the Padding of an Element
-HTML elements are essentially little rectangles. Three important attributes control the space that surrounds each HTML element: padding, margin, and border. An element's padding controls the amount of space between the element and its border.
+HTML elements are essentially little rectangles. Three important attributes control the space that surrounds each HTML element: `padding`, `margin`, and `border`. An element's padding controls the amount of space between the element and its border.
 
 ```
 .green-box {
@@ -629,7 +631,7 @@ HTML elements are essentially little rectangles. Three important attributes cont
 ```
 
 ## Adjust the Margin of an Element
-An element's margin controls the amount of space between an element's border and surrounding elements.
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 ```
 .green-box {
@@ -640,10 +642,10 @@ An element's margin controls the amount of space between an element's border and
 ```
 
 ## Add a Negative Margin to an Element
-An element's margin controls the amount of space between an element's border and surrounding elements. If you set an element's margin to a **negative value**, the element will grow **larger**.
+An element's `margin` controls the amount of space between an element's border and surrounding elements. If you set an element's margin to a **negative value**, the element will grow **larger**.
 
 ## Add Different Padding to Each Side of an Element
-CSS allows you to control the padding of an element on all four sides with **padding-top, padding-right, padding-bottom, and padding-left** attributes.
+CSS allows you to control the padding of an element on all four sides with `padding-top`, `padding-right`, `padding-bottom`, and `padding-left` attributes.
 
 ```
 .green-box {
@@ -656,12 +658,12 @@ CSS allows you to control the padding of an element on all four sides with **pad
 ```
 
 ## Add Different Margins to Each Side of an Element
-CSS allows you to control the margin of an element on all four sides with **margin-top, margin-right, margin-bottom, and margin-left** attributes.
+CSS allows you to control the margin of an element on all four sides with `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` attributes.
 
 ## Use Clockwise Notation to Specify the Padding of an Element
-Instead of specifying an element's **padding-top, padding-right, padding-bottom, and padding-left attributes**, you can specify them all in one line, like this: padding: 10px 20px 10px 20px;.
+Instead of specifying an element's `padding-top`, `padding-right`, `padding-bottom`, and `padding-lef`t attributes, you can specify them all in one line, like this: `padding: 10px 20px 10px 20px;`.
 
-These four values work like a clock: **top, right, bottom, left**, and will produce the exact same result as using the side-specific padding instructions.
+These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific padding instructions.
 
 ```
 .green-box {
@@ -671,9 +673,9 @@ These four values work like a clock: **top, right, bottom, left**, and will prod
 ```
 
 ## Use Clockwise Notation to Specify the Margin of an Element
-Instead of specifying an element's **margin-top, margin-right, margin-bottom, and margin-left** attributes, you can specify them all in one line, like this: margin: 10px 20px 10px 20px;.
+Instead of specifying an element's`margin-top`, `margin-right`, `margin-bottom`, and `margin-left` attributes, you can specify them all in one line, like this: `margin: 10px 20px 10px 20px;`.
 
-These four values work like a clock: **top, right, bottom, left**, and will produce the exact same result as using the side-specific margin instructions.
+These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific margin instructions.
 
 ```
 .green-box {
@@ -683,10 +685,10 @@ These four values work like a clock: **top, right, bottom, left**, and will prod
 ```
 
 ## Style the HTML Body Element
-Every HTML page has the **body** element. and it is like the main page.
+Every HTML page has the `body` element. and it is like the main page.
 
 ## Inherit Styles from the Body Element
-The **body** element can be style just like any other.
+The `body` element can be style just like any other.
 
 ```
 <style>
@@ -718,12 +720,10 @@ Classes to individual elements take priority over general styles.
 This makes for a pink h1 instead of a green one.
 
 ## Override Styles in Subsequent CSS
-We just proved that our classes will override the body element's CSS. So the next logical question is, what can we do to override our pink-text class?
-
- The answer is yes, if we add a new class that changes the same property, the last one will be the one applied.
+Your classes will override the body's CSS, if we add a new class that changes the same property, the last one will be the one applied.
 
 ## Override Class Declarations by Styling ID Attributes
-We can use **id** to override  styling too.
+We can use `id` to override  styling too.
 
 ```
 <style>
@@ -754,7 +754,7 @@ An example of how to do this is: `color: red !important;` This will make sure th
 ## Use Hex Code for Specific Colors
 With CSS, we use 6 hexadecimal number to represent colors. For example, `#000000` is the lowest possible value, and it represents the color black.
 
-This is the same as #RRGGBB which can also be simplified to #RGB.
+This is the same as `#RRGGBB` which can also be simplified to `#RGB`.
 
 ## Use Hex Code to Color Elements White
 `0` is the lowest number in hex code, and represents a complete absence of color. `F` is the highest number in hex code, and it represents the maximum possible brightness.
@@ -765,7 +765,7 @@ Hex code follows the red-green-blue, or rgb format. The first two digits of hex 
 So to get the absolute brightest red, you would just use `F` for the first and second digits (the highest possible value) and `0` for the third, fourth, fifth and sixth digits (the lowest possible value).
 
 ## Use Hex Code to Color Elements Green
-Just as with red and the others.
+Just as with [red](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#use-hex-code-to-color-elements-red) and the others.
 
 ```
 <style>
@@ -776,6 +776,7 @@ Just as with red and the others.
 ```
 
 ## Use Hex Code to Color Elements Blue
+Just as with [red](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#use-hex-code-to-color-elements-red) and the others.
 
 ```
 <style>
@@ -803,9 +804,9 @@ We can also create different shades of gray by evenly mixing all three colors. `
 We can also create other shades of gray by evenly mixing all three colors. We can go very close to true black. `background-color: #111111;`
 
 ## Use Abbreviated Hex Code
-red, which is #FF0000 in hex code, can be shortened to #F00. That is, one digit for red, one digit for green, one digit for blue.
+red, which is `#FF0000` in hex code, can be shortened to `#F00`. That is, one digit for red, one digit for green, one digit for blue.
 
-This reduces the total number of possible colors to around 4,000. But browsers will interpret #FF0000 and #F00 as exactly the same color.
+This reduces the total number of possible colors to around 4,000. But browsers will interpret `#FF0000` and `#F00` as exactly the same color.
 
 ```
 <style>
@@ -816,7 +817,7 @@ This reduces the total number of possible colors to around 4,000. But browsers w
 ```
 
 ## Use RGB values to Color Elements
-Another way you can represent colors in CSS is by using rgb values.
+Another way you can represent colors in CSS is by using `rgb` values.
 
 RGB values look like this: `rgb(0, 0, 0)` for black and `rgb(255, 255, 255)` for white.
 
