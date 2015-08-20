@@ -177,8 +177,8 @@ I will try to keep everything updated. If you are also part of the camp or would
 
 ## Basic Algorithm Scripting
 1. [Meet Bonfire](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Meet-Bonfire)
-2. [Reverse a String]()
-3. [Factorialize a Number]()
+2. [Reverse a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Reverse-a-String)
+3. [Factorialize a Number](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Factorialize-a-Number)
 4. [Check for Palindromes]()
 5. [Find the Longest Word in a String]()
 6. [Title Case a Sentence]()
