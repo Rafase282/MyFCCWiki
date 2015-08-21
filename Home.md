@@ -182,25 +182,25 @@ I will try to keep everything updated. If you are also part of the camp or would
 4. [Check for Palindromes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Check-for-Palindromes)
 5. [Find the Longest Word in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Find-the-Longest-Word-in-a-String)
 6. [Title Case a Sentence](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Title-Case-a-Sentence)
-7. [Return Largest Numbers in Arrays]()
-8. [Confirm the Ending]()
-9. [Repeat a string repeat a string]()
-10. [Truncate a string]()
-11. [Chunky Monkey]()
-12. [Slasher Flick]()
-13. [Mutations]()
-14. [Falsey Bouncer]()
-15. [Where art thou]()
-16. [Seek and Destroy]()
-17. [Where do I belong]()
+7. [Return Largest Numbers in Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Return-Largest-Numbers-in-Arrays)
+8. [Confirm the Ending](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Confirm-the-Ending)
+9. [Repeat a string repeat a string](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Repeat-a-string-repeat-a-string)
+10. [Truncate a string](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Truncate-a-string)
+11. [Chunky Monkey](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Chunky-Monkey)
+12. [Slasher Flick](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Slasher-Flick)
+13. [Mutations](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Mutations)
+14. [Falsey Bouncer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Falsey-Bouncer)
+15. [Where art thou](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-art-thou)
+16. [Seek and Destroy](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Seek-and-Destroy)
+17. [Where do I belong](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-do-I-belong)
 
 ## Basic Front End Development Projects
-1. Get Set for Ziplines
-2. Build a Personal Portfolio Webpage
-3. Build a Random Quote Machine
-4. Show the Local Weather
-5. Build a Pomodoro Clock
-6. Use the Twitch.tv JSON API
+1. [Get Set for Ziplines](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Get-Set-for-Ziplines)
+2. [Build a Personal Portfolio Webpage](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Build-a-Personal-Portfolio-Webpage)
+3. [Build a Random Quote Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Build-a-Random-Quote-Machine)
+4. [Show the Local Weather](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Show-the-Local-Weather)
+5. [Build a Pomodoro Clock](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Build-a-Pomodoro-Clock)
+6. [Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Use-the-Twitch.tv-JSON-API)
 
 ## Intermediate Algorithm Scripting
 1. Sum All Numbers in a Range
