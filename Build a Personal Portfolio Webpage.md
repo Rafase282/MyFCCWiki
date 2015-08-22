@@ -26,3 +26,32 @@ Don't worry too much about not having anything to showcase, if you keep working 
 **Do not use templates for this zipline.**
 
 CodePen.io overrides the `Window.open()` function, so if you want to open windows using jquery, you will need to target invisible anchor elements like this one: `<a target='_blank'>`.
+
+## My Code Snippets
+### The Navigation panel:
+It has to stay at the top and be responsive so it does not take too much screen space on smaller devices.
+
+```
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Rafael Rodriguez</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="#"><span class = "glyphicon glyphicon-info-sign"></span> About</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Portfolio</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+```
+
+Make sure to add `https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js` to the JS part on CodePen so the dropdown menu for mobile works.
