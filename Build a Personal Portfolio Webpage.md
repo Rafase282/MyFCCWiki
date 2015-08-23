@@ -182,6 +182,11 @@ For this section I have used `section` and gave it a class and id with the same 
 
 ### The portfolio section
 The portfolio section is a bit more complicated. It uses columns to align the images and information evenly.
+- First we need a container div: `<div class="container">`
+- Then we need rows, I only need one row.: `<div class="row">`
+- Then we start with the columns, each column must be closed before we open another one.: `<div class="col-md-3">`
+- I also use a [well](http://www.w3schools.com/bootstrap/bootstrap_wells.asp) to contain the information. : `<div class="well">`
+- I also created a new class to add gray text to elements.: `<h2 class="gray-text">Project Title</h2>` and `<p class="gray-text">`
 
 ```
 <!-- Portfolio -->
@@ -231,4 +236,58 @@ The portfolio section is a bit more complicated. It uses columns to align the im
     </div>
   </div>
 </section>
+```
+
+### The contact section
+This section has two main elements. A Twitter feed widget which I got from the official website, and the social buttons that I created.
+
+Since there were many of them, it was a problem for smaller screen to keep them both in the same row so instead I aligned them at the center and vertically.
+- I used `align="center"` to make things centered, for example `<div class="social" align="center">`
+- The group of buttons to be aligned vertically needs a `<div class="btn-group-vertical">`
+- I used Font Awesome icons, `<i class="fa fa-envelope fa-fw"></i>`
+
+```
+<!-- Contact -->
+ <section class="contact" id="contact">
+   <div class="contact-info">
+     <h1>Contact Me</h1>
+
+     <!-- Twitter feed widget -->
+     <div id="twitter-feed" align="center">
+       <a class="twitter-timeline" href="https://twitter.com/Rafase282" data-widget-id="634855727186767876">Tweets by @Rafase282</a>
+     </div>
+
+     <!-- social media buttons -->
+     <div class="social" align="center">
+       <div class="btn-group-vertical">
+         <button type="button" class="btn btn-primary"><i class="fa fa-envelope fa-fw"></i>
+           <a href="mailto:rafase282@gmail.com"></a> E-mail</button>
+         <button type="button" class="btn btn-primary"><i class="fa fa-github fa-fw"></i>
+           <a href="https://github.com/Rafase282" target='_blank'></a> GitHub</button>
+       </div>
+       <div class="btn-group-vertical">
+         <button type="button" class="btn btn-primary"><i class="fa fa-linkedin"></i>
+           <a href="https://www.linkedin.com/in/rafase282" target='_blank'></a> LinkedIn</button>
+         <button type="button" class="btn btn-primary"><i class="fa fa-codepen"></i>
+           <a href="http://codepen.io/Rafase282" target='_blank'></a> CodePen</button>
+       </div>
+       <div class="btn-group-vertical">
+         <button type="button" class="btn btn-primary"><i class="fa fa-fire fa-fw"></i>
+           <a href="http://www.freecodecamp.com/rafase282" target='_blank'></a> FreeCodeCamp</button>
+         <button type="button" class="btn btn-primary"><i class="fa fa-wordpress"></i>
+           <a href="https://rafase282.wordpress.com/" target='_blank'></a> WordPress</button>
+       </div>
+     </div>
+   </div>
+ </section>
+```
+
+### The footer
+This is a simple section, nothing fancy here, html wise.
+
+```
+<!-- The footer -->
+<footer>
+  <p>Copyright © Rafael J. Rodriguez 2015. All Rights Reserved</p>
+</footer>
 ```
