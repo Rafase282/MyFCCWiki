@@ -13,7 +13,7 @@ With responsive design, there is no need to design a mobile version of your webs
 You can add Bootstrap to any app just by including it with `<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>` at the top of your HTML.
 
 ## Make Images Mobile Responsive
-When using Bootstrap, if you want an image to be responsive, all you have to do is add the class **img-responsive** to it. `<img class="img-responsive" src="http://bit.ly/fcc-running-cats">`
+When using Bootstrap, if you want an image to be responsive, all you have to do is add the class `img-responsive` to it. `<img class="img-responsive" src="http://bit.ly/fcc-running-cats">`
 
 ## Center Text with Bootstrap
 Now that we're using Bootstrap, we can center our heading elements to make them look better. All we need to do is add the class text-center to our h1 and h2 elements.
@@ -26,12 +26,12 @@ Bootstrap has its own styles for button elements, which look much better than th
 `<button type="submit" class="btn">Like</button>`
 
 ## Create a Block Element Bootstrap Button
-Normally, your button elements are only as wide as the text that they contain. By making them block elements, your button will stretch to fill your page's entire horizontal space. Note that these buttons still need the btn class.
+Normally, your button elements are only as wide as the text that they contain. By making them block elements, your button will stretch to fill your page's entire horizontal space. Note that these buttons still need the `btn` class.
 
 `<button class="btn btn-block">Like</button>`
 
 ## Taste the Bootstrap Button Color Rainbow
-The btn-primary class is the main color you'll use in your app. It is useful for highlighting actions you want your user to take. Note that this button will still need the btn and btn-block classes.
+The `btn-primary` class is the main color you'll use in your app. It is useful for highlighting actions you want your user to take. Note that this button will still need the `btn` and `btn-block` classes.
 
 `<button class="btn btn-block btn-primary">Like</button>`
 
