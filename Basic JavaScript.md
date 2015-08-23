@@ -20,7 +20,7 @@ Let's take a look at the two ways you can write comments in JavaScript.
 Booleans can only hold the value of either true or false. They are basically little on-off switches.
 
 ## Declare JavaScript Variables
-When we store data in a data structure, we call it a variable. JavaScript variables are written in **camel case**. An example of camel case is: `camelCase`.
+When we store data in a data structure, we call it a variable. JavaScript variables are written in `camel case`. An example of camel case is: `camelCase`.
 
 You can declare a variable this way `var myName = "Rafael";`
 
@@ -30,19 +30,19 @@ A String variable. It is nothing more than a "string" of characters. JavaScript 
 `var myFirstName = 'Rafael';`
 
 ## Check the Length Property of a String Variable
-Data structures have properties. For example, strings have a property called .length that will tell you how many characters are in the string.
+Data structures have properties. For example, strings have a property called `.length` that will tell you how many characters are in the string.
 
 `lastNameLength = lastName.length;`
 
 ## Use Bracket Notation to Find the First Character in a String
 Bracket notation is a way to get a character at a specific index within a string.
 
-Computers don't start counting at 1 like humans do. They start at 0. `firstLetterOfLastName = lastName[0];`
+Computers don't start counting at `1` like humans do. They start at `0`. `firstLetterOfLastName = lastName[0];`
 
 ## Use Bracket Notation to Find the Nth Character in a String
-You can also use bracket Notationto get the character at other positions within a string.
+You can also use bracket notation to get the character at other positions within a string.
 
-Remember that computers start counting at 0, so the first character is actually the zeroth character.
+Remember that computers start counting at `0`, so the first character is actually the zeroth character.
 
 `var thirdLetterOfLastName = lastName[2];`
 
@@ -57,7 +57,7 @@ For example, if `var firstName = "Charles"`, you can get the value of the last l
 You can get the value of the third-to-last letter of the `var firstName = "Charles"` string by using `firstName[firstName.length - 3]`.
 
 ## Add Two Numbers with JavaScript
-JavaScript uses the + symbol for addition. It can also be used instead of **parseInt()** but that is beyond this.
+JavaScript uses the `+` symbol for addition. It can also be used instead of `parseInt()` but that is beyond this.
 
 `var sum = 10 + 10;`
 
@@ -67,18 +67,18 @@ We can also subtract one number from another.
 JavaScript uses use the - symbol for subtraction. `var difference = 45 - 33;`
 
 ## Multiply Two Numbers with JavaScript
-JavaScript uses use the * symbol for multiplication.
+JavaScript uses use the `*` symbol for multiplication.
 
 `var product = 8 * 10;`
 
 ## Divide One Number by Another with JavaScript
-JavaScript uses use the / symbol for division. `var quotient = 66 / 33;`
+JavaScript uses use the `/` symbol for division. `var quotient = 66 / 33;`
 
 ## Create Decimal Numbers with JavaScript
-JavaScript number variables can also have decimals. `var myDecimal = 2.8;`
+JavaScript number variables can have decimals. `var myDecimal = 2.8;`
 
 ## Perform Arithmetic Operations on Decimals with JavaScript
-In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
+In JavaScript, you can perform calculations with decimal numbers, just like whole numbers.
 
 `var quotient = 4.4 / 2.0; // equals 2.2`
 
@@ -90,7 +90,7 @@ You start an array declaration with an opening bracket, end it with a closing br
 `myArray = [2,'j'];`
 
 ## Nest one Array within Another Array
-You can also nest arrays within other arrays, like this:`[["Bulls", 43]]`.
+You can nest arrays within other arrays, like this:`[["Bulls", 43]]`.
 
 ## Access Array Data with Indexes
 We can access the data inside arrays using indexes.
@@ -116,19 +116,19 @@ ourArray[0] = 1; // equals [1,2,1]
 ```
 
 ## Manipulate Arrays With pop()
-Another way to change the data in an array is with the **.pop()** function.
+Another way to change the data in an array is with the `.pop()` function.
 
-.pop()is used to "pop" a value off of the end of an array. We can retrieve this value by performing pop() in a variable declaration.
+`.pop()` is used to "pop" a value off of the end of an array. We can retrieve this value by performing `pop()` in a variable declaration.
 
 Any type of variable can be "popped" off of an array.
 
 ## Manipulate Arrays With push()
-Not only can you pop() data off of the end of an array, you can also **push()** data onto the end of an array.
+Not only can you pop() data off of the end of an array, you can also `push()` data onto the end of an array.
 
 `myArray.push(["dog", 3]);`
 
 ## Manipulate Arrays With shift()
-**shift()** removes the first element unlike **pop()** which removes the last.
+`shift()` removes the first element unlike `pop()` which removes the last.
 
 ## Manipulate Arrays With unshift()
 `myArray.unshift('Paul');` Basically you call unshift and pass what was deleted.
@@ -196,12 +196,12 @@ while(i < 5) {
 ```
 
 ## Generate Random Fractions with JavaScript
-JavaScript has a **Math.random()** function that generates a random decimal number.
+JavaScript has a `Math.random()` function that generates a random decimal number.
 
 ## Generate Random Whole Numbers with JavaScript
 It's great that we can create random decimal numbers, but it's even more useful if we lot more useful to generate a random whole number.
 
-To achieve this we can multiply the random number by ten and use the **Math.floor()** to convert the decimal number to a whole number
+To achieve this we can multiply the random number by ten and use the `Math.floor()` to convert the decimal number to a whole number
 
 `return(Math.floor(Math.random()*10));`
 
@@ -215,7 +215,7 @@ By using this we can control the output of a random number.
 ## Use Conditional Logic with If-Else Statements
 We can use if statements in JavaScript to only execute code if a certain condition is met.
 
-if statements require some sort of **boolean** condition evaluate.
+if statements require some sort of `boolean` condition evaluate.
 
 ```
 Example:
@@ -229,7 +229,7 @@ else {
 ```
 
 ## Sift through Text with Regular Expressions
-**Regular expressions** are used to find certain words or patterns inside of strings.
+`Regular expressions` are used to find certain words or patterns inside of strings.
 
 Regular expressions are usually surrounded by `/` symbols.
 
