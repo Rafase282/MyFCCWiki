@@ -239,7 +239,7 @@ Just like we labeled our wells, we want to label our buttons.
 ## Use Comments to Clarify Code
 When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.
 
-This is a great way to make websites with a particular structure. Remember that you can start a comment with <!-- and end a comment with -->
+This is a great way to make websites with a particular structure. Remember that you can start a comment with `<!-- and end a comment with -->`
 
 ```
 <!--You shouldn't need to modify code below this line -->
