@@ -187,6 +187,7 @@ The portfolio section is a bit more complicated. It uses columns to align the im
 - Then we start with the columns, each column must be closed before we open another one.: `<div class="col-md-3">`
 - I also use a [well](http://www.w3schools.com/bootstrap/bootstrap_wells.asp) to contain the information. : `<div class="well">`
 - I also created a new class to add gray text to elements.: `<h2 class="gray-text">Project Title</h2>` and `<p class="gray-text">`
+- I got the images from this [site.](http://lorempixel.com/)
 
 ```
 <!-- Portfolio -->
