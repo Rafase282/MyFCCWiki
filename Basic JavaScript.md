@@ -123,7 +123,7 @@ Another way to change the data in an array is with the `.pop()` function.
 Any type of variable can be "popped" off of an array.
 
 ## Manipulate Arrays With push()
-Not only can you pop() data off of the end of an array, you can also `push()` data onto the end of an array.
+Not only can you `pop()` data off of the end of an array, you can also `push()` data onto the end of an array.
 
 `myArray.push(["dog", 3]);`
 
@@ -131,7 +131,7 @@ Not only can you pop() data off of the end of an array, you can also `push()` da
 `shift()` removes the first element unlike `pop()` which removes the last.
 
 ## Manipulate Arrays With unshift()
-`myArray.unshift('Paul');` Basically you call unshift and pass what was deleted.
+`myArray.unshift('Paul');` Basically you call `unshift` and pass what was deleted.
 
 ## Write Reusable JavaScript with Functions
 In JavaScript, we can divide up our code into reusable parts called functions.
@@ -144,7 +144,7 @@ function functionName (a, b) {
 }
 ```
 
-We can "call" our function like this: functionName();, and it will run and return it's return value to us.
+We can "call" our function like this: `functionName();`, and it will run and return it's return value to us.
 
 ## Build JavaScript Objects
 Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.
@@ -172,7 +172,7 @@ We can also delete them like this:
 `delete(myObject.myProperty);`
 
 ## Iterate with JavaScript For Loops
-The most common type of JavaScript loop is called a "for loop" because it runs "for" a specific number of times.
+The most common type of JavaScript loop is called a `for loop` because it runs `for` a specific number of times.
 
 ```
 var ourArray = [];
@@ -184,7 +184,7 @@ for(var i = 0; i < 5; i++) {
 ourArray will now contain [0,1,2,3,4]
 
 ## Iterate with JavaScript While Loops
-Another type of JavaScript loop is called a "while loop" because it runs "while" something is true, and stops once that something is no longer true.
+Another type of JavaScript loop is called a `while loop` because it runs `while` something is true, and stops once that something is no longer true.
 
 ```
 var ourArray = [];
@@ -238,12 +238,9 @@ For example, if we wanted to find the number of times the word the occurred in t
 Let's break this down a bit:
 
 the is the pattern we want to match.
-
-`+` means we want to find one or more occurrences of this pattern.
-
-`g` means that we want to search the entire string for this pattern.
-
-`i` means that we want to ignore the case (uppercase or lowercase) when searching for the pattern.
+- `+` means we want to find one or more occurrences of this pattern.
+- `g` means that we want to search the entire string for this pattern.
+- `i` means that we want to ignore the case (uppercase or lowercase) when searching for the pattern.
 
 ## Find Numbers with Regular Expressions
 We can use special selectors in Regular Expressions to select a particular type of value.
@@ -282,7 +279,7 @@ if(slotOne !== slotTwo || slotTwo !== slotThree){
     }
 ```
 
-If slot one and to are different, or slot two and three are not the same, then return null.
+If slot one and to are different, or slot two and three are not the same, then return `null`.
 
 ## Bring your JavaScript Slot Machine to Life
 Let's use the jQuery selector `$(".slot")` to select all of the slots.
