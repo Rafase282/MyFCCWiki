@@ -36,12 +36,12 @@ The `btn-primary` class is the main color you'll use in your app. It is useful f
 `<button class="btn btn-block btn-primary">Like</button>`
 
 ## Call out Optional Actions with Button Info
-Bootstrap comes with several pre-defined colors for buttons. The btn-info class is used to call attention to optional actions that the user can take. Note that these buttons still need the btn and btn-block classes.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take. Note that these buttons still need the `btn` and`btn-block` classes.
 
 `<button class= "btn btn-block btn-info">Info</button>`
 
 ## Warn your Users of a Dangerous Action
-The btn-danger class is the button color you'll use to notify users that the button performs a destructive action, such as deleting a cat photo. Note that these buttons still need the btn and btn-block classes.
+The `btn-danger` class is the button color you'll use to notify users that the button performs a destructive action, such as deleting a cat photo. Note that these buttons still need the `btn` and `btn-block` classes.
 
 `<button class="btn btn-block btn-danger">Delete</button>`
 
@@ -50,7 +50,7 @@ Bootstrap uses a responsive grid system that makes it easier to put elements int
 
 ![Bootstrap 12 column grid layout](https://www.evernote.com/shard/s116/sh/f0944d97-08b8-4615-8273-a327bf41fb05/de1a3acbceef89ae/deep/0/)
 
-> Note that in this illustration, the col-md-_ class is being used. Here, md means medium, and _ is a number specifying how many columns wide the element should be. In this case, the column width of an element on a medium-sized screen, such as a laptop, is being specified.
+Note that in this illustration, the `col-md-_` class is being used. Here, md means medium, and _ is a number specifying how many columns wide the element should be. In this case, the column width of an element on a medium-sized screen, such as a laptop, is being specified.
 
 ```
 <div class="row">
@@ -73,7 +73,7 @@ You can use use spans to create inline elements. By using the span element, you 
 `<p><span class = "text-danger">Things cats love:</span></p>`
 
 ## Create a Custom Heading
-Using **div** and the custom grid layour we can create our own heading.
+Using `div` and the custom grid layout we can create our own heading.
 
 ```
 <div class="row">
@@ -96,9 +96,9 @@ Font Awesome is a convenient library of icons. These icons are vector graphics, 
 `<i class="fa fa-info-circle"></i>` Will add an info icon.
 
 ## Responsively Style Radio Buttons
-You can use Bootstrap's col-xs-* classes on form elements. That will make radio buttons evenly spread out across the page regardless of how wide the screen might be.
+You can use Bootstrap's `col-xs-*` classes on `form` elements. That will make radio buttons evenly spread out across the page regardless of how wide the screen might be.
 
-Nest all of your radio buttons within a **<div class="row">** element. Then nest each of them within a **<div class="col-xs-6">** element.
+Nest all of your radio buttons within a `<div class="row">` element. Then nest each of them within a `<div class="col-xs-6">` element.
 
 ```
 <form action="/submit-cat-photo">
@@ -115,14 +115,14 @@ Nest all of your radio buttons within a **<div class="row">** element. Then nest
 ```
 
 ## Responsively Style Checkboxes
-You can use Bootstrap's col-xs-* classes on form elements, too! This way, our checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
+You can use Bootstrap's `col-xs-*` classes on form elements, too! This way, our checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
-Nest all your checkboxes in a **<div class="row">** element. Then nest each of them in a **<div class="col-xs-4">** element.
+Nest all your checkboxes in a `<div class="row">` element. Then nest each of them in a `<div class="col-xs-4">` element.
 
 ## Style Text Inputs as Form Controls
-You can add the fa-paper-plane Font Awesome icon by adding **<i class="fa fa-paper-plane"></i>** within your submit button element.
+You can add the `fa-paper-plane` Font Awesome icon by adding `<i class="fa fa-paper-plane"></i>` within your submit button element.
 
-`<button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane">Submit</i`
+`<button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane">Submit</i>`
 
 ## Line up Form Elements Responsively with Bootstrap
 We line up the form elements the same way we do with others, using divs.
@@ -138,7 +138,7 @@ We line up the form elements the same way we do with others, using divs.
 `<h3 class="text-primary text-center"> jQuery Playground </h3>`
 
 ## House our page within a Bootstrap Container Fluid Div
-To make the content responsive, we use the **container-fluid** class.
+To make the content responsive, we use the `container-fluid` class.
 
 ```
 <div class="container-fluid">
@@ -150,7 +150,7 @@ To make the content responsive, we use the **container-fluid** class.
 Create a div element with the class row. `<div class="row"></div>`
 
 ## Split your Bootstrap Row
-Create two div elements within your row, both with the class col-xs-6.
+Create two `div` elements within your row, both with the class `col-xs-6`.
 
 ```
 <div class="container-fluid">
@@ -163,9 +163,9 @@ Create two div elements within your row, both with the class col-xs-6.
 ```
 
 ## Create Bootstrap Wells
-Bootstrap has a class called **well** that can create a visual sense of depth for your columns.
+Bootstrap has a class called `well` that can create a visual sense of depth for your columns.
 
-Nest one div element with the class well within each of your **col-xs-6 div** elements.
+Nest one div element with the class well within each of your `col-xs-6 div` elements.
 
 ```
 <div class="container-fluid">
@@ -190,10 +190,10 @@ Nest one div element with the class well within each of your **col-xs-6 div** el
 ```
 
 ## Add Elements within your Bootstrap Wells
-Once you have gone deep enough in **divs** you can start adding your Bootstrap buttons.
+Once you have gone deep enough in `divs` you can start adding your Bootstrap buttons.
 
 ## Apply the Default Bootstrap Button Style
-Boostrap has a button class called **btn-default**
+Bootstrap has a button class called `btn-default`
 
 ```
 <div class="container-fluid">
@@ -218,9 +218,9 @@ Boostrap has a button class called **btn-default**
 ```
 
 ## Create a Class to Target with jQuery Selectors
-> Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
+Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
 
-For this we use the **target** class on the **button** elements.
+For this we use the `target` class on the `button` elements.
 
 ## Add ID Attributes to Bootstrap Elements
 Recall that in addition to class attributes, you can give each of your elements an id attribute.
@@ -228,7 +228,7 @@ Recall that in addition to class attributes, you can give each of your elements 
 Each id should be unique to a specific element. Remember that you can give an element an id like this: `<div class="well" id="center-well">`
 
 ## Label Bootstrap Wells
-You can add labels to the wells by using the headers <h4> above the well divs.
+You can add labels to the wells by using the headers `<h4>` above the well divs.
 
 ## Give Each Element a Unique ID
 We will also want to be able to use jQuery to target each button by its unique id. So we add an unique id to each button.
