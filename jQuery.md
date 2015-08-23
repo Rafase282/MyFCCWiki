@@ -6,9 +6,9 @@ Submitted by Rafase282
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
 ## Learn how Script Tags and Document Ready Work
-For some reason FCC likes to introduce **jQuery** before JavaScript itself.
+For some reason FCC likes to introduce `jQuery` before JavaScript itself.
 
-To add JS to your HTML, you need a **script** tag.  Your browser will run any JavaScript inside a script element, including jQuery.
+To add JS to your HTML, you need a `script` tag.  Your browser will run any JavaScript inside a script element, including jQuery.
 
 Inside your script element, add this code: `$(document).ready(function() {` to your script. Then close it on the following line (still inside your script element) with: `});`
 
@@ -19,7 +19,7 @@ Inside your script element, add this code: `$(document).ready(function() {` to y
 ```
 
 ## Target HTML Elements with Selectors Using jQuery
-After we have created our **document ready function** we can now have code that will run after the page loads. This will assure that your code does not run before the HTML is rendered to avoid bugs.
+After we have created our `document ready function` we can now have code that will run after the page loads. This will assure that your code does not run before the HTML is rendered to avoid bugs.
 
 jQuery often selects an HTML element with a selector, then does something to that element.  
 
@@ -63,14 +63,14 @@ The multiple jQuery selectors are:
 ```
 
 ## Remove Classes from an element with jQuery
-The same way we can add classes using jQuery, we an also remove them with **removeClass()**.
+The same way we can add classes using jQuery, we an also remove them with `removeClass()`.
 
 `$("button").removeClass("btn-default");`
 
 ## Change the CSS of an Element Using jQuery
 We can also change the CSS of an HTML element directly with jQuery.
 
-Query has a function called **.css()** that allows you to change the CSS of an element.
+Query has a function called `.css()` that allows you to change the CSS of an element.
 
 ```
 <script>
@@ -86,41 +86,41 @@ You can also change the non-CSS properties of HTML elements with jQuery. For exa
 
 When you disable a button, it will become grayed-out and can no longer be clicked.
 
-jQuery has a function called .prop() that allows you to adjust the properties of elements.
+jQuery has a function called `.prop()` that allows you to adjust the properties of elements.
 
 Here's how you would disable all buttons: `$('#button').prop('disabled', true);`
 
 ## Remove an Element Using jQuery
-jQuery has a function called .remove() that will remove an HTML element entirely. `$("#target4").remove();`
+jQuery has a function called `.remove()` that will remove an HTML element entirely. `$("#target4").remove();`
 
 ## Use appendTo to Move Elements with jQuery
-jQuery has a function called appendTo() that allows you to select HTML elements and append them to another element.
+jQuery has a function called `appendTo()` that allows you to select HTML elements and append them to another element.
 
 For example, if we wanted to move target4 from our right well to our left well, we would use `$("#target4").appendTo("#left-well");`
 
 ## Clone an Element Using jQuery
-jQuery has a function called clone() that makes a copy of an element.
+jQuery has a function called`clone()` that makes a copy of an element.
 
 For example, if we wanted to copy target2 from our left-well to our right-well, we would use `$("#target2").clone().appendTo("#right-well");`
 
 ## Target the Parent of an Element Using jQuery
 Every HTML elements has a parent element from which it inherits properties.
 
-For example, your jQuery Playground h3 element has the parent element of`<div class="container-fluid">`, which itself has the parent body.
+For example, your jQuery Playground `h3` element has the parent element of`<div class="container-fluid">`, which itself has the parent body.
 
-jQuery has a function called **parent()** that allows you to access the parent of whichever element you've selected.
+jQuery has a function called `parent()` that allows you to access the parent of whichever element you've selected.
 
-Here's an example of how you would use the parent() function: `$("#left-well").parent().css("background-color", "blue")`
+Here's an example of how you would use the `parent()` function: `$("#left-well").parent().css("background-color", "blue")`
 
 ## Target the Children of an Element Using jQuery
 Many HTML elements have children elements from which they inherit properties.
 
-jQuery has a function called children() that allows you to access the children of whichever element you've selected.
+jQuery has a function called `children()` that allows you to access the children of whichever element you've selected.
 
-Here's an example of how you would use the children() function: `$("#left-well").children().css("color", "blue");`
+Here's an example of how you would use the `children()` function: `$("#left-well").children().css("color", "blue");`
 
 ## Target a Specific Child of an Element Using jQuery
-jQuery uses CSS Selectors to target elements. target:nth-child(n) css selector allows you to select all the nth element with the target class or element type.
+jQuery uses CSS Selectors to target elements. `target:nth-child(n)` css selector allows you to select all the nth element with the target class or element type.
 
 Here's how you would give the third element in each well bounce: `$(".target:nth-child(3)").addClass("animated bounce");`
 
@@ -129,7 +129,7 @@ Here's how you would give the third element in each well bounce: `$(".target:nth
 ## Target Even Numbered Elements Using jQuery
 You can also target all the even-numbered elements.
 
-Here's how you would target all the **odd-numbered** elements with class target and give them classes: `$('.target:odd').addClass('animated shake');`
+Here's how you would target all the `odd-numbered` elements with class target and give them classes: `$('.target:odd').addClass('animated shake');`
 
 This will shake all the even ones: `$('.target:even').addClass("shake");`
 
