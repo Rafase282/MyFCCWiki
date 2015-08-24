@@ -25,13 +25,13 @@ Don't worry too much about not having anything to showcase, if you keep working 
 
 **Do not use templates for this zipline.**
 
-CodePen.io overrides the `Window.open()` function, so if you want to open windows using jquery, you will need to target invisible anchor elements like this one: `<a target='_blank'>`.
+CodePen.io overrides the `Window.open()` function, so if you want to open windows using jQuery, you will need to target invisible anchor elements like this one: `<a target='_blank'>`.
 
 ## My HTML Code Snippets
 ### The Head:
 - Every HTML5 document has to start with `<!DOCTYPE html>`
 - You can add more fancy stuff if needed.
-- The `head` tags has the tile, links for style shees and the charset. I think you can also add the JS links.
+- The `head` tags has the tile, links for stylesheets and the charset. I think you can also add the JS links.
 
 ```
 <!DOCTYPE html>
@@ -326,7 +326,7 @@ Here is where the JS scripts are, right after we close the body, but before we c
 
 ## The CSS Snippets
 ### The body:
-We make the position to be relative to make thigns fluid.
+We make the position to be relative to make things fluid.
 
 ```
 body {
@@ -337,7 +337,7 @@ body {
 ### The Footer:
 - We make it has a minimum height of 10% of screen view. Learn more [here.](http://www.w3schools.com/cssref/css_units.asp)
 - We use `padding-top` and `padding-bottom` to give space above and bellow so things don't look cramped.
-- I made the text color to be gray for visivility since I made the backgroudn color to be black.
+- I made the text color to be gray for visibility since I made the background color to be black.
 
 ```
 footer {
@@ -412,7 +412,7 @@ This will make the image a particular size, with a fixed margin, and border styl
 ```
 
 ### Working with custom positioning
-I had to get some things to be centered, like certain text, or move certain parts of the navbar towards certain direction. This is the code used.
+I had to get some things to be centered, like certain text, or move certain parts of the navigation bar towards certain direction. This is the code used.
 
 ```
 .img-text {
