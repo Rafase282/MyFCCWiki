@@ -30,7 +30,7 @@ The body section uses one section and a footer. There is nothing new. The way th
     <p class="author-text"></p>
   </div>
   <button type="button" class="btn btn-primary" id="quote">New Quote</button>
-  <button type="button" class="btn btn-primary">Tweet it</button>
+  <button type="button" class="btn btn-primary" id="tweet">Tweet it</button>
 </section>
 <footer>
   <p>Copyright © Rafael J. Rodriguez 2015. All Rights Reserved</p>
