@@ -17,3 +17,5 @@ In software development and product management, a user story is a description co
 Note that you can either put your quotes into an array and show them at random, or use an API to get quotes, such as [http://forismatic.com/en/api/](http://forismatic.com/en/api/).
 
 ## My HTML Code Snippets
+## My CSS Code Snippets
+There is no much CSS used here. First I used this site [http://colorsafe.co/](http://colorsafe.co/) for picking colors, size and fonts. I also checked this site [http://www.w3schools.com/cssref/css_websafe_fonts.asp](http://www.w3schools.com/cssref/css_websafe_fonts.asp) for the default family fonts.
