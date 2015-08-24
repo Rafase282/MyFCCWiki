@@ -19,3 +19,44 @@ Note that you can either put your quotes into an array and show them at random, 
 ## My HTML Code Snippets
 ## My CSS Code Snippets
 There is no much CSS used here. First I used this site [http://colorsafe.co/](http://colorsafe.co/) for picking colors, size and fonts. I also checked this site [http://www.w3schools.com/cssref/css_websafe_fonts.asp](http://www.w3schools.com/cssref/css_websafe_fonts.asp) for the default family fonts.
+- I gave a new font family to all the paragraphs and anything under the class `container-fluid`.
+- I aligned everything at the center.
+- gave them respective margins on the sides for styling.
+- I gave a new font color, and background color for the body and footer.
+- I played around with the `section` elements and footer to make it take the whole page so the footer is at the bottom.
+
+```
+p,
+.container-fluid {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #e4f1fe;
+  font-family: 'Comic Sans MS';
+}
+
+body {
+  position: relative;
+  background-color: #0d493b;
+}
+
+.well {
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #0d493b;
+}
+
+footer {
+  min-height: 1vh;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  background-color: black;
+}
+
+section {
+  min-height: 91.8vh;
+  font-size: 18px;
+  font-weight: 300;
+}
+```
