@@ -27,7 +27,25 @@ Don't worry too much about not having anything to showcase, if you keep working 
 
 CodePen.io overrides the `Window.open()` function, so if you want to open windows using jquery, you will need to target invisible anchor elements like this one: `<a target='_blank'>`.
 
-## My Code Snippets
+## My HTML Code Snippets
+### The Head:
+- Every HTML5 document has to start with `<!DOCTYPE html>`
+- You can add more fancy stuff if needed.
+- The `head` tags has the tile, links for style shees and the charset. I think you can also add the JS links.
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rafase282</title>
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+```
+
 ### The Navigation panel:
 It has to stay at the top and be responsive so it does not take too much screen space on smaller devices. This navigation bar will turn into a dropdown menu on smaller screens. Furthermore, as you scroll down the page, the different tabs will be selected.
 - `navbar-inverse`: Makes it black instead of white.
@@ -291,4 +309,188 @@ This is a simple section, nothing fancy here, html wise.
 <footer>
   <p>Copyright © Rafael J. Rodriguez 2015. All Rights Reserved</p>
 </footer>
+```
+
+### The end of body:
+Here is where the JS scripts are, right after we close the body, but before we close the html.
+
+```
+</body>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src="js/index.js"></script>
+
+</html>
+```
+
+## The CSS Snippets
+### The body:
+We make the position to be relative to make thigns fluid.
+
+```
+body {
+  position: relative;
+}
+```
+
+### The Footer:
+- We make it has a minimum height of 10% of screen view. Learn more [here.](http://www.w3schools.com/cssref/css_units.asp)
+- We use `padding-top` and `padding-bottom` to give space above and bellow so things don't look cramped.
+- I made the text color to be gray for visivility since I made the backgroudn color to be black.
+
+```
+footer {
+  min-height: 10vh;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: gray;
+  background-color: black;
+}
+```
+
+### Headings and paragraphs
+Make it all centered.
+
+```
+h1, h2, p {
+  text-align: center;
+}
+```
+
+### Giving color
+This will give a font color of white to `a` tags and gray to custom classes that I created earlier.
+
+```
+a {
+  color: white;
+}
+.gray-text {
+  color: gray;
+}
+.project-text {
+  color: gray;
+}
+.panel-body {
+  color: black;
+}
+```
+
+### Image opacity
+I tried to use jQuery to give some animation but instead I used the `opacity` property and gave it a default value and when I hover over an image it changes opacity while the mouse is inside using `:hover` I also specified for which images using the `thumbnail` class.
+
+```
+img {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+.thumbnail img:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* For IE8 and earlier */
+}
+```
+
+### Styling my photo
+This will make the image a particular size, with a fixed margin, and border style and color. The `displayed` part makes it stay at the center.
+
+```
+.me {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: gray;
+}
+.displayed {
+  display: block;
+  margin-right: auto;
+  margin-left: auto
+}
+```
+
+### Working with custom positioning
+I had to get some things to be centered, like certain text, or move certain parts of the navbar towards certain direction. This is the code used.
+
+```
+.img-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+.social {
+  padding-top: 10px;
+}
+.navbar-header {
+  padding-left: 10%;
+}
+.navbar-right {
+  padding-right: 10%;
+}
+```
+
+### Styling and positioning the <sections> and their elements
+- I made them all take the full screen view with `min-height: 100vh;`. I used `min-height` instead of just `height` because the first one no matter how you resize the elements on the screen, they will not bleed over the others, it will make sure the looks stay consistent. This is very important.
+- I also gave text color and different background colors to each section.
+- For the contact section I had to change some values. I wanted the contact section to show the footer too. So I had to adjust to 90-10 ratio on the `min-height`.
+- For the `contact-info` which is what has the widget and buttons, I gave it some space too on real screen state to keep things neat.
+
+```
+.home {
+position: relative;
+min-height: 100vh;
+padding-top: 10%;
+padding-bottom: 10%;
+color: #fff;
+background-color: #1E88E5;
+}
+.experience {
+min-height: 100vh;
+padding-top: 10%;
+padding-bottom: 10%;
+color: #fff;
+background-color: #009688;
+}
+.portfolio {
+min-height: 100vh;
+padding-top: 10%;
+padding-bottom: 10%;
+color: #fff;
+background-color: #ff9800;
+}
+.contact {
+min-height: 90vh;
+padding-top: 10%;
+padding-bottom: 50px;
+color: #fff;
+background-color: #00bcd4;
+}
+.contact-info {
+max-width: 80vh;
+min-height: 60vh;
+margin: auto;
+}
+```
+
+## The JavaScript
+Here I just paste the JavaScript part of the widget.
+
+```
+/* Twitter feed code
+ *
+ */
+!(function (d, s, id) {
+  var js = d.getElementsByTagName(s)[0]
+  var fjs = d.getElementsByTagName(s)[0]
+  var p = /^http:/.test(d.location) ? 'http' : 'https'
+  if (!d.getElementById(id)) {
+    js = d.createElement(s)
+    js.id = id
+    js.src = p + '://platform.twitter.com/widgets.js'
+    fjs.parentNode.insertBefore(js, fjs)
+  }
+})(document, 'script', 'twitter-wjs')
 ```
