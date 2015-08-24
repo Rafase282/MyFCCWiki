@@ -377,7 +377,7 @@ a {
 ```
 
 ### Image opacity
-I tried to use jQuery to give some animation but instead I used the `opacity` property and gave it a default value and when I hover over an image it changes opacity while the mouse is inside using `:hover` I also specified for which images using the `thumbnail` class.
+I tried to use jQuery to give some animation but instead I used the `opacity` property and gave it a default value and when I hover over an image it changes opacity while the mouse is inside using `:hover` I also specified for which images using the `thumbnail` class. More [info.](http://www.w3schools.com/css/css_image_transparency.asp)
 
 ```
 img {
