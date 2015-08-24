@@ -13,7 +13,7 @@ Build a CodePen.io app that successfully reverse-engineers this: [Infinito Web D
 2. You may use whichever libraries or APIs you need.
 3. Reverse engineer the example project's functionality, and also feel free to personalize it.
 
-## User Story:
+## User Stories:
 In software development and product management, a user story is a description consisting of one or more sentences in the everyday or business language of the end user or user of a system that captures what a user does or needs to do as part of his or her job function.
 1. As a user, I can access all of the portfolio webpage's content just by scrolling.
 2. As a user, I can click different buttons that will take me to the portfolio creator's different social media pages.
