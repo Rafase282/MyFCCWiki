@@ -8,6 +8,11 @@ Submitted by Rafase282
 ## Objective:
 Build a CodePen.io app that successfully reverse-engineers this: [Random Quotes Rewritten](http://codepen.io/AdventureBear/full/vEoVMw).
 
+## Rules:
+1. Don't look at the example project's code on CodePen. Figure it out for yourself.
+2. You may use whichever libraries or APIs you need.
+3. Reverse engineer the example project's functionality, and also feel free to personalize it.
+
 ## User Stories:
 In software development and product management, a user story is a description consisting of one or more sentences in the everyday or business language of the end user or user of a system that captures what a user does or needs to do as part of his or her job function.
 1. As a user, I can click a button to show me a new random quote.
