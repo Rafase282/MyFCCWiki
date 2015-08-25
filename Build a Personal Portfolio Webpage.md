@@ -218,38 +218,42 @@ The portfolio section is a bit more complicated. It uses columns to align the im
     <div class="row">
       <div class="col-md-3">
         <div class="well">
-          <a href="#" class="thumbnail">
-            <img src="http://lorempixel.com/output/technics-h-c-171-180-4.jpg" alt="Project 1">
+          <a href="http://codepen.io/Rafase282/full/yNmerP/" class="thumbnail">
+            <img src="http://dev.tealseagull.com/Rafael/img/Screenshot%202015-08-25%2001.39.17.png" alt="Project 1">
+            <h2 class="gray-text">Random Quote Generator</h2>
           </a>
-          <h2 class="gray-text">Project Title</h2>
-          <p class="gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="gray-text">This site will display random quotes using the <a href="http://forismatic.com/" target="_blank" style="color: orange">Forismatic</a> API. You will then have the option to tweet it and share with others. You might need to edit the the psot
+            before summiting as some quotes will go over the limit. </p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="well">
           <a href="#" class="thumbnail">
-            <img src="http://lorempixel.com/output/nightlife-h-c-171-180-10.jpg" alt="Project 2">
+            <img src="http://dev.tealseagull.com/Rafael/img/sports-h-c-171-180-6.jpg" alt="Project 2">
+            <h2 class="gray-text">Project Title</h2>
           </a>
-          <h2 class="gray-text">Project Title</h2>
-          <p class="gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="well">
           <a href="#" class="thumbnail">
-            <img src="http://lorempixel.com/output/sports-h-c-171-180-7.jpg" alt="Project 3">
+            <img src="http://dev.tealseagull.com/Rafael/img/technics-h-c-171-180-1.jpg" alt="Project 3">
+            <h2 class="gray-text">Project Title</h2>
           </a>
-          <h2 class="gray-text">Project Title</h2>
-          <p class="gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="well">
           <a href="#" class="thumbnail">
-            <img src="http://lorempixel.com/output/food-h-c-171-180-1.jpg" alt="Project 4">
+            <img src="http://dev.tealseagull.com/Rafael/img/technics-h-c-171-180-10.jpg" alt="Project 4">
+            <h2 class="gray-text">Project Title</h2>
           </a>
-          <h2 class="gray-text">Project Title</h2>
-          <p class="gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
     </div>
