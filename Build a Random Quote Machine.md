@@ -17,21 +17,23 @@ In software development and product management, a user story is a description co
 Note that you can either put your quotes into an array and show them at random, or use an API to get quotes, such as [http://forismatic.com/en/api/](http://forismatic.com/en/api/).
 
 ## My HTML Code Snippets
-The body section uses one section and a footer. There is nothing new. The way the sections are setup are to make the whole site responsive.
+The body section uses one section and a footer. There is nothing new. The way the sections are setup are to make the whole site responsive. I have used the twitter-share-button which is part of the API and code but I didn't want the default Twitter button so I created my own. You can check the documentation for that here: [https://dev.twitter.com/web/tweet-button](https://dev.twitter.com/web/tweet-button)
 
 ```
 <section class="container-fluid">
   <h1 class='text-primary'>Random Quotes!</h1>
-  <p> Here I will be displaying random quotes using the <a href="http://forismatic.com/" target="_blank">Forismatic</a> API. I hope you enjoy them as I learn to work with API and front end.</p>
+  <p> This site will display random quotes using the <a href="http://forismatic.com/" target="_blank">Forismatic</a> API. I hope you enjoy them as I learn to work with API and front end. If you want, you can tweet the quotes, it will take you to a new page
+    where you might need to edit the post if the quote is too long.</p>
   <div class="well">
-    <p class="quote-text">
-
-    </p>
+    <p class="quote-text"></p>
     <p class="author-text"></p>
   </div>
   <button type="button" class="btn btn-primary" id="quote">New Quote</button>
-  <button type="button" class="btn btn-primary" id="tweet">Tweet it</button>
+  <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large" target="_blank">
+    <button type="button" class="btn btn-primary">Tweet it!</button>
+  </a>
 </section>
+
 <footer>
   <p>Copyright © Rafael J. Rodriguez 2015. All Rights Reserved</p>
 </footer>
@@ -84,16 +86,20 @@ section {
 - I also have it generate a random quote when the page finishes loading.
 - When you click the button, there is a function that calls the API to get the data.
 - The data is fed to two classes which are actually `<p>` tags to change the text.
+- For the twitter part, I created a variable `quot` that will hold a string to be parsed as an url string. It will have the API url, and add parameters like the quote text, with the label Author and the author's name. I also added some self promotion and so I know when people use it as they would tag me. However, the user has full control of what is actually posted as they have to edit and click post before the tweet goes.
+- `.attr` is what allowed me to change the link of the `a` tag.
 
 ```
+// Random Quote Generator
 var url = "http://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?";
 var getQuote = function(data) {
   $(".quote-text").text(data.quoteText);
+  var quot = 'https://twitter.com/intent/tweet?text=' + data.quoteText + ' Author ' + data.quoteAuthor +' @Rafase282 goo.gl/2h0NHo';
   if (data.quoteAuthor === '') {
     data.quoteAuthor = 'Unknown';
   }
   $(".author-text").text('Author: ' + data.quoteAuthor);
-
+  $(".twitter-share-button").attr("href", quot);
 };
 $(document).ready(function() {
   $.getJSON(url, getQuote, 'jsonp');
