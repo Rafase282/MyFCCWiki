@@ -52,4 +52,8 @@ function destroyer(arr) {
 ```
 
 ## My Code Explanation:
+- The first line will turn the `arguments` variable into a full array instead of the limited array it currently it.
+- Next I remove the first argument since I don't need, since I only want the other arguments passed besides the first which is the array we are going to compare against.
+- The use the `filter()` to filter out the elements that are on the array and keep the ones that are not.
+
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)

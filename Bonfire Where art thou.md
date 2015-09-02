@@ -56,6 +56,6 @@ function where(collection, source) {
 ```
 
 ## My Code Explanation:
-We first create an empty array, then go through the collection of objects and check if each of them has the same key that we are searchign for. If they do, then we push them to the array we created.
+We first create an empty array, then go through the collection of objects and check if each of them has the same key that we are searching for. If they do, then we push them to the array we created.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
