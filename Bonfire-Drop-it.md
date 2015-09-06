@@ -39,18 +39,30 @@ Shift returns the element that was removed which we don't really need, all we ne
 ## Hint: 3
 If you still can't figure out how to solve it with shift, then try solving it with filter, and check how filter works, if you become familiar with it, then you can make the code with shift.
 
-## My code:
+## Code Solution:
 
 ```
+Code from Max Helmetag (https://github.com/mhelmetag)
+
 function drop(arr, func) {
-  return arr.filter(func);
+  var times = arr.length;
+  for (var i = 0; i < times; i++) {
+    if (func(arr[0])) {
+      break;
+    } else {
+      arr.shift();
+    }
+  }
+
+  return arr;
 }
 
 drop([1, 2, 3], function(n) {return n < 3; });
 ```
 
 ## My Code Explanation:
-- I used filter as I was more familiar with it.
-- I have it filter the array to remove the elements that needs to be removed.
+- Create a for loop to check each element.
+- Then check for the function given if true then stop, otherwise remove that element.
+- return the array.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
