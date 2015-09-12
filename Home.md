@@ -194,6 +194,21 @@ I will try to keep everything updated. If you are also part of the camp or would
 16. [Seek and Destroy](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Seek-and-Destroy)
 17. [Where do I belong](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-do-I-belong)
 
+## Object Oriented and Functional Programming
+1. Declare JavaScript Objects as Variables
+2. Construct JavaScript Objects with Functions
+3. Make Object Properties Private
+4. Make Instances of Objects with a Constructor Function
+5. Iterate over Arrays with .map
+6. Condense arrays with .reduce
+7. Filter Arrays with .filter
+8. Sort Arrays with .sort
+9. Reverse Arrays with .reverse
+10. Concatenate Strings with .concat
+11. Split Strings with .split
+12. Join Strings with .join
+13. [Functional Programming in JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Functional-Programming-in-JavaScript)
+
 ## Basic Front End Development Projects
 1. [Get Set for Ziplines](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Get-Set-for-Ziplines)
 2. [Build a Personal Portfolio Webpage](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Build-a-Personal-Portfolio-Webpage)
@@ -223,21 +238,6 @@ I will try to keep everything updated. If you are also part of the camp or would
 18. [Binary Agents](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Binary-Agents)
 19. [Everything Be True](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Everything-Be-True)
 20. [Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
-
-## Object Oriented and Functional Programming
-1. Declare JavaScript Objects as Variables
-2. Construct JavaScript Objects with Functions
-3. Make Object Properties Private
-4. Make Instances of Objects with a Constructor Function
-5. Iterate over Arrays with .map
-6. Condense arrays with .reduce
-7. Filter Arrays with .filter
-8. Sort Arrays with .sort
-9. Reverse Arrays with .reverse
-10. Concatenate Strings with .concat
-11. Split Strings with .split
-12. Join Strings with .join
-13. [Functional Programming in JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Functional-Programming-in-JavaScript)
 
 ## Upper Intermediate Algorithm Scripting
 1. [Make a Person](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
