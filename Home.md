@@ -197,16 +197,16 @@ I will try to keep everything updated. If you are also part of the camp or would
 ## Object Oriented and Functional Programming
 1. [Declare JavaScript Objects as Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Declare-JavaScript-Objects-as-Variables)
 2. [Construct JavaScript Objects with Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Construct-JavaScript-Objects-with-Functions)
-3. Make Object Properties Private
-4. Make Instances of Objects with a Constructor Function
-5. Iterate over Arrays with .map
-6. Condense arrays with .reduce
-7. Filter Arrays with .filter
-8. Sort Arrays with .sort
-9. Reverse Arrays with .reverse
-10. Concatenate Strings with .concat
-11. Split Strings with .split
-12. Join Strings with .join
+3. [Make Object Properties Private]
+4. [Make Instances of Objects with a Constructor Function]
+5. [Iterate over Arrays with .map]
+6. [Condense arrays with .reduce]
+7. [Filter Arrays with .filter]
+8. [Sort Arrays with .sort]
+9. [Reverse Arrays with .reverse]
+10. [Concatenate Strings with .concat]
+11. [Split Strings with .split]
+12. [Join Strings with .join]
 13. [Functional Programming in JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Functional-Programming-in-JavaScript)
 
 ## Basic Front End Development Projects
