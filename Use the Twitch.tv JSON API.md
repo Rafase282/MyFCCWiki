@@ -36,3 +36,4 @@ CodePen.io overrides the `Window.open()` function, so if you want to open window
 ## My JavaScript Code Snippets
 ## Extras:
 - [Search Bar](http://bootsnipp.com/snippets/featured/expanding-search-button-in-css)
+- [KeyUp](http://www.w3schools.com/jquery/event_keyup.asp)
