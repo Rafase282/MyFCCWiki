@@ -195,7 +195,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 17. [Where do I belong](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-do-I-belong)
 
 ## Object Oriented and Functional Programming
-1. Declare JavaScript Objects as Variables
+1. [Declare JavaScript Objects as Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Declare-JavaScript-Objects-as-Variables)
 2. Construct JavaScript Objects with Functions
 3. Make Object Properties Private
 4. Make Instances of Objects with a Constructor Function
