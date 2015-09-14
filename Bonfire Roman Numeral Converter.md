@@ -8,40 +8,39 @@ Submitted by Rafase282
 # Details
 - Difficulty: 2/5
 
-Compare two arrays and return a new array with any items not found in both of the original arrays.
+Convert the given number into a roman numeral.
+
+All roman numerals answers should be provided in upper-case.
 
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
-- [Array.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
-- [Array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- [Roman Numerals](http://www.mathsisfun.com/roman-numerals.html)
+- [Array.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 - [Array.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
-- [Array.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+- [Array.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
 ## Problem Script:
 
 ```
-function diff(arr1, arr2) {
-  var newArr = [];
-  // Same, same; but different.
-  return newArr;
+function convert(num) {
+ return num;
 }
 
-diff([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+convert(36);
 ```
 
 ## Problem Explanation:
-- You will check two arrays and return a new array that contains only the items that are not in either of the original arrays.
+- You will create a program that converts an integer to a roman numeral.
 
 ### Hint: 1
-- Merge the list to make it easy to compare functions.
+- Creating an array with the Roman Numerals and one with the decimal equivalent for the new forms will be very helpful.
 
 ### Hint: 2
-- Use filter to get the new array, you will need to create a callback function.
+- If you add the numbers that go before the new letter is introduce, it will save you plenty of code, like 4 and 9.
 
 ### Hint: 3
-- The best way to go about the callback function is to check if the number from the new merged array is not in **both** original arrays and return it.
+- You can't have more than three consecutive Roman numerals together.
 
 ### Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -51,20 +50,32 @@ diff([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ## Code Solution:
 
 ```
-function diff(arr1, arr2) {
-  var newArr = arr1.concat(arr2);
+var convert = function(num) {
 
-  function check(item) {
-    if (arr1.indexOf(item) === -1 || arr2.indexOf(item) === -1) {
-      return item;
+  // Create arrays with default conversion with matching indices.
+  var decimalValue = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000];
+  var romanNumeral = ['I', 'IV', 'V', 'IX', 'X', 'XL', 'L', 'XC', 'C', 'CD', 'D', 'CM', 'M'];
+
+  // Create a copy of num to work on and an empty string variable for the final roman number
+  var numCopy = num;
+  var romanized = '';
+
+  // While the decimal number is greater than 0,
+  while (numCopy > 0) {
+    // Loop through the indices of the decimalValue array.
+    for (var index in decimalValue) {
+      // Get the maximum decimal number less or equal then the decimal number.
+      if (+decimalValue[index] <= numCopy && +decimalValue[+index + 1] > numCopy) {
+        // Add the Roman numeral & decrease numCopy by the decimal equivalent.
+        romanized += romanNumeral[index];
+        numCopy -= decimalValue[index];
+      }
     }
   }
 
-  return newArr.filter(check);
-}
+  return romanized;
+};
 ```
 
 # Code Explanation:
-- Merge both arrays on the new one using `.concat()`
-- Create a callback function to use with filter. The function will check if the number is not present in both original arrays and return it.
-- Return the filtered array.
+- Read comments on code.
