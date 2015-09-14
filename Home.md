@@ -218,7 +218,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 6. [Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Use-the-Twitch.tv-JSON-API)
 
 ## Intermediate Algorithm Scripting
-1. Sum All Numbers in a Range
+1. [Sum All Numbers in a Range]()
 2. Diff Two Arrays
 3. Roman Numeral Converter
 4. Search and Replace
