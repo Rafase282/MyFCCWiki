@@ -218,9 +218,9 @@ I will try to keep everything updated. If you are also part of the camp or would
 6. [Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Use-the-Twitch.tv-JSON-API)
 
 ## Intermediate Algorithm Scripting
-1. [Sum All Numbers in a Range]()
-2. Diff Two Arrays
-3. Roman Numeral Converter
+1. [Sum All Numbers in a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Numbers-in-a-Range)
+2. [Diff Two Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Diff-Two-Arrays)
+3. [Roman Numeral Converter](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Roman-Numeral-Converter)
 4. Search and Replace
 5. Pig Latin
 6. DNA Pairing
