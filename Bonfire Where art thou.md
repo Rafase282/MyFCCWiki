@@ -6,9 +6,11 @@ Submitted by Rafase282
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
 # Details
-- Difficulty: 1/5
+- Difficulty: 2/5
 
-Make a function that looks through an array (first argument) and returns an array of all objects that have equivalent property values (second argument).
+Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching property and value pairs (second argument). Each property and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
+
+For example, if the first argument is [{ first: 'Romeo', last: 'Montague' }, { first: 'Mercutio', last: null }, { first: 'Tybalt', last: 'Capulet' }], and the second argument is { last: 'Capulet' }, then you must return the third object from the array (the first argument), because it contains the property and it's value, that was passed on as the second argument.
 
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
@@ -30,32 +32,37 @@ where([{ first: 'Romeo', last: 'Montague' }, { first: 'Mercutio', last: null }, 
 ```
 
 ## Explanation:
-We have to create a program that will take an array for the first argument and return the object that matches the properties on the second parameter. You will need to be familiar with objects a little bit.
+Create a program that will take two parameters, the first will be an array with objects, and the second will be an object. The program needs to check the array of objects and return a new array with all the objects who have the same keys and properties the se second parameter even if the object from the array has those and more.
 
 ## Hint: 1
-Remember how to check for an element in a double array? `Array[index][subIndex]` That will be the first key.
+You need to divide what you need in parts to make it easier to understand what you actually have to code for.
 
 ## Hint: 2
-You remember how to access properties using Bracket and dot notation? `Obj[key]` and `Obj.key` You will be using them together the the first hint to access the information.
+You need to check if the object contains the keys from source and the same values.
 
 ## Hint: 3
-The rest is to check if they are the same and add it to a variable to be returned at the end.
+You can use map, filter, reduce and other methods in combination, also for loops.
 
 ## My code:
 
 ```
 function where(collection, source) {
   var arr = [];
-  for (var ob in collection) {
-    if (collection[ob][Object.keys(source)] === source[Object.keys(source)]) {
-      arr.push(collection[ob]);
-    }
-  }
+  var keys = Object.keys(source);
+  // Filter array and remove the ones that do not have the keys from source.
+  arr = collection.filter(function(obj) {
+    //Use the Array method every() instead of a for loop to check for every key from source.
+    return keys.every(function(key) {
+      // Check if the object has the property and the same value.
+      return obj.hasOwnProperty(key) && obj[key] === source[key];
+    });
+  });
+
   return arr;
 }
 ```
 
 ## My Code Explanation:
-We first create an empty array, then go through the collection of objects and check if each of them has the same key that we are searching for. If they do, then we push them to the array we created.
+Check the comments on the code.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
