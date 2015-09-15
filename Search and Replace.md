@@ -36,7 +36,7 @@ replace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
 # Problem Explanation:
-- You will create a program that takes a sentence, then search for a word in it and repalces it for a new one while preserving the uppercase if there is one.
+- You will create a program that takes a sentence, then search for a word in it and replaces it for a new one while preserving the uppercase if there is one.
 
 ## Hint: 1
 - Find the index where `before` is in the string.
