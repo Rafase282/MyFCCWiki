@@ -217,32 +217,32 @@ I will try to keep everything updated. If you are also part of the camp or would
 6. [Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Use-the-Twitch.tv-JSON-API)
 
 ## Intermediate Algorithm Scripting
-1. [Sum All Numbers in a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Numbers-in-a-Range)
-2. [Diff Two Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Diff-Two-Arrays)
-3. [Roman Numeral Converter](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Roman-Numeral-Converter)
-4. [Where art thou](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-art-thou)
-5. [Search and Replace](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Search-and-Replace)
-6. [Pig Latin](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Pig-Latin)
-7. [DNA Pairing](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/DNA-Pairing)
-8. Missing letters
-9. Boo who
-10. Sorted Union
-11. Convert HTML Entities
-12. Spinal Tap Case
-13. [Sum All Odd Fibonacci Numbers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Odd-Fibonacci-Numbers)
-14. [Sum All Primes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Primes)
-15. [Smallest Common Multiple](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Smallest-Common-Multiple)
-16. [Finders Keepers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Finders-Keepers)
-17. [Drop it](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Drop-it)
-18. [Steamroller](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Steamroller)
-19. [Binary Agents](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Binary-Agents)
-20. [Everything Be True](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Everything-Be-True)
-21. [Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
+1. [Bonfire: Sum All Numbers in a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Numbers-in-a-Range)
+2. [Bonfire: Diff Two Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Diff-Two-Arrays)
+3. [Bonfire: Roman Numeral Converter](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Roman-Numeral-Converter)
+4. Bonfire: [Where art thou](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-art-thou)
+5. [Bonfire: Search and Replace](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Search-and-Replace)
+6. [Bonfire: Pig Latin](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Pig-Latin)
+7. [Bonfire: DNA Pairing](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/DNA-Pairing)
+8. Bonfire: Missing letters
+9. Bonfire: Boo who
+10. Bonfire: Sorted Union
+11. Bonfire: Convert HTML Entities
+12. Bonfire: Spinal Tap Case
+13. [Bonfire: Sum All Odd Fibonacci Numbers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Odd-Fibonacci-Numbers)
+14. [Bonfire: Sum All Primes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Primes)
+15. [Bonfire: Smallest Common Multiple](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Smallest-Common-Multiple)
+16. Bonfire: [Finders Keepers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Finders-Keepers)
+17. [Bonfire: Drop it](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Drop-it)
+18. [Bonfire: Steamroller](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Steamroller)
+19. [Bonfire: Binary Agents](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Binary-Agents)
+20. [Bonfire: Everything Be True](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Everything-Be-True)
+21. [Bonfire: Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
 
 ## Upper Intermediate Algorithm Scripting
-1. [Make a Person](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
-2. [Map the Debris](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Map-the-Debris)
-3. [Pairwise](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Pairwise)
+1. [Bonfire: Make a Person](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
+2. [Bonfire: Map the Debris](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Map-the-Debris)
+3. [Bonfire: Pairwise](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Pairwise)
 
 ## Automated Testing and Debugging
 1. Use the Javascript Console
