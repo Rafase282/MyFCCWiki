@@ -42,18 +42,23 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 ```
 function steamroller(arr) {
-    var flattenedArray = [];
-    var flatten = function (arg) {
-        if (!Array.isArray(arg)){
-            flattenedArray.push(arg);
-        } else {
-            for (var a in arg) {
-                flatten(arg[a]);
-            }
-        }
-    };
-    arr.forEach(flatten);
-    return flattenedArray;
+  var flattenedArray = [];
+
+  // Create function that adds an element if it is not an array.
+  // If it is an array, then loops through it and uses recursion on that array.
+  var flatten = function(arg) {
+    if (!Array.isArray(arg)) {
+      flattenedArray.push(arg);
+    } else {
+      for (var a in arg) {
+        flatten(arg[a]);
+      }
+    }
+  };
+
+  // Call the function for each element in the array
+  arr.forEach(flatten);
+  return flattenedArray;
 }
 ```
 

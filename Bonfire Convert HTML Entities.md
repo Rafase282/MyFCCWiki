@@ -8,41 +8,36 @@ Submitted by Rafase282
 # Details
 - Difficulty: 2/5
 
-Write a function that takes two or more arrays and returns a new array of unique values in the order of the original provided arrays.
-
-In other words, all values present from all arrays should be included in their original order, but with no duplicates in the final array.
-
-The unique numbers should be sorted by their original order, but the final array should not be sorted in numerical order.
-
-Check the assertion tests for examples.
+Convert the characters "&", "<", ">", '"' (double quote), and "'" (apostrophe), in a string to their corresponding HTML entities.
 
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
-- [Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+- [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [HTML Entities](http://dev.w3.org/html5/html-author/charref)
 
 ## Problem Script:
 
 ```
-function unite(arr1, arr2, arr3) {
-  return arr1;
+function convert(str) {
+  // &colon;&rpar;
+  return str;
 }
 
-unite([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+convert('Dolce & Gabbana');
 ```
 
 # Problem Explanation:
-- The program has to return a new array of unique values from two original arrays in the order they show up. So there is not sorting required, and no duplicates.
+- You have to create a program that will convert HTML entities from string to their corresponding HTML entities. There are only a few so you can use different methods.
 
 ## Hint: 1
-- Since you have no idea how many parameters were passed, it would be best to loop through the `arguments` before looping through the arrays.
+- You can use regular Expressions however I didn't in this case.
 
 ## Hint: 2
-- I used loops, you can use something else like map, reduce or others if you want.
+- You will benefit form a chart with all the html entities so you know which ones are the right ones to put.
 
 ## Hint: 3
-- You will have to check if the current value is already on the array to be returned for every value.
+- You should separate and string and work with each character to convert the right ones and then join everything back up.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -52,34 +47,37 @@ unite([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 ## Code Solution:
 
 ```
-function unite(arr1, arr2, arr3) {
-  // Creates an empty array to store our final result.
-  var finalArray = [];
+function convert(str) {
+  // Split by character to avoid problems.
 
-  // Loop through the arguments object to truly made the program work with two or more arrays
-  // instead of 3.
-  for (var i = 0; i < arguments.length; i++) {
-    var arrayArguments = arguments[i];
+  var temp = str.split('');
 
-    // Loops through the array at hand
-    for (var j = 0; j < arrayArguments.length; j++) {
-      var indexValue = arrayArguments[j];
+  // Since we are only checking for a few HTML elements I used a switch
 
-      // Checks if the value is already on the final array.
-      if (finalArray.indexOf(indexValue) < 0) {
-        finalArray.push(indexValue);
-      }
+  for (var i = 0; i < temp.length; i++) {
+    switch (temp[i]) {
+      case '<':
+        temp[i] = '&lt;';
+        break;
+      case '&':
+        temp[i] = '&amp;';
+        break;
+      case '>':
+        temp[i] = '&gt;';
+        break;
+      case '"':
+        temp[i] = '&quot;';
+        break;
+      case "'":
+        temp[i] = '&apos;';
+        break;
     }
   }
 
-  return finalArray;
+  temp = temp.join('');
+  return temp;
 }
 ```
 
 # Code Explanation:
-- Check comments in code.
-
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+- Read comments in code.

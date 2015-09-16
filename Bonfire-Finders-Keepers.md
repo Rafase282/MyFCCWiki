@@ -42,15 +42,25 @@ If no element satisfy the function then you must return **undefined**
 
 ```
 function find(arr, func) {
-    var num;
-    for (var a in arr) {
-        if (func(arr[a])){
-            num = arr[a];
-            return num;
-        }
+  // Make num undefined by default
+  var num;
+
+  // Loop thorugh the array and use the function to check
+  for (var a = 0; a < arr.length; a++) {
+    if (func(arr[a])) {
+      // Store the first case and break the loop
+      num = arr[a];
+      return num;
     }
+  }
+
+  // otherwise return undefined
   return num;
 }
+
+find([1, 2, 3, 4], function(num) {
+  return num % 2 === 0;
+});
 ```
 
 ## My Code Explanation:

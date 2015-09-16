@@ -44,27 +44,38 @@ If you sort the array from greater to lowest then you can check for the first tw
 
 ```
 function smallestCommons(arr) {
-    arr.sort(function(a, b){return b-a;});
-    var newArr = [];
-    for(var i = arr[0]; i >= arr[1]; i--) {
-        newArr.push(i);
+  // Sort array from greater to lowest
+  // This line of code was from Adam Doyle (http://github.com/Adoyle2014)
+  arr.sort(function(a, b) {
+    return b - a;
+  });
+
+  // Create new array and add all values from greater to smaller from the original array.
+  var newArr = [];
+  for (var i = arr[0]; i >= arr[1]; i--) {
+    newArr.push(i);
+  }
+
+  // Variables needed declared outside the loops.
+  var quot = 0;
+  var loop = 1;
+  var n;
+
+  // run code while n is not the same as the array lenght.
+  do {
+    quot = newArr[0] * loop * newArr[1];
+    for (n = 2; n < newArr.length; n++) {
+      if (quot % newArr[n] !== 0) {
+        break;
+      }
     }
 
-    var quot = 0;
-    var loop = 1;
-    var n;
-    do {
-        quot = newArr[0] * loop * newArr[1];
-        for (n = 2; n < newArr.length; n++){
-            if (quot % newArr[n] !== 0) {
-                break;
-            }
-        }
-        loop++;
-    } while (n !== newArr.length);
+    loop++;
+  } while (n !== newArr.length);
 
-return quot;
+  return quot;
 }
+
 smallestCommons([1, 13]);
 ```
 
@@ -80,5 +91,7 @@ smallestCommons([1, 13]);
 - If the quotient is not even then stop the loop. If it is even then it check for the next elements in the array until it is not even or we find our answer.
 - Outside the loop, increase the value of loop.
 - At the end of the loop return the quotient.
+
+If the array only has two elements then the for loop never gets used and the return value is the product of said numbers. Otherwise, from the third element and until n is the same and the array length check if the reminder of the quotient and the third value of the array is not 0, if it is not 0 then stop loop increases and then we start over. If the reminded was 0 then keep checking until the end of the array.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
