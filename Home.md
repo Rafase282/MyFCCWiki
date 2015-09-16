@@ -224,15 +224,15 @@ I will try to keep everything updated. If you are also part of the camp or would
 5. [Bonfire: Search and Replace](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Search-and-Replace)
 6. [Bonfire: Pig Latin](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Pig-Latin)
 7. [Bonfire: DNA Pairing](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/DNA-Pairing)
-8. Bonfire: Missing letters
-9. Bonfire: Boo who
-10. Bonfire: Sorted Union
-11. Bonfire: Convert HTML Entities
-12. Bonfire: Spinal Tap Case
+8. [Bonfire: Missing letters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Missing-letters)
+9. [Bonfire: Boo who](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Boo-who)
+10. [Bonfire: Sorted Union](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sorted-Union)
+11. [Bonfire: Convert HTML Entities](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Convert-HTML-Entities)
+12. [Bonfire: Spinal Tap Case]()
 13. [Bonfire: Sum All Odd Fibonacci Numbers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Odd-Fibonacci-Numbers)
 14. [Bonfire: Sum All Primes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Primes)
 15. [Bonfire: Smallest Common Multiple](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Smallest-Common-Multiple)
-16. Bonfire: [Finders Keepers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Finders-Keepers)
+16. [Bonfire: Finders Keepers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Finders-Keepers)
 17. [Bonfire: Drop it](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Drop-it)
 18. [Bonfire: Steamroller](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Steamroller)
 19. [Bonfire: Binary Agents](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Binary-Agents)
@@ -245,48 +245,48 @@ I will try to keep everything updated. If you are also part of the camp or would
 3. [Bonfire: Pairwise](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Pairwise)
 
 ## Automated Testing and Debugging
-1. Use the Javascript Console
-2. Using typeof
+1. Waypoint: Use the Javascript Console
+2. Waypoint: Using typeof
 
 ## Advanced Algorithm Scripting
-1. [Validate US Telephone Numbers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Validate-US-Telephone-Numbers)
-2. Symmetric Difference
-3. Exact Change
-4. Inventory Update
-5. No repeats please
-6. Friendly Date Ranges
+1. [Bonfire: Validate US Telephone Numbers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Validate-US-Telephone-Numbers)
+2. Bonfire: Symmetric Difference
+3. Bonfire: Exact Change
+4. Bonfire: Inventory Update
+5. Bonfire: No repeats please
+6. Bonfire: Friendly Date Ranges
 
 ## AngularJS
-1. Get Started with Angular.js
-2. Apply Angular.js Directives
-3. Power Forms with Angular.js
-4. Customize Angular.js Directives
-5. Create Angular.js Services
+1. Waypoint: Get Started with Angular.js
+2. Waypoint: Apply Angular.js Directives
+3. Waypoint: Power Forms with Angular.js
+4. Waypoint: Customize Angular.js Directives
+5. Waypoint: Create Angular.js Services
 
 ## Intermediate Front End Development Projects
-1. Stylize Stories on Camper News
-2. Wikipedia Viewer
-3. Build a JavaScript Calculator
-4. Build a Tic Tac Toe Game
-5. Build a Simon Game
+1. Zipline: Stylize Stories on Camper News
+2. Zipline: Wikipedia Viewer
+3. Zipline: Build a JavaScript Calculator
+4. Zipline: Build a Tic Tac Toe Game
+5. Zipline: Build a Simon Game
 
 ## Git
-1. Save your Code Revisions Forever with Git
+1. Waypoint: Save your Code Revisions Forever with Git
 
 ## Node.js and Express.js
-1. Manage Packages with NPM
-2. Start a Node.js Server
-3. Continue working with Node.js Servers
-4. Finish working with Node.js Servers
-5. Build Web Apps with Express.js
+1. Waypoint: Manage Packages with NPM
+2. Waypoint: Start a Node.js Server
+3. Waypoint: Continue working with Node.js Servers
+4. Waypoint: Finish working with Node.js Servers
+5. Waypoint: Build Web Apps with Express.js
 
 ## MongoDB
-1. Store Data in MongoDB
+1. Waypoint: Store Data in MongoDB
 
 ## Full Stack JavaScript Projects
-1. Get Set for Basejumps
-2. Build a Voting App
-3. Build a Nightlife Coordination App
-4. Chart the Stock Market
-5. Manage a Book Trading Club
-6. Build a Pinterest Clone
+1. Waypoint: Get Set for Basejumps
+2. Basejump: Build a Voting App
+3. Basejump: Build a Nightlife Coordination App
+4. Basejump: Chart the Stock Market
+5. Basejump: Manage a Book Trading Club
+6. Basejump: Build a Pinterest Clone
