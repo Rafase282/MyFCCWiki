@@ -8,42 +8,43 @@ Submitted by Rafase282
 # Details
 - Difficulty: 2/5
 
-Translate the provided string to pig latin.
+The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array.
 
-[Pig Latin](http://en.wikipedia.org/wiki/Pig_Latin) takes the first consonant (or consonant cluster) of an English word, moves it to the end of the word and suffixes an "ay".
+[Base pairs](http://en.wikipedia.org/wiki/Base_pair) are a pair of AT and CG. Match the missing element to the provided character.
 
-If a word begins with a vowel you just add "way" to the end.
+Return the provided character as the first element in each array.
+
+For example, for the input GCG, return [['G', 'C'], ['C','G'],['G', 'C']]
+
+The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
 
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Array.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 - [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
-- [Array.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
-- [String.substr()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)
 - [String.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 
 ## Problem Script:
 
 ```
-function translate(str) {
+function pair(str) {
  return str;
 }
 
-translate("consonant");
+pair("GCG");
 ```
 
 # Problem Explanation:
 - Explain what is asked in an easy to understand way.
 
 ## Hint: 1
-- Add hint here.
+- There are two base case, A-T and C-G, these go both way. You can use regular expression, if statements of anything that you can think of.
 
 ## Hint: 2
-- Add hint here.
+- I would recommend using a switch, as it makes things a lot smoother.
 
 ## Hint: 3
-- Add hint here.
+- The result must be an array of arrays, so keep that in mind when pushing things.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -53,8 +54,39 @@ translate("consonant");
 ## Code Solution:
 
 ```
-code here
+function pair(str) {
+  // Return each strand as an array of two elements, the original and the pair.
+  var paired = [];
+
+  // Function to check with strand to pair.
+  var search = function(char) {
+    switch (char) {
+      case 'A':
+        paired.push(['A', 'T']);
+        break;
+      case 'T':
+        paired.push(['T', 'A']);
+        break;
+      case 'C':
+        paired.push(['C', 'G']);
+        break;
+      case 'G':
+        paired.push(['G', 'C']);
+        break;
+    }
+  };
+
+  // Loops through the input and pair.
+  console.log(char);
+  for (var i = 0; i < str.length; i++) {
+    search(str[i]);
+  }
+
+  return paired;
+}
 ```
 
 # Code Explanation:
-- Explain your code here
+- The program is very simple, the best solution that I have come up with is to use a switch to catch all the possible four elements. Using if statements would take too much code. You could also use Regular Expressions.
+- Since we have to the original and the pair, I decided to take all four cases instead of the base two.
+- Create an empty array and use the `search` function to push the right values to the array and return them.

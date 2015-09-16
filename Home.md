@@ -221,9 +221,9 @@ I will try to keep everything updated. If you are also part of the camp or would
 2. [Diff Two Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Diff-Two-Arrays)
 3. [Roman Numeral Converter](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Roman-Numeral-Converter)
 4. [Where art thou](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-art-thou)
-5. [Search and Replace]()
-6. Pig Latin
-7. DNA Pairing
+5. [Search and Replace](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Search-and-Replace)
+6. [Pig Latin](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Pig-Latin)
+7. [DNA Pairing](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/DNA-Pairing)
 8. Missing letters
 9. Boo who
 10. Sorted Union
