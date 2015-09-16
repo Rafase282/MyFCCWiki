@@ -57,34 +57,47 @@ The program has a test that checks for how many keys you used, they have to be e
 ## Hint: 3
 Often the code would not work the way you expect it due to wrong variable names, make sure to check that you spell them the right way. This happens to all of us at some point.
 
+## Spoiler Alert!
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+
+**Solution ahead!**
+
 ## My code
 Please try hard before you check this solution.
 
 ```js
 var Person = function(firstAndLast) {
 
-    var fullName = firstAndLast;
-    var arr = fullName.split(' ');
+  var fullName = firstAndLast;
+  var arr = fullName.split(' ');
 
-    this.getFirstName = function() {
-        return arr[0];
-    };
-    this.getLastName = function() {
-        return arr[1];
-    };
-    this.getFullName = function() {
-        return fullName;
-    };
-    this.setFirstName = function(first) {
-        arr[0] = first;
-    };
-    this.setLastName = function(last) {
-        arr[1] = last;
-    };
-    this.setFullName = function(firstAndLast) {
-        fullName = firstAndLast;
-    };
+  this.getFirstName = function() {
+    return arr[0];
+  };
+
+  this.getLastName = function() {
+    return arr[1];
+  };
+
+  this.getFullName = function() {
+    return fullName;
+  };
+
+  this.setFirstName = function(first) {
+    arr[0] = first;
+  };
+
+  this.setLastName = function(last) {
+    arr[1] = last;
+  };
+
+  this.setFullName = function(firstAndLast) {
+    fullName = firstAndLast;
+  };
 };
+
+var bob = new Person('Bob Ross');
+bob.getFullName();
 ```
 
 ## My Code Explanation:
