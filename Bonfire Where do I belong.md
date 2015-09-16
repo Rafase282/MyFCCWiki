@@ -19,7 +19,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function where(arr, num) {
   // Find my place in this sorted array.
   return num;
@@ -42,7 +42,7 @@ If there is no index for that number then you will have to deal with that case t
 
 ## My code:
 
-```
+```js
 function where(arr, num) {
     arr.sort(function(a, b) {
         return a - b;

@@ -18,7 +18,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function drop(arr, func) {
   // Drop them elements.
   return arr;
@@ -41,7 +41,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 
 ## Code Solution:
 
-```
+```js
 Code from Max Helmetag (https://github.com/mhelmetag)
 
 function drop(arr, func) {

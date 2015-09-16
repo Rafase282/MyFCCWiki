@@ -23,7 +23,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function mutation(arr) {
   return arr;
 }
@@ -45,7 +45,7 @@ You will need a way to check if all the words are in the first one, like keeping
 
 ## My code:
 
-```
+```js
 function mutation(arr) {
 
     var first = arr[0].toLowerCase().split('');

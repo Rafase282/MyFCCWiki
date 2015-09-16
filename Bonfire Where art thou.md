@@ -21,7 +21,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function where(collection, source) {
   var arr = [];
   // What's in a name?
@@ -45,7 +45,7 @@ You can use map, filter, reduce and other methods in combination, also for loops
 
 ## My code:
 
-```
+```js
 function where(collection, source) {
   var arr = [];
   var keys = Object.keys(source);

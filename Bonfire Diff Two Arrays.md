@@ -21,7 +21,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function diff(arr1, arr2) {
   var newArr = [];
   // Same, same; but different.
@@ -50,7 +50,7 @@ diff([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 
 ## Code Solution:
 
-```
+```js
 function diff(arr1, arr2) {
   var newArr = arr1.concat(arr2);
 

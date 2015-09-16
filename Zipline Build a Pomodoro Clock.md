@@ -29,7 +29,7 @@ The HTML part is very simple, nothing complicated. I keep using the same style I
 
 This is the whole html file. I have a label and an interface to configure the break-time and work-time so you can setup the timer.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -105,7 +105,7 @@ This is the whole html file. I have a label and an interface to configure the br
 ## My CSS Code Snippets
 The CSS is also simple, a background color with things centered.
 
-```
+```css
 h1, p, .row {
   text-align: center;
   font-size: 130%;
@@ -137,7 +137,7 @@ This is where the magic happens!
 
 Firs I setup my global variables for jQuery:
 
-```
+```js
 $workT = $('#work-time');
 $breakT = $('#break-time');
 $status = $('#status');
@@ -147,7 +147,7 @@ Might not be much but is a way to practice how to make variables using jQuery an
 
 Next is to add code to control the minutes that will be added or removed.
 
-```
+```js
 // Controls for Break Length
 $('#minus').click(function() {
   $status.text('Break!');
@@ -179,7 +179,7 @@ I didn't want to have zero minutes as that would be silly so I made sure to chec
 
 As for the alarm part, I used HTML5 to take care of that.
 
-```
+```js
 var audio = new Audio('http://soundbible.com/grab.php?id=1377&type=mp3');
 
 function beep() {
@@ -192,7 +192,7 @@ It is important to have the new audio outside the function, before I had it insi
 
 Then because I wanted double digits all the time I had to create a function to keep double digits no matter what.
 
-```
+```js
 function pad(val) {
   return ('00' + val).slice(-2);
 }
@@ -200,7 +200,7 @@ function pad(val) {
 
 The I'm creating a function to update the display with the right time. This needs to be used together with the update function.
 
-```
+```js
 var el = document.getElementById('timer');
 
 function updateDisplay(t) {
@@ -215,7 +215,7 @@ function updateDisplay(t) {
 
 Before anything, lets setup the timer:
 
-```
+```js
 time = 0;
 updateDisplay(time);
 var running = true;
@@ -226,7 +226,7 @@ using `new Date()` is crucial!
 
 NOw, the update function is very meaty as most of the code is here, given that it is the core of the program.
 
-```
+```js
 function update() {
   if (time <= 0.0) { // Already done
     return;
@@ -240,7 +240,7 @@ function update() {
 
 This part is to get the right color for the specific timer running for the progress animation.
 
-```
+```js
   if ($status.text() === 'Work!') {
     totalTime = ($workT.text() * 60);
     water = 'rgba(25, 139, 201, 1)';
@@ -258,7 +258,7 @@ Takes the time and turns it into a value between 0 and 1 for the progress circle
 
 Calls the updated animation.
 
-```
+```js
   $('#progress').waterbubble({
     data: fraction,
     animation: false,
@@ -268,7 +268,7 @@ Calls the updated animation.
 
 If the time has finished then we need to switch to the other timer and also change the label and sound the alarm.
 
-```
+```js
   if (time <= 0.0) {
     if ($status.text() === 'Work!') {
       beep();
@@ -286,7 +286,7 @@ If the time has finished then we need to switch to the other timer and also chan
 
 Then we keep things goin on!
 
-```
+```js
   updateDisplay(time);
   if (running) {
     requestAnimationFrame(update);
@@ -297,7 +297,7 @@ Then we keep things goin on!
 
 The run function is what gets the timer to start up and work things. I use `requestAnimationFrame` for this version. I have another version that is not quited finished with regards to the animations but the functionality is there using `setinterval`
 
-```
+```js
 function run() {
   $status.text('Work!');
   if (time <= 0.0) {
@@ -312,7 +312,7 @@ function run() {
 
 The easiest part due the the way the code works is to pause the timer.
 
-```
+```js
 function pause() {
   running = false;
 }
@@ -320,7 +320,7 @@ function pause() {
 
 When stopping the timer, I want to reset everything so I have to take care of many things like the displayed time, the labels, and then default timers along with resetting the animation.
 
-```
+```js
 function stop() {
   running = false;
   time = 0;
@@ -338,7 +338,7 @@ function stop() {
 
 We are almost done, I just have to set the buttons with their onclick call.
 
-```
+```js
 var bStart = document.getElementById('start');
 var bPause = document.getElementById('pause');
 var bReset = document.getElementById('reset');
@@ -350,7 +350,7 @@ bReset.onclick = stop;
 
 There is one last thing, setting up the progress bar animation. The first part was linking the files which I did on the html part, now we need the manual configuration.
 
-```
+```js
 $('#progress').waterbubble(
 
   {

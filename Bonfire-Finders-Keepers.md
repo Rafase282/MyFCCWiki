@@ -17,7 +17,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function find(arr, func) {
   var num = 0;
   return num;
@@ -40,7 +40,7 @@ If no element satisfy the function then you must return **undefined**
 
 ## My code:
 
-```
+```js
 function find(arr, func) {
   // Make num undefined by default
   var num;

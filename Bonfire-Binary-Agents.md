@@ -20,7 +20,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function binaryAgent(str) {
   return str;
 }
@@ -41,7 +41,7 @@ Make sure that each time you transcode a character from binary to decimal, that 
 
 ## My code:
 
-```
+```js
 function binaryAgent(str) {
   // Separate the binary code by space.
   str = str.split(' ');

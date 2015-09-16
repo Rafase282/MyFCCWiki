@@ -17,7 +17,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function repeat(str, num) {
   // repeat after me
   return str;
@@ -40,7 +40,7 @@ Make the variable created store the current value and append the word to it.
 
 ## My code:
 
-```
+```js
 function repeat(str, num) {
     var accumulatedStr = "";
     while (num > 0) {

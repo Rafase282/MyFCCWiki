@@ -19,7 +19,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function titleCase(str) {
   return str;
 }
@@ -41,7 +41,7 @@ You will need to create a new string with pieces of the previous one and at the 
 
 ## My code:
 
-```
+```js
 String.prototype.replaceAt = function(index, character) {
     return this.substr(0, index) + character + this.substr(index+character.length);
 };

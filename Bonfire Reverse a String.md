@@ -23,7 +23,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function reverseString(str) {
   return str;
 }
@@ -45,10 +45,9 @@ Once you have split and reversed, do not forget to join them back into one strin
 
 ## My code:
 
-```
+```js
 function reverseString(str) {
   var strReverse = str.split('').reverse().join('');
-
   return strReverse;
 }
 ```

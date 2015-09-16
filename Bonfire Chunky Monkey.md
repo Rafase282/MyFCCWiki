@@ -17,7 +17,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function chunk(arr, size) {
   // Break it up.
   return arr;
@@ -40,7 +40,7 @@ You will need to check if there is any elements to push before returning the fin
 
 ## My code:
 
-```
+```js
 var temp = [];
 var result = [];
 

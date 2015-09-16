@@ -18,7 +18,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function convert(str) {
   // &colon;&rpar;
   return str;
@@ -46,7 +46,7 @@ convert('Dolce & Gabbana');
 
 ## Code Solution:
 
-```
+```js
 function convert(str) {
   // Split by character to avoid problems.
 

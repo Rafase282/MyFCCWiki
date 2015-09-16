@@ -18,7 +18,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function spinalCase(str) {
   // "It's such a fine line between stupid, and clever."
   // --David St. Hubbins
@@ -47,7 +47,7 @@ spinalCase('This Is Spinal Tap');
 
 ## Code Solution:
 
-```
+```js
 function spinalCase(str) {
   // Create a variable for the white space and underscores.
   var regex = /\s+|_+/g;

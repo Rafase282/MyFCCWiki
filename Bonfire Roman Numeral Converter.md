@@ -22,7 +22,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function convert(num) {
  return num;
 }
@@ -49,7 +49,7 @@ convert(36);
 
 ## Code Solution:
 
-```
+```js
 var convert = function(num) {
 
   // Create arrays with default conversion with matching indices.

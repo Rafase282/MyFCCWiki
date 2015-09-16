@@ -36,7 +36,7 @@ For the HTML part there was nothing special other than  getting the form for the
 
 I generate more html using JavaScript.
 
-```
+```html
 <section>
   <div class="container-fluid">
     <div class="row">
@@ -88,7 +88,7 @@ I generate more html using JavaScript.
 ## My CSS Code Snippets
 The Search Bar has its own CSS so I just copied it.
 
-```
+```css
 .search-form .form-group {
   float: right !important;
   transition: all 0.35s, border-radius 0s;
@@ -142,7 +142,7 @@ The Search Bar has its own CSS so I just copied it.
 
 The rest was standard, it was the footer that has a new way to show other than the vh with min-height as I was doing before. this one is vertically and horizontally aligned.
 
-```
+```css
 footer {
   background-color: black;
   color: gray;
@@ -174,7 +174,7 @@ var AccInfo = {};
 
 I will use this constructor to create my objects with the info I want. It will be inside the `$(document).ready(function() {});` with everything else.
 
-```
+```js
 function Account(name, logo, status, url, viewers, data) {
   this.name = name;
   this.logo = logo;
@@ -189,7 +189,7 @@ My render function will categorize, generate and populate the user lists. Now, t
 
 The main thing is to use a `for in` loop to check each object and generate the proper html and display it on the right tab with `$('.list').append(CAccInfo[stream].data);`
 
-```
+```js
 function render(RegEx) {
   var CAccInfo;
   CAccInfo = AccInfo;
@@ -220,7 +220,7 @@ function render(RegEx) {
 
 Then I have a function to get the user info, mostly the logo and proper username. It does call another function to get the stream information.
 
-```
+```js
 function getUserInfo(CurrentName) {
   $.getJSON(users + CurrentName + '?callback=?', function(response) {
     if (response.logo === null) {
@@ -242,7 +242,7 @@ function getUserInfo(CurrentName) {
 
 This is the function that gets the stream information if it is online or provide the right information if it is offline or the account was closed.
 
-```
+```js
 function getStreamInfo(currentStream) {
   $.getJSON(streams + currentStream.name + '?callback=?', function(feed) {
     secondPassPos++;
@@ -267,7 +267,7 @@ function getStreamInfo(currentStream) {
 
 Outside of the when ready function we have the code for the search bar. What it does basically is create a regex each time the user types on the bar, when there are characters it will hide everything that is not on the regex and when nothing is there it will show everything again.
 
-```
+```js
 function search() {
   if ($('#search').val().length > 0) {
     // Display matching names by hiding anything that is not what we want from the  class= "user"

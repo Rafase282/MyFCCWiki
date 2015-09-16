@@ -18,7 +18,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function destroyer(arr) {
   // Remove all the values
   return arr;
@@ -41,7 +41,7 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 
 ## My code:
 
-```
+```js
 function destroyer(arr) {
   var args = Array.prototype.slice.call(arguments);
   args.splice(0,1);

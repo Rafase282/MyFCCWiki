@@ -25,7 +25,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function translate(str) {
  return str;
 }
@@ -52,7 +52,7 @@ translate("consonant");
 
 ## Code Solution:
 
-```
+```js
 function translate(str) {
   // Create variables to be used
   var pigLatin = '';

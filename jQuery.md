@@ -12,7 +12,7 @@ To add JS to your HTML, you need a `script` tag.  Your browser will run any Java
 
 Inside your script element, add this code: `$(document).ready(function() {` to your script. Then close it on the following line (still inside your script element) with: `});`
 
-```
+```js
 <script> $(document).ready(function(){
 
 });</script>
@@ -25,7 +25,7 @@ jQuery often selects an HTML element with a selector, then does something to tha
 
 The following code will make the buttons have a bouncy animation on page load.
 
-```
+```js
 <script>
   $(document).ready(function() {
     $("button").addClass("animated bounce");
@@ -52,7 +52,7 @@ The multiple jQuery selectors are:
 2. By class: `$(".btn")`
 3. By id: `$("#target1")`
 
-```
+```html
 <script>
   $(document).ready(function() {
     $("button").addClass("animated");
@@ -72,7 +72,7 @@ We can also change the CSS of an HTML element directly with jQuery.
 
 Query has a function called `.css()` that allows you to change the CSS of an element.
 
-```
+```html
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
@@ -138,7 +138,7 @@ jQuery can target the body element as well.
 
 Here's how we would make the entire body fade out: `$('body').addClass('animated fadeOut');`
 
-```
+```html
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");

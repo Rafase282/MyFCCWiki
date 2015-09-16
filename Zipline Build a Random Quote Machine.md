@@ -24,7 +24,7 @@ Note that you can either put your quotes into an array and show them at random, 
 ## My HTML Code Snippets
 The body section uses one section and a footer. There is nothing new. The way the sections are setup are to make the whole site responsive. I have used the twitter-share-button which is part of the API and code but I didn't want the default Twitter button so I created my own. You can check the documentation for that here: [https://dev.twitter.com/web/tweet-button](https://dev.twitter.com/web/tweet-button)
 
-```
+```html
 <section class="container-fluid">
   <h1 class='text-primary'>Random Quotes!</h1>
   <p> This site will display random quotes using the <a href="http://forismatic.com/" target="_blank">Forismatic</a> API. I hope you enjoy them as I learn to work with API and front end. If you want, you can tweet the quotes, it will take you to a new page
@@ -52,7 +52,7 @@ There is no much CSS used here. First I used this site [http://colorsafe.co/](ht
 - I gave a new font color, and background color for the body and footer.
 - I played around with the `section` elements and footer to make it take the whole page so the footer is at the bottom.
 
-```
+```css
 p, .container-fluid {
   margin-right: 10%;
   margin-left: 10%;
@@ -94,7 +94,7 @@ section {
 - For the twitter part, I created a variable `quot` that will hold a string to be parsed as an url string. It will have the API url, and add parameters like the quote text, with the label Author and the author's name. I also added some self promotion and so I know when people use it as they would tag me. However, the user has full control of what is actually posted as they have to edit and click post before the tweet goes.
 - `.attr` is what allowed me to change the link of the `a` tag.
 
-```
+```js
 // Random Quote Generator
 var url = "http://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?";
 var getQuote = function(data) {

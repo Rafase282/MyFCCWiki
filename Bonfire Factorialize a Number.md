@@ -23,7 +23,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function factorialize(num) {
   return num;
 }
@@ -47,12 +47,13 @@ Remember the control, the last number has to be `1` and the initial number shoul
 
 ## My code:
 
-```
+```js
 function factorialize(num) {
   var factorial = 1;
   for (var n = 2; n <= num; n++) {
     factorial = factorial * n;
   }
+
   return factorial;
 }
 ```

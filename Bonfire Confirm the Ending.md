@@ -17,7 +17,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function end(str, target) {
   // "Never give up and good luck will find you."
   // -- Falcor
@@ -41,12 +41,12 @@ Check that you have the proper syntax and that you use `===` to compare.
 
 ## My code:
 
-```
+```js
 function end(str, target) {
-    if (str.substr(- target.length) === target)
-        return true;
-    else
-        return false;
+  if (str.substr(-target.length) === target)
+    return true;
+  else
+    return false;
 }
 ```
 

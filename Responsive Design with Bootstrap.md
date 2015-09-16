@@ -52,7 +52,7 @@ Bootstrap uses a responsive grid system that makes it easier to put elements int
 
 Note that in this illustration, the `col-md-_` class is being used. Here, md means medium, and _ is a number specifying how many columns wide the element should be. In this case, the column width of an element on a medium-sized screen, such as a laptop, is being specified.
 
-```
+```html
 <div class="row">
 
   <div class="col-xs-4"><button class="btn btn-block btn-primary">Like</button></div>
@@ -75,7 +75,7 @@ You can use use spans to create inline elements. By using the span element, you 
 ## Create a Custom Heading
 Using `div` and the custom grid layout we can create our own heading.
 
-```
+```html
 <div class="row">
    <div class="col-xs-8">
      <h2 class="text-primary text-center">CatPhotoApp</h2>
@@ -100,7 +100,7 @@ You can use Bootstrap's `col-xs-*` classes on `form` elements. That will make ra
 
 Nest all of your radio buttons within a `<div class="row">` element. Then nest each of them within a `<div class="col-xs-6">` element.
 
-```
+```html
 <form action="/submit-cat-photo">
   <div class="row">
     <div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Indoor</label></div>
@@ -127,7 +127,7 @@ You can add the `fa-paper-plane` Font Awesome icon by adding `<i class="fa fa-pa
 ## Line up Form Elements Responsively with Bootstrap
 We line up the form elements the same way we do with others, using divs.
 
-```
+```html
 <div class="row">
 <div class="col-xs-7"><input type="text" class="form-control" placeholder="cat photo URL" required></div>
 <div class=col-xs-5><button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button></div>
@@ -140,7 +140,7 @@ We line up the form elements the same way we do with others, using divs.
 ## House our page within a Bootstrap Container Fluid Div
 To make the content responsive, we use the `container-fluid` class.
 
-```
+```html
 <div class="container-fluid">
 <h3 class="text-primary text-center">jQuery Playground</h3>
 </div>
@@ -152,7 +152,7 @@ Create a div element with the class row. `<div class="row"></div>`
 ## Split your Bootstrap Row
 Create two `div` elements within your row, both with the class `col-xs-6`.
 
-```
+```html
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
   <div class="row">
@@ -167,7 +167,7 @@ Bootstrap has a class called `well` that can create a visual sense of depth for 
 
 Nest one div element with the class well within each of your `col-xs-6 div` elements.
 
-```
+```html
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
   <div class="row">
@@ -195,7 +195,7 @@ Once you have gone deep enough in `divs` you can start adding your Bootstrap but
 ## Apply the Default Bootstrap Button Style
 Bootstrap has a button class called `btn-default`
 
-```
+```html
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
   <div class="row">
@@ -241,7 +241,7 @@ When we start using jQuery, we will modify HTML elements without needing to actu
 
 This is a great way to make websites with a particular structure. Remember that you can start a comment with `<!-- and end a comment with -->`
 
-```
+```html
 <!--You shouldn't need to modify code below this line -->
 <div class="container-fluid">
  <h3 class="text-primary text-center">jQuery Playground</h3>

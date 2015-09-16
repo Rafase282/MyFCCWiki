@@ -33,7 +33,7 @@ CodePen.io overrides the `Window.open()` function, so if you want to open window
 - You can add more fancy stuff if needed.
 - The `head` tags has the tile, links for stylesheets and the charset. I think you can also add the JS links.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +58,7 @@ It has to stay at the top and be responsive so it does not take too much screen 
 
 More about the [Scrollspy plugin.](http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp)
 
-```
+```html
 <!-- The scrollable area -->
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -114,7 +114,7 @@ As you can see, there is no need to use `div` to create custom sections. For det
 - `me` is a class I created to identify that this is the photo with my face as it will behave differently as the images used on the portfolio.
 - `img-text` is a class I created identify the text color for images.
 
-```
+```html
 <!-- Home -->
 <section class="home" id="home">
   <h1>Rafael Rodriguez</h1>
@@ -131,7 +131,7 @@ As you can see, there is no need to use `div` to create custom sections. For det
 For this section I have used `section` and gave it a class and id with the same name for the reasons already explained.
 - I used an [accordion](http://www.w3schools.com/bootstrap/bootstrap_collapse.asp) appearance using `collapsible` from bootstrap.
 
-```
+```html
 <!-- Experience -->
 <section class="experience" id="experience">
   <div class="container">
@@ -207,7 +207,7 @@ The portfolio section is a bit more complicated. It uses columns to align the im
 - I also created a new class to add gray text to elements.: `<h2 class="gray-text">Project Title</h2>` and `<p class="gray-text">`
 - I got the images from this [site.](http://lorempixel.com/)
 
-```
+```html
 <!-- Portfolio -->
 <section class="portfolio" id="portfolio">
   <h1>Portfolio</h1>
@@ -269,7 +269,7 @@ Since there were many of them, it was a problem for smaller screen to keep them 
 - The group of buttons to be aligned vertically needs a `<div class="btn-group-vertical">`
 - I used Font Awesome icons, `<i class="fa fa-envelope fa-fw"></i>`
 
-```
+```html
 <!-- Contact -->
  <section class="contact" id="contact">
    <div class="contact-info">
@@ -308,7 +308,7 @@ Since there were many of them, it was a problem for smaller screen to keep them 
 ### The footer
 This is a simple section, nothing fancy here, html wise.
 
-```
+```html
 <!-- The footer -->
 <footer>
   <p>Copyright © Rafael J. Rodriguez 2015. All Rights Reserved</p>
@@ -318,7 +318,7 @@ This is a simple section, nothing fancy here, html wise.
 ### The end of body:
 Here is where the JS scripts are, right after we close the body, but before we close the html.
 
-```
+```html
 </body>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -332,7 +332,7 @@ Here is where the JS scripts are, right after we close the body, but before we c
 ### The body:
 We make the position to be relative to make things fluid.
 
-```
+```css
 body {
   position: relative;
 }
@@ -343,7 +343,7 @@ body {
 - We use `padding-top` and `padding-bottom` to give space above and bellow so things don't look cramped.
 - I made the text color to be gray for visibility since I made the background color to be black.
 
-```
+```css
 footer {
   min-height: 10vh;
   padding-top: 40px;
@@ -356,7 +356,7 @@ footer {
 ### Headings and paragraphs
 Make it all centered.
 
-```
+```css
 h1, h2, p {
   text-align: center;
 }
@@ -365,7 +365,7 @@ h1, h2, p {
 ### Giving color
 This will give a font color of white to `a` tags and gray to custom classes that I created earlier.
 
-```
+```css
 a {
   color: white;
 }
@@ -383,7 +383,7 @@ a {
 ### Image opacity
 I tried to use jQuery to give some animation but instead I used the `opacity` property and gave it a default value and when I hover over an image it changes opacity while the mouse is inside using `:hover` I also specified for which images using the `thumbnail` class. More [info.](http://www.w3schools.com/css/css_image_transparency.asp)
 
-```
+```css
 img {
   opacity: 1.0;
   filter: alpha(opacity=100);
@@ -399,7 +399,7 @@ img {
 ### Styling my photo
 This will make the image a particular size, with a fixed margin, and border style and color. The `displayed` part makes it stay at the center.
 
-```
+```css
 .me {
   width: 250px;
   height: 250px;
@@ -418,7 +418,7 @@ This will make the image a particular size, with a fixed margin, and border styl
 ### Working with custom positioning
 I had to get some things to be centered, like certain text, or move certain parts of the navigation bar towards certain direction. This is the code used.
 
-```
+```css
 .img-text {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -442,7 +442,7 @@ I had to get some things to be centered, like certain text, or move certain part
 - For the contact section I had to change some values. I wanted the contact section to show the footer too. So I had to adjust to 90-10 ratio on the `min-height`.
 - For the `contact-info` which is what has the widget and buttons, I gave it some space too on real screen state to keep things neat.
 
-```
+```css
 .home {
 position: relative;
 min-height: 100vh;
@@ -482,7 +482,7 @@ margin: auto;
 ## The JavaScript
 Here I just paste the JavaScript part of the widget.
 
-```
+```js
 /* Twitter feed code
  *
  */

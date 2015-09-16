@@ -22,7 +22,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function every(collection, pre) {
   // Does everyone have one of these?
   return pre;
@@ -47,7 +47,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 ## My Code:
 
-```
+```js
 function every(collection, pre) {
   // Create a counter to check how many are true.
   var counter = 0;

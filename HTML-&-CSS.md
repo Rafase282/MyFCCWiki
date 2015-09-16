@@ -17,7 +17,7 @@ Opening tags look like this: `<h1>`. Closing tags look like this: `</h1>`  Note 
 ## Headline with the h2 Element
 You can create different levels of Heading elements by using **h1, h2, h3, h4, h5, h6** which will result on different sizes.
 
-```
+```html
 <h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
 ```
@@ -27,7 +27,7 @@ You can create different levels of Heading elements by using **h1, h2, h3, h4, h
 
 You can create a p element like so: `<p>I'm a p tag!</p>`.
 
-```
+```html
 <h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
 <p>Hello Paragraph</p>
@@ -47,7 +47,7 @@ It is also a convenient way to make code inactive without having to delete it en
 
 You can start a comment with `<!-- and end a comment with -->`.
 
-```
+```html
 <!--
 <h1>Hello World</h1>
 
@@ -62,7 +62,7 @@ Web developers traditionally use **lorem ipsum** text as placeholder text. It's 
 
 **lorem ipsum** text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.
 
-```
+```html
 <h1>Hello World</h1>
 
 <h2>CatPhotoApp</h2>
@@ -78,7 +78,7 @@ CSS allows us to change  many styles. To change the color of an element we use `
 
 Here's how you would set your h2 element's text color to blue: `<h2 style="color: blue">CatPhotoApp</h2>`.
 
-```
+```html
 <h2 style="color: red">CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
@@ -93,7 +93,7 @@ Inside that style element, you can create a CSS selector for any HTML Elements. 
 
 Note that it's important to have both opening and closing curly braces `({` and `})` around each element's style. You also need to make sure your element's style is between the opening and closing style tags. Finally, be sure to add the semicolon to the end of each of your element's styles.
 
-```
+```html
 <style>
 h2{
   color: blue;
@@ -110,7 +110,7 @@ Classes are reusable styles that can be added to HTML elements. You can apply a 
 
 Note that in your CSS style element, classes should start with a period. In your HTML elements' class declarations, classes shouldn't start with a period.
 
-```
+```html
 <style>
   .red-text {
     color: red;
@@ -127,7 +127,7 @@ You can attach classes to HTML elements by using `class="your-class-here"` withi
 
 CSS selectors require a period at the beginning like this: `.blue-text { color: blue; }`, but that class declarations don't use a period, like this: `<h2 class="blue-text">CatPhotoApp<h2>`.
 
-```
+```html
 <style>
   .red-text {
     color: red;
@@ -142,7 +142,7 @@ CSS selectors require a period at the beginning like this: `.blue-text { color: 
 ## Change the Font Size of an Element
 Font size is controlled by the `font-size` CSS attribute, like this: `h1 { font-size: 30px; }`.
 
-```
+```html
 <style>
   .red-text {
     color: red;
@@ -163,7 +163,7 @@ You can set an element's font by using the `font-family` attribute.
 
 For example, if you wanted to set your h2 element's font to `Sans-serif`, you would use the following CSS: `h2 { font-family: Sans-serif; }`.
 
-```
+```html
 <style>
   .red-text {
     color: red;
@@ -184,7 +184,7 @@ For example, if you wanted to set your h2 element's font to `Sans-serif`, you wo
 ## Import a Google Font
 To import a font from Google or any other site, this is the format that you should follow: `<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">`
 
-```
+```html
 <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -212,7 +212,7 @@ There are several default fonts that are available in all browsers. These includ
 
 For example, if you wanted an element to use the `Helvetica` font, but also degrade to the `Sans-Serif` font when `Helvetica` wasn't available, you could use this CSS style: `p { font-family: Helvetica, Sans-Serif; }`.
 
-```
+```html
 <!--<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
 <style>
   .red-text {
@@ -240,7 +240,7 @@ You can add images to your website by using the `img` element, and point to an s
 
 An example of this would be `<img src="www.your-image-source.com/your-image.jpg">`. Note that in most cases, img elements are self-closing.
 
-```
+```html
 <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -268,7 +268,7 @@ CSS has an attribute called `width` that controls an element's width. Just like 
 
 For example, if we wanted to create a CSS class called larger-image that gave HTML elements a width of 500 pixels, we'd use: `<style> .larger-image { width: 500px; } </style>`.
 
-```
+```html
 <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -302,7 +302,7 @@ CSS borders have attributes like `style`, `color` and `width`.
 
 For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class: `<style> .thin-red-border { border-color: red; border-width: 5px; border-style: solid; } </style>`.
 
-```
+```html
 <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -342,7 +342,7 @@ To make round corners it is all about `border-radius` and pixels.
 
 You can specify a border-radius with pixels. This will affect how rounded the corners are.
 
-```
+```css
 .thick-green-border {
   border-color: green;
   border-width: 10px;
@@ -354,7 +354,7 @@ You can specify a border-radius with pixels. This will affect how rounded the co
 ## Make Circular Images with a Border Radius
 You can also use percentage to `border-radius` to make things round.
 
-```
+```css
 .thick-green-border {
   border-color: green;
   border-width: 10px;
@@ -393,7 +393,7 @@ Unordered lists start with a `<ul>` element. Then they contain some number of `<
 
 For example:
 
-```
+```html
 <ul>
   <li>milk</li>
   <li>cheese</li>
@@ -409,7 +409,7 @@ Ordered lists start with a `<ol>` element. Then they contain some number of `<li
 
 For example:
 
-```
+```html
 <ol>
   <li>hydrogen</li>
   <li>helium</li>
@@ -438,7 +438,7 @@ You can build web forms that actually submit data to a server using nothing more
 ## Add a Submit Button to a Form
 You will need to create a `button` element. Here's an example submit button: `<button type="submit">this button submits the form</button>`.
 
-```
+```html
 <form action="/submit-cat-photo">
   <input type="text" placeholder="cat photo URL">
   <button type="submit">Submit</button>
@@ -450,7 +450,7 @@ You can require specific form fields so that your user will not be able to submi
 
 For example, if you wanted to make a text input field required, you can just add the word required within your input element, you would use: `<input type="text" required>`.
 
-```
+```html
 <form action="/submit-cat-photo">
   <input type="text" placeholder="cat photo URL" required>
   <button type="submit">Submit</button>
@@ -464,7 +464,7 @@ Radio buttons are a type of input. They should all be nested in their own label 
 
 Here's an example of a radio button: `<label><input type="radio" name="indoor-outdoor"> Indoor</label>`.
 
-```
+```html
 <form action="/submit-cat-photo">
   <label><input type="radio" name="indoor-outdoor"> Indoor</label>
   <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
@@ -480,7 +480,7 @@ Checkboxes are a type of input.
 
 Here's an example of a checkbox: `<label><input type="checkbox" name="personality"> Loving</label>`.
 
-```
+```html
 <form action="/submit-cat-photo">
   <label><input type="radio" name="indoor-outdoor"> Indoor</label>
   <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
@@ -497,7 +497,7 @@ You can set a checkbox or radio button to be checked by default using the checke
 
 To do this, just add the word "checked" to the inside of an input element. For example, `<input type="radio" name="test-name" checked>`.
 
-```
+```html
 <form action="/submit-cat-photo">
   <label><input type="radio"checked name="indoor-outdoor"> Indoor</label>
   <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
@@ -516,7 +516,7 @@ The div element is probably the most commonly used HTML element of all. It's use
 
 Just like any other non-self-closing element, you can open a `div` element with `<div>` and close it on another line with `</div>`.
 
-```
+```html
 <div>
  <p>Things cats love:</p>
  <ul>
@@ -548,7 +548,7 @@ There are several benefits to using id attributes, and you'll learn more about t
 
 Here's an example of how you give your h2 element the id of cat-photo-app: <h2 id="cat-photo-app">
 
-```
+```html
 <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -623,7 +623,7 @@ Note that inside your style element, you always reference classes by putting a `
 ## Adjusting the Padding of an Element
 HTML elements are essentially little rectangles. Three important attributes control the space that surrounds each HTML element: `padding`, `margin`, and `border`. An element's padding controls the amount of space between the element and its border.
 
-```
+```css
 .green-box {
   background-color: green;
   padding: 20px;
@@ -633,7 +633,7 @@ HTML elements are essentially little rectangles. Three important attributes cont
 ## Adjust the Margin of an Element
 An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
-```
+```css
 .green-box {
   background-color: green;
   padding: 20px;
@@ -647,7 +647,7 @@ An element's `margin` controls the amount of space between an element's border a
 ## Add Different Padding to Each Side of an Element
 CSS allows you to control the padding of an element on all four sides with `padding-top`, `padding-right`, `padding-bottom`, and `padding-left` attributes.
 
-```
+```css
 .green-box {
   background-color: green;
   padding-top: 40px;
@@ -665,7 +665,7 @@ Instead of specifying an element's `padding-top`, `padding-right`, `padding-bott
 
 These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific padding instructions.
 
-```
+```css
 .green-box {
   background-color: green;
   padding: 40px 20px 20px 40px
@@ -677,7 +677,7 @@ Instead of specifying an element's`margin-top`, `margin-right`, `margin-bottom`,
 
 These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific margin instructions.
 
-```
+```css
 .green-box {
   background-color: green;
   margin: 40px 20px 20px 40px;
@@ -690,7 +690,7 @@ Every HTML page has the `body` element. and it is like the main page.
 ## Inherit Styles from the Body Element
 The `body` element can be style just like any other.
 
-```
+```html
 <style>
   body {
     background-color: black;
@@ -705,7 +705,7 @@ The `body` element can be style just like any other.
 ## Prioritize One Style Over Another
 Classes to individual elements take priority over general styles.
 
-```
+```html
 <style>
   body {
     background-color: black;
@@ -725,7 +725,7 @@ Your classes will override the body's CSS, if we add a new class that changes th
 ## Override Class Declarations by Styling ID Attributes
 We can use `id` to override  styling too.
 
-```
+```html
 <style>
   body {
     background-color: black;
@@ -767,7 +767,7 @@ So to get the absolute brightest red, you would just use `F` for the first and s
 ## Use Hex Code to Color Elements Green
 Just as with [red](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#use-hex-code-to-color-elements-red) and the others.
 
-```
+```html
 <style>
   body {
     background-color: #00FF00;
@@ -778,7 +778,7 @@ Just as with [red](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&
 ## Use Hex Code to Color Elements Blue
 Just as with [red](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#use-hex-code-to-color-elements-red) and the others.
 
-```
+```html
 <style>
   body {
     background-color: #0000FF;
@@ -789,7 +789,7 @@ Just as with [red](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&
 ## Use Hex Code to Mix Colors
 Orange is pure red, mixed with some green, and no blue.
 
-```
+```html
 <style>
   body {
     background-color: #FFA500;
@@ -808,7 +808,7 @@ red, which is `#FF0000` in hex code, can be shortened to `#F00`. That is, one di
 
 This reduces the total number of possible colors to around 4,000. But browsers will interpret `#FF0000` and `#F00` as exactly the same color.
 
-```
+```html
 <style>
   body {
     background-color: #F00;

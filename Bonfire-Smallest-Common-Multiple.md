@@ -19,7 +19,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function smallestCommons(arr) {
   return arr;
 }
@@ -42,7 +42,7 @@ If you sort the array from greater to lowest then you can check for the first tw
 
 ## My code:
 
-```
+```js
 function smallestCommons(arr) {
   // Sort array from greater to lowest
   // This line of code was from Adam Doyle (http://github.com/Adoyle2014)

@@ -27,7 +27,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function replace(str, before, after) {
  return str;
 }
@@ -54,7 +54,7 @@ replace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 
 ## Code Solution:
 
-```
+```js
 function replace(str, before, after) {
   // Find index where before is on string
   var index = str.indexOf(before);

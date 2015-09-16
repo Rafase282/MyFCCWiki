@@ -23,7 +23,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function telephoneCheck(str) {
   // Good luck!
   return true;
@@ -48,7 +48,7 @@ Soon
 
 ## My code
 
-```
+```js
 Soon
 ```
 

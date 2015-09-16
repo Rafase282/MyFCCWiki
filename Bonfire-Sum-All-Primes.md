@@ -22,7 +22,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function sumPrimes(num) {
   return num;
 }
@@ -44,7 +44,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
 ## My code:
 
-```
+```js
 function sumPrimes(num) {
   var res = 0;
 

@@ -8,7 +8,7 @@ Submitted by Rafase282
 ## Reverse Arrays with reverse
 You can use the .reverse() function to reverse the contents of an array.
 
-```
+```js
 var array = [1,2,3,4,5,6,7];
 
 array = array.reverse();

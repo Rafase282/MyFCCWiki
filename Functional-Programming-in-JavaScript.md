@@ -82,7 +82,7 @@ This section will follow a pattern. First we'll solve problems the way you proba
 ## Traversing an Array
 ### Exercise 1: Print all the names in an array
 
-```
+```js
 function(console) {
     var names = ["Ben", "Jafar", "Matt", "Priya", "Brian"],
         counter;
@@ -97,7 +97,7 @@ function(console) {
 
 ### Exercise 2: Use forEach to print all the names in an array
 
-```
+```js
 function(console) {
     var names = ["Ben", "Jafar", "Matt", "Priya", "Brian"];
 
@@ -115,7 +115,7 @@ Applying a function to a value and creating a new value is called a projection. 
 ### Exercise 3: Project an array of videos into an array of {id,title} pairs using forEach()
 For each video, add a projected {id, title} pair to the videoAndTitlePairs array.
 
-```
+```js
 function() {
     var newReleases = [
             {
@@ -176,7 +176,7 @@ Why not abstract away how these operations are carried out?
 ### Exercise 4: Implement map()
 To make projections easier, let's add a **map()** function to the Array type. Map accepts the projection function to be applied to each item in the source array, and returns the projected array.
 
-```
+```js
 Array.prototype.map = function(projectionFunction) {
     var results = [];
     this.forEach(function(itemInArray) {
@@ -200,7 +200,7 @@ Array.prototype.map = function(projectionFunction) {
 ### Exercise 5: Use map() to project an array of videos into an array of {id,title} pairs
 Let's repeat the exercise of collecting {id, title} pairs for each video in the newReleases array, but **this time we'll use our map function.**
 
-```
+```js
 function() {
     var newReleases = [
         {
@@ -257,7 +257,7 @@ Notice that map allows us to specify what projection we want to apply to an arra
 ### Exercise 6: Use forEach() to collect only those videos with a rating of 5.0
 Use forEach() to loop through the videos in the newReleases array and, if a video has a rating of 5.0, add it to the videos array.
 
-```
+```js
 function() {
     var newReleases = [
         {
@@ -317,7 +317,7 @@ Why not abstract away how these operations are carried out?
 ### Exercise 7: Implement filter()
 To make filtering easier, let's add a filter() function to the Array type. The filter() function accepts a predicate. A predicate is a function that accepts an item in the array, and returns a boolean indicating whether the item should be retained in the new array.
 
-```
+```js
 Array.prototype.filter = function(predicateFunction) {
     var results = [];
     this.forEach(function(itemInArray) {
@@ -344,7 +344,7 @@ Like map(), filter() lets us express what data we want without requiring us to s
 ## Query Data by Chaining Method Calls
 ### Exercise 8: Chain filter and map to collect the ids of videos that have a rating of 5.0
 
-```
+```js
 function() {
     var newReleases = [
         {
@@ -407,7 +407,7 @@ Here is where I learn how to define an **concatAll()** function so that I can co
 ### Exercise 9: Flatten the movieLists array into an array of video ids
 Let's start by using two nested forEach loops collect the id of every video in the two-dimensional movieLists array.
 
-```
+```js
 function() {
     var movieLists = [
         {
@@ -480,7 +480,7 @@ I was right!
 
 > Let's add a concatAll() function to the Array type. The concatAll() function iterates over each sub-array in the array and collects the results in a new, flat array. Notice that the concatAll() function expects that each item in the array to be another array.
 
-```
+```js
 Array.prototype.concatAll = function() {
     var results = [];
     this.forEach(function(subArray) {
@@ -505,7 +505,7 @@ Array.prototype.concatAll = function() {
 ### Exercise 11: Use map() and concatAll() to project and flatten the movieLists into an array of video ids
 Hint: use two nested calls to map() and one call to concatAll().
 
-```
+```js
 function() {
     var movieLists = [
             {
@@ -574,7 +574,7 @@ function() {
 
 From this point onwards, indexers are not allowed in any exercises unless we are implementing one of the five functions.
 
-```
+```js
 function() {
     var movieLists = [
             {
@@ -672,7 +672,7 @@ This was a bit complilcated and while I had the general ide, I even have to chec
 ### Exercise 13: Implement concatMap()
 > Nearly every time we flatten a tree we chain map() and concatAll(). Sometimes, if we're dealing with a tree several levels deep, we'll repeat this combination many times in our code. To save on typing, let's create a concatMap function that's just a map operation, followed by a concatAll.
 
-```
+```js
 Array.prototype.concatMap = function(projectionFunctionThatReturnsArray) {
     return this.
         map(function(item) {
@@ -799,7 +799,7 @@ If we replaced the specific size comparison with a closure, we could write a fun
 ### Exercise 15: Use forEach to find the largest box art
 In this example we use forEach to find the largest box art. Each time we examine a new boxart we update a variable with the currently known maximumSize. If the boxart is smaller than the maximum size, we discard it. If it's larger, we keep track of it. Finally we're left with a single boxart which must necessarily be the largest.
 
-```
+```js
 function() {
     var boxarts = [
             { width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
@@ -828,7 +828,7 @@ This process is a reduction because we're using the information we derived from 
 ### Exercise 16: Implement reduce()
 Let's add a reduce() function to the Array type. Like map
 
-```
+```js
 // [1,2,3].reduce(function(accumulatedValue, currentValue) { return accumulatedValue + currentValue; }); === [6];
 // [1,2,3].reduce(function(accumulatedValue, currentValue) { return accumulatedValue + currentValue; }, 10); === [16];
 
@@ -866,7 +866,7 @@ Array.prototype.reduce = function(combiner, initialValue) {
 ### Exercise 17: Retrieve the largest rating.
 Let's use our new reduce function to isolate the largest value in an array of ratings
 
-```
+```js
 function() {
     var ratings = [2,3,1,4,5];
 
@@ -885,7 +885,7 @@ function() {
 ### Exercise 18: Retrieve url of the largest boxart
 Let's try combining reduce() with map() to reduce multiple boxart objects to a single value: the url of the largest box art.
 
-```
+```js
 function() {
     var boxarts = [
             { width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
@@ -911,7 +911,7 @@ function() {
 ### Exercise 19: Reducing with an initial value
 > Sometimes when we reduce an array, we want the reduced value to be a different type than the items stored in the array. Let's say we have an array of videos and we want to reduce them to a single map where the key is the video id and the value is the video's title.
 
-```
+```js
 function() {
     var videos = [
         {
@@ -977,7 +977,7 @@ function() {
 ### Exercise 20: Retrieve the id, title, and smallest box art url for every video.
 > This is a variation of the problem we solved earlier, where we retrieved the url of the boxart with a width of 150px. This time we'll use reduce() instead of filter() to retrieve the smallest box art in the boxarts array.
 
-```
+```js
 function() {
     var movieLists = [
         {
@@ -1072,7 +1072,7 @@ As far as I understand zipping Arrays is the same as merging them by a common ke
 ### Exercise 21: Combine videos and bookmarks by index
 > Use a for loop to traverse the videos and bookmarks array at the same time. For each video and bookmark pair, create a {videoId, bookmarkId} pair and add it to the videoIdAndBookmarkIdPairs array.
 
-```
+```js
 function() {
     var videos = [
             {
@@ -1123,14 +1123,14 @@ function() {
 
 I foudn this very interesting and creative, might become obsolete now but it is a good thigns to learn and rememeber for future references and creativity.
 
-```
+```js
 for(var counter = 0; counter < Math.min(videos.length, bookmarks.length); counter++) { ... }
 ```
 
 ### Exercise 22: Implement zip
 > Let's add a static zip() function to the Array type. The zip function accepts a combiner function, traverses each array at the same time, and calls the combiner function on the current item on the left-hand-side and right-hand-side. The zip function requires an item from each array in order to call the combiner function, therefore the array returned by zip will only be as large as the smallest input array.
 
-```
+```js
 // JSON.stringify(Array.zip([1,2,3],[4,5,6], function(left, right) { return left + right })) === '[5,7,9]' accumulatedValue + currentValue; }); === [6];
 
 Array.zip = function(left, right, combinerFunction) {
@@ -1151,7 +1151,7 @@ Here and the previous code, the key is to get the information from the two array
 ### Exercise 23: Combine videos and bookmarks by index
 > Let's repeat exercise 19, but this time lets use your new zip() function. For each video and bookmark pair, create a {videoId, bookmarkId} pair.
 
-```
+```js
 function() {
     var videos = [
             {
@@ -1202,7 +1202,7 @@ function() {
 ### Exercise 24: Retrieve each video's id, title, middle interesting moment time, and smallest box art url.
 > This is a variation of the problem we solved earlier. This time each video has an interesting moments collection, each representing a time during which a screenshot is interesting or representative of the title as a whole. Notice that both the boxarts and interestingMoments arrays are located at the same depth in the tree. Retrieve the time of the middle interesting moment and the smallest box art url simultaneously with zip(). Return an {id, title, time, url} object for each video.
 
-```
+```js
 function() {
     var movieLists = [
             {
@@ -1317,7 +1317,7 @@ When information is organized in a tree like a JSON expression, relationships po
 
 We have 2 arrays each containing lists, and videos respectively. Each video has a listId field indicating its parent list. We want to build an array of list objects, each with a name and a videos array. The videos array will contain the video's id and title. In other words we want to build the following structure:
 
-```
+```js
 [
     {
         "name": "New Releases",
@@ -1350,7 +1350,7 @@ We have 2 arrays each containing lists, and videos respectively. Each video has 
 
 **Note: please make sure when creating objects (both lists and videos) that you add properties in the same order as above. This doesn't impact the correctness of your code, but the verifier expects properties to be created in this order.**
 
-```
+```js
 function() {
     var lists = [
             {
@@ -1406,7 +1406,7 @@ We can use **map** and **filter** to **join** two different arrays by a key.
 ### Exercise 26: Converting from Arrays to Deeper Trees
 > Let's try creating a deeper tree structure. This time we have 4 seperate arrays each containing lists, videos, boxarts, and bookmarks respectively. Each object has a parent id, indicating its parent. We want to build an array of list objects, each with a name and a videos array. The videos array will contain the video's id, title, bookmark time, and smallest boxart url. In other words we want to build the following structure:
 
-```
+```js
 [
     {
         "name": "New Releases",
@@ -1447,7 +1447,7 @@ We can use **map** and **filter** to **join** two different arrays by a key.
 
 **Note: please make sure when creating objects (both lists and videos) that you add properties in the same order as above. This doesn't impact the correctness of your code, but the verifier expects properties to be created in this order.**
 
-```
+```js
 function() {
     var lists = [
             {
@@ -1535,7 +1535,7 @@ This is really important and I should re-visit it from time to time.
 ### Exercise 27: Stock Ticker
 > Let's try an easier question. Let's say we have a collection of all of the prices for NASDAQ stocks over time. Every time the price of a stock changes on the NASDAQ ticker an entry is added to this collection. Let's say that ten days ago you bought shares in Microsoft, and now you want to print all of the MSFT share prices since then. Filter the collection for MSFT trades starting from ten days ago and print each price record (including the time stamp) using the print() function. **Note: this is not a trick question. It's as easy as it seems.**
 
-```
+```js
 // The pricesNASDAQ collection looks something like this...
 var pricesNASDAQ = [
     // ... from the NASDAQ's opening day
@@ -1548,7 +1548,7 @@ var pricesNASDAQ = [
 ];
 ```
 
-```
+```js
 function(pricesNASDAQ, printRecord) {
     var microsoftPrices,
         now = new Date(),
@@ -1580,7 +1580,7 @@ Microsoft's open-source [Reactive Extensions](http://msdn.microsoft.com/en-us/da
 
 Observables can send data to consumers asynchronously. Unlike Array, there's no Javascript literal syntax for creating Observable sequences. However we can build a helper method that visually describes the contents of sequences as well as the times between each item's arrival. The **seq** function creates an Observable from an array of items, and adds a delay for every empty item encountered. Every ,,, adds up to a second.
 
-```
+```js
 // An array of numbers 1,2,3
 var numbers123Array =      [1,2,3];
 
@@ -1594,7 +1594,7 @@ var observableOfArrays = seq([ [1,2,3],,,,,,[4,5,6],,,,,,,,,,,[1,2] ]);
 
 Observables are a sequence of values, delivered one after the other. Therefore it's possible that an Observable can go on sending data to a listener forever just like a mouse move event. To create a sequence that doesn't complete, you can add a trailing ,,, to the end of the items passed to seq().
 
-```
+```js
 // The trailing ,,, ensures that the sequence will not complete.
 var mouseMovesObservable =
     seq([ {x: 23, y: 55},,,,,,,{x: 44, y: 99},,,{x:55,y:99},,,{x: 54, y:543},,, ]);
@@ -1610,7 +1610,7 @@ Let's start off by contrasting Observable with Events...
 ## Exercise 28: Subscribing to an event
 You're probably used to thinking about events as a list of handlers stored in an object. In this example, we subscribe to a button click event and then unsubscribe the first time the button is clicked.
 
-```
+```js
 function(button) {
     // the button click handler
     var handler = function(ev) {
@@ -1630,7 +1630,7 @@ Ask yourself this question: **How is subscribing to an event different than trav
 ## Exercise 29: Traversing an Event
 Subscribing to an Event and traversing an Array are fundamentally the same operation. The only difference is that **Array traversal is synchronous and completes, and Event traversal is asynchronous and never completes**. If we convert a button click Event to an Observable object, we can use forEach() to traverse the Event.
 
-```
+```js
 function(button) {
     var buttonClicks = Observable.fromEvent(button, "click");
 
@@ -1653,7 +1653,7 @@ Disposing of a Subscription object is basically the same as calling removeEventL
 ## Exercise 30: Completing Sequences with take()
 Have you ever wished that you could listen for the next occurrence of an event and then immediately unsubscribe? For example, developers will often attach an event handler to window.onload, expecting that their event handler will only be called once.
 
-```
+```js
 window.addEventListener(
     "load",
     function()
@@ -1663,7 +1663,7 @@ window.addEventListener(
 
 In instances such as this, it's good practice to unsubscribe from the event after it's fired. Failing to unsubscribe is a **memory leak**. Depending on the circumstances, memory leaks can seriously destablize your application and can be very difficult to track down. Unfortunately unsubscribing from an event after one occurrence can be cumbersome:
 
-```
+```js
 var handler = function() {
     // do some work here, then unsubscribe from the event
     window.removeEventListener("load", handler)
@@ -1673,7 +1673,7 @@ window.addEventListener("load", handler);
 
 Wouldn't it be nice if there was an easier way to code this? That's why Observable has a take() function. The take() function works like this...
 
-```
+```js
 seq([1,,,2,,,3,,,4,,,5,,,6,,,]).take(3) === seq([1,,,2,,,3]);
 ```
 
@@ -1681,7 +1681,7 @@ An Observable based on an Event will **never** complete on its own. The take() f
 
 Let's repeat the previous exercise, in which we listened for a single button click and then unsubscribed. This time let's use the take() function to complete the sequence after the button is clicked.
 
-```
+```js
 function(button) {
     var buttonClicks = Observable.fromEvent(button, "click");
 
@@ -1700,7 +1700,7 @@ The take() function is great way of listening for a discrete number of events an
 ## Exercise 31: Completing sequences with takeUntil()
 Have you ever wanted to unsubscribe from one Event when another Event fires? Observable's takeUntil() function is a convenient way of completing a sequence when another Event occurs. Here's how takeUntil() works:
 
-```
+```js
 var numbersUntilStopButtonPressed =
     seq(              [ 1,,,2,,,3,,,4,,,5,,,6,,,7,,,8,,,9,,, ]).
         takeUntil(seq([  ,,, {eventType: "click"},,, ]) )                    === seq([ 1,,,2 ])
@@ -1708,7 +1708,7 @@ var numbersUntilStopButtonPressed =
 
 Earlier we (unknowningly) built a dynamic Microsoft price stock ticker using Observable. The problem with that stock ticker was that it kept going on forever. If left unchecked, all the entries in the log could use up all of the memory on the page. In the exercise below, filter the Observable sequence of NASDAQ prices for MSFT stock prices, use the fromEvent() function to create an Observable.
 
-```
+```js
 function(pricesNASDAQ, printRecord, stopButton) {
     var stopButtonClicks = Observable.fromEvent(stopButton,"click"), // ----- To finish this expression, use Observable.fromEvent to convert the "click" event on the stop button to an Observable
         microsoftPrices =
@@ -1732,7 +1732,7 @@ Here's what we learned in this section:
 - **We can use fromEvent() to convert Events into Observables that never complete.**
 - **We can apply take() and takeUntil() to an Observable to create a new sequence which does complete.**
 
-In the next section we'll learn how to combine events to create more complex events. You'll be suprised how easily you can solve complex, asynchronous problems!
+In the next section we'll learn how to combine events to create more complex events. You'll be surprised how easily you can solve complex, asynchronous problems!
 
 ## Querying Observables
 What's the difference between these two tasks?
@@ -1743,11 +1743,11 @@ You might think of them as different, and might code them very differently, but 
 
 **The difference between traversing an Array and traversing an Observable is the direction in which the data moves**. When traversing an Array, the client pulls data from the data source, blocking until it gets a result. When traversing Observables, the data source pushes data at the client whenever it arrives.
 
-It turns out that the direction in which data moves is orthogonal to querying that data. In other words, **when we're querying data it doesn't matter whether we pull data, or data is pushed at us**. In either case the query methods make the same transformations. The only thing that changes is the input and output type respectively. If we filter an Array, we get a new Array. If we filiter an Observable, we get a new Observable, and so on.
+It turns out that the direction in which data moves is orthogonal to querying that data. In other words, **when we're querying data it doesn't matter whether we pull data, or data is pushed at us**. In either case the query methods make the same transformations. The only thing that changes is the input and output type respectively. If we filter an Array, we get a new Array. If we filter an Observable, we get a new Observable, and so on.
 
 Take a look at how the query methods transform Observables and Arrays:
 
-```
+```js
 // map()
 
 [1,2,3].map(function(x) { return x + 1 })                       === [2,3,4]
@@ -1824,7 +1824,7 @@ Remember the exercise we solved earlier? The one in which we retrieved all the m
 
 **"For every movie list, retrieve only those videos with a rating of 5.0"**
 
-```
+```js
 var moviesWithHighRatings =
     movieLists.
         concatMap(function(movieList) {
@@ -1839,7 +1839,7 @@ Now we're going to create a mouseDrag event for a DOM object. If we were to desc
 
 **"For every mouse down event on the sprite, retrieve only those mouse move events that occur before the next mouse up event."**
 
-```
+```js
 function(sprite, spriteContainer) {
     var spriteMouseDowns = Observable.fromEvent(sprite, "mousedown"),
         spriteContainerMouseMoves = Observable.fromEvent(spriteContainer, "mousemove"),
@@ -1869,14 +1869,14 @@ Our mouse drag event is a little too simple. Notice that when we drag around the
 
 Let's see if you can adjust the coordinates in the mouse drag event, based on the mousedown location on the sprite. The mouse events are sequences, and they look something like this:
 
-```
+```js
 spriteContainerMouseMoves =
     seq([ {x: 200, y: 400, offsetX: 10, offsetY: 15},,,{x: 210, y: 410, offsetX: 20, offsetY: 26},,, ])
 ```
 
 Each item in the mouse event sequences contains an x, y value that represents that absolute location of the mouse event on the page. The moveSprite() function uses these coordinates to position the sprite. Each item in the sequence also contains a pair of offsetX and offsetY properties that indicate the position of the mouse event relative to the event target.
 
-```
+```js
 function(sprite, spriteContainer) {
     // All of the mouse event sequences look like this:
     // seq([ {pageX: 22, pageY: 3423, offsetX: 14, offsetY: 22} ,,, ])
@@ -1934,7 +1934,7 @@ If a callback API were a sequence, what kind of sequence would it be? We've seen
 
 `mouseMoves === seq([ {x: 23, y: 55},,,,,,,{x: 44, y: 99},,,{x:55,y:99},,,{x: 54, y:543},,, ]);` In contrast, if we were to convert output from the $.getJSON() function we've been using into a sequence it would always return a sequence that completes after sending a single item.
 
-```
+```js
 getJSONAsObservable("http://api-global.netflix.com/abTestInformation") ===
     seq([ { urlPrefix: "billboardTest" } ])
 ```
@@ -1968,7 +1968,7 @@ Almost every workflow in a web application starts with an event, continues with 
 ### Exercise 38: Throttle Input
 When dealing with user input, there will be times when the user's input is too noisy, and will potentially clog your servers with extraneous requests. We want the ability to throttle the users's input so that if they interacting for one second, then we will get the user input. Let's say for example, the user clicks a button once too many times upon saving and we only want to fire after they've stopped for a second. `seq([1,,,2,,,3,,,4,,,5,,,6,,,]).throttle(1000 /* ms */) === seq([,,,,,,,,3,,,,,,,,,,,6,,,]);`
 
-```
+```js
 function (clicks, saveData, name) {
     return clicks.
         throttle(1000).
@@ -1985,12 +1985,12 @@ One of the most common problems in web development is the autocomplete box. This
 
 In the example below, you will be receiving a sequence of key presses, a textbox, and a function when called returns an array of search results.
 
-```
+```js
 getSearchResultSet('react') === seq[,,,["reactive", "reaction","reactor"]]
 keyPresses === seq['r',,,,,'e',,,,,,'a',,,,'c',,,,'t',,,,,]
 ```
 
-```
+```js
 function (getSearchResultSet, keyPresses, textBox) {
 
     var getSearchResultSets =
@@ -2012,12 +2012,12 @@ Now that we're able to query with our throttled input, you'll still notice one s
 ### Exercise 40: Distinct Until Changed Input
 You'll notice in the previous exercise that if you pressed your arrow keys while inside the textbox, the query will still fire, regardless of whether the text actually changed or not. How do we prevent that? The distinctUntilChanged filters out successive repetitive values.
 
-```
+```js
 seq([1,,,1,,,3,,,3,,,5,,,1,,,]).distinctUntilChanged() ===
 seq([1,,,,,,,3,,,,,,,5,,,1,,,]);
 ```
 
-```
+```js
 function (keyPresses, isAlpha) {
 
     return keyPresses.
@@ -2039,7 +2039,7 @@ In the previous version of the autocomplete box, there were two bugs
 
 The example below is the same as above, but this time, fix the bugs!
 
-```
+```js
 getSearchResultSet('react') === seq[,,,["reactive", "reaction","reactor"]]
 keyPresses === seq['r',,,,,'e',,,,,,'a',,,,'c',,,,'t',,,,,]
 ```
@@ -2068,12 +2068,12 @@ With just this little amount of code, we're able to produce a fully functioning 
 ### Exercise 42: Retrying after errors
 You'll notice in the previous exercise that if you pressed your arrow keys while inside the textbox, the query will still fire, regardless of whether the text actually changed or not. How do we prevent that? The distinctUntilChanged filters out successive repetitive values.
 
-```
+```js
 seq([1,,,1,,,3,,,3,,,5,,,1,,,]).distinctUntilChanged() ===
 seq([1,,,,,,,3,,,,,,,5,,,1,,,]);
 ```
 
-```
+```js
 function (keyPresses, isAlpha) {
 
     return keyPresses.

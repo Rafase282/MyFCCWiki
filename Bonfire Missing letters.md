@@ -20,7 +20,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function fearNotLetter(str) {
   return str;
 }
@@ -47,7 +47,7 @@ fearNotLetter('abce');
 
 ## Code Solution:
 
-```
+```js
 function fearNotLetter(str) {
   // Create our variables.
   var firstCharacter = str.charCodeAt(0);

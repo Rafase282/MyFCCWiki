@@ -24,7 +24,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function add() {
   return false;
 }
@@ -50,7 +50,7 @@ In the case that only one argument was passed, do not worry about how to prompt 
 
 ## My code
 
-```
+```js
 function add() {
   // Function to check if a number is actually a number
   // and return undefined otherwise.

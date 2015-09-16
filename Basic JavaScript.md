@@ -99,7 +99,7 @@ Array indexes are written in the same bracket notation that strings use, except 
 
 For example:
 
-```
+```js
 var array = [1,2,3];
 array[0]; //equals 1
 var data = array[1];
@@ -110,7 +110,7 @@ We can also modify the data stored in arrays by using indexes.
 
 For example:
 
-```
+```js
 var ourArray = [3,2,1];
 ourArray[0] = 1; // equals [1,2,1]
 ```
@@ -138,7 +138,7 @@ In JavaScript, we can divide up our code into reusable parts called functions.
 
 Here's an example of a function:
 
-```
+```js
 function functionName (a, b) {
   return(a + b);
 }
@@ -151,7 +151,7 @@ Objects are similar to arrays, except that instead of using indexes to access an
 
 Here's a sample object:
 
-```
+```js
 var cat = {
  "name": "Whiskers",
  "legs": 4,
@@ -174,7 +174,7 @@ We can also delete them like this:
 ## Iterate with JavaScript For Loops
 The most common type of JavaScript loop is called a `for loop` because it runs `for` a specific number of times.
 
-```
+```js
 var ourArray = [];
 for(var i = 0; i < 5; i++) {
   ourArray.push(i);
@@ -186,7 +186,7 @@ ourArray will now contain [0,1,2,3,4]
 ## Iterate with JavaScript While Loops
 Another type of JavaScript loop is called a `while loop` because it runs `while` something is true, and stops once that something is no longer true.
 
-```
+```js
 var ourArray = [];
 var i = 0;
 while(i < 5) {
@@ -217,7 +217,7 @@ We can use if statements in JavaScript to only execute code if a certain conditi
 
 if statements require some sort of `boolean` condition evaluate.
 
-```
+```js
 Example:
 
  if (1 == 2) {
@@ -264,7 +264,7 @@ You can invert any match by using the uppercase version of the selector `\s` ver
 ## Create a JavaScript Slot Machine
 For this we have to generate three random numbers using the formula they give us and not the general one. `Math.floor(Math.random() * (3 - 1 + 1)) + 1;`
 
-```
+```js
 slotOne = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
 slotTwo = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
 slotThree = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
@@ -273,7 +273,7 @@ slotThree = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
 ## Add your JavaScript Slot Machine Slots
 For this part we should notify if they same number is returned three times or return `null` otherwise.
 
-```
+```js
 if(slotOne !== slotTwo || slotTwo !== slotThree){
       return (null);
     }
@@ -286,7 +286,7 @@ Let's use the jQuery selector `$(".slot")` to select all of the slots.
 
 Once they are all selected, we can use bracket notation to access each individual slot:
 
-```
+```js
 $($(".slot")[0]).html(slotOne);
 $($(".slot")[1]).html(slotTwo);
 $($(".slot")[2]).html(slotThree);
@@ -299,7 +299,7 @@ Here's how we would set the first slot to show a different image depending on wh
 
 `$($('.slot')[0]).html('<img src = "' + images[slotOne-1] + '">');`
 
-```
+```html
 <script>
   function runSlots(){
     var slotOne;

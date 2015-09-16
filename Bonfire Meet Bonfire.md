@@ -21,7 +21,7 @@ None
 
 ## Problem Script:
 
-```
+```js
 function meetBonfire(argument) {
   // Good luck!
   console.log("you can read this function's argument in the developer tools", argument);
@@ -46,7 +46,7 @@ You need to change the return statement to what they ask.
 
 ## My code:
 
-```
+```js
 function meetBonfire(argument) {
   // Good luck!
   console.log("you can read this function's argument in the developer tools", argument);

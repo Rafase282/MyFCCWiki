@@ -24,7 +24,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function unite(arr1, arr2, arr3) {
   return arr1;
 }
@@ -51,7 +51,7 @@ unite([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
 ## Code Solution:
 
-```
+```js
 function unite(arr1, arr2, arr3) {
   // Creates an empty array to store our final result.
   var finalArray = [];

@@ -10,7 +10,7 @@ A function that creates objects is called a _constructor_, my favorite way of cr
 
 Each new instance of this object inherits all the properties and methods of your original object.
 
-```
+```js
 var Car = function() {
    this.wheels = 4;
 };

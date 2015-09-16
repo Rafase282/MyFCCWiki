@@ -19,7 +19,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function truncate(str, num) {
   // Clear out that junk in your trunk
   return str;
@@ -42,7 +42,7 @@ Do not forget that when we truncate the word, we also must count the length adde
 
 ## My code:
 
-```
+```js
 function truncate(str, num) {
     var truncd = '';
     if (str.length > num) {

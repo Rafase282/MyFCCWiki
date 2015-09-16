@@ -26,7 +26,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function orbitalPeriod(arr) {
   var GM = 398600.4418;
   var earthRadius = 6367.4447;
@@ -50,7 +50,7 @@ Find out how to remove and add key to an object
 
 ## My code
 
-```
+```js
 function orbitalPeriod(arr) {
     var GM = 398600.4418;
     var earthRadius = 6367.4447;

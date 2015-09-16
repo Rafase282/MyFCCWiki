@@ -26,7 +26,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function pair(str) {
  return str;
 }
@@ -53,7 +53,7 @@ pair("GCG");
 
 ## Code Solution:
 
-```
+```js
 function pair(str) {
   // Return each strand as an array of two elements, the original and the pair.
   var paired = [];

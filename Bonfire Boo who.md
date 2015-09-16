@@ -19,7 +19,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function boo(bool) {
   // What is the new fad diet for ghost developers? The Boolean.
   return bool;
@@ -47,7 +47,7 @@ boo(null);
 
 ## Code Solution:
 
-```
+```js
 function boo(bool) {
   // Uses the operator typeof to check if is a boolean
   // if yes then return true, if it is another type then return false

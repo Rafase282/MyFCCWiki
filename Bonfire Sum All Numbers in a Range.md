@@ -21,7 +21,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function sumAll(arr) {
   return 1;
 }
@@ -48,7 +48,7 @@ sumAll([1, 4]);
 
 ## Code Solution:
 
-```
+```js
 function sumAll(arr) {
     var max = Math.max(arr[0], arr[1]);
     var min = Math.min(arr[0], arr[1]);

@@ -20,7 +20,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function findLongestWord(str) {
   return str.length;
 }
@@ -42,15 +42,16 @@ Remember how to get the length of elements on the array? `Array[index].length`
 
 ## My code:
 
-```
+```js
 function findLongestWord(str) {
-    var words = str.split(' ');
-      var maxLength = 0;
-      for(var i = 0; i < words.length; i++) {
-          if (words[i].length > maxLength) {
-              maxLength = words[i].length;
-          }
-      }
+  var words = str.split(' ');
+  var maxLength = 0;
+
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].length > maxLength) {
+      maxLength = words[i].length;
+    }
+  }
 
   return maxLength;
 }

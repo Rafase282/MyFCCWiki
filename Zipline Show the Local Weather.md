@@ -28,7 +28,7 @@ CodePen.io overrides the `Window.open()` function, so if you want to open window
 ## My HTML Code Snippets
 I have the standard head and end of body. The only thing different is that I have a `well` class and `p` tag with the weather `id` which is where the custom jQuery generated HTML will go. I also used `text-primary` and `bg-info` classes to give the headings more visibility regardless of the custom background.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -72,7 +72,7 @@ I have the standard head and end of body. The only thing different is that I hav
 ### Make things centered and styled
 - Here I centered things either using `text-align` or `margins` and also gave font styling.
 
-```
+```css
 p, form {
   text-align: center;
   font-family: "Georgia";
@@ -98,7 +98,7 @@ h1, h2 {
 - I made the body relative and custom styles for the background such as centered on top, no repeating and taking the whole section.
 - I also gave the weather icons a custom size for better visibility.
 
-```
+```css
 footer {
   min-height: 10vh;
   padding-top: 30px;
@@ -126,7 +126,7 @@ img {
 ### Location API callback Function
 - The location API is [http://ip-api.com/json](http://ip-api.com/json) and it gets the location via `IP` address, this is the information we receive:
 
-```
+```js
 {
   "as": "AS6128 Cablevision Systems Corp.",
   "city": "The Bronx",
@@ -147,7 +147,7 @@ img {
 
 - From there I get the `lat`, `lon`, `city`,`region` and use it to generate the custom url for the weather API. However, this url is incomplete as I need to know if I need the `imperial` or `metric`. Please note that the weather callback function is on the scope of this function so I can use it's information without generating more global variables like `url`.
 
-```
+```js
 // Function to work with Location API to get Longitude, Latitude, City and State to bed used with the weather API
 var getLocation = function (data) {
   var lat = data.lat
@@ -165,7 +165,7 @@ var getLocation = function (data) {
 - It gets the needed information and along with the information from the Location API it generates custom HTML to be displayed using: `$('#weather').html(html)`
 - The information obtained from the Weather [API](http://api.openweathermap.org/data/2.5/weather?lat=10&lon=-95&units=imperial) is this (coordinates are random to avoid giving real personal data):
 
-```
+```js
 {
   "coord": {
     "lon": -xx.yy,
@@ -207,7 +207,7 @@ var getLocation = function (data) {
 }
 ```
 
-```
+```js
 var units = 'imperial'
 // Function to get the Weather info and display it.
   getWeather = function (data) {
@@ -229,7 +229,7 @@ var units = 'imperial'
 - The I use a combination of `if else if else` to cover the different cases and use `$('body').css('background-image', imgs[0])` to give custom `CSS` properties with the background image.
 - Then I call the Weather API. `$.getJSON(url + 'imperial', getWeather, 'jsonp')` I use imperial as default.
 
-```
+```js
 // Checks what kind style of temperature was used for dynamic background image.
     switch (tempUnit) {
       case 'F':
@@ -262,7 +262,7 @@ var units = 'imperial'
 - Then I have a radio button change handler to select between metric and imperial for the new weather.
 - The app calls the APIs each time it loads and whenever you switch between metric and imperial so you don't have to refresh the page to get new updated weather.
 
-```
+```js
 // When the documet finished loading call the Location API
 $(document).ready(function () {
   $.getJSON('http://ip-api.com/json', getLocation, 'jsonp')

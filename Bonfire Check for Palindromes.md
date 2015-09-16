@@ -24,7 +24,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function palindrome(str) {
   // Good luck!
   return true;
@@ -46,11 +46,11 @@ Using regular expressions to change to lowercase will make things easier and the
 
 ## My code:
 
-```
+```Javascript
 function palindrome(str) {
   var normalizedStr = str.replace(/[\W_]/g, '').toLowerCase();
   var reverseStr = normalizedStr.split('').reverse().join('');
-  return normalizedStr === reverseStr;  
+  return normalizedStr === reverseStr;
 }
 ```
 

@@ -17,7 +17,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function steamroller(arr) {
   // I'm a steamroller, baby
   return arr;
@@ -40,7 +40,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 ## My code:
 
-```
+```js
 function steamroller(arr) {
   var flattenedArray = [];
 

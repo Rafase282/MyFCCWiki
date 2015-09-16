@@ -19,7 +19,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 code
 ```
 
@@ -29,7 +29,7 @@ code
 ## Hint: 3
 ## My code:
 
-```
+```js
 code
 ```
 

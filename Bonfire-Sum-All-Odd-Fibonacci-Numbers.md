@@ -18,7 +18,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 # Problem Script:
 
-```
+```js
 function sumFibs(num) {
   return num;
 }
@@ -40,7 +40,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
 ## My code:
 
-```
+```js
 function sumFibs(num) {
     var prevNumber = 0;
     var currNumber = 1;

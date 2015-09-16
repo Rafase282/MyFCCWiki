@@ -18,7 +18,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function slasher(arr, howMany) {
   // it doesn't always pay to be first
   return arr;
@@ -41,7 +41,7 @@ Really? Splice by the number of the second parameter.
 
 ## My code:
 
-```
+```js
 function slasher(arr, howMany) {
   return arr.slice(howMany);
 }

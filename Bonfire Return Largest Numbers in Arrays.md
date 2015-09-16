@@ -21,7 +21,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function largestOfFour(arr) {
   // You can do this!
   return arr;
@@ -44,7 +44,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
 ## My code:
 
-```
+```js
 function largestOfFour(arr) {
   var results = [];
   for (var n in arr) {

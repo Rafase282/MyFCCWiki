@@ -21,7 +21,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 ## Problem Script:
 
-```
+```js
 function pairwise(arr, arg) {
   return arg;
 }
@@ -45,7 +45,7 @@ It is easy to confuse indices as being numbers, but since you will be interactin
 
 # My code
 
-```
+```js
 function pairwise(arr, arg) {
     var index = [];
     for (var a in arr){

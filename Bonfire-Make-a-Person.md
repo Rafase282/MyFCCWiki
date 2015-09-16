@@ -30,7 +30,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 ## Problem Script:
 
-```
+```js
 var Person = function(firstAndLast) {
     return firstAndLast;
 };
@@ -60,7 +60,7 @@ Often the code would not work the way you expect it due to wrong variable names,
 ## My code
 Please try hard before you check this solution.
 
-```
+```js
 var Person = function(firstAndLast) {
 
     var fullName = firstAndLast;

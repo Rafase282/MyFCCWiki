@@ -20,7 +20,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Problem Script:
 
-```
+```js
 function bouncer(arr) {
   // Don't show a false ID to this bouncer.
   return arr;
@@ -43,7 +43,7 @@ If you figure out how to use filter and boolean then you are all set, if not the
 
 ## My code:
 
-```
+```js
 function bouncer(arr) {
   function isTruthy(arg){
     return Boolean(arg);

@@ -8,7 +8,7 @@ Submitted by Rafase282
 ## Construct JavaScript Objects with Functions
 Another way to create objects is with constructors. I particularly like them because them you can create more objects using them as a base.
 
-```
+```js
 // Let's add the properties engines and seats to the car in the same way that the property wheels has been added below. They should both be numbers.
 var Car = function() {
   this.wheels = 4;
