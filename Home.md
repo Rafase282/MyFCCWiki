@@ -245,8 +245,8 @@ I will try to keep everything updated. If you are also part of the camp or would
 3. [Bonfire: Pairwise](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Pairwise)
 
 ## Automated Testing and Debugging
-1. Waypoint: Use the Javascript Console
-2. Waypoint: Using typeof
+1. [Waypoint: Use the Javascript Console](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-the-Javascript-Console)
+2. [Waypoint: Using typeof](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Using-typeof)
 
 ## Advanced Algorithm Scripting
 1. [Bonfire: Validate US Telephone Numbers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Validate-US-Telephone-Numbers)
