@@ -46,16 +46,16 @@ drawer(19.50, 20.00, [['PENNY', 1.01], ['NICKEL', 2.05], ['DIME', 3.10], ['QUART
 ```
 
 ## Problem Explanation:
-- Explain what is asked in an easy to understand way.
+- You have to create a program that will handle when the register does not have enough cash or will have no cash after the transaction. Other than that it needs to return an array of the change in the form of an array, so that will be a 2D array.
 
 ## Hint: 1
-- Add hint here.
+- Is easier to handle if you will have to close the register or if you will not have enough money to complete the transaction if you know beforehand how much money is on your register. For this it would be recommended to have a function get the information assigned to a variable.
 
 ## Hint: 2
-- Add hint here.
+- Life is easier when you get to know the value of each currency type in the register instead of how much money is composed of that particular currency. So be sure to watch out for that.
 
 ## Hint: 3
-- Add hint here.
+- You will have to get as much change from one type before moving to the next from greater value to lesser, and keep going until you have covered the whole change.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -94,6 +94,6 @@ function sym() {
 ```
 
 # Code Explanation:
-- Explain your code here
+- Read comments in code.
 
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
