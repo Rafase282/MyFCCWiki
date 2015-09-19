@@ -253,8 +253,8 @@ I will try to keep everything updated. If you are also part of the camp or would
 2. [Bonfire: Symmetric Difference](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Symmetric-Difference)
 3. [Bonfire: Exact Change](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Exact-Change)
 4. [Bonfire: Inventory Update](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Inventory-Update)
-5. Bonfire: No repeats please
-6. Bonfire: Friendly Date Ranges
+5. [Bonfire: No repeats please](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-No-repeats-please)
+6. [Bonfire: Friendly Date Ranges](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Friendly-Date-Ranges)
 
 ## AngularJS
 1. Waypoint: Get Started with Angular.js
