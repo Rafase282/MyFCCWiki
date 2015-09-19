@@ -35,7 +35,7 @@ pair("GCG");
 ```
 
 # Problem Explanation:
-- Explain what is asked in an easy to understand way.
+- You will get a DNA strand sequence and you need to get the pair and return it as a 2D array of the base pairs. Keep in mind that the provided strand should be first always.
 
 ## Hint: 1
 - There are two base case, A-T and C-G, these go both way. You can use regular expression, if statements of anything that you can think of.
