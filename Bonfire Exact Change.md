@@ -19,8 +19,7 @@ Otherwise, return change in coin and bills, sorted in highest to lowest order.
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-- [Symmetric Difference](https://www.youtube.com/watch?v=PxffSUQRkG4)
+- [Global Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 ## Problem Script:
 
