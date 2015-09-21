@@ -6,16 +6,34 @@ Submitted by Rafase282
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
 # Details
-- Difficulty: 1/5
+- Difficulty: 4/5
 
-Details go here
+Implement a way of converting two dates into a more friendly date range that could be presented to a user.
+
+It must not show any redundant information in the date range.
+
+For example, if the year and month are the same then only the day range should be displayed.
+
+Secondly, if the starting year is the current year, and the ending year can be inferred by the reader, the year should be omitted.
+
+Input date is formatted as YYYY-MM-DD
 
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
-## Useful Links
-- []()
-- []()
-- []()
+# Useful Links
+- [String.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [String.substr()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)
+- [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+
+# Problem Script:
+
+```js
+function friendly(str) {
+  return str;
+}
+
+friendly(['2015-07-01', '2015-07-04']);
+```
 
 ## Problem Explanation:
 - Explain what is asked in an easy to understand way.

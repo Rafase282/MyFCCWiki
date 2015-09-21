@@ -14,10 +14,18 @@ For example, 'aab' should return 2 because it has 6 total permutations, but only
 
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
-## Useful Links
+# Useful Links
 - [Permutations](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)
 - [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 - [Heap's algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm)
+
+```js
+function permAlone(str) {
+  return str;
+}
+
+permAlone('aab');
+```
 
 ## Problem Explanation:
 - The program needs to calculate how many of the permutations do not have consecutive repeated characters in a row.
