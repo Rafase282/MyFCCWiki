@@ -257,7 +257,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 6. [Bonfire: Friendly Date Ranges](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Friendly-Date-Ranges)
 
 ## AngularJS
-1. Waypoint: Get Started with Angular.js
+1. [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
 2. Waypoint: Apply Angular.js Directives
 3. Waypoint: Power Forms with Angular.js
 4. Waypoint: Customize Angular.js Directives
