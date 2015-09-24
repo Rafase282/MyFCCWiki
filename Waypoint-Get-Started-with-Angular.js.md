@@ -30,3 +30,6 @@ They allows us to insert dynamic values into our HTML.
 This will be the same as `<p>I am 10</p>`
 
 It also works for strings too. There are more examples [here.](http://docs.angularjs.org/guide/expression)
+
+# Controllers
+Controllers are where we define out app's behavior by defining functions and values.
