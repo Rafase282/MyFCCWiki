@@ -33,3 +33,23 @@ It also works for strings too. There are more examples [here.](http://docs.angul
 
 # Controllers
 Controllers are where we define out app's behavior by defining functions and values.
+
+```js
+(function(){
+  var app = angular.module('store', []);
+
+  app.controller('StoreController', function(){
+    this.product = gem;
+});
+})();
+```
+
+This will do the magic in this scope only.
+
+```html
+<div ng-controller="StoreCOntroller as store">
+  <h1> {{store.product.name}} </h1>
+  <h2> ${{store.product.price}} </h2>
+  <p> {{store.product.description}} </p>
+</div>
+```
