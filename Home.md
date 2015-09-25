@@ -258,10 +258,15 @@ I will try to keep everything updated. If you are also part of the camp or would
 
 ## AngularJS
 1. [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
-2. Waypoint: Apply Angular.js Directives
-3. Waypoint: Power Forms with Angular.js
-4. Waypoint: Customize Angular.js Directives
-5. Waypoint: Create Angular.js Services
+  - [Creating Modules](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#creating-modules)
+  - [Including the module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#including-the-module)
+  - [Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#expressions)
+  - [Controllers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#controllers)
+
+2. [Waypoint: Apply Angular.js Directives]()
+3. [Waypoint: Power Forms with Angular.js]()
+4. [Waypoint: Customize Angular.js Directives]()
+5. [Waypoint: Create Angular.js Services]()
 
 ## Intermediate Front End Development Projects
 1. Zipline: Stylize Stories on Camper News
