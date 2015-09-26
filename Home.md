@@ -264,7 +264,8 @@ I will try to keep everything updated. If you are also part of the camp or would
   - [Controllers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#controllers)
   - [Show and Hide Buttons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#show-and-hide-buttons)
 
-2. [Waypoint: Apply Angular.js Directives]()
+2. [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
+ - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
 3. [Waypoint: Power Forms with Angular.js]()
 4. [Waypoint: Customize Angular.js Directives]()
 5. [Waypoint: Create Angular.js Services]()
