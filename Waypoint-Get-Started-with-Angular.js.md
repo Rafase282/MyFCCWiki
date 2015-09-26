@@ -48,8 +48,47 @@ This will do the magic in this scope only.
 
 ```html
 <div ng-controller="StoreCOntroller as store">
-  <h1> {{store.product.name}} </h1>
-  <h2> ${{store.product.price}} </h2>
-  <p> {{store.product.description}} </p>
+  <h1> {{store.product.name}} </h1>  //display the name
+  <h2> ${{store.product.price}} </h2> //display price
+  <p> {{store.product.description}} </p> //displays description
 </div>
+```
+
+# Show and Hide Buttons
+
+```html
+<!DOCTYPE html>
+<html ng-app="gemStore">
+  <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body class="container" ng-controller="StoreController as store">
+    <div class="product row" ng-hide="store.product.soldOut">
+      <h3>
+        {{store.product.name}}
+        <em class="pull-right">${{store.product.price}}</em>
+      </h3>
+      <button ng-show="store.product.canPurchase">Add to Cart</button>
+    </div>
+  </body>
+</html>
+```
+
+```js
+(function() {
+  var app = angular.module('gemStore', []);
+
+  app.controller('StoreController', function(){
+    this.product = gem;
+  });
+
+  var gem = {
+    name: 'Azurite',
+    price: 110.50,
+    canPurchase: false,
+    soldOut: true
+  };
+})();
 ```
