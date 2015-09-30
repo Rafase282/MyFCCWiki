@@ -266,7 +266,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 
 2. [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
  - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
-3. [Waypoint: Power Forms with Angular.js]()
+3. [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
 4. [Waypoint: Customize Angular.js Directives]()
 5. [Waypoint: Create Angular.js Services]()
 
