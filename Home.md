@@ -10,6 +10,15 @@ I will try to keep everything updated. If you are also part of the camp or would
 
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) |  [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
+## Get Started with Free Code Camp
+1. Waypoint: Learn how Free Code Camp Works Incomplete
+2. Waypoint: Create a GitHub Account and Join our Chat Rooms Incomplete
+3. Waypoint: Configure your Public Profile Incomplete
+4. Waypoint: Try our Wiki and Camper News Incomplete
+5. Waypoint: Join a Campsite in Your City Incomplete
+6. Waypoint: Join our Alumni Network and Commit to Your Goal Incomplete
+7. Waypoint: Learn What to Do If You Get Stuck
+
 ## HTML5 and CSS
 1. [Waypoint: Say Hello to HTML Elements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#say-hello-to-html-elements)
 2. [Waypoint: Headline with the h2 Element](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#headline-with-the-h2-element)
