@@ -277,7 +277,7 @@ I will try to keep everything updated. If you are also part of the camp or would
  - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
 3. [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
 4. [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
-5. [Waypoint: Create Angular.js Services]()
+5. [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
 
 ## Intermediate Front End Development Projects
 1. Zipline: Stylize Stories on Camper News
