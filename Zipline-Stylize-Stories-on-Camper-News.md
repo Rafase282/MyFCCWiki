@@ -67,14 +67,12 @@ The CSS part is also straight forward. There are not that many elements after al
 
 ```css
 h2 {
-  text-align: center;
   font-family: cursive, sans-serif;
   color: gray;
   margin-bottom: 50px;
 }
 h1 {
   font-size: 52px;
-  text-align: center;
   font-family: cursive, sans-serif;
   color: #663300;
 }
@@ -85,6 +83,7 @@ section {
   color: #fff;
   background-color: #B29980;
   bottom: 10px;
+  text-align: center;
 }
 footer {
   background-color: black;
@@ -99,14 +98,19 @@ footer {
 .logo {
   border-radius: 5%;
   height: 250px;
-  width: 230px;
+  width: 200px;
   margin-right: 10px;
 }
 .well {
-  width: 250px;
+  width: 230px;
   height: 370px;
   color: black;
-  margin-left: 25px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.row {
+  margin: auto;
+  width: 95%;
 }
 ```
 
@@ -118,7 +122,7 @@ It is the [Datejs](https://github.com/datejs/Datejs) library. Quite useful for f
 For the trunc function, I got it from [here.](http://stackoverflow.com/questions/1199352/smart-way-to-shorten-long-strings-with-javascript)
 
 ```js
-// Function to truncate strings to custom length.
+// Function to truncate strings to custom lenght.
 String.prototype.trunc = String.prototype.trunc ||
   function(n) {
     return this.length > n ? this.substr(0, n - 1) + '&hellip;' : this;
@@ -149,10 +153,10 @@ $(document).ready(function() {
 
       // Generate HTML5 elements to be displayed
 
-      html = '<article class= " col-sm-1 col-md-2 well well-sm"><img class= \'logo\' src = "' + picture + '">' + ' <a href="' + fcc + username + '" target="_blank"><p>' + 'by ' + username + ' (<i class="fa fa-fire fa-fw"></i>)</a> <span class="glyphicon glyphicon glyphicon-arrow-up"></span> ' + upvotes + '</p> <a href="' + link + '" target="_blank"><p>' + headline.trunc(50) + '</p></a>' + '<p> Posted on: ' + time.toString('ddd d, MMM yyyy') + '</p></article>';
+      html = '<article class="col-xs-2 well well-sm"><img class="logo" src="' + picture + '"><a href="' + fcc + username + '" target="_blank"><p>by' + username + '(<i class="fa fa-fire fa-fw"></i>)<span class="glyphicon glyphicon glyphicon-arrow-up"></span>' + upvotes + '</p></a><a href="' + link + '"target="_blank"><p>' + headline.trunc(50) + '</p></a><p> Posted on: ' + time.toString('ddd d, MMM yyyy') + '</p></article>';
 
       // Displays the elements to the page
-      $('.row').append(news + 1 % 6 === 0 ? '</div><div class="row">' : '' + html);
+      $('.row').append(html);
     }
   });
 });
