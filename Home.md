@@ -280,7 +280,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 5. [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
 
 ## Intermediate Front End Development Projects
-1. Zipline: Stylize Stories on Camper News
+1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
 2. Zipline: Wikipedia Viewer
 3. Zipline: Build a JavaScript Calculator
 4. Zipline: Build a Tic Tac Toe Game
