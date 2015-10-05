@@ -28,6 +28,7 @@ In software development and product management, a user story is a description co
 CodePen.io overrides the `Window.open()` function, so if you want to open windows using jQuery, you will need to target invisible anchor elements like this one: `<a target='_blank'>`.
 
 ## My HTML Code Snippet
+For the search bar I used one from this [demo.](http://codepen.io/912lab/pen/LsplC?editors=110)
 
 ```html
 
