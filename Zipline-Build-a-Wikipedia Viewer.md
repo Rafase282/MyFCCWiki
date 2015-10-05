@@ -31,17 +31,22 @@ CodePen.io overrides the `Window.open()` function, so if you want to open window
 For the search bar I used one from this [demo.](http://codepen.io/912lab/pen/LsplC?editors=110)
 
 ```html
-
+Soon
 ```
 
 ## My CSS Code Snippets
 
 ```css
-
+Soon
 ```
 
 ## My JS Code Snippets
 
 ```js
-
+Soon
 ```
+
+## Links
+- [Centering Percentage Width/Height Elements](https://css-tricks.com/centering-percentage-widthheight-elements/)
+- [Search Bar](http://jsfiddle.net/daneden/tr5bs/embedded/result/)
+- [CSS Margins](http://www.w3schools.com/css/css_margin.asp)
