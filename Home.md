@@ -251,13 +251,13 @@ I will try to keep everything updated. If you are also part of the camp or would
 4. [Zipline: Show the Local Weather](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Show-the-Local-Weather)
 5. [Zipline: Build a Pomodoro Clock](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Pomodoro-Clock)
 6. [Zipline: Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Use-the-Twitch.tv-JSON-API)
+7. Zipline: Build a JavaScript Calculator
 
 ## Intermediate Front End Development Projects
 1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
 2. [Zipline: Wikipedia Viewer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Wikipedia-Viewer)
-3. Zipline: Build a JavaScript Calculator
-4. Zipline: Build a Tic Tac Toe Game
-5. Zipline: Build a Simon Game
+3. Zipline: Build a Tic Tac Toe Game
+4. Zipline: Build a Simon Game
 
 ## Claim Your Front End Development Certificate
 1. [Waypoint: Claim Your Front End Development Certificate](http://freecodecamp.com/challenges/waypoint-claim-your-front-end-development-certificate)
@@ -280,18 +280,19 @@ I will try to keep everything updated. If you are also part of the camp or would
 6. [Bonfire: Friendly Date Ranges](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Friendly-Date-Ranges)
 
 ## AngularJS
-1. [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
+- [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
   - [Creating Modules](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#creating-modules)
   - [Including the module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#including-the-module)
   - [Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#expressions)
   - [Controllers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#controllers)
   - [Show and Hide Buttons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#show-and-hide-buttons)
 
-2. [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
- - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
-3. [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
-4. [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
-5. [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
+- [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
+  - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
+
+- [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
+- [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
+- [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
 
 ## Git
 1. Waypoint: Save your Code Revisions Forever with Git
