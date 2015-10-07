@@ -3,7 +3,7 @@
 3. [Get Started with Free Code Camp](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#get-started-with-free-code-camp)
 4. [HTML5 and CSS](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#html5-and-css)
 5. [Responsive Design with Bootstrap](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#responsive-design-with-bootstrap)
-6. Gear up for Success
+6. [Gear up for Success](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#gear-up-for-success)
 7. [jQuery](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#jquery)
 8. [Basic JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#basic-javascript)
 9. [Object Oriented and Functional Programming](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#object-oriented-and-functional-programming)
@@ -11,7 +11,7 @@
 11. [Intermediate Algorithm Scripting](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#intermediate-algorithm-scripting)
 12. [Basic Front End Development Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#basic-front-end-development-projects)
 13. [Intermediate Front End Development Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#intermediate-front-end-development-projects)
-14. Claim Your Front End Development Certificate
+14. [Claim Your Front End Development Certificate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#claim-your-front-end-development-certificate)
 15. [Upper Intermediate Algorithm Scripting](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#upper-intermediate-algorithm-scripting)
 16. [Automated Testing and Debugging](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#automated-testing-and-debugging)
 17. [Advanced Algorithm Scripting](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#advanced-algorithm-scripting)
@@ -20,4 +20,4 @@
 20. [Node.js and Express.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#nodejs-and-expressjs)
 21. [MongoDB](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#mongodb)
 22. [Full Stack JavaScript Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#full-stack-javascript-projects)
-23. Claim Your Full Stack Development Certificate
+23. [Claim Your Full Stack Development Certificate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#claim-your-full-stack-development-certificate)
