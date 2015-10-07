@@ -11,13 +11,11 @@ I will try to keep everything updated. If you are also part of the camp or would
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) |  [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
 ## Get Started with Free Code Camp
-1. Waypoint: Learn how Free Code Camp Works Incomplete
-2. Waypoint: Create a GitHub Account and Join our Chat Rooms Incomplete
-3. Waypoint: Configure your Public Profile Incomplete
-4. Waypoint: Try our Wiki and Camper News Incomplete
-5. Waypoint: Join a Campsite in Your City Incomplete
-6. Waypoint: Join our Alumni Network and Commit to Your Goal Incomplete
-7. Waypoint: Learn What to Do If You Get Stuck
+1. [Waypoint: Learn how Free Code Camp Works Incomplete](http://freecodecamp.com/challenges/waypoint-learn-how-free-code-camp-works)
+2. [Waypoint: Create a GitHub Account and Join our Chat Rooms Incomplete](http://freecodecamp.com/challenges/waypoint-create-a-github-account-and-join-our-chat-rooms)
+3. [Waypoint: Configure your Public Profile Incomplete](http://freecodecamp.com/challenges/waypoint-configure-your-code-portfolio)
+4. [Waypoint: Join a Campsite in Your City Incomplete](http://freecodecamp.com/challenges/waypoint-join-a-campsite-in-your-city)
+5. [Waypoint: Learn What to Do If You Get Stuck](http://freecodecamp.com/challenges/waypoint-learn-what-to-do-if-you-get-stuck)
 
 ## HTML5 and CSS
 1. [Waypoint: Say Hello to HTML Elements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/HTML-&-CSS#say-hello-to-html-elements)
@@ -123,6 +121,12 @@ I will try to keep everything updated. If you are also part of the camp or would
 30. [Waypoint: Label Bootstrap Buttons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Responsive-Design-with-Bootstrap#label-bootstrap-buttons)
 31. [Waypoint: Use Comments to Clarify Code](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Responsive-Design-with-Bootstrap#use-comments-to-clarify-code)
 
+## Gear up for Success
+1. [Waypoint: Browse Camper News Incomplete](http://freecodecamp.com/challenges/waypoint-browse-camper-news)
+2. [Waypoint: Reference our Wiki Incomplete](http://freecodecamp.com/challenges/waypoint-reference-our-wiki)
+3. [Waypoint: Join our LinkedIn Alumni Network Incomplete](http://freecodecamp.com/challenges/waypoint-join-our-linkedin-alumni-network)
+4. [Waypoint: Commit to a Goal and a Nonprofit](http://freecodecamp.com/challenges/waypoint-commit-to-a-goal-and-a-nonprofit)
+
 ## jQuery
 1. [Waypoint: Learn how Script Tags and Document Ready Work](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/jQuery#learn-how-script-tags-and-document-ready-work)
 2. [Waypoint: Target HTML Elements with Selectors Using jQuery](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/jQuery#target-html-elements-with-selectors-using-jquery)
@@ -217,14 +221,6 @@ I will try to keep everything updated. If you are also part of the camp or would
 15. [Bonfire: Seek and Destroy](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Seek-and-Destroy)
 16. [Bonfire: Where do I belong](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-do-I-belong)
 
-## Basic Front End Development Projects
-1. [Waypoint: Get Set for Ziplines](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Set-for-Ziplines)
-2. [Zipline: Build a Personal Portfolio Webpage](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Personal-Portfolio-Webpage)
-3. [Zipline: Build a Random Quote Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Random-Quote-Machine)
-4. [Zipline: Show the Local Weather](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Show-the-Local-Weather)
-5. [Zipline: Build a Pomodoro Clock](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Pomodoro-Clock)
-6. [Zipline: Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Use-the-Twitch.tv-JSON-API)
-
 ## Intermediate Algorithm Scripting
 1. [Bonfire: Sum All Numbers in a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Numbers-in-a-Range)
 2. [Bonfire: Diff Two Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Diff-Two-Arrays)
@@ -248,6 +244,24 @@ I will try to keep everything updated. If you are also part of the camp or would
 20. [Bonfire: Everything Be True](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Everything-Be-True)
 21. [Bonfire: Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
 
+## Basic Front End Development Projects
+1. [Waypoint: Get Set for Ziplines](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Set-for-Ziplines)
+2. [Zipline: Build a Personal Portfolio Webpage](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Personal-Portfolio-Webpage)
+3. [Zipline: Build a Random Quote Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Random-Quote-Machine)
+4. [Zipline: Show the Local Weather](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Show-the-Local-Weather)
+5. [Zipline: Build a Pomodoro Clock](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Pomodoro-Clock)
+6. [Zipline: Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Use-the-Twitch.tv-JSON-API)
+
+## Intermediate Front End Development Projects
+1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
+2. [Zipline: Wikipedia Viewer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Wikipedia-Viewer)
+3. Zipline: Build a JavaScript Calculator
+4. Zipline: Build a Tic Tac Toe Game
+5. Zipline: Build a Simon Game
+
+## Claim Your Front End Development Certificate
+1. [Waypoint: Claim Your Front End Development Certificate](http://freecodecamp.com/challenges/waypoint-claim-your-front-end-development-certificate)
+
 ## Upper Intermediate Algorithm Scripting
 1. [Bonfire: Make a Person](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
 2. [Bonfire: Map the Debris](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Map-the-Debris)
@@ -266,25 +280,19 @@ I will try to keep everything updated. If you are also part of the camp or would
 6. [Bonfire: Friendly Date Ranges](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Friendly-Date-Ranges)
 
 ## AngularJS
-1. [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
+- [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
   - [Creating Modules](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#creating-modules)
   - [Including the module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#including-the-module)
   - [Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#expressions)
   - [Controllers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#controllers)
   - [Show and Hide Buttons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#show-and-hide-buttons)
 
-2. [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
- - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
-3. [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
-4. [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
-5. [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
+- [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
+  - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
 
-## Intermediate Front End Development Projects
-1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
-2. [Zipline: Wikipedia Viewer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Wikipedia-Viewer)
-3. Zipline: Build a JavaScript Calculator
-4. Zipline: Build a Tic Tac Toe Game
-5. Zipline: Build a Simon Game
+- [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
+- [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
+- [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
 
 ## Git
 1. Waypoint: Save your Code Revisions Forever with Git
@@ -306,3 +314,6 @@ I will try to keep everything updated. If you are also part of the camp or would
 4. Basejump: Chart the Stock Market
 5. Basejump: Manage a Book Trading Club
 6. Basejump: Build a Pinterest Clone
+
+## Claim Your Full Stack Development Certificate
+1. Waypoint: Claim Your Full Stack Development Certificate
