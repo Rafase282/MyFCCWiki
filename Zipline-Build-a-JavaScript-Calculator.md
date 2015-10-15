@@ -25,24 +25,23 @@ In software development and product management, a user story is a description co
 CodePen.io overrides the `Window.open()` function, so if you want to open windows using jQuery, you will need to target invisible anchor elements like this one: `<a target='_blank'>`.
 
 ## My HTML Code Snippets
-
+I used a table generator that I found to make the layout of the calculator using a custom table. Then I added my buttons and all the code needed.
 
 ```html
 soon
 ```
 
 ## My CSS Code Snippets
-### Make things centered and styled
-- Here I centered things either using `text-align` or `margins` and also gave font styling.
 
 ```css
-soon
+/*soon*/
 ```
 
 ## My JavaScript Code Snippets
-### Location API callback Function
-- The location API is [http://ip-api.com/json](http://ip-api.com/json) and it gets the location via `IP` address, this is the information we receive:
 
 ```js
 soon
 ```
+
+## Links
+- [Table Generator](http://www.tablesgenerator.com/html_tables)
