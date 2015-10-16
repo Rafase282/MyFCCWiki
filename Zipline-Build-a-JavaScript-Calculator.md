@@ -45,3 +45,4 @@ soon
 
 ## Links
 - [Table Generator](http://www.tablesgenerator.com/html_tables)
+- [Evaluate string to code](https://www.everythingfrontend.com/posts/studying-javascript-eval.html)
