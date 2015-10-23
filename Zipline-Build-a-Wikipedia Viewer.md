@@ -6,7 +6,7 @@ Submitted by Rafase282
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
 ## Objective:
-Build a CodePen.io app that successfully reverse-engineers this: [http://codepen.io/GeoffStorbeck/full/GJKRxZ](http://codepen.io/GeoffStorbeck/full/GJKRxZ).
+Build a CodePen.io app that successfully reverse-engineers this: [http://codepen.io/GeoffStorbeck/full/MwgQea](http://codepen.io/GeoffStorbeck/full/MwgQea).
 
 ## Rules:
 1. Don't look at the example project's code on CodePen. Figure it out for yourself.
