@@ -251,7 +251,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 4. [Zipline: Show the Local Weather](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Show-the-Local-Weather)
 5. [Zipline: Build a Pomodoro Clock](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Pomodoro-Clock)
 6. [Zipline: Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Use-the-Twitch.tv-JSON-API)
-7. Zipline: Build a JavaScript Calculator
+7. [Zipline: Build a JavaScript Calculator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-JavaScript-Calculator)
 
 ## Intermediate Front End Development Projects
 1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
