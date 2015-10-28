@@ -45,5 +45,4 @@ I used a table generator that I found to make the layout of the calculator using
 ```
 
 ## Links
-- [Table Generator](http://www.tablesgenerator.com/html_tables)
-- [Evaluate string to code](https://www.everythingfrontend.com/posts/studying-javascript-eval.html)
+- [MiniMax Algorithm](http://neverstopbuilding.com/minimax)
