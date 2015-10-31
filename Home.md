@@ -177,16 +177,21 @@ I will try to keep everything updated. If you are also part of the camp or would
 28. [Waypoint: Iterate with JavaScript While Loops](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-for-loops)
 29. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-while-loops)
 30. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-fractions-with-javascript)
-31. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-whole-numbers-within-a-range)
-32. [Waypoint: Use Conditional Logic with If-Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#use-conditional-logic-with-if-else-statements)
-33. [Waypoint: Sift through Text with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#sift-through-text-with-regular-expressions)
-34. [Waypoint: Find Numbers with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-numbers-with-regular-expressions)
-35. [Waypoint: Find White Space with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-white-space-with-regular-expressions)
-36. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#invert-regular-expression-matches-with-javascript)
-37. [Waypoint: Create a JavaScript Slot Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#create-a-javascript-slot-machine)
-38. [Waypoint: Add your JavaScript Slot Machine Slots](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-your-javascript-slot-machine-slots)
-39. [Waypoint: Bring your JavaScript Slot Machine to Life](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#bring-your-javascript-slot-machine-to-life)
-40. [Waypoint: Give your JavaScript Slot Machine some stylish images](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#give-your-javascript-slot-machine-some-stylish-images)
+31. Waypoint: Add New Properties to a JavaScript Object Complete
+32. Waypoint: Delete Properties from a JavaScript Object Complete
+33. Waypoint: Iterate with JavaScript For Loops
+34. Waypoint: Iterate Odd Numbers With a For Loop Incomplete
+35. Waypoint: Count Backwards With a For Loop
+36. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-whole-numbers-within-a-range)
+37. [Waypoint: Use Conditional Logic with If-Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#use-conditional-logic-with-if-else-statements)
+38. [Waypoint: Sift through Text with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#sift-through-text-with-regular-expressions)
+39. [Waypoint: Find Numbers with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-numbers-with-regular-expressions)
+40. [Waypoint: Find White Space with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-white-space-with-regular-expressions)
+41. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#invert-regular-expression-matches-with-javascript)
+42. [Waypoint: Create a JavaScript Slot Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#create-a-javascript-slot-machine)
+43. [Waypoint: Add your JavaScript Slot Machine Slots](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-your-javascript-slot-machine-slots)
+44. [Waypoint: Bring your JavaScript Slot Machine to Life](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#bring-your-javascript-slot-machine-to-life)
+45. [Waypoint: Give your JavaScript Slot Machine some stylish images](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#give-your-javascript-slot-machine-some-stylish-images)
 
 ## Object Oriented and Functional Programming
 1. [Waypoint: Declare JavaScript Objects as Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Declare-JavaScript-Objects-as-Variables)
@@ -221,6 +226,15 @@ I will try to keep everything updated. If you are also part of the camp or would
 15. [Bonfire: Seek and Destroy](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Seek-and-Destroy)
 16. [Bonfire: Where do I belong](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-do-I-belong)
 
+## Basic Front End Development Projects
+1. [Waypoint: Get Set for Ziplines](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Set-for-Ziplines)
+2. [Zipline: Build a Personal Portfolio Webpage](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Personal-Portfolio-Webpage)
+3. [Zipline: Build a Random Quote Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Random-Quote-Machine)
+4. [Zipline: Show the Local Weather](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Show-the-Local-Weather)
+5. [Zipline: Build a Pomodoro Clock](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Pomodoro-Clock)
+6. [Zipline: Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Use-the-Twitch.tv-JSON-API)
+7. [Zipline: Build a JavaScript Calculator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-JavaScript-Calculator)
+
 ## Intermediate Algorithm Scripting
 1. [Bonfire: Sum All Numbers in a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Sum-All-Numbers-in-a-Range)
 2. [Bonfire: Diff Two Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Diff-Two-Arrays)
@@ -244,14 +258,14 @@ I will try to keep everything updated. If you are also part of the camp or would
 20. [Bonfire: Everything Be True](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Everything-Be-True)
 21. [Bonfire: Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
 
-## Basic Front End Development Projects
-1. [Waypoint: Get Set for Ziplines](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Set-for-Ziplines)
-2. [Zipline: Build a Personal Portfolio Webpage](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Personal-Portfolio-Webpage)
-3. [Zipline: Build a Random Quote Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Random-Quote-Machine)
-4. [Zipline: Show the Local Weather](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Show-the-Local-Weather)
-5. [Zipline: Build a Pomodoro Clock](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Pomodoro-Clock)
-6. [Zipline: Use the Twitch.tv JSON API](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Use-the-Twitch.tv-JSON-API)
-7. [Zipline: Build a JavaScript Calculator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-JavaScript-Calculator)
+## JSON APIs and Ajax  
+1. Waypoint: Trigger Click Events with jQuery Incomplete
+2. Waypoint: Change Text with Click Events Incomplete
+3. Waypoint: Get JSON with the jQuery getJSON Method Incomplete
+4. Waypoint: Convert JSON Data to HTML Incomplete
+5. Waypoint: Render Images from Data Sources Incomplete
+6. Waypoint: Prefilter JSON Incomplete
+7. Waypoint: Get Geo-location Data
 
 ## Intermediate Front End Development Projects
 1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
