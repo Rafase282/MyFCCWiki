@@ -8,8 +8,9 @@
 8. [Basic JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#basic-javascript)
 9. [Object Oriented and Functional Programming](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#object-oriented-and-functional-programming)
 10. [Basic Algorithm Scripting](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#basic-algorithm-scripting)
-11. [Intermediate Algorithm Scripting](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#intermediate-algorithm-scripting)
-12. [Basic Front End Development Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#basic-front-end-development-projects)
+11. [Basic Front End Development Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#basic-front-end-development-projects)
+12. [Intermediate Algorithm Scripting](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#intermediate-algorithm-scripting)
+13. JSON APIs and Ajax
 13. [Intermediate Front End Development Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#intermediate-front-end-development-projects)
 14. [Claim Your Front End Development Certificate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#claim-your-front-end-development-certificate)
 15. [Upper Intermediate Algorithm Scripting](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#upper-intermediate-algorithm-scripting)
