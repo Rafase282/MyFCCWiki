@@ -270,7 +270,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 ## Intermediate Front End Development Projects
 1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
 2. [Zipline: Wikipedia Viewer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Wikipedia-Viewer)
-3. Zipline: Build a Tic Tac Toe Game
+3. [Zipline: Build a Tic Tac Toe Game](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Tic-Tac-Toe-Game)
 4. Zipline: Build a Simon Game
 
 ## Claim Your Front End Development Certificate
