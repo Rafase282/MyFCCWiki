@@ -17,3 +17,5 @@ $("#getMessage").on("click", function(){
 
 });
 ```
+
+This will create a function so when the element with id `getMessage` is clicked, the custom function will be run.
