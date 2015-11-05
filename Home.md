@@ -259,12 +259,12 @@ I will try to keep everything updated. If you are also part of the camp or would
 21. [Bonfire: Arguments Optional](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Arguments-Optional)
 
 ## JSON APIs and Ajax  
-1. Waypoint: Trigger Click Events with jQuery Incomplete
-2. Waypoint: Change Text with Click Events Incomplete
-3. Waypoint: Get JSON with the jQuery getJSON Method Incomplete
-4. Waypoint: Convert JSON Data to HTML Incomplete
-5. Waypoint: Render Images from Data Sources Incomplete
-6. Waypoint: Prefilter JSON Incomplete
+1. [Waypoint: Trigger Click Events with jQuery Incomplete](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Trigger-Click-Events-with-jQuery)
+2. [Waypoint: Change Text with Click Events](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Change-Text-with-Click-Events)
+3. Waypoint: Get JSON with the jQuery getJSON Method
+4. Waypoint: Convert JSON Data to HTM
+5. Waypoint: Render Images from Data Sources
+6. Waypoint: Prefilter JSON
 7. Waypoint: Get Geo-location Data
 
 ## Intermediate Front End Development Projects
