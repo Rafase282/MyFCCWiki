@@ -177,11 +177,11 @@ I will try to keep everything updated. If you are also part of the camp or would
 28. [Waypoint: Iterate with JavaScript While Loops](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-for-loops)
 29. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-while-loops)
 30. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-fractions-with-javascript)
-31. Waypoint: Add New Properties to a JavaScript Object Complete
-32. Waypoint: Delete Properties from a JavaScript Object Complete
-33. Waypoint: Iterate with JavaScript For Loops
-34. Waypoint: Iterate Odd Numbers With a For Loop Incomplete
-35. Waypoint: Count Backwards With a For Loop
+31. [Waypoint: Add New Properties to a JavaScript Object]()
+32. [Waypoint: Delete Properties from a JavaScript Object]()
+33. [Waypoint: Iterate with JavaScript For Loops]()
+34. [Waypoint: Iterate Odd Numbers With a For Loop]()
+35. [Waypoint: Count Backwards With a For Loop]()
 36. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-whole-numbers-within-a-range)
 37. [Waypoint: Use Conditional Logic with If-Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#use-conditional-logic-with-if-else-statements)
 38. [Waypoint: Sift through Text with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#sift-through-text-with-regular-expressions)
@@ -261,8 +261,8 @@ I will try to keep everything updated. If you are also part of the camp or would
 ## JSON APIs and Ajax  
 1. [Waypoint: Trigger Click Events with jQuery Incomplete](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Trigger-Click-Events-with-jQuery)
 2. [Waypoint: Change Text with Click Events](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Change-Text-with-Click-Events)
-3. Waypoint: Get JSON with the jQuery getJSON Method
-4. Waypoint: Convert JSON Data to HTM
+3. [Waypoint: Get JSON with the jQuery getJSON Method](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-JSON-with-the-jQuery-getJSON-Method)
+4. [Waypoint: Convert JSON Data to HTM](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Convert-JSON-Data-to-HTML)
 5. Waypoint: Render Images from Data Sources
 6. Waypoint: Prefilter JSON
 7. Waypoint: Get Geo-location Data
