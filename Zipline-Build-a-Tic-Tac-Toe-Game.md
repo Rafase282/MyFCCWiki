@@ -46,3 +46,4 @@ I used a table generator that I found to make the layout of the calculator using
 
 ## Links
 - [MiniMax Algorithm](http://neverstopbuilding.com/minimax)
+- [More MiniMax](http://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html)
