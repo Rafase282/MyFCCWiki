@@ -294,22 +294,33 @@ I will try to keep everything updated. If you are also part of the camp or would
 6. [Bonfire: Friendly Date Ranges](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Friendly-Date-Ranges)
 
 ## AngularJS
-- [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
-  - [Creating Modules](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#creating-modules)
-  - [Including the module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#including-the-module)
-  - [Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#expressions)
-  - [Controllers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#controllers)
-  - [Show and Hide Buttons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#show-and-hide-buttons)
+1. [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
+    - [Creating Modules](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#creating-modules)
+    - [Including the module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#including-the-module)
+    - [Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#expressions)
+    - [Controllers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#controllers)
+    - [Show and Hide Buttons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#show-and-hide-buttons)
 
-- [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
-  - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
+2. [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
+    - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
 
-- [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
-- [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
-- [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
+3. [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
+  - [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
+  - [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
 
 ## Git
-1. Waypoint: Save your Code Revisions Forever with Git
+1. [Waypoint: Save your Code Revisions Forever with Git](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git)
+  - [Install and configure Git](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#install-and-configure-git)
+  - [Create a local repository](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#create-a-local-repository)
+  - [Check status, add and commit changes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#check-status-add-and-commit-changes)
+  - [Get a GitHub account](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#get-a-github-account)
+  - [Connect local repositories to remote ones on GitHub.com](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#connect-local-repositories-to-remote-ones-on-githubcom)
+  - [Fork and clone an open source repository](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#fork-and-clone-an-open-source-repository)
+  - [Create a branch for features/changes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#create-a-branch-for-featureschanges)
+  - [Add and sync with a collaborator (Hi, @reporobot!)](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#add-and-sync-with-a-collaborator)
+  - [Push and pull to sync changes to GitHub.com](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#push-and-pull-to-sync-changes-to-githubcom)
+  - [Create a pull request](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#create-a-pull-request)
+  - [Merge and delete branches](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#merge-and-delete-branches)
 
 ## Node.js and Express.js
 1. Waypoint: Manage Packages with NPM
