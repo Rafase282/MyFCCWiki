@@ -309,18 +309,18 @@ I will try to keep everything updated. If you are also part of the camp or would
   - [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
 
 ## Git
-1. [Waypoint: Save your Code Revisions Forever with Git]()
-  - [Install and configure Git]()
-  - [Create a local repository]()
-  - [Check status, add and commit changes]()
-  - [Get a GitHub account]()
-  - [Connect local repositories to remote ones on GitHub.com]()
-  - [Fork and clone an open source repository]()
-  - [Create a branch for features/changes]()
-  - [Add and sync with a collaborator (Hi, @reporobot!)]()
-  - [Push and pull to sync changes to GitHub.com]()
-  - [Create a pull request]()
-  - [Merge and delete branches]()
+1. [Waypoint: Save your Code Revisions Forever with Git](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git)
+  - [Install and configure Git](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#install-and-configure-git)
+  - [Create a local repository](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#create-a-local-repository)
+  - [Check status, add and commit changes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#check-status-add-and-commit-changes)
+  - [Get a GitHub account](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#get-a-github-account)
+  - [Connect local repositories to remote ones on GitHub.com](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#connect-local-repositories-to-remote-ones-on-githubcom)
+  - [Fork and clone an open source repository](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#fork-and-clone-an-open-source-repository)
+  - [Create a branch for features/changes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#create-a-branch-for-featureschanges)
+  - [Add and sync with a collaborator (Hi, @reporobot!)](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#add-and-sync-with-a-collaborator)
+  - [Push and pull to sync changes to GitHub.com](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#push-and-pull-to-sync-changes-to-githubcom)
+  - [Create a pull request](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#create-a-pull-request)
+  - [Merge and delete branches](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#merge-and-delete-branches)
 
 ## Node.js and Express.js
 1. Waypoint: Manage Packages with NPM
