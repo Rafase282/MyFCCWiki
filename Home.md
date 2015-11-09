@@ -263,7 +263,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 2. [Waypoint: Change Text with Click Events](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Change-Text-with-Click-Events)
 3. [Waypoint: Get JSON with the jQuery getJSON Method](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-JSON-with-the-jQuery-getJSON-Method)
 4. [Waypoint: Convert JSON Data to HTM](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Convert-JSON-Data-to-HTML)
-5. Waypoint: Render Images from Data Sources
+5. [Waypoint: Render Images from Data Sources](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Render-Images-from-Data-Sources)
 6. Waypoint: Prefilter JSON
 7. Waypoint: Get Geo-location Data
 
