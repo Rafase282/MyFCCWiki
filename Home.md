@@ -197,7 +197,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 1. [Waypoint: Declare JavaScript Objects as Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Declare-JavaScript-Objects-as-Variables)
 2. [Waypoint: Construct JavaScript Objects with Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Construct-JavaScript-Objects-with-Functions)
 3. [Waypoint: Make Object Properties Private](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Make-Object-Properties-Private)
-4. [Waypoint: Make Unique Objects by Passing Parameters to our Constructor]()
+4. [Waypoint: Make Unique Objects by Passing Parameters to our Constructor](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Make-Unique-Objects-by-Passing-Parameters-to-our-Constructor)
 5. [Waypoint: Make Instances of Objects with a Constructor Function](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Make-Instances-of-Objects-with-a-Constructor-Function)
 6. [Waypoint: Iterate over Arrays with .map](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Iterate-over-Arrays-with-map)
 7. [Waypoint: Condense arrays with .reduce](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Condense-arrays-with-reduce)
