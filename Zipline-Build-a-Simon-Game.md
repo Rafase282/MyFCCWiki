@@ -57,5 +57,6 @@ CodePen.io overrides the `Window.open()` function, so if you want to open window
 ```
 
 ## Links
-- [MiniMax Algorithm](http://neverstopbuilding.com/minimax)
-- [More MiniMax](http://www3.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html)
+- [http://codeplanet.io/building-simon-says-javascript/](http://codeplanet.io/building-simon-says-javascript/)
+- [http://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only](http://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only)
+- [http://codepen.io/guylemon/pen/dYQwRa?editors=011](http://codepen.io/guylemon/pen/dYQwRa?editors=011)
