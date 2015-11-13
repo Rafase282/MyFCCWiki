@@ -265,14 +265,14 @@ I will try to keep everything updated. If you are also part of the camp or would
 3. [Waypoint: Get JSON with the jQuery getJSON Method](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-JSON-with-the-jQuery-getJSON-Method)
 4. [Waypoint: Convert JSON Data to HTM](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Convert-JSON-Data-to-HTML)
 5. [Waypoint: Render Images from Data Sources](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Render-Images-from-Data-Sources)
-6. Waypoint: Prefilter JSON
+6. [Waypoint: Prefilter JSON](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Prefilter-JSON)
 7. Waypoint: Get Geo-location Data
 
 ## Intermediate Front End Development Projects
 1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
 2. [Zipline: Wikipedia Viewer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Wikipedia-Viewer)
 3. [Zipline: Build a Tic Tac Toe Game](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Tic-Tac-Toe-Game)
-4. Zipline: Build a Simon Game
+4. [Zipline: Build a Simon Game](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Simon-Game)
 
 ## Claim Your Front End Development Certificate
 1. [Waypoint: Claim Your Front End Development Certificate](http://freecodecamp.com/challenges/waypoint-claim-your-front-end-development-certificate)
