@@ -291,3 +291,4 @@ section .app-container .board .circle .bottom-row .off {
 - [Building Simon Game JavaScript](http://codeplanet.io/building-simon-says-javascript/)
 - [CSS Half Circle](http://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only)
 - [Playing Audio With JavaScript](http://stackoverflow.com/questions/9419263/playing-audio-with-javascript)
+- [Cloning arrays, fastest way](http://jsperf.com/new-array-vs-splice-vs-slice/113)
