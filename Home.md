@@ -266,7 +266,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 4. [Waypoint: Convert JSON Data to HTM](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Convert-JSON-Data-to-HTML)
 5. [Waypoint: Render Images from Data Sources](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Render-Images-from-Data-Sources)
 6. [Waypoint: Prefilter JSON](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Prefilter-JSON)
-7. Waypoint: Get Geo-location Data
+7. [Waypoint: Get Geo-location Data](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Geo-location-Data)
 
 ## Intermediate Front End Development Projects
 1. [Zipline: Stylize Stories on Camper News](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Stylize-Stories-on-Camper-News)
