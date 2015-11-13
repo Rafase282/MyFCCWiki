@@ -35,256 +35,400 @@ Here are mp3s you can use for each button:
 
 CodePen.io overrides the `Window.open()` function, so if you want to open windows using jQuery, you will need to target invisible anchor elements like this one: `<a target='_blank'>`.
 
+I worked together with @guylemon on this one. I was able to get familiar with sass and jade as it is his choice for html and css.
+
 ## My HTML Code Snippets
 
-```html
-<section>
-  <div class="app-container">
-    <div data-tile="4" class="tiles green"> </div>
-    <div data-tile="1" class="tiles red"> </div>
-    <div data-tile="3" class="tiles yellow"> </div>
-    <div data-tile="2" class="tiles blue"> </div>
-    <div class="board">
-      <div class="circle">
-        <div class="brand">
-          <span>Simon</span>
-        </div>
-        <div class="middle-row">
-          <div class="display">
-            <div class="round-number"></div>
-            <span class="label">ROUND</span>
-          </div>
-          <div class="start">
-            <div class="start-button"></div>
-            <span class="label">START</span>
-          </div>
-          <div class="strict">
-            <div class="strict-button"></div>
-            <span class="label">STRICT</span>
-          </div>
-        </div>
-        <div class="bottom-row">
-          <span class="off">OFF</span>
-          <div class="power-bg">
-            <div class="power-button float-left"></div>
-          </div>
-          <span class="on">ON</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+```jade
+section
+  .win.hidden YOU WIN!
+    .modal-buttons
+      span.play-again PLAY AGAIN
+      span.quit QUIT
+  .lose.hidden OH NO!
+    .modal-buttons
+      span.play-again PLAY AGAIN
+      span.quit QUIT
+  // the game
+  .app-container
+    .tiles.green(data-tile='4')
+    .tiles.red(data-tile='1')
+    .tiles.yellow(data-tile='3')
+    .tiles.blue(data-tile='2')
+    .board
+      .circle
+        .brand
+          span Simon
+          span.reg &#174;
+        .middle-row
+          .display
+            .round-number
+            span.label ROUND
+          .start
+            .start-button
+            span.label#start START
+          .strict
+            .strict-button
+            span.label STRICT
+        .bottom-row
+          span.off OFF
+          .power-bg
+            .power-button.float-left
+          span.on ON
+          // TO-DO: COME UP WITH A PROPER FOOTER FOR THE TEAM
+ footer
+ p Copyright © Rafael J. Rodriguez & #[a(href='mailto: guy@guylemon.com') Guy Lemon] 2015. All Rights Reserved
+ p
+   a(href='mailto:rafase282@gmail.com')
+     i.fa.fa-envelope.fa-fw
+   a(href='https://github.com/Rafase282',target='_blank')
+     i.fa.fa-github.fa-fw
+   a(href='https://www.linkedin.com/in/rafase282',target='_blank')
+     i.fa.fa-linkedin
+   a(href='http://codepen.io/Rafase282',target='_blank')
+     i.fa.fa-codepen
+   a(href='https://rafase282.wordpress.com',target='_blank')
+     i.fa.fa-wordpress
+   a(href='https://rafase282.wordpress.com',target='_blank')  (
+     i.fa.fa-fire.fa-fw )
 ```
 
 ## My CSS Code Snippets
 
-```css
-.button-bright {
-  background-image: none !important;
-}
+```sass
+//FONTS
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One)
+$font-stack: 'Alfa Slab One', cursive
 
-.float-right {
-  float: right;
-}
 
-.float-left {
-  float: left;
-}
+//VARIABLES
+$simon-height: 70vmin
 
-.flex-centered, section, section .app-container, section .app-container .board, section .app-container .board .circle, section .app-container .board .circle .brand, section .app-container .board .circle .bottom-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/* colors & borders */
+$red: rgba(255, 54, 48, 1)
+$burgundy: rgba(35, 11, 10, 0.85)
+$blue: rgba(54, 97, 196, 1)
+$light-blue: rgba(89, 196, 206, 1)
+$green: rgba(41, 217, 53, 1)
+$yellow: rgba(255, 241, 48, 1)
+$gray: rgba(50, 50, 50, 1)
+$shadow: rgba(10, 10, 10, 1)
+$bg-shadow: linear-gradient(to top, rgba($gray, 0.2), rgba($shadow, 0.3))
+$tile-border: 1.5vmin solid $gray
+$outer-border: 3.2vmin solid $gray
 
-.boxes, section .app-container .green, section .app-container .red, section .app-container .yellow, section .app-container .blue {
-  height: 50%;
-  width: 50%;
-  border: 20px solid black;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
-  background-blend-mode: darken;
-}
+//HELPER CLASSES
+.button-bright
+  background-image: none !important
+.float-right
+  float: right
+.float-left
+  float: left
+  //toggle this
+.flex-centered
+  display: flex
+  align-items: center
+  justify-content: center
+.boxes
+  height: 50%
+  width: 50%
+  border: $outer-border
+  box-shadow: 1vmin 1vmin 3vmin $shadow
+  background-image: $bg-shadow
+  background-blend-mode: darken
 
-.brighten {
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(211, 211, 211, 0.4)) !important;
-  background-blend-mode: screen !important;
-}
+.brighten
+  background-image: linear-gradient(to top, rgba(white, 0.6), rgba(lightgray, 0.4)) !important
+  background-blend-mode: screen !important
 
-section {
-  position: relative;
-  height: 90vh;
-  width: 100%;
-}
+//APP STYLING
+section
+  @extend .flex-centered
+  position: relative
+  height: 90vh
+  width: 100%
+  background:
+    image: url(https://cloud.githubusercontent.com/assets/13574207/11134180/7f5e3224-8960-11e5-924d-463c78063cb9.jpg)
+    size: cover
+    position: center
+    /*blend-mode: overlay
+    //color: rgba($shadow 0.5)*/
+  .win, .lose
+    position: absolute
+    height: 100%
+    width: 100%
+    top: 0
+    left: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: rgba($blue, 0.8) + rgba(0,0,0,0.8)
+    font-size: 11vmin
+    font-weight: bold
+    color: white
+    letter-spacing: -0.5vmin
+    text-shadow: 1vmin 1vmin 6vmin $shadow
+    z-index: 1
+    .modal-buttons
+      display: flex
+      align-items: center
+      justify-content: space-around
+      position: absolute
+      top: 60%
+      left: 25%
+      width: 50%
+      height: 10%
+      //background-color: pink
 
-section .app-container {
-  flex-wrap: wrap;
-  position: relative;
-  height: 70vmin;
-  width: 70vmin;
-}
+      .play-again, .quit
+        @extend .flex-centered
+        background-image: $bg-shadow
+        background-color: $green
+        height: 61.8%
+        width: 40%
+        max-width: 175px
+        border-radius: 1vmin
+        box-shadow: 0.4vmin 0.4vmin 1vmin $shadow
+        color: black
+        text-shadow: none
+        font-size: 3vmin
+        font-weight: 500
+        letter-spacing: 0
 
-section .app-container .green {
-  background-color: rgba(0, 128, 0, 0.8);
-  border-top-left-radius: 100%;
-  border-right: 10px solid black;
-  border-bottom: 10px solid black;
-}
+        &:active
+          box-shadow: none
 
-section .app-container .red {
-  background-color: rgba(255, 0, 0, 0.85);
-  border-top-right-radius: 100%;
-  border-left: 10px solid black;
-  border-bottom: 10px solid black;
-}
 
-section .app-container .yellow {
-  background-color: rgba(255, 255, 0, 0.8);
-  border-bottom-left-radius: 100%;
-  border-right: 10px solid black;
-  border-top: 10px solid black;
-}
 
-section .app-container .blue {
-  background-color: rgba(0, 0, 255, 0.85);
-  border-bottom-right-radius: 100%;
-  border-top: 10px solid black;
-  border-left: 10px solid black;
-}
+  .app-container
+    @extend .flex-centered
+    flex-wrap: wrap
+    position: relative
+    height: $simon-height
+    width: $simon-height
+    //border: solid 20px black
+    //border-radius: 50%
 
-section .app-container .board {
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  height: 50%;
-  width: 50%;
-  border-radius: 50%;
-}
+    //TILES
+    .green
+      @extend .boxes
+      background-color: $green
+      border-top-left-radius: 100%
+      border-right: $tile-border
+      border-bottom: $tile-border
 
-section .app-container .board .circle {
-  flex-wrap: wrap;
-  height: 100%;
-  width: 100%;
-  background-image: none;
-  background-color: white;
-  border: 10px solid black !important;
-  border-radius: 50%;
-  /* BRAND NAME */
-  /* MAIN GAME CONTROLS */
-  /* POWER BUTTON */
-}
 
-section .app-container .board .circle .brand {
-  width: 100%;
-  height: 40%;
-}
+    .red
+      @extend .boxes
+      background-color: $red
+      border-top-right-radius: 100%
+      border-left: $tile-border
+      border-bottom: $tile-border
 
-section .app-container .board .circle .brand span {
-  font-size: 7.5vmin;
-  font-weight: bold;
-  color: black;
-  padding: 0;
-  margin: 0;
-}
+    .yellow
+      @extend .boxes
+      background-color: $yellow
+      border-bottom-left-radius: 100%
+      border-right: $tile-border
+      border-top: $tile-border
 
-section .app-container .board .circle .middle-row {
-  display: flex;
-  justify-content: space-around;
-  width: 95%;
-  height: 35%;
-  margin: 0;
-}
+    .blue
+      @extend .boxes
+      background-color: $blue
+      border-bottom-right-radius: 100%
+      border-top: $tile-border
+      border-left: $tile-border
 
-section .app-container .board .circle .middle-row .display, section .app-container .board .circle .middle-row .start, section .app-container .board .circle .middle-row .strict {
-  position: relative;
-  height: 61.8%;
-  width: 30%;
-  box-sizing: border-box;
-}
+    //CENTER SECTION
+    .board
+      @extend .flex-centered
+      position: absolute
+      top: 25%
+      left: 25%
+      height: 50%
+      width: 50%
+      //border: solid 1px red
+      border-radius: 50%
+      //MIDDLE PORTION
+      .circle
+        @extend  .flex-centered
+        flex-wrap: wrap
+        height: 100%
+        width: 100%
+        background-image: none
+        background-color: white
+        border: $tile-border /*!important*/
+        border-radius: 50%
+        box-shadow: 0.2vmin 0.2vmin 0.5vmin $shadow
 
-section .app-container .board .circle .middle-row span.label {
-  position: absolute;
-  width: 100%;
-  bottom: -3vmin;
-  left: 0;
-  font-size: 1.5vmin;
-  color: black;
-  text-align: center;
-}
 
-section .app-container .board .circle .middle-row .display {
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 3px solid rgba(0, 0, 0, 0.8);
-  border-radius: 10%;
-}
 
-section .app-container .board .circle .middle-row .start {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
+        /* BRAND NAME */
+        .brand
+          @extend .flex-centered
+          //background-color: pink
+          width: 100%
+          height: 40%
 
-section .app-container .board .circle .middle-row .start .start-button {
-  background-color: rgba(139, 0, 0, 0.85);
-  height: 5vmin;
-  width: 5vmin;
-  border: 5px solid rgba(0, 0, 0, 0.8);
-  border-radius: 50%;
-}
 
-section .app-container .board .circle .middle-row .strict {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
+          span
+            //border: solid 1px black
+            font-size: 6vmin
+            font-family: $font-stack
+            color: black
+            padding: 0
+            margin-top: 3vmin
+            //background-color: pink
+          .reg
+            font-family: Helvetica, sans-serif
+            font-size: 2vmin
+            margin-bottom: 2vmin
 
-section .app-container .board .circle .middle-row .strict .strict-button {
-  background-color: rgba(255, 255, 0, 0.85);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
-  background-blend-mode: darken;
-  height: 5vmin;
-  width: 5vmin;
-  border: 5px solid rgba(0, 0, 0, 0.8);
-  border-radius: 50%;
-}
+        /* MAIN GAME CONTROLS */
+        .middle-row
+          display: flex
+          justify-content: space-around
+          //background-color: pink
+          width: 90%
+          height: 33%
+          margin: 0
+          .display, .start, .strict
+            position: relative
+            //border: 1px solid black
+            height: 61.8%
+            width: 30%
+            box-sizing: border-box
+          span.label
+            //border: 1px solid red
+            position: absolute
+            width: 100%
+            bottom: -2.2vmin
+            left: 0
+            padding: 0
+            margin: 0
+            font-size: 1.5vmin
+            color: black
+            text-align: center
 
-section .app-container .board .circle .bottom-row {
-  height: 25%;
-  width: 100%;
-}
+          /*ROUND DISPLAY  */
+          .display
+            display: inline-flex
+            justify-content: center
+            align-items: center
+            background-color: $burgundy
+            border: 3px solid $shadow
+            border-radius: 10%
+            .round-number
+              color: $burgundy + rgba(175, 44, 44, 0.85)
+              font-size: 4.5vmin
 
-section .app-container .board .circle .bottom-row .power-bg {
-  display: block;
-  height: 3vmin;
-  width: 25%;
-  padding: 1px;
-  background-color: rgba(0, 0, 0, 0.8);
-}
+          /* START BUTTON */
+          .start
+            display: inline-flex
+            justify-content: center
+            align-items: center
+            .label
+              bottom: -1.88vmin
+            .start-button
+              background-color: $red
+              height: 5vmin
+              width: 5vmin
+              border: 0.6vmin solid $gray
+              border-radius: 50%
+              box-shadow: 0.2vmin 0.2vmin 0.4vmin $shadow
 
-section .app-container .board .circle .bottom-row .power-button {
-  height: 100%;
-  width: 45%;
-  background-color: pink;
-}
+          /* STRICT BUTTON */
+          .strict
+            display: inline-flex
+            justify-content: center
+            align-items: center
+            .label
+              bottom: -1.88vmin
+            .strict-button
+              background-color: $yellow - rgb(44,44,44)
+              height: 5vmin
+              width: 5vmin
+              border: 0.6vmin solid $gray
+              border-radius: 50%
+              box-shadow: 0.2vmin 0.2vmin 0.4vmin $shadow
 
-section .app-container .board .circle .bottom-row .on {
-  margin-left: 0.5vmin;
-  font-size: 2vmin;
-  font-weight: 600;
-}
+        /* POWER BUTTON */
+        .bottom-row
+          @extend .flex-centered
+          height: 23%
+          width: 100%
 
-section .app-container .board .circle .bottom-row .off {
-  margin-right: 0.5vmin;
-  font-size: 2vmin;
-  font-weight: 600;
-}
+          .power-bg
+            display: block
+            height: 3vmin
+            width: 20%
+            padding: 1px
+            background-color: $shadow
+            border-radius: 0.5vmin
+          .power-button
+            height: 100%
+            width: 50%
+            background-color: $light-blue
+            border-radius: 0.5vmin
+            border: 0.3vmin solid $gray
+          /* POWER BUTTON LABELS */
+          .on
+            margin-left: .3vmin
+            font-size: 1.5vmin
+            font-weight: 600
+
+          .off
+            margin-right: .5vmin
+            font-size: 1.5vmin
+            font-weight: 600
+
+// FOOTER
+footer
+  background-color: black
+  color: gray
+  line-height: 20px
+  padding-top: 10px
+  padding-bottom: 6px
+  position: fixed
+  text-align: center
+  font-family: cursive, sans-serif
+  width: 100%
+  bottom: 0
 ```
 
 ## My JavaScript Code Snippets
 
+This is part of the code, this handles the player input when playing. For the rest of the code just switch to the code version of this repo where the full app is stored.
+
 ```js
+function playerMove() {
+  // Time for the user to play
+  if (power == true && lock == true) {
+    var position = $(this).data('tile');
+    player.push(position);
 
+    //If the player entry is incorrect at any point, play the buzzersound and start the sequence again. [1,2,3,4]
+    if (player[player.length - 1] !== sequence[player.length - 1]) {
+      beep('audioBuzzer');
+      strictON();
+    } else {
+      var audio = 'audio' + $(this).data('tile');
+      beep(audio);
 
+      // exp = while sequence is greater than player or it is one.
+      var exp = sequence.length === player.length;
+      if (exp) {
+        // If it is round 20, set win to true and call gameover.
+        if (round === 20) {
+          win = true;
+          gameOver();
+        } else {
+          NewRound();
+        }
+      }
+    }
+  }
+}
 ```
 
 ## Links
