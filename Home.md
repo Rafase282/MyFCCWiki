@@ -324,7 +324,7 @@ I will try to keep everything updated. If you are also part of the camp or would
   - [Merge and delete branches](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#merge-and-delete-branches)
 
 ## Node.js and Express.js
-1. Waypoint: Manage Packages with NPM
+1. [Waypoint: Manage Packages with NPM]()
 2. Waypoint: Start a Node.js Server
 3. Waypoint: Continue working with Node.js Servers
 4. Waypoint: Finish working with Node.js Servers
