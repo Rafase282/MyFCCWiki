@@ -331,6 +331,9 @@ I will try to keep everything updated. If you are also part of the camp or would
     - [Install a Module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#install-a-module)
     - [Listing Dependencies](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#listing-dependencies)
     - [NPM Test](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#npm-test)
+    - [Package Niceties](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#package-niceties)
+    - [Publish](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#publish)
+    - [Version](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#version)
 2. Waypoint: Start a Node.js Server
 3. Waypoint: Continue working with Node.js Servers
 4. Waypoint: Finish working with Node.js Servers
