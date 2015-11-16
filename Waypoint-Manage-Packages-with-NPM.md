@@ -141,3 +141,83 @@ rafase282@1.0.0 /home/ubuntu/workspace/dev
 ```
 
 The test.js can be something as simple as a console log. Anything as long as it does not have an error. This is where you build a test case for your module.
+
+### Package Niceties
+So, we've created a package.json file, but it's missing a few things that people usually expect.  If you type `npm install`, you'll see something like this:
+
+```
+npm WARN package.json rafase282@1.0.0 No description
+npm WARN package.json rafase282@1.0.0 No repository field.
+npm WARN package.json rafase282@1.0.0 No README data
+```
+
+Before we can share this work of art with the world, we need to make it a bit more polished so that people know how to use it.
+
+First, create a README.md file, with a bit of words in it.
+
+Then, add a "repository" field in your package.json file, with a url where people can access the code.
+
+You can edit your package.json file by hand, or run `npm init` again.
+
+### Publish
+What good is a package manager without packages?
+
+Not very good.
+
+Luckily, that is not a problem for npm, because it's very easy for all npm users to publish their modules and share them with the world.
+
+Packages get into the registry by using the `npm publish` command.
+
+If YOu haven't added a user yet then youw ill get this message:
+
+```
+rafase282:~/workspace/dev $ npm publish
+npm ERR! Linux 4.2.0-c9
+npm ERR! argv "/home/ubuntu/.nvm/versions/node/v4.1.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.1.1/bin/npm" "publish"
+npm ERR! node v4.1.1
+npm ERR! npm  v3.4.0
+npm ERR! code ENEEDAUTH
+
+npm ERR! need auth auth required for publishing
+npm ERR! need auth You need to authorize this machine using `npm adduser`
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/workspace/dev/npm-debug.log
+```
+
+In order to view your package content, I just ran this command:
+
+  npm view rafase282
+
+Run that command yourself to see what it prints out.
+
+The `npm view` command is a great way to view package details, to see what you just published, and to check if a name is already taken.
+
+Now that you've published your first package here in make-believe npm workshop land, go out and write a real thing to share with real humans!
+
+You don't have to just share code for other people, though.  There are also benefits to breaking up your code into small manageable pieces, even if you are only using them all yourself.
+
+You can imagine that your future self and your past self are the two other developers on your team.  (Scheduling meetings is pretty tricky.)
+
+### Version
+Every package in npm has a version number associated with it.  As you release updates to your package, these updates get an updated version number.
+
+Version numbers in npm follow a standard called "SemVer".  This stands for "Semantic Version".  The specification for this standard can be found at [http://semver.org](http://semver.org).
+
+The tl;dr version is that for a version like this:
+
+```
+  1.2.3
+  ^ ^ ^
+  | | `-- Patch version. Update for every change.
+  | `---- Minor version. Update for API additions.
+  `------ Major version. Update for breaking API changes.
+```
+
+npm has a special command called `npm version` which will update your package.json file for you, and also commit the change to git if your project is a git repository.  You can learn more at `npm help version`.
+
+Or, if you don't trust the machines, you can open up your package.json file by hand, and put some new numbers in the "version" field.
+
+The npm registry won't let you publish a new release of your package without updating the version number!  Ever!  So, get used to the idea of bumping the version whenever you want to publish, even if the change is really minor.
+
+Don't worry, there's a lot of integers, we probably won't run out.
