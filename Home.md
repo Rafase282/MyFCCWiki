@@ -334,9 +334,22 @@ I will try to keep everything updated. If you are also part of the camp or would
     - [Package Niceties](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#package-niceties)
     - [Publish](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#publish)
     - [Version](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#version)
-2. Waypoint: Start a Node.js Server
-3. Waypoint: Continue working with Node.js Servers
-4. Waypoint: Finish working with Node.js Servers
+
+2. [Waypoint: Start a Node.js Server]()
+    - [Baby Steps]()
+    - [My First I/O]()
+    - [My First ASYNC I/O]()
+    - [Filtered LS]()
+    - [Make it Modular]()
+    - [HTTP Client]()
+3. [Waypoint: Continue working with Node.js Servers]()
+    - [HTTP Collect]()
+    - [Juggling Async]()
+    - [Time Server]()
+4. [Waypoint: Finish working with Node.js Servers]()
+    - [HTTP File Server]()
+    - [HTTP Uppercaserer]()
+    - [HTTP JSON API Server]()
 5. Waypoint: Build Web Apps with Express.js
 
 ## MongoDB
