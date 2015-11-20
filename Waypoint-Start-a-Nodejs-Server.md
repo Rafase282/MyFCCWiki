@@ -121,12 +121,11 @@ fs.readFile(newarr, function doneReading(err, fileContents) {
 
   The list of files should be printed to the console, one file per line. You<br>  must use asynchronous I/O.  
 
-
-#### HINTS
+### HINTS
   The fs.readdir() method takes a pathname as its first argument and a<br>  callback as its second. The callback signature is:  
 
 ```
- function callback (err, list) { /* ... */ }  
+ function callback (err, list) { /* ... */ }
 ```
 
   where list is an array of filename strings.  
@@ -136,3 +135,89 @@ fs.readFile(newarr, function doneReading(err, fileContents) {
   You may also find node's path module helpful, particularly the extname<br>  method.  
 
   Documentation on the path module can be found by pointing your browser<br>  here:<br>  file:///home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounod<br>  e/node_apidoc/path.html  
+
+### My solution
+
+```js
+var fs = require('fs');
+ fs.readdir(process.argv[2], function callback (err, list){
+     if (err){
+         console.log('Error');
+     } else {
+         list.filter(function (filename){
+             return filename.indexOf('.' + process.argv[3]) >= 0
+         }).forEach(function (file) {
+             console.log(file);
+         })
+     }
+ });
+```
+
+ Standard solution from the program:
+
+```js
+var fs = require('fs')  
+    var path = require('path')  
+    fs.readdir(process.argv[2], function (err, list) {  
+      list.forEach(function (file) {  
+        if (path.extname(file) === '.' + process.argv[3])  
+          console.log(file)  
+      })  
+    })
+```
+
+## Make It Modular
+ This problem is the same as the previous but introduces the concept of<br> modules. You will need to create two files to solve this.  
+
+ Create a program that prints a list of files in a given directory,<br> filtered by the extension of the files. The first argument is the<br> directory name and the second argument is the extension filter. Print the<br> list of files (one file per line) to the console. You must use<br> asynchronous I/O.  
+
+ You must write a module file to do most of the work. The module must<br> export a single function that takes three arguments: the directory name,<br> the filename extension string and a callback function, in that order. The<br> filename extension argument must be the same as what was passed to your<br> program. Don't turn it into a RegExp or prefix with "." or do anything<br> except pass it to your module where you can do what you need to make your<br> filter work.  
+
+ The callback function must be called using the idiomatic node(err, data)<br> convention. This convention stipulates that unless there's an error, the<br> first argument passed to the callback will be null, and the second will be<br> your data. In this exercise, the data will be your filtered list of files,<br> as an Array. If you receive an error, e.g. from your call to<br> fs.readdir(), the callback must be called with the error, and only the<br> error, as the first argument.  
+
+ You must not print directly to the console from your module file, only<br> from your original program.  
+
+ In the case of an error bubbling up to your original program file, simply<br> check for it and print an informative message to the console.  
+
+ These four things are the contract that your module must follow.  
+
+  » Export a single function that takes exactly the arguments described.<br>  » Call the callback exactly once with an error or some data as described.<br>  » Don't change anything else, like global variables or stdout.<br>  » Handle all the errors that may occur and pass them to the callback.       
+
+ The benefit of having a contract is that your module can be used by anyone<br> who expects this contract. So your module could be used by anyone else who<br> does learnyounode, or the verifier, and just work.  
+
+
+#### HINTS
+ Create a new module by creating a new file that just contains your<br> directory reading and filtering function. To define a single function<br> export, you assign your function to the module.exports object, overwriting<br> what is already there:  
+
+```
+module.exports = function (args) { /* ... */ }  
+```
+
+ Or you can use a named function and assign the name.  
+
+ To use your new module in your original program file, use the require()<br> call in the same way that you require('fs') to load the fs module. The<br> only difference is that for local modules must be prefixed with './'. So,<br> if your file is named mymodule.js then:  
+
+```
+var mymodule = require('./mymodule.js')  
+```
+
+ The '.js' is optional here and you will often see it omitted.  
+
+ You now have the module.exports object in your module assigned to the<br> mymodule variable. Since you are exporting a single function, mymodule is<br> a function you can call!  
+
+ Also keep in mind that it is idiomatic to check for errors and do<br> early-returns within callback functions:  
+
+```
+function bar (callback) {  
+  foo(function (err, data) {  
+    if (err)  
+      return callback(err) // early return  
+
+    // ... no error, continue doing cool things with `data`  
+
+    // all went well, call callback with `null` for the error argument  
+
+    callback(null, data)  
+  })  
+}  
+```
