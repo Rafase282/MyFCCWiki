@@ -185,12 +185,11 @@ var fs = require('fs')
 
  The benefit of having a contract is that your module can be used by anyone<br> who expects this contract. So your module could be used by anyone else who<br> does learnyounode, or the verifier, and just work.  
 
-
-#### HINTS
+### HINTS
  Create a new module by creating a new file that just contains your<br> directory reading and filtering function. To define a single function<br> export, you assign your function to the module.exports object, overwriting<br> what is already there:  
 
 ```
-module.exports = function (args) { /* ... */ }  
+module.exports = function (args) { /* ... */ }
 ```
 
  Or you can use a named function and assign the name.  
@@ -198,7 +197,7 @@ module.exports = function (args) { /* ... */ }
  To use your new module in your original program file, use the require()<br> call in the same way that you require('fs') to load the fs module. The<br> only difference is that for local modules must be prefixed with './'. So,<br> if your file is named mymodule.js then:  
 
 ```
-var mymodule = require('./mymodule.js')  
+var mymodule = require('./mymodule.js')
 ```
 
  The '.js' is optional here and you will often see it omitted.  
@@ -219,5 +218,124 @@ function bar (callback) {
 
     callback(null, data)  
   })  
-}  
+}
+```
+
+### My solution
+> proogram.js
+
+```js
+var mymodule = require('./findfile');
+mymodule(process.argv[2], process.argv[3], function callback(err, data) {
+  if (err) {
+    return callback(err);
+  }
+  data.forEach(function(file) {
+    console.log(file);
+  });
+});
+```
+
+> findfile.js
+
+```js
+module.exports = function findFziles(dir, ext, callback) {
+  var fs = require('fs');
+  fs.readdir(dir, function(err, list) {
+    if (err) {
+      return callback(err);
+    } else {
+      var data = list.filter(function(filename) {
+        return filename.indexOf('.' + ext) >= 0;
+      });
+      return callback(null, data);
+    }
+  });
+};
+```
+
+Here's the official solution in case you want to compare notes: _/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/exercises/make_it_modular/solution/solution.js_ :  
+
+```js
+    var filterFn = require('./solution_filter.js')  
+    var dir = process.argv[2]  
+    var filterStr = process.argv[3]  
+    filterFn(dir, filterStr, function (err, list) {  
+      if (err)  
+        return console.error('There was an error:', err)  
+      list.forEach(function (file) {  
+        console.log(file)  
+      })  
+    })
+```
+
+_/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/exercises/make_it_modular/solution/solution_filter.js_ :  
+
+```js
+    var fs = require('fs')  
+    var path = require('path')  
+    module.exports = function (dir, filterStr, callback) {  
+      fs.readdir(dir, function (err, list) {  
+        if (err)  
+          return callback(err)  
+
+        list = list.filter(function (file) {  
+          return path.extname(file) === '.' + filterStr  
+        })  
+
+        callback(null, list)  
+      })  
+    }
+```
+
+Basically you have to make two files, one who will include another file that takes three arguments, filename, extension, and callback function. and then call that function from the first file and passing the right arguments. The tricky part is the callback. For the second file it needs to be called when there is an early error and also the information should be returned to the callback with a null error so the other function can then print the information.
+
+## HTTP CLIENT
+  Write a program that performs an HTTP GET request to a URL provided to you<br>  as the first command-line argument. Write the String contents of each<br>  "data" event from the response to a new line on the console (stdout).  
+
+### HINTS
+  For this exercise you will need to use the http core module.  
+
+  Documentation on the http module can be found by pointing your browser<br>  here:<br>  file:///home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounod<br>  e/node_apidoc/http.html  
+
+  The http.get() method is a shortcut for simple GET requests, use it to<br>  simplify your solution. The first argument to http.get() can be the URL<br>  you want to GET; provide a callback as the second argument.  
+
+  Unlike other callback functions, this one has the signature:  
+
+```
+ function callback (response) { /* ... */ }
+```
+
+  Where the response object is a Node Stream object. You can treat Node<br>  Streams as objects that emit events. The three events that are of most<br>  interest are: "data", "error" and "end". You listen to an event like so:  
+
+```
+ response.on("data", function (data) { /* ... */ })
+```
+
+  The "data" event is emitted when a chunk of data is available and can be<br>  processed. The size of the chunk depends upon the underlying data source.  
+
+  The response object / Stream that you get from http.get() also has a<br>  setEncoding() method. If you call this method with "utf8", the "data"<br>  events will emit Strings rather than the standard Node Buffer objects<br>  which you have to explicitly convert to Strings.  
+
+### My solution
+
+```js
+var http = require('http');
+var uri = process.argv[2];
+http.get(uri, function(response) {
+  response.setEncoding('utf8');
+  response.on("data", function(data) {
+    console.log(data);
+  });
+});
+```
+
+Soution from the course:
+
+```js
+var http = require('http')  
+     http.get(process.argv[2], function (response) {  
+       response.setEncoding('utf8')  
+       response.on('data', console.log)  
+       response.on('error', console.error)  
+     })
 ```
