@@ -53,7 +53,51 @@ Write a program that performs an HTTP GET request to a URL provided to you<br>  
   file:///home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounod<br>  e/docs/bl.html<br>  file:///home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounod<br>  e/docs/concat-stream.html  
 
 ### My Solution
+
+```js
+var http = require('http');
+var uri = process.argv[2];
+var str = '';
+http.get(uri, function(response) {
+  response.setEncoding('utf8');
+  response.on("data", function(data) {
+    str += data;
+  });
+  response.on('end', function() {
+    console.log(str.length);
+    console.log(str);
+  });
+});
+```
+
+Official Solution:
+
+```js
+var http = require('http')  
+     var bl = require('bl')  
+     http.get(process.argv[2], function (response) {  
+       response.pipe(bl(function (err, data) {  
+         if (err)  
+           return console.error(err)  
+         data = data.toString()  
+         console.log(data.length)  
+         console.log(data)  
+       }))    
+     })
+```
+
 ## Juggling Async
+This problem is the same as the previous problem (HTTP COLLECT) in that<br>  you need to use http.get(). However, this time you will be provided with<br>  three URLs as the first three command-line arguments.  
+
+  You must collect the complete content provided to you by each of the URLs<br>  and print it to the console (stdout). You don't need to print out the<br>  length, just the data as a String; one line per URL. The catch is that you<br>  must print them out in the same order as the URLs are provided to you as<br>  command-line arguments.  
+
+## HINTS
+  Don't expect these three servers to play nicely! They are not going to<br>  give you complete responses in the order you hope, so you can't naively<br>  just print the output as you get it because they will be out of order.  
+
+  You will need to queue the results and keep track of how many of the URLs<br>  have returned their entire contents. Only once you have them all, you can<br>  print the data to the console.  
+
+  Counting callbacks is one of the fundamental ways of managing async in<br>  Node. Rather than doing it yourself, you may find it more convenient to<br>  rely on a third-party library such as [async](http://npm.im/async) or<br>  [after](http://npm.im/after). But for this exercise, try and do it without<br>  any external helper library.  
+
 ### My Solution
 ## Time Server
 ### My Solution
