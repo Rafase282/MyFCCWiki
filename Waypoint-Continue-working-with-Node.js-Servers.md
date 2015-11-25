@@ -11,7 +11,7 @@ Write a program that performs an HTTP GET request to a URL provided to you<br>  
 
   The first line you write should just be an integer representing the number<br>  of characters received from the server. The second line should contain the<br>  complete String of characters sent by the server.   
 
-### HINTS
+## HINTS
   There are two approaches you can take to this problem:  
 
   1) Collect data across multiple "data" events and append the results<br>  together prior to printing the output. Use the "end" event to determine<br>  when the stream is finished and you can write the output.  
@@ -52,7 +52,7 @@ Write a program that performs an HTTP GET request to a URL provided to you<br>  
 
   file:///home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounod<br>  e/docs/bl.html<br>  file:///home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounod<br>  e/docs/concat-stream.html  
 
-### My Solution
+## My Solution
 
 ```js
 var http = require('http');
@@ -179,7 +179,7 @@ Write a TCP time server!
  "2013-07-06 17:42"
 ```
 
-### HINTS
+## HINTS
   For this exercise we'll be creating a raw TCP server. There's no HTTP<br>  involved here so we need to use the net module from Node core which has<br>  all the basic networking functions.  
 
   The net module has a method named net.createServer() that takes a callback<br>  function. Unlike most callbacks in Node, the callback used by<br>  createServer() is called more than once. Every connection received by your<br>  server triggers another call to the callback. The callback function has<br>  the signature:  
@@ -222,4 +222,41 @@ Write a TCP time server!
 
   Or, if you want to be adventurous, use the strftime package from npm. The<br>  strftime(fmt, date) function takes date formats just like the unix date<br>  command. You can read more about strftime at:<br>  [https://github.com/samsonjs/strftime](https://github.com/samsonjs/strftim     e)  
 
-### My Solution
+## My Solution
+
+```js
+var net = require('net');
+var port = process.argv[2];
+var server = net.createServer(function(socket) {
+  // socket handling logic
+  var date = new Date();
+  var out = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes();
+  socket.end(out);
+  socket.pipe(socket);
+});
+
+server.listen(port);
+```
+
+Official Solution:
+
+```js
+var net = require('net')  
+     function zeroFill(i) {  
+       return (i < 10 ? '0' : '') + i  
+     }  
+     function now () {  
+       var d = new Date()  
+       return d.getFullYear() + '-'  
+         + zeroFill(d.getMonth() + 1) + '-'  
+         + zeroFill(d.getDate()) + ' '  
+         + zeroFill(d.getHours()) + ':'  
+         + zeroFill(d.getMinutes())  
+     }  
+
+     var server = net.createServer(function (socket) {  
+       socket.end(now() + '\n')  
+     })  
+
+     server.listen(Number(process.argv[2]))
+```
