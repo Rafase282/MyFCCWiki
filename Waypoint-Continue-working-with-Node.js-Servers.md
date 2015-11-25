@@ -6,7 +6,7 @@ Submitted by Rafase282
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
 # Continue working with Node.js Servers
-## HTTP Collect
+# HTTP Collect
 Write a program that performs an HTTP GET request to a URL provided to you<br>  as the first command-line argument. Collect all data from the server (not<br>  just the first "data" event) and then write two lines to the console<br>  (stdout).  
 
   The first line you write should just be an integer representing the number<br>  of characters received from the server. The second line should contain the<br>  complete String of characters sent by the server.   
@@ -86,7 +86,7 @@ var http = require('http')
      })
 ```
 
-## Juggling Async
+# Juggling Async
 This problem is the same as the previous problem (HTTP COLLECT) in that<br>  you need to use http.get(). However, this time you will be provided with<br>  three URLs as the first three command-line arguments.  
 
   You must collect the complete content provided to you by each of the URLs<br>  and print it to the console (stdout). You don't need to print out the<br>  length, just the data as a String; one line per URL. The catch is that you<br>  must print them out in the same order as the URLs are provided to you as<br>  command-line arguments.  
@@ -99,5 +99,127 @@ This problem is the same as the previous problem (HTTP COLLECT) in that<br>  you
   Counting callbacks is one of the fundamental ways of managing async in<br>  Node. Rather than doing it yourself, you may find it more convenient to<br>  rely on a third-party library such as [async](http://npm.im/async) or<br>  [after](http://npm.im/after). But for this exercise, try and do it without<br>  any external helper library.  
 
 ### My Solution
-## Time Server
+
+```js
+var http = require('http');
+
+// Slice the arguments from command line to get only the urls.
+var URLs = process.argv.slice(2);
+
+// Counter to keep track of async responses.
+var count = 0;
+
+// Arry to store completed responses
+var resArr = [];
+URLs.forEach(getData);
+
+// Makes the call and handles everythign.
+function getData(url, index) {
+  http.get(url, function(response) {
+    var str = '';
+    response.setEncoding('utf8');
+    response.on("data", function(data) {
+      str += data;
+    });
+    response.on('end', function() {
+      resArr[index] = str;
+      count++;
+      if (count === URLs.length) {
+        resArr.forEach(function(msg) {
+          console.log(msg);
+        });
+      }
+    });
+  });
+}
+```
+
+Official Solution:
+
+```js
+var http = require('http')  
+     var bl = require('bl')  
+     var results = []  
+     var count = 0  
+     function printResults () {  
+       for (var i = 0; i < 3; i++)  
+         console.log(results[i])  
+     }  
+     function httpGet (index) {  
+       http.get(process.argv[2 + index], function (response) {  
+         response.pipe(bl(function (err, data) {  
+           if (err)  
+             return console.error(err)  
+
+           results[index] = data.toString()  
+           count++  
+
+           if (count == 3)  
+             printResults()  
+         }))  
+       })  
+     }  
+
+     for (var i = 0; i < 3; i++)  
+       httpGet(i)
+```
+
+# Time Server
+Write a TCP time server!  
+
+  Your server should listen to TCP connections on the port provided by the<br>  first argument to your program. For each connection you must write the<br>  current date & 24 hour time in the format:  
+
+```
+ "YYYY-MM-DD hh:mm"
+```
+
+  followed by a newline character. Month, day, hour and minute must be<br>  zero-filled to 2 integers. For example:  
+
+```
+ "2013-07-06 17:42"
+```
+
+### HINTS
+  For this exercise we'll be creating a raw TCP server. There's no HTTP<br>  involved here so we need to use the net module from Node core which has<br>  all the basic networking functions.  
+
+  The net module has a method named net.createServer() that takes a callback<br>  function. Unlike most callbacks in Node, the callback used by<br>  createServer() is called more than once. Every connection received by your<br>  server triggers another call to the callback. The callback function has<br>  the signature:  
+
+```
+ function callback (socket) { /* ... */ }
+```
+
+  net.createServer() also returns an instance of your server. You must call<br>  server.listen(portNumber) to start listening on a particular port.  
+
+  A typical Node TCP server looks like this:  
+
+```
+ var net = require('net')  
+ var server = net.createServer(function (socket) {  
+   // socket handling logic  
+ })  
+ server.listen(8000)
+```
+
+  Remember to use the port number supplied to you as the first command-line<br>  argument.  
+
+  The socket object contains a lot of meta-data regarding the connection,<br>  but it is also a Node duplex Stream, in that it can be both read from, and<br>  written to. For this exercise we only need to write data and then close<br>  the socket.  
+
+  Use socket.write(data) to write data to the socket and socket.end() to<br>  close the socket. Alternatively, the .end() method also takes a data<br>  object so you can simplify to just: socket.end(data).  
+
+  Documentation on the net module can be found by pointing your browser<br>  here:  
+
+  file:///home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounod<br>  e/node_apidoc/net.html  
+
+  To create the date, you'll need to create a custom format from a new<br>  Date() object. The methods that will be useful are:  
+
+```
+ date.getFullYear()  
+ date.getMonth()     // starts at 0  
+ date.getDate()      // returns the day of month  
+ date.getHours()  
+ date.getMinutes()
+```
+
+  Or, if you want to be adventurous, use the strftime package from npm. The<br>  strftime(fmt, date) function takes date formats just like the unix date<br>  command. You can read more about strftime at:<br>  [https://github.com/samsonjs/strftime](https://github.com/samsonjs/strftim     e)  
+
 ### My Solution
