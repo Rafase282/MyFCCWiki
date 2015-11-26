@@ -348,10 +348,10 @@ I will try to keep everything updated. If you are also part of the camp or would
     - [HTTP Collect](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#http-collect)
     - [Juggling Async](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#juggling-async)
     - [Time Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#time-server)
-4. [Waypoint: Finish working with Node.js Servers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Node.js-Servers)
-    - [HTTP File Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Node.js-Servers#http-file-server)
-    - [HTTP Uppercaserer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Node.js-Servers#http-uppercaserer)
-    - [HTTP JSON API Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Node.js-Servers#http-json-api-server)
+4. [Waypoint: Finish working with Node.js Servers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers)
+    - [HTTP File Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-file-server)
+    - [HTTP Uppercaserer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-uppercaserer)
+    - [HTTP JSON API Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-json-api-server)
 5. Waypoint: Build Web Apps with Express.js
 
 ## MongoDB
