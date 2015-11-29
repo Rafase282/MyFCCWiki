@@ -19,7 +19,7 @@ Write an HTTP server that serves the same text file for each request it<br>  rec
   http.createServer() takes a callback that is called once for each<br>  connection received by your server. The callback function has the<br>  signature:  
 
 ```
- function callback (request, response) { /* ... */ }  
+ function callback (request, response) { /* ... */ }
 ```
 
   Where the two arguments are objects representing the HTTP request and the<br>  corresponding response for this request. request is used to fetch<br>  properties, such as the header and query-string from the request while<br>  response is for sending data to the client, both headers and body.  
@@ -35,7 +35,7 @@ Write an HTTP server that serves the same text file for each request it<br>  rec
  var server = http.createServer(function (req, res) {  
    // request handling logic...  
  })  
- server.listen(8000)  
+ server.listen(8000)
 ```
 
   Documentation on the http module can be found by pointing your browser<br>  here:<br>  file:///home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounod<br>  e/node_apidoc/http.html  
@@ -43,6 +43,33 @@ Write an HTTP server that serves the same text file for each request it<br>  rec
   The fs core module also has some streaming APIs for files. You will need<br>  to use the fs.createReadStream() method to create a stream representing<br>  the file you are given as a command-line argument. The method returns a<br>  stream object which you can use src.pipe(dst) to pipe the data from the<br>  src stream to the dst stream. In this way you can connect a filesystem<br>  stream with an HTTP response stream.  
 
 ## My Solution
+
+```js
+var http = require("http");
+var fs = require("fs");
+var portNumber = process.argv[2];
+var fileLocation = process.argv[3];
+var server = http.createServer(function (req, res) {  
+   // request handling logic...  
+   var src = fs.createReadStream(fileLocation);
+   src.pipe(res);
+ })  
+ server.listen(portNumber);
+```
+
+ Official Solution:
+
+```js
+var http = require('http')  
+     var fs = require('fs')  
+     var server = http.createServer(function (req, res) {  
+       res.writeHead(200, { 'content-type': 'text/plain' })  
+       fs.createReadStream(process.argv[3]).pipe(res)  
+     })  
+
+     server.listen(Number(process.argv[2]))
+```
+
 # HTTP Uppercaserer
 ## My Solution
 # HTTP JSON API Server
