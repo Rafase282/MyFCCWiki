@@ -277,7 +277,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 4. [Zipline: Build a Simon Game](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Zipline-Build-a-Simon-Game)
 
 ## Claim Your Front End Development Certificate
-1. [Waypoint: Claim Your Front End Development Certificate](http://freecodecamp.com/challenges/waypoint-claim-your-front-end-development-certificate)
+1. [Waypoint: Claim Your Front End Development Certificate](http://www.freecodecamp.com/rafase282/front-end-certification)
 
 ## Upper Intermediate Algorithm Scripting
 1. [Bonfire: Make a Person](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
