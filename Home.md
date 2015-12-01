@@ -352,7 +352,15 @@ I will try to keep everything updated. If you are also part of the camp or would
     - [HTTP File Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-file-server)
     - [HTTP Uppercaserer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-uppercaserer)
     - [HTTP JSON API Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-json-api-server)
-5. Waypoint: Build Web Apps with Express.js
+5. [Waypoint: Build Web Apps with Express.js]
+  - [Hello World!]
+  - [Static]
+  - [Jade]
+  - [Good Old Form]
+  - [Stylish CSS]
+  - [Param Pam Pam]
+  - [What's In Query]
+  - [JSON Me]
 
 ## MongoDB
 1. Waypoint: Store Data in MongoDB
