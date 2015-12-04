@@ -94,19 +94,87 @@ If your program does not finish executing, you may have forgotten to close the d
 ## Resources:
 - [http://docs.mongodb.org/manual/reference/method/db.collection.find/](http://docs.mongodb.org/manual/reference/method/db.collection.find/)
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
-- My Solution
+
+## My Solution
 
 ```js
-//Solution
+var url = 'mongodb://localhost:27017/learnyoumongo'
+var mongo = require('mongodb').MongoClient
+mongo.connect(url, function(err, db) {
+  if (err) throw err
+    // db gives access to the database
+  db.collection('parrots').find({
+    age: {
+      // greater than integer, see resources "Find"
+      $gt: parseInt(process.argv[2])
+    }
+  }).toArray(function(err, documents) {
+    // Here is where we decide what to do with the query results
+    if (err) throw err
+    console.log(documents)
+    // Always close the connection after you get what you need
+    db.close()
+  })
+})
 ```
 
 Official Solution:
 
 ```js
-//Solution
+var mongo = require('mongodb').MongoClient
+var age = process.argv[2]
+
+var url = 'mongodb://localhost:27017/learnyoumongo'
+
+mongo.connect(url, function(err, db) {
+  if (err) throw err
+  var parrots = db.collection('parrots')
+  parrots.find({
+    age: {
+      $gt: +age
+    }
+  }).toArray(function(err, docs) {
+    if (err) throw err
+    console.log(docs)
+    db.close()
+  })
+})
 ```
 
 # Find Project
+Here we will learn how to search for documents but only fetch the fields we need. Also known as projection in MongoDB
+
+Use the parrots collection to find all documents where age is greater than the first argument passed to your script.
+
+The difference from the last lesson will be that we only want the name and age properties
+
+Using console.log, print the documents to stdout.
+
+
+## HINTS
+To find a document or documents, one needs to call find() on the collection.
+
+Find is a little bit different than what we are used to seeing.
+
+Here is an example:
+
+```js
+collection.find({
+  name: 'foo'
+}, {
+  name: 1
+, age: 1
+, _id: 0
+}).toArray(function(err, documents) {
+
+})
+```
+
+If your program does not finish executing, you may have forgotten to close the db. That can be done by calling `db.close()` after you have finished.
+
+## Resource:
+- [http://docs.mongodb.org/manual/reference/method/db.collection.find/#explicitly-exclude-the-id-field](http://docs.mongodb.org/manual/reference/method/db.collection.find/#explicitly-exclude-the-id-field)
+
 ## My Solution
 
 ```js
