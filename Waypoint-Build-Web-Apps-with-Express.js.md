@@ -14,7 +14,7 @@ The port number will be provided to you by expressworks as the first argument of
 ## HINTS
 This is how we can create an Express.js app on port 3000, that responds with a string on '/':
 
-```
+```js
 var express = require('express')
 var app = express()
 app.get('/', function(req, res) {
@@ -25,7 +25,7 @@ app.listen(3000)
 
 Please use process.argv[2] instead of a fixed port number:
 
-```
+```js
 app.listen(process.argv[2])
 ```
 
@@ -64,13 +64,13 @@ The index.html file is provided and usable via the path supplied by process.argv
 ## HINTS
 This is how you can call static middleware:
 
-```
+```js
 app.use(express.static(path.join(__dirname, 'public')));
 ```
 
 For this exercise expressworks will pass you the path:
 
-```
+```js
 app.use(express.static(process.argv[3]||path.join(__dirname, 'public')));
 ```
 
@@ -113,7 +113,7 @@ p Today is #{date}.
 
 This is how to specify path in a typical Express.js app when the folder is 'templates':
 
-```
+```js
 app.set('views', path.join(__dirname, 'templates'))
 ```
 
@@ -121,13 +121,13 @@ However, to use our index.jade, the path to index.jade will be provided as proce
 
 To tell Express.js app what template engine to use, apply this line to the Express.js configuration:
 
-```
+```js
 app.set('view engine', 'jade')
 ```
 
 Instead of Hello World's res.end(), the res.render() function accepts a template name and presenter data:
 
-```
+```js
 res.render('index', {date: new Date().toDateString()})
 ```
 
@@ -153,7 +153,7 @@ Write a route ('/form') that processes HTML form input (`<form><input name="str"
 ## HINTS
 To handle POST request use the post() method which is used the same way as get():
 
-```
+```js
 app.post('/path', function(req, res){...})
 ```
 
@@ -167,7 +167,7 @@ A middleware is added by calling use() on the application and passing the middle
 
 To parse x-www-form-urlencoded request bodies Express.js can use urlencoded() middleware from the body-parser module.
 
-```
+```js
 var bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
@@ -182,7 +182,7 @@ The documentation of the body-parser module can be found here:
 
 Here is how we can flip the characters:
 
-```
+```js
 req.body.str.split('').reverse().join('')
 ```
 
@@ -267,7 +267,7 @@ The index.html file:
 ## HINTS
 You'll want to plug in some stylus middleware using app.use again. It'll look something like this:
 
-```
+```js
 app.use(require('stylus').middleware('/path/to/*.styl' ))
 ```
 
@@ -286,12 +286,12 @@ $ npm install stylus
 var express = require('express');
 var app = express();
 
-app.use(require('stylus').middleware(process.argv[3] ));
+app.use(require('stylus').middleware(process.argv[3]));
 app.use(express.static(process.argv[3]));
 // This will display the main.styl content, not needed.
 app.get(process.argv[3], function(req, res) {
-      res.render('main');
-    });
+  res.render('main');
+});
 
 app.listen(process.argv[2]);
 ```
@@ -300,16 +300,69 @@ Official Solution:
 
 ```js
 var express = require('express')
-    var app = express()
+var app = express()
 
-    app.use(require('stylus').middleware(process.argv[3]));
-    app.use(express.static(process.argv[3]));
+app.use(require('stylus').middleware(process.argv[3]));
+app.use(express.static(process.argv[3]));
 
-
-    app.listen(process.argv[2])
+app.listen(process.argv[2])
 ```
 
 # Param Pam Pam
+This exercise is about using URL parameters. For example, if you have /message/526aa677a8ceb64569c9d4fb, then you should know how to extract that value which is an ID of the message.
+
+Create an Express.js server that processes PUT /message/:id requests and produces a SHA-1 hash of the current date combined with the ID from the URL.
+
+For instance, if the server receives
+
+```
+PUT /message/526aa677a8ceb64569c9d4fb
+```
+
+it will respond with a hash of the current date (as a string) and the ID.
+
+The SHA-1 can be computed like this:
+
+```js
+require('crypto')
+  .createHash('sha1')
+  .update(new Date().toDateString() + id)
+  .digest('hex')
+```
+
+
+## HINTS
+Express.js apps can also be mounted to paths that contain a variable by prepending a : to the beginning of a variable name. For instance, in the following, app handles PUT requests in any subdirectory of /path/:
+
+```js
+app.put('/path/:NAME', function(req, res){ /* ... */ });
+```
+
+The given variable is then stored in req.params. So, to extract parameters from within the request handlers, use:
+
+```js
+req.params.NAME
+```
+
+BONUS
+
+You can use req.param middleware to parse the URL parameter.
+
+For example,
+
+```js
+app.param('id', function (req, res, next, id) {
+  req.id = id
+  ...
+  next()
+})
+
+app.get('/message/:id', function (req, res, next) {
+  console.log(req.id)
+  next()
+})
+```
+
 ## My Solution
 # What's In Query
 ## My Solution
