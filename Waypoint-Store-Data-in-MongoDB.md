@@ -477,27 +477,228 @@ mongo.connect(url, function(err, db) {
 ```
 
 # Count
+Here we will learn how to count the number of documents that meet certain criteria.
+
+Use the parrots collection to count all documents where age is greater than the first argument passed to your script.
+
+Using console.log, print the number to stdout.
+
+## HINTS
+To count the number of documents meeting certain criteria, we must use the collection.count() function.
+
+Here is an example:
+
+```js
+collection.count({
+  name: 'foo'
+}, function(err, count) {
+
+})
+```
+
+If your program does not finish executing, you may have forgotten to close the db. That can be done by calling db.close() after you have finished.
+
+## Resource
+- [http://docs.mongodb.org/manual/reference/command/count/](http://docs.mongodb.org/manual/reference/command/count/)
+
 ## My Solution
 
 ```js
-//Solution
+var mongo = require('mongodb').MongoClient;
+var url = 'mongodb://localhost:27017/learnyoumongo';
+
+mongo.connect(url, function(err, db) {
+  if (err) throw err;
+  var collection = db.collection('parrots');
+  collection.count({
+    age: {
+      // greater than integer
+      $gt: parseInt(process.argv[2])
+    }
+  }, function(err, count) {
+    if (err) throw err;
+    console.log(count);
+    db.close();
+  })
+})
 ```
 
 Official Solution:
 
 ```js
-//Solution
+var mongo = require('mongodb').MongoClient
+var age = process.argv[2]
+
+var url = 'mongodb://localhost:27017/learnyoumongo'
+
+mongo.connect(url, function(err, db) {
+  if (err) throw err
+  var parrots = db.collection('parrots')
+  parrots.count({
+    age: {
+      $gt: +age
+    }
+  }, function(err, count) {
+    if (err) throw err
+    console.log(count)
+    db.close()
+  })
+})
 ```
 
 # Aggregate
+Next up is aggregation. Aggregation allows one to do things like calculate the sum of a field of multiple documents or the average of a field of documents meeting particular criteria.
+
+Say you have a collection named prices. Each price document is modeled like so:
+
+```js
+{
+  "name": "Tshirt",
+  "size": "S",
+  "price": 10,
+  "quantity": 12
+  "meta": {
+    "vendor": "hanes",
+    "location": "US"
+  }
+}
+```
+
+In this exercise, we need to calculate the average price for all documents in prices that have the **size** that will be passed as the first argument to your script.
+
+Use `console.log()` to print the average price rounded to 2 decimal places to stdout after you have found it.
+
+## HINTS
+To use the `aggregate()` function, one first needs the collection. The `aggregate()` function takes an array of objects as the first argument.
+
+This array will contain the different pipelines for the aggregation. To read more about pipelines, please visit [Aggregation](http://docs.mongodb.org/manual/core/aggregation-introduction/).
+
+The two main pipeline stages we will use will be $match and $group.
+
+### $match
+$match is used similar to the way a query is done. It allows us to select the documents that meet certain criteria.
+
+Ex.
+
+```js
+var match = { $match: { status: 'A' } }
+```
+
+The above example will match all of the documents that have a status property equal to A.
+
+### $group
+$group is what allows us to run operations on certain properties.
+
+So, say we wanted to get the sum of the values of the property value where status is equal to A and have it placed in the total property.
+
+Ex.
+
+```js
+// [
+//  { status: 'A', value: 1 },
+//  { status: 'B', value: 2 },
+//  { status: 'A', value: 10 }
+// ]
+
+collection.aggregate([
+  { $match: { status: 'A' }}
+, { $group: {
+    _id: 'total' // This can be an arbitrary string in this case
+  , total: {
+      // $sum is the operator used here
+      $sum: '$value'
+    }
+  }}
+]).toArray(function(err, results) {
+  // handle error
+  console.log(results)
+  // => [
+  // =>   { _id: 'total', total: 11 }
+  // => ]
+})
+```
+
+Other operators used in the $group stage include:
+- `$avg`
+- `$first`
+- `$last`
+- `$max`
+- `$min`
+- `$push`
+- `$addToSet`
+
+# Rounding
+The Number prototype contains a function `toFixed()`, which accepts the number of decimal places you would like to round to, and returns a string representation.
+
+```js
+  var value = "1"
+  Number(value).toFixed(5)
+  // => '1.00000'
+```
+
+If your program does not finish executing, you may have forgotten to close the db. That can be done by calling db.close() after you have finished.
+
+## Resources
+- [http://docs.mongodb.org/manual/aggregation/](http://docs.mongodb.org/manual/aggregation/)
+- [http://docs.mongodb.org/manual/core/aggregation-introduction/](http://docs.mongodb.org/manual/core/aggregation-introduction/)
+
 ## My Solution
 
 ```js
-//Solution
+var mongo = require('mongodb').MongoClient;
+var url = 'mongodb://localhost:27017/learnyoumongo';
+
+mongo.connect(url, function(err, db) {
+  if (err) throw err;
+  var collection = db.collection('prices');
+  collection.aggregate([
+    { $match: { size: process.argv[2] } }
+  , { $group: {
+      _id: 'total' // This can be an arbitrary string in this case
+    , total: {
+        // $sum is the operator used here
+        $avg: '$price'
+      }
+    }}
+  ]).toArray(function(err, results) {
+    // handle error
+    if (err) throw err
+    console.log(Number(results[0].total).toFixed(2))
+    db.close()
+  })
+})
 ```
 
 Official Solution:
 
 ```js
-//Solution
+var mongo = require('mongodb').MongoClient
+var size = process.argv[2]
+
+var url = 'mongodb://localhost:27017/learnyoumongo'
+
+mongo.connect(url, function(err, db) {
+  if (err) throw err
+  var prices = db.collection('prices')
+  prices.aggregate([{
+    $match: {
+      size: size
+    }
+  }, {
+    $group: {
+      _id: 'total',
+      total: {
+        $avg: '$price'
+      }
+    }
+  }]).toArray(function(err, results) {
+    if (err) throw err
+    if (!results.length) {
+      throw new Error('No results found')
+    }
+    var o = results[0]
+    console.log(Number(o.total).toFixed(2))
+    db.close()
+  })
+})
 ```
