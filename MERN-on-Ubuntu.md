@@ -8,6 +8,13 @@ Submitted by Rafase282
 ## Install Node.js with NPM
 Info from [here.](https://github.com/nodesource/distributions#debinstall)
 
+C9:
+
+```
+nvm install stable
+nvm alias default stable
+```
+
 Ubuntu 15.10, Node.js v5.x:
 
 ```
@@ -43,7 +50,7 @@ Run this command to create the `package.json`
 
 `$ npm init`
 
-Follow the instructions and you shoudl have somethign similar to this:
+Follow the instructions and you should have something similar to this:
 
 ```
 {
@@ -60,7 +67,7 @@ Follow the instructions and you shoudl have somethign similar to this:
 ```
 
 ## Install Dependencies
-`npm install express mongodb mongoose passport express-session react --save`
+`npm install --save express mongodb mongoose passport express-session react react-dom babelify babel-preset-react`
 
 This will install:
 - Express.js
@@ -115,7 +122,6 @@ Now the `package.json` will look like this:
 ```
 
 ## Directory structure
-
 Now let's spend a few moments to create the file structure we'll be using.
 
 ```
@@ -127,6 +133,8 @@ Now let's spend a few moments to create the file structure we'll be using.
     +-- public
     |   \-- css
     |   \-- img
-    ```
+```
 
-    More details [here.](http://www.clementinejs.com/tutorials/tutorial-beginner.html)
+```
+More details [here.](http://www.clementinejs.com/tutorials/tutorial-beginner.html)
+```
