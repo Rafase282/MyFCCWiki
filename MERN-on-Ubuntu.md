@@ -135,6 +135,8 @@ Now let's spend a few moments to create the file structure we'll be using.
     |   \-- img
 ```
 
-```
 More details [here.](http://www.clementinejs.com/tutorials/tutorial-beginner.html)
-```
+
+# React Tutorials
+- [React.js Tutorial Pt 1: A Comprehensive Guide to Building Apps with React.js](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
+- [React.js Tutorial Pt 2: Building React Applications with Gulp and Browserify.](http://tylermcginnis.com/reactjs-tutorial-pt-2-building-react-applications-with-gulp-and-browserify/)

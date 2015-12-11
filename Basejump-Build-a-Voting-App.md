@@ -27,3 +27,65 @@ You can push these new commits to GitHub by running `git push origin master`, an
 ## Links
 - [App Repo](https://github.com/Rafase282/Voting-App)
 - [App Link](https://voting-app-rafase282.c9users.io/)
+
+### Server
+
+```js
+'use strict';
+
+var express = require('express');
+var mongo = require('mongodb');
+var routes = require('./app/routes/index.js');
+
+var app = express();
+
+mongo.connect('mongodb://localhost:27017/clementinejs', function(err, db) {
+
+  if (err) {
+    throw new Error('Database failed to connect!');
+  } else {
+    console.log('Successfully connected to MongoDB on port 27017.');
+  }
+
+  // The format follows as, alias to use for real path, also allows permission to such path.
+  app.use('/public', express.static(process.cwd() + '/public'));
+  app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
+  app.use('/src', express.static(process.cwd() + '/app/src'));
+
+  routes(app, db);
+
+  var port = process.env.PORT || 8080;
+  app.listen(port, function() {
+    console.log('Node.js listening on port ' + port);
+  });
+
+});
+```
+
+### App.js
+
+```js
+var React = require('react');
+var ReactDOM = require('react-dom');
+var NavBar = require('./navbar.js');
+var HeaderArea = require('./header.js');
+var MainArea = require('./main.js');
+var Footer = require('./footer.js');
+
+var App = React.createClass({
+  render: function() {
+    return (
+      < div >
+      < NavBar / >
+      < HeaderArea / >
+      < MainArea / >
+      < Footer / >
+      < /div>
+    );
+  }
+});
+ReactDOM.render(
+  < App / >,
+  document.getElementById('body')
+);
+```
