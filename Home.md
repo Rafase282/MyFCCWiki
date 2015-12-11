@@ -375,8 +375,9 @@ I will try to keep everything updated. If you are also part of the camp or would
   - [Aggregate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Store-Data-in-MongoDB#aggregate)
 
 ## Full Stack JavaScript Projects
-1. Waypoint: Get Set for Basejumps
-2. Basejump: Build a Voting App
+1. [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
+  - [Ubuntu Setup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MERN-on-Ubuntu)
+2. [Basejump: Build a Voting App]()
 3. Basejump: Build a Nightlife Coordination App
 4. Basejump: Chart the Stock Market
 5. Basejump: Manage a Book Trading Club
