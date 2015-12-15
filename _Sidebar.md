@@ -34,7 +34,7 @@
 6. [Node.js and Express.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#nodejs-and-expressjs)
 7. [MongoDB](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#mongodb)
 8. [API Projects]()   Coming Soon
-9. [Dynamic Web Applications](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#full-stack-javascript-projects)
+9. [Dynamic Web Applications](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#dynamic-web-applications)
 10. [Claim Your Back End Development Certificate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#claim-your-full-stack-development-certificate)
 
 # Full Stack Development Certification
