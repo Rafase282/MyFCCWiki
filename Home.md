@@ -147,7 +147,6 @@ I will try to keep everything updated. If you are also part of the camp or would
 17. [Waypoint: Target Even Numbered Elements Using jQuery](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/jQuery#target-even-numbered-elements-using-jquery)
 18. [Waypoint: Use jQuery to Modify the Entire Page](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/jQuery#use-jquery-to-modify-the-entire-page)
 
-
 ## Basic JavaScript
 1. [Waypoint: Comment your JavaScript Code](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#comment-your-javascript-code)
 2. [Waypoint: Understand Boolean Values](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#understand-boolean-values)
@@ -279,6 +278,32 @@ I will try to keep everything updated. If you are also part of the camp or would
 ## Claim Your Front End Development Certificate
 1. [My Front End Development Certificate](http://www.freecodecamp.com/rafase282/front-end-certification)
 
+## SASS  
+1. Waypoint: Learn SASS Challenges Incomplete   Coming Soon
+
+## React  
+1. Waypoint: Learn React Challenges Incomplete   Coming Soon
+
+## React Projects  
+1. Zipline: React Project 1 Incomplete   Coming Soon
+2. Zipline: React Project 2 Incomplete   Coming Soon
+3. Zipline: React Project 3 Incomplete   Coming Soon
+4. Zipline: React Project 4 Incomplete   Coming Soon
+5. Zipline: React Project 5 Incomplete   Coming Soon
+
+## D3  
+1. Waypoint: Learn D3 Challenges Incomplete   Coming Soon
+
+## Data Visualization Projects  
+1. Zipline: Data Visualization Project 1 Incomplete   Coming Soon
+2. Zipline: Data Visualization Project 2 Incomplete   Coming Soon
+3. Zipline: Data Visualization Project 3 Incomplete   Coming Soon
+4. Zipline: Data Visualization Project 4 Incomplete   Coming Soon
+5. Zipline: Data Visualization Project 5 Incomplete   Coming Soon
+
+## Claim Your Data Visualization Certificate  
+1. Waypoint: Claim Your Data Visualization Certificate Incomplete   Coming Soon
+
 ## Upper Intermediate Algorithm Scripting
 1. [Bonfire: Make a Person](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
 2. [Bonfire: Map the Debris](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Map-the-Debris)
@@ -297,17 +322,17 @@ I will try to keep everything updated. If you are also part of the camp or would
 6. [Bonfire: Friendly Date Ranges](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Friendly-Date-Ranges)
 
 ## AngularJS
-1. [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
+- [Waypoint: Get Started with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js)
   - [Creating Modules](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#creating-modules)
   - [Including the module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#including-the-module)
   - [Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#expressions)
   - [Controllers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#controllers)
   - [Show and Hide Buttons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Started-with-Angular.js#show-and-hide-buttons)
 
-2. [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
+- [Waypoint: Apply Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives)
   - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
 
-3. [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
+- [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
   - [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
   - [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
 
@@ -326,33 +351,36 @@ I will try to keep everything updated. If you are also part of the camp or would
   - [Merge and delete branches](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git#merge-and-delete-branches)
 
 ## Node.js and Express.js
-1. [Waypoint: Manage Packages with NPM](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM)
-    - [Install NPM](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#install-npm)
-    - [Setup Dev Envirioment](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#setup-development-envirioment)
-    - [Start A project](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#start-a-project)
-    - [Install a Module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#install-a-module)
-    - [Listing Dependencies](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#listing-dependencies)
-    - [NPM Test](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#npm-test)
-    - [Package Niceties](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#package-niceties)
-    - [Publish](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#publish)
-    - [Version](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#version)
+- [Waypoint: Manage Packages with NPM](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM)
+  - [Install NPM](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#install-npm)
+  - [Setup Dev Envirioment](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#setup-development-envirioment)
+  - [Start A project](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#start-a-project)
+  - [Install a Module](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#install-a-module)
+  - [Listing Dependencies](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#listing-dependencies)
+  - [NPM Test](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#npm-test)
+  - [Package Niceties](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#package-niceties)
+  - [Publish](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#publish)
+  - [Version](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manage-Packages-with-NPM#version)
 
-2. [Waypoint: Start a Node.js Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server)
-    - [Baby Steps](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#baby-steps)
-    - [My First I/O](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#my-first-io)
-    - [My First ASYNC I/O](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#my-first-async-io)
-    - [Filtered LS](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#filtered-ls)
-    - [Make it Modular](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#make-it-modular)
-    - [HTTP Client](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#http-client)
-3. [Waypoint: Continue working with Node.js Servers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers)
-    - [HTTP Collect](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#http-collect)
-    - [Juggling Async](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#juggling-async)
-    - [Time Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#time-server)
-4. [Waypoint: Finish working with Node.js Servers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers)
-    - [HTTP File Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-file-server)
-    - [HTTP Uppercaserer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-uppercaserer)
-    - [HTTP JSON API Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-json-api-server)
-5. [Waypoint: Build Web Apps with Express.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Build-Web-Apps-with-Express.js)
+- [Waypoint: Start a Node.js Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server)
+  - [Baby Steps](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#baby-steps)
+  - [My First I/O](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#my-first-io)
+  - [My First ASYNC I/O](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#my-first-async-io)
+  - [Filtered LS](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#filtered-ls)
+  - [Make it Modular](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#make-it-modular)
+  - [HTTP Client](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Start-a-Nodejs-Server#http-client)
+
+- [Waypoint: Continue working with Node.js Servers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers)
+  - [HTTP Collect](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#http-collect)
+  - [Juggling Async](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#juggling-async)
+  - [Time Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Continue-working-with-Node.js-Servers#time-server)
+
+- [Waypoint: Finish working with Node.js Servers](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers)
+  - [HTTP File Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-file-server)
+  - [HTTP Uppercaserer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-uppercaserer)
+  - [HTTP JSON API Server](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finish-working-with-Nodejs-Servers#http-json-api-server)
+
+- [Waypoint: Build Web Apps with Express.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Build-Web-Apps-with-Express.js)
   - [Hello World!](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Build-Web-Apps-with-Express.js#hello-world)
   - [Static](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Build-Web-Apps-with-Express.js#static)
   - [Jade](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Build-Web-Apps-with-Express.js#jade)
@@ -374,14 +402,22 @@ I will try to keep everything updated. If you are also part of the camp or would
   - [Count](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Store-Data-in-MongoDB#count)
   - [Aggregate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Store-Data-in-MongoDB#aggregate)
 
-## Full Stack JavaScript Projects
-1. [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
+## API Projects  
+1. Basejump: API Project 1 Incomplete   Coming Soon
+2. Basejump: API Project 2 Incomplete   Coming Soon
+3. Basejump: API Project 3 Incomplete   Coming Soon
+4. Basejump: API Project 4 Incomplete   Coming Soon
+5. Basejump: API Project 5 Incomplete   Coming Soon
+
+## Dynamic Web Applications
+- [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
   - [Ubuntu Setup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MERN-on-Ubuntu)
-2. [Basejump: Build a Voting App]()
-3. Basejump: Build a Nightlife Coordination App
-4. Basejump: Chart the Stock Market
-5. Basejump: Manage a Book Trading Club
-6. Basejump: Build a Pinterest Clone
+
+- [Basejump: Build a Voting App]()
+- Basejump: Build a Nightlife Coordination App
+- Basejump: Chart the Stock Market
+- Basejump: Manage a Book Trading Club
+- Basejump: Build a Pinterest Clone
 
 ## Claim Your Full Stack Development Certificate
 1. My Full Stack Development Certificate
