@@ -413,7 +413,7 @@ I will try to keep everything updated. If you are also part of the camp or would
 - [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
   - [Ubuntu Setup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MERN-on-Ubuntu)
 
-- [Basejump: Build a Voting App]()
+- [Basejump: Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Build-a-Voting-App)
 - Basejump: Build a Nightlife Coordination App
 - Basejump: Chart the Stock Market
 - Basejump: Manage a Book Trading Club
