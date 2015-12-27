@@ -3,11 +3,8 @@ This repository is not for an app but more as a journal where I keep a record of
 
 I will try to keep everything updated. If you are also part of the camp or would like to contribute in any way then feel free to contact me. The purpose of this is for reference and learning material overall, for everyone as it is public.
 
-<<<<<<< HEAD
 If you want to contribute, you can follow these steps found here [pull request.](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Pull-Request-Contribute)
 
-=======
->>>>>>> 52338324e20685a112ac86f3b715ba4323b04518
 ## Contact me
 **Rafael Rodriguez**
 
