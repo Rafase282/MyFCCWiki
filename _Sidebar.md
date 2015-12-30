@@ -18,12 +18,12 @@
 12. [Claim Your Front End Development Certificate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#claim-your-front-end-development-certificate)
 
 # Data Visualization Certification
-1. [SASS]()   Coming Soon
-2. [React]()   Coming Soon
-3. [React Projects]()   Coming Soon
-4. [D3]()   Coming Soon
-5. [Data Visualization Projects]()   Coming Soon
-6. [Claim Your Data Visualization Certificate]()   Coming Soon
+1. [SASS](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#sass-)
+2. [React](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#react-)
+3. [React Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#react-projects-)
+4. [D3](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#d3-)
+5. [Data Visualization Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#data-visualization-projects-)
+6. [Claim Your Data Visualization Certificate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#claim-your-data-visualization-certificate-)
 
 # Back End Development Certification
 1. [Upper Intermediate Algorithm Scripting](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#upper-intermediate-algorithm-scripting)
@@ -33,7 +33,7 @@
 5. [Git](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#git)
 6. [Node.js and Express.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#nodejs-and-expressjs)
 7. [MongoDB](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#mongodb)
-8. [API Projects]()   Coming Soon
+8. [API Projects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#api-projects-)
 9. [Dynamic Web Applications](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#dynamic-web-applications)
 10. [Claim Your Back End Development Certificate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki#claim-your-full-stack-development-certificate)
 
