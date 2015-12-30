@@ -346,30 +346,30 @@ Deprecated:
 1. [My Front End Development Certificate](http://www.freecodecamp.com/rafase282/front-end-certification)
 
 ## SASS  
-1. Waypoint: Learn SASS Challenges Incomplete   Coming Soon
+1. Waypoint: Learn SASS Challenges
 
 ## React  
-1. Waypoint: Learn React Challenges Incomplete   Coming Soon
+1. Waypoint: Learn React Challenges
 
 ## React Projects  
-1. Zipline: React Project 1 Incomplete   Coming Soon
-2. Zipline: React Project 2 Incomplete   Coming Soon
-3. Zipline: React Project 3 Incomplete   Coming Soon
-4. Zipline: React Project 4 Incomplete   Coming Soon
-5. Zipline: React Project 5 Incomplete   Coming Soon
+1. Zipline: React Project 1
+2. Zipline: React Project 2
+3. Zipline: React Project 3
+4. Zipline: React Project 4
+5. Zipline: React Project 5
 
 ## D3  
-1. Waypoint: Learn D3 Challenges Incomplete   Coming Soon
+1. Waypoint: Learn D3 Challenges
 
 ## Data Visualization Projects  
-1. Zipline: Data Visualization Project 1 Incomplete   Coming Soon
-2. Zipline: Data Visualization Project 2 Incomplete   Coming Soon
-3. Zipline: Data Visualization Project 3 Incomplete   Coming Soon
-4. Zipline: Data Visualization Project 4 Incomplete   Coming Soon
-5. Zipline: Data Visualization Project 5 Incomplete   Coming Soon
+1. Zipline: Data Visualization Project 1
+2. Zipline: Data Visualization Project 2
+3. Zipline: Data Visualization Project 3
+4. Zipline: Data Visualization Project 4
+5. Zipline: Data Visualization Project 5
 
 ## Claim Your Data Visualization Certificate  
-1. Waypoint: Claim Your Data Visualization Certificate Incomplete   Coming Soon
+1. Waypoint: Claim Your Data Visualization Certificate
 
 ## Upper Intermediate Algorithm Scripting
 1. [Bonfire: Make a Person](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Make-a-Person)
@@ -400,8 +400,8 @@ Deprecated:
   - [Filters](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Apply-Angularjs-Directives#filters)
 
 - [Waypoint: Power Forms with Angular.js](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Power-Forms-with-Angularjs)
-  - [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
-  - [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
+- [Waypoint: Customize Angular.js Directives](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Customize-Angularjs-Directives)
+- [Waypoint: Create Angular.js Services](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Angularjs-Services)
 
 ## Git
 1. [Waypoint: Save your Code Revisions Forever with Git](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git)
@@ -469,22 +469,22 @@ Deprecated:
   - [Count](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Store-Data-in-MongoDB#count)
   - [Aggregate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Store-Data-in-MongoDB#aggregate)
 
-## API Projects  
-1. Basejump: API Project 1 Incomplete   Coming Soon
-2. Basejump: API Project 2 Incomplete   Coming Soon
-3. Basejump: API Project 3 Incomplete   Coming Soon
-4. Basejump: API Project 4 Incomplete   Coming Soon
-5. Basejump: API Project 5 Incomplete   Coming Soon
-
-## Dynamic Web Applications
-- [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
+## API Projects
+1. [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
   - [Ubuntu Setup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MERN-on-Ubuntu)
 
-- [Basejump: Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Build-a-Voting-App)
-- Basejump: Build a Nightlife Coordination App
-- Basejump: Chart the Stock Market
-- Basejump: Manage a Book Trading Club
-- Basejump: Build a Pinterest Clone
+2. Basejump: API Project 1
+3. Basejump: API Project 2
+4. Basejump: API Project 3
+5. Basejump: API Project 4
+6. Basejump: API Project 5
+
+## Dynamic Web Applications
+1. [Basejump: Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Build-a-Voting-App)
+2. Basejump: Build a Nightlife Coordination App
+3. Basejump: Chart the Stock Market
+4. Basejump: Manage a Book Trading Club
+5. Basejump: Build a Pinterest Clone
 
 ## Claim Your Full Stack Development Certificate
 1. My Full Stack Development Certificate
