@@ -153,8 +153,8 @@ If you want to contribute, you can follow these steps found here [pull request.]
 1. [Waypoint: Comment your JavaScript Code](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#comment-your-javascript-code)
 2. [Waypoint: Understand Boolean Values](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#understand-boolean-values)
 3. [Waypoint: Declare JavaScript Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#declare-javascript-variables)
-4. Waypoint: Storing Values with the Equal Operator
-5. Waypoint: Initializing Variables with the Equal
+4. [Waypoint: Storing Values with the Equal Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Storing-Values-with-the-Equal-Operator)
+5. [Waypoint: Initializing Variables with the Equal]()
 6. Waypoint: Understanding Uninitialized Variables
 7. Waypoint: Understanding Case Sensitivity in Variables
 8. [Waypoint: Add Two Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-two-numbers-with-javascript)
