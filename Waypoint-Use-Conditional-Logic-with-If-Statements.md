@@ -8,15 +8,44 @@ Submitted by Rafase282
 # Use Conditional Logic with If-Else Statements
 We can use if statements in JavaScript to only execute code if a certain condition is met.
 
-if statements require some sort of `boolean` condition evaluate.
+Each if statement requires a `boolean` condition to evaluate. If the _boolean_ evaluates to `true`, the statements inside the curly braces will execute. Otherwise, if it evaluates to `false`, the code will not execute.
 
 Example:
 
 ```js
- if (1 == 2) {
-  return(true);
+function test(myVal) {
+  if (myVal > 10) {
+     return "Greater Than";
+  }
+  return "Not Greater Than";
 }
-else {
-  return(false);
+```
+
+If `myVal` is greater than 10, the function will return "Greater Than". If it is not, the function will return "Not Greater Than".
+
+Furthermore, if you add an `else` statement you can have it do something different in case that `myVal` is equal or less than 10 inthe following way:
+
+```js
+function test(myVal) {
+  if (myVal > 10) {
+     return "Greater Than";
+  } else {
+    // do something else
+  }
+  return "Not Greater Than";
 }
+```
+
+You could take it even further and use an `else-if` and then another `else` for nesting once you are more familiar with conditions.
+
+```js
+if (true) {
+  // do something
+}else if (true) {
+  // otherwise check this and do that
+}else {
+  // otherwise do this instead
+}
+
+//consitune with more code here
 ```
