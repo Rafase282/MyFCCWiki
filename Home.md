@@ -352,21 +352,21 @@ Deprecated:
 1. Waypoint: Learn React Challenges
 
 ## React Projects  
-1. Zipline: React Project 1
-2. Zipline: React Project 2
-3. Zipline: React Project 3
-4. Zipline: React Project 4
-5. Zipline: React Project 5
+1. Zipline: Build a Markdown Previewer
+2. Zipline: Build a Camper Leaderboard
+3. Zipline: Build a Recipe Box
+4. Zipline: Build the Game of Life
+5. Zipline: Build a Roguelike Dungeon Crawler Game
 
 ## D3  
 1. Waypoint: Learn D3 Challenges
 
 ## Data Visualization Projects  
-1. Zipline: Data Visualization Project 1
-2. Zipline: Data Visualization Project 2
-3. Zipline: Data Visualization Project 3
-4. Zipline: Data Visualization Project 4
-5. Zipline: Data Visualization Project 5
+1. Zipline: Visualize Data with a Bar Chart
+2. Zipline: Visualize Data with a Scatterplot Graph
+3. Zipline: Visualize Data with a Heat Map
+4. Zipline: Show Relationships with a Force Directed Graph
+5. Zipline: Map Data Across the Globe
 
 ## Claim Your Data Visualization Certificate  
 1. Waypoint: Claim Your Data Visualization Certificate
@@ -473,11 +473,11 @@ Deprecated:
 1. [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
   - [Ubuntu Setup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MERN-on-Ubuntu)
 
-2. Basejump: API Project 1
-3. Basejump: API Project 2
-4. Basejump: API Project 3
-5. Basejump: API Project 4
-6. Basejump: API Project 5
+2. [Basejump: Timestamp Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Timestamp-Microservice)
+3. Basejump: Request Header Parser Microservice
+4. Basejump: URL Shortener Microservice
+5. Basejump: Image Search Abstraction Layer
+6. Basejump: File Metadata Microservice
 
 ## Dynamic Web Applications
 1. [Basejump: Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Build-a-Voting-App)
