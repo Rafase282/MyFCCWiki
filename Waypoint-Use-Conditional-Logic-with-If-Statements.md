@@ -10,9 +10,9 @@ We can use if statements in JavaScript to only execute code if a certain conditi
 
 if statements require some sort of `boolean` condition evaluate.
 
-```js
 Example:
 
+```js
  if (1 == 2) {
   return(true);
 }
