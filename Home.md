@@ -150,22 +150,22 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 18. [Waypoint: Use jQuery to Modify the Entire Page](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/jQuery#use-jquery-to-modify-the-entire-page)
 
 ## Basic JavaScript
-1. [Waypoint: Comment your JavaScript Code](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#comment-your-javascript-code)
-2. [Waypoint: Understand Boolean Values](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#understand-boolean-values)
-3. [Waypoint: Declare JavaScript Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#declare-javascript-variables)
+1. [Waypoint: Comment your JavaScript Code](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comment-your-JavaScript-Code)
+2. [Waypoint: Understand Boolean Values](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Understand-Boolean-Values)
+3. [Waypoint: Declare JavaScript Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Declare-JavaScript-Variables)
 4. [Waypoint: Storing Values with the Equal Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Storing-Values-with-the-Equal-Operator)
 5. [Waypoint: Initializing Variables with the Equal](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Initializing-Variables-with-the-Equal-Operator)
-6. [Waypoint: Understanding Uninitialized Variables]
-7. [Waypoint: Understanding Case Sensitivity in Variables]
-8. [Waypoint: Add Two Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-two-numbers-with-javascript)
-9. [Waypoint: Subtract One Number from Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#subtract-one-number-from-another-with-javascript)
-10. [Waypoint: Multiply Two Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#multiply-two-numbers-with-javascript)
-11. [Waypoint: Divide One Number by Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#divide-one-number-by-another-with-javascript)
-12. Waypoint: Increment a Number with Javascript
-13. Waypoint: Decrement a Number with Javascript
-14. [Waypoint: Create Decimal Numbers with JavaScript]
-15. [Waypoint: Multiply Two Decimals with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#perform-arithmetic-operations-on-decimals-with-javascript)
-16. [Waypoint: Divide one Decimal by Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#perform-arithmetic-operations-on-decimals-with-javascript)
+6. [Waypoint: Understanding Uninitialized Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Understanding-Uninitialized-Variables)
+7. [Waypoint: Understanding Case Sensitivity in Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Understanding-Case-Sensitivity-in-Variables)
+8. [Waypoint: Add Two Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Add-Two-Numbers-with-JavaScript)
+9. [Waypoint: Subtract One Number from Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Subtract-One-Number-from-Another-with-JavaScript)
+10. [Waypoint: Multiply Two Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Multiply-Two-Numbers-with-JavaScript)
+11. [Waypoint: Divide One Number by Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Divide-One-Number-by-Another-with-JavaScript)
+12. [Waypoint: Increment a Number with Javascript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Increment-a-Number-with-Javascript)
+13. [Waypoint: Decrement a Number with Javascript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Decrement-a-Number-with-Javascript)
+14. [Waypoint: Create Decimal Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Create-Decimal-Numbers-with-JavaScript)
+15. [Waypoint: Multiply Two Decimals with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Multiply-Two-Decimals-with-JavaScript)
+16. [Waypoint: Divide one Decimal by Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Divide-One-Decimal-by-Another-with-JavaScript)
 17. Waypoint: Finding a Remainder in Javascript
 18. Waypoint: Assignment with Plus Equals
 19. Waypoint: Assignment with Minus Equals
@@ -180,24 +180,24 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 28. Waypoint: Concatenating Strings with the Plus Equals Operator
 29. Waypoint: Constructing Strings with Variables
 30. Waypoint: Appending Variables to Strings
-31. [Waypoint: Find the Length of a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#check-the-length-property-of-a-string-variable)
-32. [Waypoint: Use Bracket Notation to Find the First Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#use-bracket-notation-to-find-the-first-character-in-a-string)
+31. [Waypoint: Find the Length of a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Find-the-Length-of-a-String)
+32. [Waypoint: Use Bracket Notation to Find the First Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-First-Character-in-a-String)
 33. Waypoint: Understand String Immutability
-34. [Waypoint: Use Bracket Notation to Find the Nth Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#use-bracket-notation-to-find-the-nth-character-in-a-string)
-35. [Waypoint: Use Bracket Notation to Find the Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#use-bracket-notation-to-find-the-last-character-in-a-string)
-36. [Waypoint: Use Bracket Notation to Find the Nth-to-Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
+34. [Waypoint: Use Bracket Notation to Find the Nth Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-Character-in-a-String)
+35. [Waypoint: Use Bracket Notation to Find the Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Last-Character-in-a-String)
+36. [Waypoint: Use Bracket Notation to Find the Nth-to-Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-to-Last-Character-in-a-String)
 37. Bonfire: Word Blanks
-38. [Waypoint: Store Multiple Values in one Variable using JavaScript Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#store-multiple-values-in-one-variable-using-javascript-arrays)
-39. [Waypoint: Nest one Array within Another Array](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#nest-one-array-within-another-array)
-40. [Waypoint: Access Array Data with Indexes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#access-array-data-with-indexes)
-41. [Waypoint: Modify Array Data With Indexes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#modify-array-data-with-indexes)
+38. [Waypoint: Store Multiple Values in one Variable using JavaScript Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Store-Multiple-Values-in-one-Variable-using-JavaScript-Arrays)
+39. [Waypoint: Nest one Array within Another Array](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Nest-one-Array-within-Another-Array)
+40. [Waypoint: Access Array Data with Indexes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Access-Array-Data-with-Indexes)
+41. [Waypoint: Modify Array Data With Indexes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Modify-Array-Data-With-Indexes)
 42. Waypoint: Access Multi-Dimensional Arrays With Indexes
-43. [Waypoint: Manipulate Arrays With push()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#manipulate-arrays-with-push)
-44. [Waypoint: Manipulate Arrays With pop()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#manipulate-arrays-with-pop)
-45. [Waypoint: Manipulate Arrays With shift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#manipulate-arrays-with-shift)
-46. [Waypoint: Manipulate Arrays With unshift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#manipulate-arrays-with-unshift)
+43. [Waypoint: Manipulate Arrays With push()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-push())
+44. [Waypoint: Manipulate Arrays With pop()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-pop())
+45. [Waypoint: Manipulate Arrays With shift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-shift())
+46. [Waypoint: Manipulate Arrays With unshift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-unshift())
 47. Bonfire: Shopping List
-48. [Waypoint: Write Reusable JavaScript with Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#write-reusable-javascript-with-functions)
+48. [Waypoint: Write Reusable JavaScript with Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Write-Reusable-JavaScript-with-Functions)
 49. Waypoint: Passing Values to Functions with Arguments
 50. Waypoint: Global Scope and Functions Incomplete
 51. Waypoint: Local Scope and Functions
@@ -205,7 +205,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 53. Waypoint: Return a Value from a Function with Return
 54. Waypoint: Assignment with a Returned Value
 55. Bonfire: Stand in Line
-56. [Waypoint: Use Conditional Logic with If Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#use-conditional-logic-with-if-else-statements)
+56. [Waypoint: Use Conditional Logic with If Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Conditional-Logic-with-If-Statements)
 57. Waypoint: Comparison with the Equality Operator
 58. Waypoint: Comparison with the Strict Equality Operator
 59. Waypoint: Comparison with the Inequality Operator
@@ -227,11 +227,11 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 75. Waypoint: Returning Boolean Values from Functions
 76. Waypoint: Return Early Pattern for Functions
 77. Bonfire: Counting Cards
-78. [Waypoint: Build JavaScript Objects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#build-javascript-objects)
+78. [Waypoint: Build JavaScript Objects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Build-JavaScript-Objects)
 79. Waypoint: Accessing Objects Properties with the Dot Operator
 80. Waypoint: Accessing Objects Properties with Bracket Notation
 81. Waypoint: Accessing Objects Properties with Variables
-82. [Waypoint: Updating Object Properties](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#manipulate-javascript-objects)
+82. [Waypoint: Updating Object Properties]()
 83. [Waypoint: Add New Properties to a JavaScript Object](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Add-New-Properties-to-a-JavaScript-Object)
 84. [Waypoint: Delete Properties from a JavaScript Object](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Delete-Properties-from-a-JavaScript-Object)
 85. Waypoint: Using Objects for Lookups
@@ -245,16 +245,17 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 93. [Waypoint: Count Backwards With a For Loop](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Count-Backwards-With-a-For-Loop)
 94. Waypoint: Iterate Through an Array with a For Loop
 95. Waypoint: Nesting For Loops
-96. [Waypoint: Iterate with JavaScript While Loops](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-for-loops)
-97. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-while-loops)
-98. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-fractions-with-javascript)
-99. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-whole-numbers-within-a-range)
-100. [Waypoint: Sift through Text with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#sift-through-text-with-regular-expressions)
-101. [Waypoint: Find Numbers with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-numbers-with-regular-expressions)
-102. [Waypoint: Find Whitespace with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-white-space-with-regular-expressions)
-103. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#invert-regular-expression-matches-with-javascript)
+96. [Waypoint: Iterate with JavaScript While Loops](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Iterate-with-JavaScript-While-Loops)
+97. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Generate-Random-Fractions-with-JavaScript)
+98. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Generate-Random-Whole-Numbers-with-JavaScript)
+99. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Generate-Random-Whole-Numbers-within-a-Range)
+100. [Waypoint: Sift through Text with Regular Expressions](Sift through Text with Regular Expressions)
+101. [Waypoint: Find Numbers with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Find-Numbers-with-Regular-Expressions)
+102. [Waypoint: Find Whitespace with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Find-Whitespace-with-Regular-Expressions)
+103. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Invert-Regular-Expression-Matches-with-JavaScript)
 
 Deprecated:
+1. [Old One Page Basic JavaScript Waypoints](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript)
 1. [Waypoint: Create a JavaScript Slot Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#create-a-javascript-slot-machine)
 2. [Waypoint: Add your JavaScript Slot Machine Slots](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-your-javascript-slot-machine-slots)
 3. [Waypoint: Bring your JavaScript Slot Machine to Life](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#bring-your-javascript-slot-machine-to-life)
