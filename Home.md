@@ -155,15 +155,15 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 3. [Waypoint: Declare JavaScript Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#declare-javascript-variables)
 4. [Waypoint: Storing Values with the Equal Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Storing-Values-with-the-Equal-Operator)
 5. [Waypoint: Initializing Variables with the Equal](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Initializing-Variables-with-the-Equal-Operator)
-6. Waypoint: Understanding Uninitialized Variables
-7. Waypoint: Understanding Case Sensitivity in Variables
+6. [Waypoint: Understanding Uninitialized Variables]
+7. [Waypoint: Understanding Case Sensitivity in Variables]
 8. [Waypoint: Add Two Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-two-numbers-with-javascript)
 9. [Waypoint: Subtract One Number from Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#subtract-one-number-from-another-with-javascript)
 10. [Waypoint: Multiply Two Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#multiply-two-numbers-with-javascript)
 11. [Waypoint: Divide One Number by Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#divide-one-number-by-another-with-javascript)
 12. Waypoint: Increment a Number with Javascript
 13. Waypoint: Decrement a Number with Javascript
-14. [Waypoint: Create Decimal Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#create-decimal-numbers-with-javascript)
+14. [Waypoint: Create Decimal Numbers with JavaScript]
 15. [Waypoint: Multiply Two Decimals with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#perform-arithmetic-operations-on-decimals-with-javascript)
 16. [Waypoint: Divide one Decimal by Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#perform-arithmetic-operations-on-decimals-with-javascript)
 17. Waypoint: Finding a Remainder in Javascript
@@ -246,14 +246,13 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 94. Waypoint: Iterate Through an Array with a For Loop
 95. Waypoint: Nesting For Loops
 96. [Waypoint: Iterate with JavaScript While Loops](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-for-loops)
-97. Bonfire: Caesar's Cipher
-98. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-while-loops)
-99. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-fractions-with-javascript)
-100. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-whole-numbers-within-a-range)
-101. [Waypoint: Sift through Text with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#sift-through-text-with-regular-expressions)
-102. [Waypoint: Find Numbers with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-numbers-with-regular-expressions)
-103. [Waypoint: Find Whitespace with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-white-space-with-regular-expressions)
-104. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#invert-regular-expression-matches-with-javascript)
+97. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#iterate-with-javascript-while-loops)
+98. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-fractions-with-javascript)
+99. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#generate-random-whole-numbers-within-a-range)
+100. [Waypoint: Sift through Text with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#sift-through-text-with-regular-expressions)
+101. [Waypoint: Find Numbers with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-numbers-with-regular-expressions)
+102. [Waypoint: Find Whitespace with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#find-white-space-with-regular-expressions)
+103. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#invert-regular-expression-matches-with-javascript)
 
 Deprecated:
 1. [Waypoint: Create a JavaScript Slot Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#create-a-javascript-slot-machine)
@@ -278,22 +277,24 @@ Deprecated:
 14. [Old Advanced Waypoint: Functional Programming in JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Functional-Programming-in-JavaScript)
 
 ## Basic Algorithm Scripting
-1. [Bonfire: Meet Bonfire](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Meet-Bonfire)
-2. [Bonfire: Reverse a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Reverse-a-String)
-3. [Bonfire: Factorialize a Number](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Factorialize-a-Number)
-4. [Bonfire: Check for Palindromes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Check-for-Palindromes)
-5. [Bonfire: Find the Longest Word in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Find-the-Longest-Word-in-a-String)
-6. [Bonfire: Title Case a Sentence](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Title-Case-a-Sentence)
-7. [Bonfire: Return Largest Numbers in Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Return-Largest-Numbers-in-Arrays)
-8. [Bonfire: Confirm the Ending](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Confirm-the-Ending)
-9. [Bonfire: Repeat a string repeat a string](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Repeat-a-string-repeat-a-string)
-10. [Bonfire: Truncate a string](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Truncate-a-string)
-11. [Bonfire: Chunky Monkey](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Chunky-Monkey)
-12. [Bonfire: Slasher Flick](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Slasher-Flick)
-13. [Bonfire: Mutations](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Mutations)
-14. [Bonfire: Falsey Bouncer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Falsey-Bouncer)
-15. [Bonfire: Seek and Destroy](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Seek-and-Destroy)
-16. [Bonfire: Where do I belong](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-do-I-belong)
+1. [Waypoint: Get Set for Bonfires](http://www.freecodecamp.com/challenges/waypoint-get-set-for-bonfires)
+2. [Bonfire: Meet Bonfire](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Meet-Bonfire)
+3. [Bonfire: Reverse a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Reverse-a-String)
+4. [Bonfire: Factorialize a Number](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Factorialize-a-Number)
+5. [Bonfire: Check for Palindromes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Check-for-Palindromes)
+6. [Bonfire: Find the Longest Word in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Find-the-Longest-Word-in-a-String)
+7. [Bonfire: Title Case a Sentence](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Title-Case-a-Sentence)
+8. [Bonfire: Return Largest Numbers in Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Return-Largest-Numbers-in-Arrays)
+9. [Bonfire: Confirm the Ending](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Confirm-the-Ending)
+10. [Bonfire: Repeat a string repeat a string](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Repeat-a-string-repeat-a-string)
+11. [Bonfire: Truncate a string](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Truncate-a-string)
+12. [Bonfire: Chunky Monkey](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Chunky-Monkey)
+13. [Bonfire: Slasher Flick](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Slasher-Flick)
+14. [Bonfire: Mutations](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Mutations)
+15. [Bonfire: Falsey Bouncer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Falsey-Bouncer)
+16. [Bonfire: Seek and Destroy](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Seek-and-Destroy)
+17. [Bonfire: Where do I belong](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Bonfire-Where-do-I-belong)
+18. Bonfire: Caesar's Cipher
 
 ## Basic Front End Development Projects
 1. [Waypoint: Get Set for Ziplines](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Get-Set-for-Ziplines)
@@ -470,14 +471,14 @@ Deprecated:
   - [Aggregate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Store-Data-in-MongoDB#aggregate)
 
 ## API Projects
-1. [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
+- [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps)
   - [Ubuntu Setup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MERN-on-Ubuntu)
 
-2. [Basejump: Timestamp Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Timestamp-Microservice)
-3. Basejump: Request Header Parser Microservice
-4. Basejump: URL Shortener Microservice
-5. Basejump: Image Search Abstraction Layer
-6. Basejump: File Metadata Microservice
+- [Basejump: Timestamp Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Timestamp-Microservice)
+- Basejump: Request Header Parser Microservice
+- Basejump: URL Shortener Microservice
+- Basejump: Image Search Abstraction Layer
+- Basejump: File Metadata Microservice
 
 ## Dynamic Web Applications
 1. [Basejump: Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Build-a-Voting-App)
