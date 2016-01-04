@@ -167,11 +167,11 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 15. [Waypoint: Multiply Two Decimals with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Multiply-Two-Decimals-with-JavaScript)
 16. [Waypoint: Divide one Decimal by Another with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Divide-One-Decimal-by-Another-with-JavaScript)
 17. [Waypoint: Finding a Remainder in Javascript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Finding-a-Remainder-in-Javascript)
-18. Waypoint: Assignment with Plus Equals
-19. Waypoint: Assignment with Minus Equals
-20. Waypoint: Assignment with Times Equals
-21. Waypoint: Assignment with Divided by Equals
-22. Checkpoint: Convert Celsius to Fahrenheit
+18. [Waypoint: Assignment with Plus Equals](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Assignment-with-Plus-Equals)
+19. [Waypoint: Assignment with Minus Equals](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Assignment-with-Minus-Equals)
+20. [Waypoint: Assignment with Times Equals](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Assignment-with-Times-Equals)
+21. [Waypoint: Assignment with Divided by Equals](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Assignment-with-Divided-by-Equals)
+22. [Checkpoint: Convert Celsius to Fahrenheit](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Convert-Celsius-to-Fahrenheit)
 23. [Waypoint: Declare String Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#declare-string-variables)
 24. Waypoint: Escaping Literal Quotes in Strings
 25. Waypoint: Quoting Strings with Single Quotes
