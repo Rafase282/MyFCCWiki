@@ -5,15 +5,15 @@ Submitted by Rafase282
 
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
-# Access Array Data with Indexes
-We can access the data inside arrays using indexes.
-
-Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array.
+# Waypoint: Introducing Else Statements
+When a condition for an `if` statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an `else` statement, an alternate block of code can be executed.
 
 ## Example
 
 ```js
-var array = [1,2,3];
-array[0]; //equals 1
-var data = array[1];
+if (num > 10) {
+  return "Bigger than 10";
+} else {
+  return "10 or Less";
+}
 ```

@@ -186,39 +186,39 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 34. [Waypoint: Use Bracket Notation to Find the Nth Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-Character-in-a-String)
 35. [Waypoint: Use Bracket Notation to Find the Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Last-Character-in-a-String)
 36. [Waypoint: Use Bracket Notation to Find the Nth-to-Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-to-Last-Character-in-a-String)
-37. Checkpoint: Word Blanks
+37. [Checkpoint: Word Blanks](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Word-Blanks)
 38. [Waypoint: Store Multiple Values in one Variable using JavaScript Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Store-Multiple-Values-in-one-Variable-using-JavaScript-Arrays)
 39. [Waypoint: Nest one Array within Another Array](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Nest-one-Array-within-Another-Array)
 40. [Waypoint: Access Array Data with Indexes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Access-Array-Data-with-Indexes)
 41. [Waypoint: Modify Array Data With Indexes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Modify-Array-Data-With-Indexes)
-42. Waypoint: Access Multi-Dimensional Arrays With Indexes
+42. [Waypoint: Access Multi-Dimensional Arrays With Indexes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Access-Multi-Dimensional-Arrays-With-Indexes)
 43. [Waypoint: Manipulate Arrays With push()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-push())
 44. [Waypoint: Manipulate Arrays With pop()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-pop())
 45. [Waypoint: Manipulate Arrays With shift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-shift())
 46. [Waypoint: Manipulate Arrays With unshift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-unshift())
 47. Checkpoint: Shopping List
 48. [Waypoint: Write Reusable JavaScript with Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Write-Reusable-JavaScript-with-Functions)
-49. Waypoint: Passing Values to Functions with Arguments
-50. Waypoint: Global Scope and Functions Incomplete
-51. Waypoint: Local Scope and Functions
-52. Waypoint: Global vs. Local Scope in Functions
-53. Waypoint: Return a Value from a Function with Return
-54. Waypoint: Assignment with a Returned Value
+49. [Waypoint: Passing Values to Functions with Arguments](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Passing-Values-To-Functions-With-Arguments)
+50. [Waypoint: Global Scope and Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Global-Scope-And-Functions)
+51. [Waypoint: Local Scope and Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Local-Scope-And-Functions)
+52. [Waypoint: Global vs. Local Scope in Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Global-Vs-Local-Scope-In-Functions)
+53. [Waypoint: Return a Value from a Function with Return](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Return-A-Value-From-A-Function-With-Return)
+54. [Waypoint: Assignment with a Returned Value](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Assignment-With-A-Returned-Value)
 55. Checkpoint: Stand in Line
 56. [Waypoint: Use Conditional Logic with If Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Conditional-Logic-with-If-Statements)
-57. Waypoint: Comparison with the Equality Operator
-58. Waypoint: Comparison with the Strict Equality Operator
-59. Waypoint: Comparison with the Inequality Operator
-60. Waypoint: Comparison with the Strict Inequality Operator
-61. Waypoint: Comparison with the Greater Than Operator
-62. Waypoint: Comparison with the Greater Than Equal To Operator
-63. Waypoint: Comparison with the Less Than Operator
-64. Waypoint: Comparison with the Less Than Equal To Operator
-65. Waypoint: Comparisons with the Logical And Operator
-66. Waypoint: Comparisons with the Logical Or Operator
-67. Waypoint: Introducing Else Statements
-68. Waypoint: Introducing Else If Statements
-69. Waypoint: Chaining If Else Statements
+57. [Waypoint: Comparison with the Equality Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Equality-Operator)
+58. [Waypoint: Comparison with the Strict Equality Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Strict-Equality-Operator)
+59. [Waypoint: Comparison with the Inequality Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Inequality-Operator)
+60. [Waypoint: Comparison with the Strict Inequality Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Strict-Inequality-Operator)
+61. [Waypoint: Comparison with the Greater Than Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Greater-Than-Operator)
+62. [Waypoint: Comparison with the Greater Than Equal To Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Greater-Than-Equal-To-Operator)
+63. [Waypoint: Comparison with the Less Than Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Less-Than-Operator)
+64. [Waypoint: Comparison with the Less Than Equal To Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Less-Than-Equal-To-Operator)
+65. [Waypoint: Comparisons with the Logical And Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparisons-With-The-Logical-And-Operator)
+66. [Waypoint: Comparisons with the Logical Or Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparisons-With-The-Logical-Or-Operator)
+67. [Waypoint: Introducing Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Introducing-Else-Statements)
+68. [Waypoint: Introducing Else If Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Introducing-Else-If-Statements)
+69. [Waypoint: Chaining If Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Chaining-If-Else-Statements)
 70. Checkpoint: Golf Code
 71. [Waypoint: Selecting from many options with Switch Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Selecting-From-Many-Options-With-Switch-Statements)
 72. [Waypoint: Adding a default option in Switch statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Adding-A-Default-Option-In-Switch-Statements)
@@ -239,7 +239,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 87. [Waypoint: Introducing JavaScript Object Notation (JSON)](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Introducing-Javascript-Object-Notation-Json)
 88. [Waypoint: Accessing Nested Objects in JSON](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Accessing-Nested-Objects-In-JSON)
 89. [Waypoint: Accessing Nested Arrays in JSON](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Accessing-Nested-Arrays-In-JSON)
-90. Checkpoint: Record Collection Incomplete
+90. Checkpoint: Record Collection
 91. [Waypoint: Iterate with JavaScript For Loops](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Iterate-with-JavaScript-For-Loops)
 92. [Waypoint: Iterate Odd Numbers With a For Loop](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Iterate-Odd-Numbers-With-a-For-Loop)
 93. [Waypoint: Count Backwards With a For Loop](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Count-Backwards-With-a-For-Loop)

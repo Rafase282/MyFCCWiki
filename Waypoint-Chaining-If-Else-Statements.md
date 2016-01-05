@@ -5,15 +5,18 @@ Submitted by Rafase282
 
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
-# Access Array Data with Indexes
-We can access the data inside arrays using indexes.
-
-Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array.
-
-## Example
+# Waypoint: Chaining If Else Statements
+`if/else` statements can be chained together for complex logic. Here is `pseudocode` of multiple chained `if` / `else if` statements:
 
 ```js
-var array = [1,2,3];
-array[0]; //equals 1
-var data = array[1];
+if(condition1) {
+  statement1
+} else if (condition2) {
+  statement2
+} else if (condition3) {
+  statement3
+. . .
+} else {
+  statementN
+}
 ```

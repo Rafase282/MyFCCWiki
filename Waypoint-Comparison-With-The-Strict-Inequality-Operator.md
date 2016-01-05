@@ -5,15 +5,13 @@ Submitted by Rafase282
 
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
-# Access Array Data with Indexes
-We can access the data inside arrays using indexes.
+# Waypoint: Comparison with the Strict Inequality Operator
+The strict inequality operator `!==` is the opposite of the strict equality operator. It means "Strictly Not Equal" and returns `false` where strict equality would return `true` and vice versa. Strict inequality will not convert data types.
 
-Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array.
-
-## Example
+## Examples
 
 ```js
-var array = [1,2,3];
-array[0]; //equals 1
-var data = array[1];
+3 !== 3   // false
+3 !== '3' // true
+4 !== 3   // true
 ```
