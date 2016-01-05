@@ -173,16 +173,16 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 21. [Waypoint: Assignment with Divided by Equals](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Assignment-with-Divided-by-Equals)
 22. [Checkpoint: Convert Celsius to Fahrenheit](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Convert-Celsius-to-Fahrenheit)
 23. [Waypoint: Declare String Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#declare-string-variables)
-24. Waypoint: Escaping Literal Quotes in Strings
-25. Waypoint: Quoting Strings with Single Quotes
-26. Waypoint: Escape Sequences in Strings
-27. Waypoint: Concatenating Strings with Plus Operator
-28. Waypoint: Concatenating Strings with the Plus Equals Operator
-29. Waypoint: Constructing Strings with Variables
-30. Waypoint: Appending Variables to Strings
+24. [Waypoint: Escaping Literal Quotes in Strings](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Escaping-Literal-Quotes-in-Strings)
+25. [Waypoint: Quoting Strings with Single Quotes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Quoting-Strings-with-Single-Quotes)
+26. [Waypoint: Escape Sequences in Strings](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Escape-Sequences-in-Strings)
+27. [Waypoint: Concatenating Strings with Plus Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Concatenating-Strings-with-Plus-Operator)
+28. [Waypoint: Concatenating Strings with the Plus Equals Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Concatenating-Strings-with-the-Plus-Equals-Operator)
+29. [Waypoint: Constructing Strings with Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Constructing-Strings-with-Variables)
+30. [Waypoint: Appending Variables to Strings](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Appending-Variables-to-Strings)
 31. [Waypoint: Find the Length of a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Find-the-Length-of-a-String)
 32. [Waypoint: Use Bracket Notation to Find the First Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-First-Character-in-a-String)
-33. Waypoint: Understand String Immutability
+33. [Waypoint: Understand String Immutability](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Understand-String-Immutability)
 34. [Waypoint: Use Bracket Notation to Find the Nth Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-Character-in-a-String)
 35. [Waypoint: Use Bracket Notation to Find the Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Last-Character-in-a-String)
 36. [Waypoint: Use Bracket Notation to Find the Nth-to-Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-to-Last-Character-in-a-String)
