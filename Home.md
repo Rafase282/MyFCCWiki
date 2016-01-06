@@ -196,7 +196,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 44. [Waypoint: Manipulate Arrays With pop()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-pop())
 45. [Waypoint: Manipulate Arrays With shift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-shift())
 46. [Waypoint: Manipulate Arrays With unshift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Manipulate-Arrays-With-unshift())
-47. Checkpoint: Shopping List
+47. [Checkpoint: Shopping List](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Shopping-List)
 48. [Waypoint: Write Reusable JavaScript with Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Write-Reusable-JavaScript-with-Functions)
 49. [Waypoint: Passing Values to Functions with Arguments](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Passing-Values-To-Functions-With-Arguments)
 50. [Waypoint: Global Scope and Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Global-Scope-And-Functions)
@@ -204,7 +204,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 52. [Waypoint: Global vs. Local Scope in Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Global-Vs-Local-Scope-In-Functions)
 53. [Waypoint: Return a Value from a Function with Return](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Return-A-Value-From-A-Function-With-Return)
 54. [Waypoint: Assignment with a Returned Value](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Assignment-With-A-Returned-Value)
-55. Checkpoint: Stand in Line
+55. [Checkpoint: Stand in Line](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Stand-In-Line)
 56. [Waypoint: Use Conditional Logic with If Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Use-Conditional-Logic-with-If-Statements)
 57. [Waypoint: Comparison with the Equality Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Equality-Operator)
 58. [Waypoint: Comparison with the Strict Equality Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Waypoint-Comparison-With-The-Strict-Equality-Operator)
