@@ -171,7 +171,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 19. [Lesson: Assignment with Minus Equals](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Assignment-with-Minus-Equals)
 20. [Lesson: Assignment with Times Equals](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Assignment-with-Times-Equals)
 21. [Lesson: Assignment with Divided by Equals](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Assignment-with-Divided-by-Equals)
-22. [Checkpoint: Convert Celsius to Fahrenheit](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Convert-Celsius-to-Fahrenheit)
+22. [Lesson Review: Convert Celsius to Fahrenheit](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Review-Convert-Celsius-to-Fahrenheit)
 23. [Lesson: Declare String Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#declare-string-variables)
 24. [Lesson: Escaping Literal Quotes in Strings](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Escaping-Literal-Quotes-in-Strings)
 25. [Lesson: Quoting Strings with Single Quotes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Quoting-Strings-with-Single-Quotes)
@@ -186,7 +186,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 34. [Lesson: Use Bracket Notation to Find the Nth Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Use-Bracket-Notation-to-Find-the-Nth-Character-in-a-String)
 35. [Lesson: Use Bracket Notation to Find the Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Use-Bracket-Notation-to-Find-the-Last-Character-in-a-String)
 36. [Lesson: Use Bracket Notation to Find the Nth-to-Last Character in a String](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Use-Bracket-Notation-to-Find-the-Nth-to-Last-Character-in-a-String)
-37. [Checkpoint: Word Blanks](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Word-Blanks)
+37. [Lesson Review: Word Blanks](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Review-Word-Blanks)
 38. [Lesson: Store Multiple Values in one Variable using JavaScript Arrays](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Multiple-Values-in-one-Variable-using-JavaScript-Arrays)
 39. [Lesson: Nest one Array within Another Array](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Nest-one-Array-within-Another-Array)
 40. [Lesson: Access Array Data with Indexes](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Access-Array-Data-with-Indexes)
@@ -196,7 +196,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 44. [Lesson: Manipulate Arrays With pop()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Manipulate-Arrays-With-pop())
 45. [Lesson: Manipulate Arrays With shift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Manipulate-Arrays-With-shift())
 46. [Lesson: Manipulate Arrays With unshift()](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Manipulate-Arrays-With-unshift())
-47. [Checkpoint: Shopping List](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Shopping-List)
+47. [Lesson Review: Shopping List](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Review-Shopping-List)
 48. [Lesson: Write Reusable JavaScript with Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Write-Reusable-JavaScript-with-Functions)
 49. [Lesson: Passing Values to Functions with Arguments](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Passing-Values-To-Functions-With-Arguments)
 50. [Lesson: Global Scope and Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Global-Scope-And-Functions)
@@ -204,7 +204,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 52. [Lesson: Global vs. Local Scope in Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Global-Vs-Local-Scope-In-Functions)
 53. [Lesson: Return a Value from a Function with Return](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Return-A-Value-From-A-Function-With-Return)
 54. [Lesson: Assignment with a Returned Value](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Assignment-With-A-Returned-Value)
-55. [Checkpoint: Stand in Line](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Checkpoint-Stand-In-Line)
+55. [Lesson Review: Stand in Line](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Review-Stand-In-Line)
 56. [Lesson: Use Conditional Logic with If Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Use-Conditional-Logic-with-If-Statements)
 57. [Lesson: Comparison with the Equality Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Comparison-With-The-Equality-Operator)
 58. [Lesson: Comparison with the Strict Equality Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Comparison-With-The-Strict-Equality-Operator)
@@ -219,14 +219,14 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 67. [Lesson: Introducing Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Introducing-Else-Statements)
 68. [Lesson: Introducing Else If Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Introducing-Else-If-Statements)
 69. [Lesson: Chaining If Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Chaining-If-Else-Statements)
-70. Checkpoint: Golf Code
+70. Lesson Review: Golf Code
 71. [Lesson: Selecting from many options with Switch Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Selecting-From-Many-Options-With-Switch-Statements)
 72. [Lesson: Adding a default option in Switch statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Adding-A-Default-Option-In-Switch-Statements)
 73. [Lesson: Multiple Identical Options in Switch Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Multiple-Identical-Options-In-Switch-Statements)
 74. [Lesson: Replacing If Else Chains with Switch](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Replacing-If-Else-Chains-With-Switch)
 75. [Lesson: Returning Boolean Values from Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Returning-Boolean-Values-From-Functions)
 76. [Lesson: Return Early Pattern for Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Return-Early-Pattern-For-Functions)
-77. Checkpoint: Counting Cards
+77. Lesson Review: Counting Cards
 78. [Lesson: Build JavaScript Objects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Build-JavaScript-Objects)
 79. [Lesson: Accessing Objects Properties with the Dot Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Accessing-Objects-Properties-With-The-Dot-Operator)
 80. [Lesson: Accessing Objects Properties with Bracket Notation](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Accessing-Objects-Properties-With-Bracket-Notation)
@@ -239,7 +239,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 87. [Lesson: Introducing JavaScript Object Notation (JSON)](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Introducing-Javascript-Object-Notation-Json)
 88. [Lesson: Accessing Nested Objects in JSON](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Accessing-Nested-Objects-In-JSON)
 89. [Lesson: Accessing Nested Arrays in JSON](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Accessing-Nested-Arrays-In-JSON)
-90. Checkpoint: Record Collection
+90. Lesson Review: Record Collection
 91. [Lesson: Iterate with JavaScript For Loops](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Iterate-with-JavaScript-For-Loops)
 92. [Lesson: Iterate Odd Numbers With a For Loop](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Iterate-Odd-Numbers-With-a-For-Loop)
 93. [Lesson: Count Backwards With a For Loop](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Count-Backwards-With-a-For-Loop)
