@@ -17,9 +17,9 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 ## Useful Links
 - [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs)
-- [Waypoint: Constructing Strings with Variables](http://www.freecodecamp.com/challenges/waypoint-constructing-strings-with-variables)
-- [Waypoint: Concatenating Strings with Plus Operator](http://www.freecodecamp.com/challenges/waypoint-concatenating-strings-with-plus-operator)
-- [Waypoint: Concatenating Strings with the Plus Equals Operator](http://www.freecodecamp.com/challenges/waypoint-concatenating-strings-with-the-plus-equals-operator)
+- [Lesson: Constructing Strings with Variables](http://www.freecodecamp.com/challenges/constructing-strings-with-variables)
+- [Lesson: Concatenating Strings with Plus Operator](http://www.freecodecamp.com/challenges/concatenating-strings-with-plus-operator)
+- [Lesson: Concatenating Strings with the Plus Equals Operator](http://www.freecodecamp.com/challenges/concatenating-strings-with-the-plus-equals-operator)
 
 ## Problem Explanation:
 - Change the code below `//Your Code here` and up to `//Change this line`.

@@ -23,9 +23,9 @@ The queue function should return the element that was removed.
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Waypoint: Manipulate Arrays With push()](http://www.freecodecamp.com/challenges/waypoint-manipulate-arrays-with-push)
-- [Waypoint: Manipulate Arrays With shift()](http://www.freecodecamp.com/challenges/waypoint-manipulate-arrays-with-shift)
-- [Waypoint: Passing Values to Functions with Arguments](http://www.freecodecamp.com/challenges/waypoint-passing-values-to-functions-with-arguments)
+- [Lesson: Manipulate Arrays With push()](http://www.freecodecamp.com/challenges/manipulate-arrays-with-push)
+- [Lesson: Manipulate Arrays With shift()](http://www.freecodecamp.com/challenges/manipulate-arrays-with-shift)
+- [Lesson: Passing Values to Functions with Arguments](http://www.freecodecamp.com/challenges/passing-values-to-functions-with-arguments)
 
 ## Problem Explanation:
 - Change the code below `//Your Code here` and up to `//Change this line`
