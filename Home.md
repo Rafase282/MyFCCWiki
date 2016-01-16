@@ -1,4 +1,4 @@
-# Welcome!
+# Welcome
 This repository is not for an app but more as a journal where I keep a record of everything I have done and learned from FreeCodeCamp. I decided to use a wiki as I can put more information easily on it. You will find my code there and also on the right directories if you just want to see the code.
 
 I will try to keep everything updated. If you are also part of the camp or would like to contribute in any way then feel free to contact me. The purpose of this is for reference and learning material overall, for everyone as it is public.
@@ -219,7 +219,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 67. [Lesson: Introducing Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Introducing-Else-Statements)
 68. [Lesson: Introducing Else If Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Introducing-Else-If-Statements)
 69. [Lesson: Chaining If Else Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Chaining-If-Else-Statements)
-70. Lesson Review: Golf Code
+70. [Lesson Review: Golf Code](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Review-Golf-Code)
 71. [Lesson: Selecting from many options with Switch Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Selecting-From-Many-Options-With-Switch-Statements)
 72. [Lesson: Adding a default option in Switch statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Adding-A-Default-Option-In-Switch-Statements)
 73. [Lesson: Multiple Identical Options in Switch Statements](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Multiple-Identical-Options-In-Switch-Statements)
@@ -256,10 +256,10 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 
 ### Deprecated:
 1. [Old One Page Basic JavaScript Lessons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript)
-1. [Lesson: Create a JavaScript Slot Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#create-a-javascript-slot-machine)
-2. [Lesson: Add your JavaScript Slot Machine Slots](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-your-javascript-slot-machine-slots)
-3. [Lesson: Bring your JavaScript Slot Machine to Life](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#bring-your-javascript-slot-machine-to-life)
-4. [Lesson: Give your JavaScript Slot Machine some stylish images](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#give-your-javascript-slot-machine-some-stylish-images)
+2. [Lesson: Create a JavaScript Slot Machine](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#create-a-javascript-slot-machine)
+3. [Lesson: Add your JavaScript Slot Machine Slots](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-your-javascript-slot-machine-slots)
+4. [Lesson: Bring your JavaScript Slot Machine to Life](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#bring-your-javascript-slot-machine-to-life)
+5. [Lesson: Give your JavaScript Slot Machine some stylish images](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#give-your-javascript-slot-machine-some-stylish-images)
 
 ## Object Oriented and Functional Programming
 1. [Lesson: Declare JavaScript Objects as Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Declare-JavaScript-Objects-as-Variables)
