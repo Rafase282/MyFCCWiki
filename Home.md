@@ -226,7 +226,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 74. [Lesson: Replacing If Else Chains with Switch](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Replacing-If-Else-Chains-With-Switch)
 75. [Lesson: Returning Boolean Values from Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Returning-Boolean-Values-From-Functions)
 76. [Lesson: Return Early Pattern for Functions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Return-Early-Pattern-For-Functions)
-77. Lesson Review: Counting Cards
+77. [Lesson Review: Counting Cards](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Review-Counting-Cards)
 78. [Lesson: Build JavaScript Objects](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Build-JavaScript-Objects)
 79. [Lesson: Accessing Objects Properties with the Dot Operator](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Accessing-Objects-Properties-With-The-Dot-Operator)
 80. [Lesson: Accessing Objects Properties with Bracket Notation](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Accessing-Objects-Properties-With-Bracket-Notation)
@@ -239,7 +239,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 87. [Lesson: Introducing JavaScript Object Notation (JSON)](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Introducing-Javascript-Object-Notation-Json)
 88. [Lesson: Accessing Nested Objects in JSON](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Accessing-Nested-Objects-In-JSON)
 89. [Lesson: Accessing Nested Arrays in JSON](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Accessing-Nested-Arrays-In-JSON)
-90. Lesson Review: Record Collection
+90. [Lesson Review: Record Collection](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Review-Record-Collection)
 91. [Lesson: Iterate with JavaScript For Loops](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Iterate-with-JavaScript-For-Loops)
 92. [Lesson: Iterate Odd Numbers With a For Loop](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Iterate-Odd-Numbers-With-a-For-Loop)
 93. [Lesson: Count Backwards With a For Loop](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Count-Backwards-With-a-For-Loop)

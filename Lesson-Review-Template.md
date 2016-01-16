@@ -42,9 +42,4 @@ code here
 # Code Explanation:
 - Explain your code here
 
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
-
 ## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
