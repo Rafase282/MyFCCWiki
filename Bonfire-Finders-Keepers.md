@@ -13,6 +13,7 @@ Create a function that looks through an array (first argument) and returns the f
 Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help-when-I-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 # Useful Links
+- [Array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [Array.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
 # Problem Script:
@@ -61,6 +62,17 @@ function find(arr, func) {
 find([1, 2, 3, 4], function(num) {
   return num % 2 === 0;
 });
+```
+
+```js
+// Using Arr.filter()
+
+function find(arr, func) {
+  // filter the provide array by the function provided and return only the first element.
+  return arr.filter(func)[0];
+}
+
+find([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 ```
 
 ## My Code Explanation:

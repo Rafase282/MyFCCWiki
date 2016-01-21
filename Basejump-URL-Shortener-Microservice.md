@@ -23,6 +23,9 @@ You can push these new commits to GitHub by running `git push origin master`, an
 - [App Repo](https://github.com/Rafase282/URL-Shortener)
 - [App Link](https://little-url.herokuapp.com)
 - [DotEnv](https://www.npmjs.com/package/dotenv)
+- [Redirect](http://expressjs.com/en/4x/api.html#res.redirect)
+- [URL Validator URL](https://gist.github.com/dperini/729294)
+- [callback Hell](http://callbackhell.com/)
 
-## Envirioment Variables
+## Environment Variables
 While heroku can use them as is, cloud9 needs extra work to get them from the `.env` file that you would create.
