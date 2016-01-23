@@ -476,9 +476,9 @@ If you want to contribute, you can follow these steps found here [How To Contrib
   - [Ubuntu Setup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MERN-on-Ubuntu)
 
 - [Basejump: Timestamp Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Timestamp-Microservice)
-- [Basejump: Request Header Parser Microservice]()
+- [Basejump: Request Header Parser Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Request-Header-Parser-Microservice)
 - [Basejump: URL Shortener Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-URL-Shortener-Microservice)
-- Basejump: Image Search Abstraction Layer
+- [Basejump: Image Search Abstraction Layer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Image-Search-Abstraction-Layer)
 - Basejump: File Metadata Microservice
 
 ## Dynamic Web Applications
