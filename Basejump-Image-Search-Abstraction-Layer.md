@@ -34,28 +34,33 @@ The Bing search api is a pain. I recommend using a npm package to handle it, the
 
 Learning about Mongoose was fun. Basically you have to require it, create a scheme, turn it into a model and then youc an use it to create documents.
 
-1. Require Mongoose and declare Schema.
+1- Require Mongoose and declare Schema.
+
 ```js
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 ```
 
-2. Create Schema
+2- Create Schema
+
 ```js
 var kittySchema = mongoose.Schema({
     name: String
 });
 ```
 
-3.  Turn the schema into a model, and connect to it.
+3-  Turn the schema into a model, and connect to it.
+
 ```js
 var Kitten = mongoose.model('Kitten', kittySchema);
 var mongouri = process.env.MONGOLAB_URI || "mongodb://" + process.env.IP + ":27017/img-sal";
 mongoose.connect(mongouri);
 ```
+
 While you can do 1 to 3 on the server like I did, the step for and any other can be done anywhere else as long as you know how to export the model.
 
-4. Create new documents based on the model
+4- Create new documents based on the model
+
 ```js
 var silence = new Kitten({ name: 'Silence' });
 console.log(silence.name); // 'Silence'
