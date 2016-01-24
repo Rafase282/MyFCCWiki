@@ -22,62 +22,52 @@ You can push these new commits to GitHub by running `git push origin master`, an
 ## Links
 - [App Repo](https://github.com/Rafase282/Image-Search-Abstraction-Layer)
 - [App Link](https://img-sal.herokuapp.com)
-- [DotEnv](https://www.npmjs.com/package/dotenv)
-- [db.collection.find()](https://docs.mongodb.org/manual/reference/method/db.collection.find/#db.collection.find)
-- [Request](https://www.npmjs.com/package/request)
-- [JSON Http Request](http://www.w3schools.com/json/json_http.asp)
+- [Bing API Handler](https://www.npmjs.com/package/bing.search)
+- [Bing API](https://datamarket.azure.com/dataset/bing/search)
+- [Mongoose](http://mongoosejs.com/docs/index.html)
 
 ## Environment Variables
 While heroku can use them as is, cloud9 needs extra work to get them from the `.env` file that you would create.
 
 ## Notes
-There were quite a few things that I learned from this, first, everyone prefers to use Mongoose over plain MongoDB. Second, I need to create a collection or scheme if I use Mongoose.
+The Bing search api is a pain. I recommend using a npm package to handle it, there are many and I listed one of them. You will also have to sign up to get a key which I recommend using from the `.env` file as to not leak your key. It has a main key but it is better to create a new one that you can delete if it gets compromised, because the main one can't be changed.
 
-This will do with plain MongoDB.
+Learning about Mongoose was fun. Basically you have to require it, create a scheme, turn it into a model and then youc an use it to create documents.
 
+1. Require Mongoose and declare Schema.
 ```js
-db.createCollection("sites", {
-  capped: true,
-  size: 5242880,
-  max: 5000
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+```
+
+2. Create Schema
+```js
+var kittySchema = mongoose.Schema({
+    name: String
 });
 ```
 
-Since I used MongoLab and I did not want to provide the url with username and password embedded to the whole wide word, something that everyone will want to avoid in production, I opted for using custom environment variables like `process.env.MONGOLAB_URI`  For this to actually work on c9, not necessarily heroku I had to use
+3.  Turn the schema into a model, and connect to it.
+```js
+var Kitten = mongoose.model('Kitten', kittySchema);
+var mongouri = process.env.MONGOLAB_URI || "mongodb://" + process.env.IP + ":27017/img-sal";
+mongoose.connect(mongouri);
+```
+While you can do 1 to 3 on the server like I did, the step for and any other can be done anywhere else as long as you know how to export the model.
+
+4. Create new documents based on the model
+```js
+var silence = new Kitten({ name: 'Silence' });
+console.log(silence.name); // 'Silence'
+```
+
+How to export the model to my api.
 
 ```js
- require('dotenv').config({
-   silent: true
- });
+api(app, Kitten);
 ```
 
-Otherwise it would not work. I have provided a link to learn more about it.
+then on the api file:
+`module.exports = function(app, History) {`
 
-As for html and modifications on the fly, it is better to use `jade` so that is something I will be learning too. `npm install jade -S` will get you started.
-
-You will then use render instead of sending a html file on the custom router like this:
-
-```js
-res.render('index', {
-  err: "Error: You need to add a proper url"
-});
-```
-
-which will be handled by:
-
-```jade
-if (err)
-    div
-        h2(style = "color: red;")= err
-```
-
-on the jade file.
-
-As for node and mongo, they work `async` which is something that skipped my mind while trying to return the results from a `findone` search.
-
-Speaking of which, doing a `find` didn't yield the results I wanted so I opted for `findone` instead. Knowing this will save you much time and trouble.
-
-Also you will have to pass the db as a parameter or you will have to connect and close each time.
-- From the server files: `api(app, db);`
-- From the API: `module.exports = function(app, db) {`
-- From local functions: `function save(obj, db) {`
+The search and find can be found on the documentation along with the rest of teh steps I have listed aside from exporting.
