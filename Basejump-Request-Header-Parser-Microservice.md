@@ -19,15 +19,52 @@ You can push these new commits to GitHub by running `git push origin master`, an
 - [App Repo](https://github.com/Rafase282/header-parser)
 - [App Link](https://header-parser.herokuapp.com/)
 - [Get IP](http://stackoverflow.com/questions/10849687/express-js-how-to-get-remote-client-address)
+- [Bing API Handler](https://www.npmjs.com/package/bing.search)
+- [Bing API](https://datamarket.azure.com/dataset/bing/search)
+- [Mongoose](http://mongoosejs.com/docs/index.html)
 
 ## Environment Variables
 While heroku can use them as is, cloud9 needs extra work to get them from the `.env` file that you would create.
 
 ## Notes
-This was simpler than expected. The first thign that I did was figure out how to get the user ip. One might think of using an API but when you think about it, an API depending on another API that already does the work would be redundant so I started searching for how to get the API from Express, after all, all servers get the cleint's IP.
+The Bing search api is a pain. I recommend using a npm package to handle it, there are many and I listed one of them. You will also have to sign up to get a key which I recommend using from the `.env` file as to not leak your key. It has a main key but it is better to create a new one that you can delete if it gets compromised, because the main one can't be changed.
 
-A quick search will yield many results, the challenge is to know what to look for. Int he same fashion you can also look for how to get the other information and create your object from it. I recommand matching the info to
+Learning about Mongoose was fun. Basically you have to require it, create a scheme, turn it into a model and then youc an use it to create documents.
+
+1. Require Mongoose and declare Schema.
+```js
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+```
+
+2. Create Schema
+```js
+var kittySchema = mongoose.Schema({
+    name: String
+});
+```
+
+3.  Turn the schema into a model, and connect to it.
+```js
+var Kitten = mongoose.model('Kitten', kittySchema);
+var mongouri = process.env.MONGOLAB_URI || "mongodb://" + process.env.IP + ":27017/img-sal";
+mongoose.connect(mongouri);
+```
+While you can do 1 to 3 on the server like I did, the step for and any other can be done anywhere else as long as you know how to export the model.
+
+4. Create new documents based on the model
+```js
+var silence = new Kitten({ name: 'Silence' });
+console.log(silence.name); // 'Silence'
+```
+
+How to export the model to my api.
 
 ```js
-{"ipaddress":"xxx.xxx.xxx.xxx","language":"en-US","software":"X11; Linux x86_64"}
+api(app, Kitten);
 ```
+
+then on the api file:
+`module.exports = function(app, History) {`
+
+The search and find can be found on the documentation along with the rest of teh steps I have listed aside from exporting.
