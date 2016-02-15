@@ -253,6 +253,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 101. [Lesson: Find Numbers with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Find-Numbers-with-Regular-Expressions)
 102. [Lesson: Find Whitespace with Regular Expressions](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Find-Whitespace-with-Regular-Expressions)
 103. [Lesson: Invert Regular Expression Matches with JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Invert-Regular-Expression-Matches-with-JavaScript)
+104. [Lesson Review: Profile Lookup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Review-Profile-Lookup)
 
 ### Deprecated:
 1. [Old One Page Basic JavaScript Lessons](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript)
