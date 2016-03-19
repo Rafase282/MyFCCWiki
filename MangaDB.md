@@ -47,3 +47,20 @@ That is, identifier, and data. Just make sure that you put it before your `res` 
 ```js
 res.render('index', { messages: req.flash('info') });
 ```
+
+If you want multiple messages to be handled then you can use something like this in jade:
+
+```jade
+.container-fluid
+  if msg.error && msg.error.length
+    .alert.alert-danger
+      div= msg.error
+  if msg.info && msg.info.length
+    .alert.alert-info
+      div= msg.info
+  if msg.success && msg.success.length
+    .alert.alert-success
+      div= msg.success
+```
+
+To take advantage of bootstrap custom alert panels and to handle the case where there is no indo at all.
