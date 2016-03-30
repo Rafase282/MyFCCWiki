@@ -6,14 +6,14 @@ There regular way to run JavaScript when a page loads is with:
 $(document).ready(callback);
 ```
 
-However, whether you are using templates or plain HTML, you can specify the page you would like to run the code in by changing `document` to a class name that you would add to the top most level of your `div`.
+However, whether you are using templates or plain HTML, you can specify the page you would like to run the code in by creating a condition to check the url path if you don't want to have a new script run on that specific page.
 
 ```js
-/* Load Manga info when page is loaded
- * When the profile page is read it will
- * call the function to get all mangas.
- */
-$('.user-profile').ready(getMangas);
+$(document).ready(function () {
+    if (window.location.pathname == '/user/' + user.toLowerCase()) {
+        getMangas();
+    };
+});
 ```
 
 ## Implement Flash Messages with jade
