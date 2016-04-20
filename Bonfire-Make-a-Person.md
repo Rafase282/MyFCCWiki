@@ -85,14 +85,17 @@ var Person = function(firstAndLast) {
 
   this.setFirstName = function(first) {
     arr[0] = first;
+    fullName = arr.join(' ');
   };
 
   this.setLastName = function(last) {
     arr[1] = last;
+    fullName = arr.join(' ');
   };
 
   this.setFullName = function(firstAndLast) {
     fullName = firstAndLast;
+    arr = fullName.split(' ');
   };
 };
 
