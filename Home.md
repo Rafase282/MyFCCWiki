@@ -461,33 +461,33 @@ If you want to contribute, you can follow these steps found here [How To Contrib
   - [JSON Me](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Build-Web-Apps-with-Express.js#json-me)
 
 ## MongoDB
-1. [Lesson: Store Data in MongoDB](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB)
-  - [Mongod](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#mongod)
-  - [Connect](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#connect)
-  - [Find](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#find)
-  - [Find Project](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#find-project)
-  - [Insert](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#insert)
-  - [Update](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#update)
-  - [Remove](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#remove)
-  - [Count](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#count)
-  - [Aggregate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Store-Data-in-MongoDB#aggregate)
+1. [Lesson: Store Data in MongoDB](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/Store-Data-in-MongoDB)
+  - [Mongod](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Mongod)
+  - [Connect](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Connect)
+  - [Find](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Find)
+  - [Find Project](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Find-project)
+  - [Insert](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Insert)
+  - [Update](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Update)
+  - [Remove](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Remove)
+  - [Count](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Count)
+  - [Aggregate](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MongoDB/MongoDB-Aggregate)
 
 ## API Projects
-- [Lesson: Get Set for Basejumps](http://www.freecodecamp.com/challenges/get-set-for-basejumps)
+- [Get Set for our Back End Development Projects](https://www.freecodecamp.com/challenges/get-set-for-our-back-end-development-projects)
   - [Ubuntu Setup](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/MERN-on-Ubuntu)
 
-- [Basejump: Timestamp Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Timestamp-Microservice)
-- [Basejump: Request Header Parser Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Request-Header-Parser-Microservice)
-- [Basejump: URL Shortener Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-URL-Shortener-Microservice)
-- [Basejump: Image Search Abstraction Layer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Image-Search-Abstraction-Layer)
-- Basejump: File Metadata Microservice
+- [Timestamp Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/API Projects/Timestamp-Microservice)
+- [Request Header Parser Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/API Projects/Request-Header-Parser-Microservice)
+- [URL Shortener Microservice](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/API Projects/URL-Shortener-Microservice)
+- [Image Search Abstraction Layer](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/API Projects/Image-Search-Abstraction-Layer)
+-  File Metadata Microservice
 
 ## Dynamic Web Applications
-1. [Basejump: Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basejump-Build-a-Voting-App)
-2. Basejump: Build a Nightlife Coordination App
-3. Basejump: Chart the Stock Market
-4. Basejump: Manage a Book Trading Club
-5. Basejump: Build a Pinterest Clone
+1. [Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Dynamic-Web-Applications/Build-a-Voting-App)
+2. Build a Nightlife Coordination App
+3. Chart the Stock Market
+4. Manage a Book Trading Club
+5. Build a Pinterest Clone
 
 ## Claim Your Full Stack Development Certificate
 1. My Full Stack Development Certificate

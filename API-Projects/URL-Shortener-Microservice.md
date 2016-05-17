@@ -1,28 +1,32 @@
 # Author
 ![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
 
-Submitted by Rafase282
+Created by Rafase282
 
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
 
 ## Objective:
-Build a full stack JavaScript app that is functionally similar to this: [https://cryptic-ridge-9197.herokuapp.com/api/whoami/](https://cryptic-ridge-9197.herokuapp.com/api/whoami/) and deploy it to Heroku.
+Build a full stack JavaScript app that successfully reverse-engineers this: [https://shurli.herokuapp.com/](https://shurli.herokuapp.com/) and deploy it to Heroku.
+
+Note that for each Basejump, you should create a new GitHub repository and a new Heroku project. If you can't remember how to do this, revisit [http://freecodecamp.com/challenges/get-set-for-basejumps](http://freecodecamp.com/challenges/get-set-for-basejumps).
 
 As you build your app, you should frequently commit changes to your codebase. You can do this by running `git commit -am "your commit message"`. Note that you should replace "your commit message" with a brief summary of the changes you made to your code.
 
 You can push these new commits to GitHub by running `git push origin master`, and to Heroku by running `grunt --force && grunt buildcontrol:heroku`.
 
 ## User Stories:
-- I can get the IP address, language and operating system for my browser.
+- I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+- If I pass an invalid URL that doesn't follow the valid [http://www.example.com](http://www.example.com) format, the JSON response will contain an error instead.
+- When I visit that shortened URL, it will redirect me to my original link.
 
 ## Links
-- [App Repo](https://github.com/Rafase282/header-parser)
-- [App Link](https://header-parser.herokuapp.com/)
-- [Get IP](http://stackoverflow.com/questions/10849687/express-js-how-to-get-remote-client-address)
+- [App Repo](https://github.com/Rafase282/URL-Shortener)
+- [App Link](https://little-url.herokuapp.com)
 - [DotEnv](https://www.npmjs.com/package/dotenv)
-- [db.collection.find()](https://docs.mongodb.org/manual/reference/method/db.collection.find/#db.collection.find)
-- [Request](https://www.npmjs.com/package/request)
-- [JSON Http Request](http://www.w3schools.com/json/json_http.asp)
+- [Redirect](http://expressjs.com/en/4x/api.html#res.redirect)
+- [URL Validator URL](https://gist.github.com/dperini/729294)
+- [callback Hell](http://callbackhell.com/)
+- [db.collection.findOne()](https://docs.mongodb.org/manual/reference/method/db.collection.findOne/)
 
 ## Environment Variables
 While heroku can use them as is, cloud9 needs extra work to get them from the `.env` file that you would create.
@@ -78,3 +82,9 @@ Also you will have to pass the db as a parameter or you will have to connect and
 - From the server files: `api(app, db);`
 - From the API: `module.exports = function(app, db) {`
 - From local functions: `function save(obj, db) {`
+
+There are different ways to handle the url with the api:
+- `app.route('/:url')` to get the short url to redirect.
+- `app.get('/new/:url*', handlePost);` to handle a request to encode the url after `new` even though new is not a real directory.
+- `app.route('/')` to display the main html file on root.
+- `app.route('/new')` for handling errors to the user about bad usage, it should be used with an url to be encoded.
