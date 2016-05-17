@@ -483,7 +483,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 -  File Metadata Microservice
 
 ## Dynamic Web Applications
-1. [Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Dynamic-Web-Applications/Build-a-Voting-App)
+1. [Build a Voting App](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Build-a-Voting-App)
 2. Build a Nightlife Coordination App
 3. Chart the Stock Market
 4. Manage a Book Trading Club
