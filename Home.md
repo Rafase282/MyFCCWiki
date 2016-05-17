@@ -261,6 +261,7 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 3. [Lesson: Add your JavaScript Slot Machine Slots](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#add-your-javascript-slot-machine-slots)
 4. [Lesson: Bring your JavaScript Slot Machine to Life](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#bring-your-javascript-slot-machine-to-life)
 5. [Lesson: Give your JavaScript Slot Machine some stylish images](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Basic-JavaScript#give-your-javascript-slot-machine-some-stylish-images)
+6. [Old Advanced Lesson: Functional Programming in JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Functional-Programming-in-JavaScript)
 
 ## Object Oriented and Functional Programming
 1. [Lesson: Declare JavaScript Objects as Variables](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Declare-JavaScript-Objects-as-Variables)
@@ -276,7 +277,6 @@ If you want to contribute, you can follow these steps found here [How To Contrib
 11. [Lesson: Concatenate Strings with .concat](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Concatenate-Strings-with-concat)
 12. [Lesson: Split Strings with .split](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Split-Strings-with-split)
 13. [Lesson: Join Strings with .join](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Join-Strings-with-join)
-14. [Old Advanced Lesson: Functional Programming in JavaScript](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Functional-Programming-in-JavaScript)
 
 ## Basic Algorithm Scripting
 1. [Lesson: Get Set for Bonfires](http://www.freecodecamp.com/challenges/get-set-for-bonfires)
