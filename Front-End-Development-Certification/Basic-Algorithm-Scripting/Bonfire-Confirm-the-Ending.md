@@ -43,10 +43,7 @@ Check that you have the proper syntax and that you use `===` to compare.
 
 ```js
 function end(str, target) {
-  if (str.substr(-target.length) === target)
-    return true;
-  else
-    return false;
+  return (str.substr(-target.length) === target);
 }
 ```
 
