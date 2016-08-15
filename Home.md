@@ -1,16 +1,18 @@
 # Welcome
 This repository is not for an app but more as a journal where I keep a record of everything I have done and learned from FreeCodeCamp. I decided to use a wiki as I can put more information easily on it. You will find my code there and also on the right directories if you just want to see the code.
 
-I will try to keep everything updated. If you are also part of the camp or would like to contribute in any way then feel free to contact me. The purpose of this is for reference and learning material overall, for everyone as it is public.
+I try to keep it updated but bear in mind that the challenges have and will continue to change and I might not update previous comments, or code. I do tend to update the code only section of the repo with new improved solutions when I do review then but given my time, I don't have a set schedule for it.
 
-If you want to contribute, you can follow these steps found here [How To Contribute To The Wiki.](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Wiki-Contribute-Local-GUI)
+If you want to contribute, you can follow these steps found here [How To Contribute To The Wiki.](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Wiki-Contribute-Local-GUI). I will be accepting improvements with explanations, grammar fixes and perhaps some minor code for the wiki side, but when it comes to the coding section I will not be accepting pull requests.
 
 ## Contact me
 **Rafael Rodriguez**
 
 ![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
 
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Medium](https://medium.com/@Rafase282) [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
+[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Medium](https://medium.com/@Rafase282) |
+[Portfolio](https://rafase282.github.io/) |
+[E-Mail](mailto:rafase282@gmail.com)
 
 ## Get Started with Free Code Camp
 1. [Lesson: Learn how Free Code Camp Works Incomplete](http://freecodecamp.com/challenges/learn-how-free-code-camp-works)
