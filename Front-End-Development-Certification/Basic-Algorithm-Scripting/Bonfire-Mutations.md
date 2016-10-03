@@ -38,7 +38,7 @@ You basically have to check if the string in the first parameter contains all th
 First make the arguments lowercase and arrays so we can compare without having to worry about the case.
 
 ## Hint: 2
-Use `inndexOf()` to check if the letter of the second word is on the first.
+Use `indexOf()` to check if the letter of the second word is on the first.
 
 ## Hint: 3
 You will need a way to check if all the words are in the first one, like keeping a counter and checking for a default value.
