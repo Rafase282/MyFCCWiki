@@ -3,7 +3,7 @@
 
 Created by Rafase282
 
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
+[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Website](https://rafase282.github.io/) | [E-Mail](mailto:rafase282@gmail.com)
 
 # Lesson: Introducing JavaScript Object Notation JSON
 JavaScript Object Notation or `JSON` uses the format of JavaScript Objects to store data. JSON is flexible because it allows for `Data Structures` with arbitrary combinations of `strings`, `numbers`, `booleans`, `arrays`, and `objects`.
