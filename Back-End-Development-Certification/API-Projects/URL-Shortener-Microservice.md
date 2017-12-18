@@ -17,7 +17,7 @@ Created by Rafase282
 
 Build a full stack JavaScript app that successfully reverse-engineers this: <https://shurli.herokuapp.com/> and deploy it to Heroku.
 
-Note that for each Basejump, you should create a new GitHub repository and a new Heroku project. If you can't remember how to do this, revisit <http://freecodecamp.com/challenges/get-set-for-basejumps>.
+Note that for each Basejump, you should create a new GitHub repository and a new Heroku project. If you can't remember how to do this, revisit <https://www.freecodecamp.org/challenges/get-set-for-our-api-development-projects>.
 
 As you build your app, you should frequently commit changes to your codebase. You can do this by running `git commit -am "your commit message"`. Note that you should replace "your commit message" with a brief summary of the changes you made to your code.
 
