@@ -55,6 +55,7 @@ Now set your email:
 
 You can check what your name or email is set to by following these commands:
 `$ git config --global user.email`
+
 `$ git config --global user.name`
 
 # Create a local repository
