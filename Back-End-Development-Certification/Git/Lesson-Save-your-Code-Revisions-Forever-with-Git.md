@@ -54,6 +54,7 @@ Now set your email:
 `$ git config --global user.email "[youremail@example.com](mailto:youremail@example.com)"`
 
 You can check what your name or email is set to by following these commands:
+
 `$ git config --global user.email`
 
 `$ git config --global user.name`
